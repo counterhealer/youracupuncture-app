@@ -1441,8 +1441,9 @@ html, body {
 
 .lightbox-img-wrap {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    background: #000;
+    min-height: 360px;
+    max-height: 75vh;
+    background: var(--bg-surface-low);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -1794,9 +1795,18 @@ function toggleTheme() {
 }
 
 // Photo Lightbox Handlers
-window.openPhotoModal = function(imgSrc, title) {
-    if (!imgSrc) return;
-    lightboxImg.src = imgSrc;
+window.openPhotoModal = function(imgSrc, title, fallbackSrc) {
+    if (!imgSrc && !fallbackSrc) return;
+    let targetSrc = imgSrc;
+    if (!targetSrc || targetSrc.includes('/app/static/')) {
+        targetSrc = fallbackSrc || imgSrc;
+    }
+    lightboxImg.onerror = function() {
+        if (fallbackSrc && this.src !== fallbackSrc) {
+            this.src = fallbackSrc;
+        }
+    };
+    lightboxImg.src = targetSrc;
     lightboxTitle.innerText = title || 'Point Landmark Photo';
     photoLightboxModal.style.display = 'flex';
 };
@@ -2304,7 +2314,7 @@ function renderPointDetail(ptCode) {
                 <!-- Clinical Point Location Photography -->
                 ${pt.hasImage ? `
                 <div class="point-photo-card">
-                    <div class="point-photo-wrapper" onclick="openPhotoModal('${pt.image}', '${pt.code} ${pt.pinyin} (${pt.hanzi}) — Anatomical Landmark')">
+                    <div class="point-photo-wrapper" onclick="openPhotoModal('${pt.remoteImage}', '${pt.code} ${pt.pinyin} (${pt.hanzi}) — Anatomical Landmark', '${pt.remoteImage}')">
                         <img class="point-photo-img" src="${pt.image}" alt="${pt.code} ${pt.pinyin} location photo" loading="eager" onload="syncHeight()" onerror="this.onerror=null; this.src='${pt.remoteImage}'; this.onerror=function(){this.parentElement.parentElement.style.display='none';}; syncHeight();" />
                         <div class="point-photo-overlay">
                             <span>🔍 Click to zoom</span>
