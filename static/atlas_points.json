@@ -93,7 +93,9 @@
     "nextPoint": "LU-2",
     "image": "/app/static/atlas_images/LU/LU1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU1.jpg"
   },
   "LU-2": {
     "code": "LU-2",
@@ -173,7 +175,9 @@
     "nextPoint": "LU-3",
     "image": "/app/static/atlas_images/LU/LU2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU2.jpg"
   },
   "LU-3": {
     "code": "LU-3",
@@ -262,7 +266,9 @@
     "nextPoint": "LU-4",
     "image": "/app/static/atlas_images/LU/LU3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU3.jpg"
   },
   "LU-4": {
     "code": "LU-4",
@@ -333,7 +339,9 @@
     "nextPoint": "LU-5",
     "image": "/app/static/atlas_images/LU/LU4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU4.jpg"
   },
   "LU-5": {
     "code": "LU-5",
@@ -416,7 +424,9 @@
     "nextPoint": "LU-6",
     "image": "/app/static/atlas_images/LU/LU5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU5.jpg"
   },
   "LU-6": {
     "code": "LU-6",
@@ -509,7 +519,9 @@
     "nextPoint": "LU-7",
     "image": "/app/static/atlas_images/LU/LU6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU6.jpg"
   },
   "LU-7": {
     "code": "LU-7",
@@ -619,7 +631,9 @@
     "nextPoint": "LU-8",
     "image": "/app/static/atlas_images/LU/LU7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU7.jpg"
   },
   "LU-8": {
     "code": "LU-8",
@@ -698,7 +712,9 @@
     "nextPoint": "LU-9",
     "image": "/app/static/atlas_images/LU/LU8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU8.jpg"
   },
   "LU-9": {
     "code": "LU-9",
@@ -786,7 +802,9 @@
     "nextPoint": "LU-10",
     "image": "/app/static/atlas_images/LU/LU9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU9.jpg"
   },
   "LU-10": {
     "code": "LU-10",
@@ -867,7 +885,9 @@
     "nextPoint": "LU-11",
     "image": "/app/static/atlas_images/LU/LU10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU10.jpg"
   },
   "LU-11": {
     "code": "LU-11",
@@ -956,7 +976,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/LU/LU11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LU/LU11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LU/LU11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LU/LU11.jpg"
   },
   "LI-1": {
     "code": "LI-1",
@@ -1037,7 +1059,9 @@
     "nextPoint": "LI-2",
     "image": "/app/static/atlas_images/LI/LI1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI1.jpg"
   },
   "LI-2": {
     "code": "LI-2",
@@ -1114,7 +1138,9 @@
     "nextPoint": "LI-3",
     "image": "/app/static/atlas_images/LI/LI2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI2.jpg"
   },
   "LI-3": {
     "code": "LI-3",
@@ -1177,7 +1203,9 @@
     "nextPoint": "LI-4",
     "image": "/app/static/atlas_images/LI/LI3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI3.jpg"
   },
   "LI-4": {
     "code": "LI-4",
@@ -1268,7 +1296,9 @@
     "nextPoint": "LI-5",
     "image": "/app/static/atlas_images/LI/LI4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI4.jpg"
   },
   "LI-5": {
     "code": "LI-5",
@@ -1335,7 +1365,9 @@
     "nextPoint": "LI-6",
     "image": "/app/static/atlas_images/LI/LI5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI5.jpg"
   },
   "LI-6": {
     "code": "LI-6",
@@ -1402,7 +1434,9 @@
     "nextPoint": "LI-7",
     "image": "/app/static/atlas_images/LI/LI6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI6.jpg"
   },
   "LI-7": {
     "code": "LI-7",
@@ -1468,7 +1502,9 @@
     "nextPoint": "LI-8",
     "image": "/app/static/atlas_images/LI/LI7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI7.jpg"
   },
   "LI-8": {
     "code": "LI-8",
@@ -1526,7 +1562,9 @@
     "nextPoint": "LI-9",
     "image": "/app/static/atlas_images/LI/LI8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI8.jpg"
   },
   "LI-9": {
     "code": "LI-9",
@@ -1587,7 +1625,9 @@
     "nextPoint": "LI-10",
     "image": "/app/static/atlas_images/LI/LI9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI9.jpg"
   },
   "LI-10": {
     "code": "LI-10",
@@ -1660,7 +1700,9 @@
     "nextPoint": "LI-11",
     "image": "/app/static/atlas_images/LI/LI10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI10.jpg"
   },
   "LI-11": {
     "code": "LI-11",
@@ -1755,7 +1797,9 @@
     "nextPoint": "LI-12",
     "image": "/app/static/atlas_images/LI/LI11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI11.jpg"
   },
   "LI-12": {
     "code": "LI-12",
@@ -1812,7 +1856,9 @@
     "nextPoint": "LI-13",
     "image": "/app/static/atlas_images/LI/LI12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI12.jpg"
   },
   "LI-13": {
     "code": "LI-13",
@@ -1868,7 +1914,9 @@
     "nextPoint": "LI-14",
     "image": "/app/static/atlas_images/LI/LI13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI13.jpg"
   },
   "LI-14": {
     "code": "LI-14",
@@ -1930,7 +1978,9 @@
     "nextPoint": "LI-15",
     "image": "/app/static/atlas_images/LI/LI14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI14.jpg"
   },
   "LI-15": {
     "code": "LI-15",
@@ -1998,7 +2048,9 @@
     "nextPoint": "LI-16",
     "image": "/app/static/atlas_images/LI/LI15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI15.jpg"
   },
   "LI-16": {
     "code": "LI-16",
@@ -2061,7 +2113,9 @@
     "nextPoint": "LI-17",
     "image": "/app/static/atlas_images/LI/LI16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI16.jpg"
   },
   "LI-17": {
     "code": "LI-17",
@@ -2121,7 +2175,9 @@
     "nextPoint": "LI-18",
     "image": "/app/static/atlas_images/LI/LI17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI17.jpg"
   },
   "LI-18": {
     "code": "LI-18",
@@ -2187,7 +2243,9 @@
     "nextPoint": "LI-19",
     "image": "/app/static/atlas_images/LI/LI18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI18.jpg"
   },
   "LI-19": {
     "code": "LI-19",
@@ -2248,7 +2306,9 @@
     "nextPoint": "LI-20",
     "image": "/app/static/atlas_images/LI/LI19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI19.jpg"
   },
   "LI-20": {
     "code": "LI-20",
@@ -2318,7 +2378,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/LI/LI20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LI/LI20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LI/LI20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LI/LI20.jpg"
   },
   "ST-1": {
     "code": "ST-1",
@@ -2384,7 +2446,9 @@
     "nextPoint": "ST-2",
     "image": "/app/static/atlas_images/ST/ST1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST1.jpg"
   },
   "ST-2": {
     "code": "ST-2",
@@ -2452,7 +2516,9 @@
     "nextPoint": "ST-3",
     "image": "/app/static/atlas_images/ST/ST2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST2.jpg"
   },
   "ST-3": {
     "code": "ST-3",
@@ -2515,7 +2581,9 @@
     "nextPoint": "ST-4",
     "image": "/app/static/atlas_images/ST/ST3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST3.jpg"
   },
   "ST-4": {
     "code": "ST-4",
@@ -2581,7 +2649,9 @@
     "nextPoint": "ST-5",
     "image": "/app/static/atlas_images/ST/ST4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST4.jpg"
   },
   "ST-5": {
     "code": "ST-5",
@@ -2645,7 +2715,9 @@
     "nextPoint": "ST-6",
     "image": "/app/static/atlas_images/ST/ST5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST5.jpg"
   },
   "ST-6": {
     "code": "ST-6",
@@ -2713,7 +2785,9 @@
     "nextPoint": "ST-7",
     "image": "/app/static/atlas_images/ST/ST6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST6.jpg"
   },
   "ST-7": {
     "code": "ST-7",
@@ -2780,7 +2854,9 @@
     "nextPoint": "ST-8",
     "image": "/app/static/atlas_images/ST/ST7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST7.jpg"
   },
   "ST-8": {
     "code": "ST-8",
@@ -2847,7 +2923,9 @@
     "nextPoint": "ST-9",
     "image": "/app/static/atlas_images/ST/ST8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST8.jpg"
   },
   "ST-9": {
     "code": "ST-9",
@@ -2917,7 +2995,9 @@
     "nextPoint": "ST-10",
     "image": "/app/static/atlas_images/ST/ST9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST9.jpg"
   },
   "ST-10": {
     "code": "ST-10",
@@ -2982,7 +3062,9 @@
     "nextPoint": "ST-11",
     "image": "/app/static/atlas_images/ST/ST10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST10.jpg"
   },
   "ST-11": {
     "code": "ST-11",
@@ -3050,7 +3132,9 @@
     "nextPoint": "ST-12",
     "image": "/app/static/atlas_images/ST/ST11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST11.jpg"
   },
   "ST-12": {
     "code": "ST-12",
@@ -3114,7 +3198,9 @@
     "nextPoint": "ST-13",
     "image": "/app/static/atlas_images/ST/ST12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST12.jpg"
   },
   "ST-13": {
     "code": "ST-13",
@@ -3176,7 +3262,9 @@
     "nextPoint": "ST-14",
     "image": "/app/static/atlas_images/ST/ST13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST13.jpg"
   },
   "ST-14": {
     "code": "ST-14",
@@ -3235,7 +3323,9 @@
     "nextPoint": "ST-15",
     "image": "/app/static/atlas_images/ST/ST14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST14.jpg"
   },
   "ST-15": {
     "code": "ST-15",
@@ -3299,7 +3389,9 @@
     "nextPoint": "ST-16",
     "image": "/app/static/atlas_images/ST/ST15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST15.jpg"
   },
   "ST-16": {
     "code": "ST-16",
@@ -3364,7 +3456,9 @@
     "nextPoint": "ST-17",
     "image": "/app/static/atlas_images/ST/ST16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST16.jpg"
   },
   "ST-17": {
     "code": "ST-17",
@@ -3409,7 +3503,9 @@
     "nextPoint": "ST-18",
     "image": "/app/static/atlas_images/ST/ST17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST17.jpg"
   },
   "ST-18": {
     "code": "ST-18",
@@ -3476,7 +3572,9 @@
     "nextPoint": "ST-19",
     "image": "/app/static/atlas_images/ST/ST18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST18.jpg"
   },
   "ST-19": {
     "code": "ST-19",
@@ -3541,7 +3639,9 @@
     "nextPoint": "ST-20",
     "image": "/app/static/atlas_images/ST/ST19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST19.jpg"
   },
   "ST-20": {
     "code": "ST-20",
@@ -3604,7 +3704,9 @@
     "nextPoint": "ST-21",
     "image": "/app/static/atlas_images/ST/ST20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST20.jpg"
   },
   "ST-21": {
     "code": "ST-21",
@@ -3669,7 +3771,9 @@
     "nextPoint": "ST-22",
     "image": "/app/static/atlas_images/ST/ST21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST21.jpg"
   },
   "ST-22": {
     "code": "ST-22",
@@ -3731,7 +3835,9 @@
     "nextPoint": "ST-23",
     "image": "/app/static/atlas_images/ST/ST22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST22.jpg"
   },
   "ST-23": {
     "code": "ST-23",
@@ -3789,7 +3895,9 @@
     "nextPoint": "ST-24",
     "image": "/app/static/atlas_images/ST/ST23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST23.jpg"
   },
   "ST-24": {
     "code": "ST-24",
@@ -3850,7 +3958,9 @@
     "nextPoint": "ST-25",
     "image": "/app/static/atlas_images/ST/ST24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST24.jpg"
   },
   "ST-25": {
     "code": "ST-25",
@@ -3920,7 +4030,9 @@
     "nextPoint": "ST-26",
     "image": "/app/static/atlas_images/ST/ST25.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST25.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST25.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST25.jpg"
   },
   "ST-26": {
     "code": "ST-26",
@@ -3975,7 +4087,9 @@
     "nextPoint": "ST-27",
     "image": "/app/static/atlas_images/ST/ST26.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST26.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST26.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST26.jpg"
   },
   "ST-27": {
     "code": "ST-27",
@@ -4036,7 +4150,9 @@
     "nextPoint": "ST-28",
     "image": "/app/static/atlas_images/ST/ST27.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST27.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST27.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST27.jpg"
   },
   "ST-28": {
     "code": "ST-28",
@@ -4102,7 +4218,9 @@
     "nextPoint": "ST-29",
     "image": "/app/static/atlas_images/ST/ST28.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST28.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST28.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST28.jpg"
   },
   "ST-29": {
     "code": "ST-29",
@@ -4167,7 +4285,9 @@
     "nextPoint": "ST-30",
     "image": "/app/static/atlas_images/ST/ST29.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST29.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST29.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST29.jpg"
   },
   "ST-30": {
     "code": "ST-30",
@@ -4228,7 +4348,9 @@
     "nextPoint": "ST-31",
     "image": "/app/static/atlas_images/ST/ST30.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST30.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST30.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST30.jpg"
   },
   "ST-31": {
     "code": "ST-31",
@@ -4287,7 +4409,9 @@
     "nextPoint": "ST-32",
     "image": "/app/static/atlas_images/ST/ST31.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST31.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST31.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST31.jpg"
   },
   "ST-32": {
     "code": "ST-32",
@@ -4346,7 +4470,9 @@
     "nextPoint": "ST-33",
     "image": "/app/static/atlas_images/ST/ST32.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST32.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST32.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST32.jpg"
   },
   "ST-33": {
     "code": "ST-33",
@@ -4404,7 +4530,9 @@
     "nextPoint": "ST-34",
     "image": "/app/static/atlas_images/ST/ST33.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST33.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST33.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST33.jpg"
   },
   "ST-34": {
     "code": "ST-34",
@@ -4469,7 +4597,9 @@
     "nextPoint": "ST-35",
     "image": "/app/static/atlas_images/ST/ST34.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST34.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST34.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST34.jpg"
   },
   "ST-35": {
     "code": "ST-35",
@@ -4531,7 +4661,9 @@
     "nextPoint": "ST-36",
     "image": "/app/static/atlas_images/ST/ST35.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST35.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST35.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST35.jpg"
   },
   "ST-36": {
     "code": "ST-36",
@@ -4618,7 +4750,9 @@
     "nextPoint": "ST-37",
     "image": "/app/static/atlas_images/ST/ST36.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST36.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST36.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST36.jpg"
   },
   "ST-37": {
     "code": "ST-37",
@@ -4686,7 +4820,9 @@
     "nextPoint": "ST-38",
     "image": "/app/static/atlas_images/ST/ST37.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST37.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST37.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST37.jpg"
   },
   "ST-38": {
     "code": "ST-38",
@@ -4742,7 +4878,9 @@
     "nextPoint": "ST-39",
     "image": "/app/static/atlas_images/ST/ST38.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST38.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST38.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST38.jpg"
   },
   "ST-39": {
     "code": "ST-39",
@@ -4806,7 +4944,9 @@
     "nextPoint": "ST-40",
     "image": "/app/static/atlas_images/ST/ST39.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST39.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST39.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST39.jpg"
   },
   "ST-40": {
     "code": "ST-40",
@@ -4877,7 +5017,9 @@
     "nextPoint": "ST-41",
     "image": "/app/static/atlas_images/ST/ST40.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST40.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST40.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST40.jpg"
   },
   "ST-41": {
     "code": "ST-41",
@@ -4943,7 +5085,9 @@
     "nextPoint": "ST-42",
     "image": "/app/static/atlas_images/ST/ST41.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST41.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST41.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST41.jpg"
   },
   "ST-42": {
     "code": "ST-42",
@@ -5006,7 +5150,9 @@
     "nextPoint": "ST-43",
     "image": "/app/static/atlas_images/ST/ST42.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST42.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST42.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST42.jpg"
   },
   "ST-43": {
     "code": "ST-43",
@@ -5070,7 +5216,9 @@
     "nextPoint": "ST-44",
     "image": "/app/static/atlas_images/ST/ST43.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST43.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST43.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST43.jpg"
   },
   "ST-44": {
     "code": "ST-44",
@@ -5140,7 +5288,9 @@
     "nextPoint": "ST-45",
     "image": "/app/static/atlas_images/ST/ST44.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST44.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST44.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST44.jpg"
   },
   "ST-45": {
     "code": "ST-45",
@@ -5207,7 +5357,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/ST/ST45.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/ST/ST45.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/ST/ST45.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/ST/ST45.jpg"
   },
   "SP-1": {
     "code": "SP-1",
@@ -5291,7 +5443,9 @@
     "nextPoint": "SP-2",
     "image": "/app/static/atlas_images/SP/SP1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP1.jpg"
   },
   "SP-2": {
     "code": "SP-2",
@@ -5372,7 +5526,9 @@
     "nextPoint": "SP-3",
     "image": "/app/static/atlas_images/SP/SP2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP2.jpg"
   },
   "SP-3": {
     "code": "SP-3",
@@ -5455,7 +5611,9 @@
     "nextPoint": "SP-4",
     "image": "/app/static/atlas_images/SP/SP3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP3.jpg"
   },
   "SP-4": {
     "code": "SP-4",
@@ -5543,7 +5701,9 @@
     "nextPoint": "SP-5",
     "image": "/app/static/atlas_images/SP/SP4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP4.jpg"
   },
   "SP-5": {
     "code": "SP-5",
@@ -5628,7 +5788,9 @@
     "nextPoint": "SP-6",
     "image": "/app/static/atlas_images/SP/SP5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP5.jpg"
   },
   "SP-6": {
     "code": "SP-6",
@@ -5735,7 +5897,9 @@
     "nextPoint": "SP-7",
     "image": "/app/static/atlas_images/SP/SP6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP6.jpg"
   },
   "SP-7": {
     "code": "SP-7",
@@ -5803,7 +5967,9 @@
     "nextPoint": "SP-8",
     "image": "/app/static/atlas_images/SP/SP7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP7.jpg"
   },
   "SP-8": {
     "code": "SP-8",
@@ -5873,7 +6039,9 @@
     "nextPoint": "SP-9",
     "image": "/app/static/atlas_images/SP/SP8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP8.jpg"
   },
   "SP-9": {
     "code": "SP-9",
@@ -5964,7 +6132,9 @@
     "nextPoint": "SP-10",
     "image": "/app/static/atlas_images/SP/SP9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP9.jpg"
   },
   "SP-10": {
     "code": "SP-10",
@@ -6034,7 +6204,9 @@
     "nextPoint": "SP-11",
     "image": "/app/static/atlas_images/SP/SP10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP10.jpg"
   },
   "SP-11": {
     "code": "SP-11",
@@ -6093,7 +6265,9 @@
     "nextPoint": "SP-12",
     "image": "/app/static/atlas_images/SP/SP11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP11.jpg"
   },
   "SP-12": {
     "code": "SP-12",
@@ -6161,7 +6335,9 @@
     "nextPoint": "SP-13",
     "image": "/app/static/atlas_images/SP/SP12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP12.jpg"
   },
   "SP-13": {
     "code": "SP-13",
@@ -6232,7 +6408,9 @@
     "nextPoint": "SP-14",
     "image": "/app/static/atlas_images/SP/SP13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP13.jpg"
   },
   "SP-14": {
     "code": "SP-14",
@@ -6304,7 +6482,9 @@
     "nextPoint": "SP-15",
     "image": "/app/static/atlas_images/SP/SP14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP14.jpg"
   },
   "SP-15": {
     "code": "SP-15",
@@ -6372,7 +6552,9 @@
     "nextPoint": "SP-16",
     "image": "/app/static/atlas_images/SP/SP15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP15.jpg"
   },
   "SP-16": {
     "code": "SP-16",
@@ -6444,7 +6626,9 @@
     "nextPoint": "SP-17",
     "image": "/app/static/atlas_images/SP/SP16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP16.jpg"
   },
   "SP-17": {
     "code": "SP-17",
@@ -6511,7 +6695,9 @@
     "nextPoint": "SP-18",
     "image": "/app/static/atlas_images/SP/SP17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP17.jpg"
   },
   "SP-18": {
     "code": "SP-18",
@@ -6575,7 +6761,9 @@
     "nextPoint": "SP-19",
     "image": "/app/static/atlas_images/SP/SP18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP18.jpg"
   },
   "SP-19": {
     "code": "SP-19",
@@ -6627,7 +6815,9 @@
     "nextPoint": "SP-20",
     "image": "/app/static/atlas_images/SP/SP19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP19.jpg"
   },
   "SP-20": {
     "code": "SP-20",
@@ -6685,7 +6875,9 @@
     "nextPoint": "SP-21",
     "image": "/app/static/atlas_images/SP/SP20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP20.jpg"
   },
   "SP-21": {
     "code": "SP-21",
@@ -6761,7 +6953,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/SP/SP21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SP/SP21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SP/SP21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SP/SP21.jpg"
   },
   "HT-1": {
     "code": "HT-1",
@@ -6828,7 +7022,9 @@
     "nextPoint": "HT-2",
     "image": "/app/static/atlas_images/HT/HT1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT1.jpg"
   },
   "HT-2": {
     "code": "HT-2",
@@ -6882,7 +7078,9 @@
     "nextPoint": "HT-3",
     "image": "/app/static/atlas_images/HT/HT2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT2.jpg"
   },
   "HT-3": {
     "code": "HT-3",
@@ -6961,7 +7159,9 @@
     "nextPoint": "HT-4",
     "image": "/app/static/atlas_images/HT/HT3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT3.jpg"
   },
   "HT-4": {
     "code": "HT-4",
@@ -7026,7 +7226,9 @@
     "nextPoint": "HT-5",
     "image": "/app/static/atlas_images/HT/HT4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT4.jpg"
   },
   "HT-5": {
     "code": "HT-5",
@@ -7108,7 +7310,9 @@
     "nextPoint": "HT-6",
     "image": "/app/static/atlas_images/HT/HT5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT5.jpg"
   },
   "HT-6": {
     "code": "HT-6",
@@ -7182,7 +7386,9 @@
     "nextPoint": "HT-7",
     "image": "/app/static/atlas_images/HT/HT6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT6.jpg"
   },
   "HT-7": {
     "code": "HT-7",
@@ -7263,7 +7469,9 @@
     "nextPoint": "HT-8",
     "image": "/app/static/atlas_images/HT/HT7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT7.jpg"
   },
   "HT-8": {
     "code": "HT-8",
@@ -7337,7 +7545,9 @@
     "nextPoint": "HT-9",
     "image": "/app/static/atlas_images/HT/HT8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT8.jpg"
   },
   "HT-9": {
     "code": "HT-9",
@@ -7413,7 +7623,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/HT/HT9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/HT/HT9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/HT/HT9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/HT/HT9.jpg"
   },
   "SI-1": {
     "code": "SI-1",
@@ -7491,7 +7703,9 @@
     "nextPoint": "SI-2",
     "image": "/app/static/atlas_images/SI/SI1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI1.jpg"
   },
   "SI-2": {
     "code": "SI-2",
@@ -7584,7 +7798,9 @@
     "nextPoint": "SI-3",
     "image": "/app/static/atlas_images/SI/SI2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI2.jpg"
   },
   "SI-3": {
     "code": "SI-3",
@@ -7664,7 +7880,9 @@
     "nextPoint": "SI-4",
     "image": "/app/static/atlas_images/SI/SI3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI3.jpg"
   },
   "SI-4": {
     "code": "SI-4",
@@ -7757,7 +7975,9 @@
     "nextPoint": "SI-5",
     "image": "/app/static/atlas_images/SI/SI4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI4.jpg"
   },
   "SI-5": {
     "code": "SI-5",
@@ -7828,7 +8048,9 @@
     "nextPoint": "SI-6",
     "image": "/app/static/atlas_images/SI/SI5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI5.jpg"
   },
   "SI-6": {
     "code": "SI-6",
@@ -7896,7 +8118,9 @@
     "nextPoint": "SI-7",
     "image": "/app/static/atlas_images/SI/SI6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI6.jpg"
   },
   "SI-7": {
     "code": "SI-7",
@@ -7975,7 +8199,9 @@
     "nextPoint": "SI-8",
     "image": "/app/static/atlas_images/SI/SI7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI7.jpg"
   },
   "SI-8": {
     "code": "SI-8",
@@ -8050,7 +8276,9 @@
     "nextPoint": "SI-9",
     "image": "/app/static/atlas_images/SI/SI8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI8.jpg"
   },
   "SI-9": {
     "code": "SI-9",
@@ -8113,7 +8341,9 @@
     "nextPoint": "SI-10",
     "image": "/app/static/atlas_images/SI/SI9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI9.jpg"
   },
   "SI-10": {
     "code": "SI-10",
@@ -8178,7 +8408,9 @@
     "nextPoint": "SI-11",
     "image": "/app/static/atlas_images/SI/SI10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI10.jpg"
   },
   "SI-11": {
     "code": "SI-11",
@@ -8254,7 +8486,9 @@
     "nextPoint": "SI-12",
     "image": "/app/static/atlas_images/SI/SI11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI11.jpg"
   },
   "SI-12": {
     "code": "SI-12",
@@ -8311,7 +8545,9 @@
     "nextPoint": "SI-13",
     "image": "/app/static/atlas_images/SI/SI12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI12.jpg"
   },
   "SI-13": {
     "code": "SI-13",
@@ -8367,7 +8603,9 @@
     "nextPoint": "SI-14",
     "image": "/app/static/atlas_images/SI/SI13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI13.jpg"
   },
   "SI-14": {
     "code": "SI-14",
@@ -8422,7 +8660,9 @@
     "nextPoint": "SI-15",
     "image": "/app/static/atlas_images/SI/SI14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI14.jpg"
   },
   "SI-15": {
     "code": "SI-15",
@@ -8483,7 +8723,9 @@
     "nextPoint": "SI-16",
     "image": "/app/static/atlas_images/SI/SI15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI15.jpg"
   },
   "SI-16": {
     "code": "SI-16",
@@ -8552,7 +8794,9 @@
     "nextPoint": "SI-17",
     "image": "/app/static/atlas_images/SI/SI16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI16.jpg"
   },
   "SI-17": {
     "code": "SI-17",
@@ -8625,7 +8869,9 @@
     "nextPoint": "SI-18",
     "image": "/app/static/atlas_images/SI/SI17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI17.jpg"
   },
   "SI-18": {
     "code": "SI-18",
@@ -8694,7 +8940,9 @@
     "nextPoint": "SI-19",
     "image": "/app/static/atlas_images/SI/SI18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI18.jpg"
   },
   "SI-19": {
     "code": "SI-19",
@@ -8769,7 +9017,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/SI/SI19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/SI/SI19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/SI/SI19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/SI/SI19.jpg"
   },
   "BL-1": {
     "code": "BL-1",
@@ -8852,7 +9102,9 @@
     "nextPoint": "BL-2",
     "image": "/app/static/atlas_images/BL/BL1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL1.jpg"
   },
   "BL-2": {
     "code": "BL-2",
@@ -8930,7 +9182,9 @@
     "nextPoint": "BL-3",
     "image": "/app/static/atlas_images/BL/BL2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL2.jpg"
   },
   "BL-3": {
     "code": "BL-3",
@@ -8992,7 +9246,9 @@
     "nextPoint": "BL-4",
     "image": "/app/static/atlas_images/BL/BL3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL3.jpg"
   },
   "BL-4": {
     "code": "BL-4",
@@ -9067,7 +9323,9 @@
     "nextPoint": "BL-5",
     "image": "/app/static/atlas_images/BL/BL4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL4.jpg"
   },
   "BL-5": {
     "code": "BL-5",
@@ -9129,7 +9387,9 @@
     "nextPoint": "BL-6",
     "image": "/app/static/atlas_images/BL/BL5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL5.jpg"
   },
   "BL-6": {
     "code": "BL-6",
@@ -9192,7 +9452,9 @@
     "nextPoint": "BL-7",
     "image": "/app/static/atlas_images/BL/BL6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL6.jpg"
   },
   "BL-7": {
     "code": "BL-7",
@@ -9264,7 +9526,9 @@
     "nextPoint": "BL-8",
     "image": "/app/static/atlas_images/BL/BL7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL7.jpg"
   },
   "BL-8": {
     "code": "BL-8",
@@ -9332,7 +9596,9 @@
     "nextPoint": "BL-9",
     "image": "/app/static/atlas_images/BL/BL8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL8.jpg"
   },
   "BL-9": {
     "code": "BL-9",
@@ -9400,7 +9666,9 @@
     "nextPoint": "BL-10",
     "image": "/app/static/atlas_images/BL/BL9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL9.jpg"
   },
   "BL-10": {
     "code": "BL-10",
@@ -9476,7 +9744,9 @@
     "nextPoint": "BL-11",
     "image": "/app/static/atlas_images/BL/BL10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL10.jpg"
   },
   "BL-11": {
     "code": "BL-11",
@@ -9556,7 +9826,9 @@
     "nextPoint": "BL-12",
     "image": "/app/static/atlas_images/BL/BL11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL11.jpg"
   },
   "BL-12": {
     "code": "BL-12",
@@ -9626,7 +9898,9 @@
     "nextPoint": "BL-13",
     "image": "/app/static/atlas_images/BL/BL12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL12.jpg"
   },
   "BL-13": {
     "code": "BL-13",
@@ -9698,7 +9972,9 @@
     "nextPoint": "BL-14",
     "image": "/app/static/atlas_images/BL/BL13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL13.jpg"
   },
   "BL-14": {
     "code": "BL-14",
@@ -9772,7 +10048,9 @@
     "nextPoint": "BL-15",
     "image": "/app/static/atlas_images/BL/BL14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL14.jpg"
   },
   "BL-15": {
     "code": "BL-15",
@@ -9847,7 +10125,9 @@
     "nextPoint": "BL-16",
     "image": "/app/static/atlas_images/BL/BL15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL15.jpg"
   },
   "BL-16": {
     "code": "BL-16",
@@ -9919,7 +10199,9 @@
     "nextPoint": "BL-17",
     "image": "/app/static/atlas_images/BL/BL16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL16.jpg"
   },
   "BL-17": {
     "code": "BL-17",
@@ -9996,7 +10278,9 @@
     "nextPoint": "BL-18",
     "image": "/app/static/atlas_images/BL/BL17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL17.jpg"
   },
   "BL-18": {
     "code": "BL-18",
@@ -10082,7 +10366,9 @@
     "nextPoint": "BL-19",
     "image": "/app/static/atlas_images/BL/BL18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL18.jpg"
   },
   "BL-19": {
     "code": "BL-19",
@@ -10158,7 +10444,9 @@
     "nextPoint": "BL-20",
     "image": "/app/static/atlas_images/BL/BL19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL19.jpg"
   },
   "BL-20": {
     "code": "BL-20",
@@ -10242,7 +10530,9 @@
     "nextPoint": "BL-21",
     "image": "/app/static/atlas_images/BL/BL20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL20.jpg"
   },
   "BL-21": {
     "code": "BL-21",
@@ -10322,7 +10612,9 @@
     "nextPoint": "BL-22",
     "image": "/app/static/atlas_images/BL/BL21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL21.jpg"
   },
   "BL-22": {
     "code": "BL-22",
@@ -10390,7 +10682,9 @@
     "nextPoint": "BL-23",
     "image": "/app/static/atlas_images/BL/BL22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL22.jpg"
   },
   "BL-23": {
     "code": "BL-23",
@@ -10465,7 +10759,9 @@
     "nextPoint": "BL-24",
     "image": "/app/static/atlas_images/BL/BL23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL23.jpg"
   },
   "BL-24": {
     "code": "BL-24",
@@ -10529,7 +10825,9 @@
     "nextPoint": "BL-25",
     "image": "/app/static/atlas_images/BL/BL24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL24.jpg"
   },
   "BL-25": {
     "code": "BL-25",
@@ -10598,7 +10896,9 @@
     "nextPoint": "BL-26",
     "image": "/app/static/atlas_images/BL/BL25.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL25.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL25.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL25.jpg"
   },
   "BL-26": {
     "code": "BL-26",
@@ -10664,7 +10964,9 @@
     "nextPoint": "BL-27",
     "image": "/app/static/atlas_images/BL/BL26.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL26.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL26.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL26.jpg"
   },
   "BL-27": {
     "code": "BL-27",
@@ -10730,7 +11032,9 @@
     "nextPoint": "BL-28",
     "image": "/app/static/atlas_images/BL/BL27.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL27.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL27.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL27.jpg"
   },
   "BL-28": {
     "code": "BL-28",
@@ -10798,7 +11102,9 @@
     "nextPoint": "BL-29",
     "image": "/app/static/atlas_images/BL/BL28.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL28.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL28.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL28.jpg"
   },
   "BL-29": {
     "code": "BL-29",
@@ -10858,7 +11164,9 @@
     "nextPoint": "BL-30",
     "image": "/app/static/atlas_images/BL/BL29.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL29.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL29.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL29.jpg"
   },
   "BL-30": {
     "code": "BL-30",
@@ -10925,7 +11233,9 @@
     "nextPoint": "BL-31",
     "image": "/app/static/atlas_images/BL/BL30.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL30.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL30.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL30.jpg"
   },
   "BL-31": {
     "code": "BL-31",
@@ -10990,7 +11300,9 @@
     "nextPoint": "BL-32",
     "image": "/app/static/atlas_images/BL/BL31.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL31.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL31.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL31.jpg"
   },
   "BL-32": {
     "code": "BL-32",
@@ -11059,7 +11371,9 @@
     "nextPoint": "BL-33",
     "image": "/app/static/atlas_images/BL/BL32.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL32.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL32.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL32.jpg"
   },
   "BL-33": {
     "code": "BL-33",
@@ -11122,7 +11436,9 @@
     "nextPoint": "BL-34",
     "image": "/app/static/atlas_images/BL/BL33.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL33.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL33.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL33.jpg"
   },
   "BL-34": {
     "code": "BL-34",
@@ -11186,7 +11502,9 @@
     "nextPoint": "BL-35",
     "image": "/app/static/atlas_images/BL/BL34.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL34.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL34.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL34.jpg"
   },
   "BL-35": {
     "code": "BL-35",
@@ -11249,7 +11567,9 @@
     "nextPoint": "BL-36",
     "image": "/app/static/atlas_images/BL/BL35.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL35.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL35.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL35.jpg"
   },
   "BL-36": {
     "code": "BL-36",
@@ -11313,7 +11633,9 @@
     "nextPoint": "BL-37",
     "image": "/app/static/atlas_images/BL/BL36.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL36.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL36.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL36.jpg"
   },
   "BL-37": {
     "code": "BL-37",
@@ -11375,7 +11697,9 @@
     "nextPoint": "BL-38",
     "image": "/app/static/atlas_images/BL/BL37.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL37.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL37.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL37.jpg"
   },
   "BL-38": {
     "code": "BL-38",
@@ -11434,7 +11758,9 @@
     "nextPoint": "BL-39",
     "image": "/app/static/atlas_images/BL/BL38.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL38.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL38.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL38.jpg"
   },
   "BL-39": {
     "code": "BL-39",
@@ -11499,7 +11825,9 @@
     "nextPoint": "BL-40",
     "image": "/app/static/atlas_images/BL/BL39.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL39.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL39.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL39.jpg"
   },
   "BL-40": {
     "code": "BL-40",
@@ -11570,7 +11898,9 @@
     "nextPoint": "BL-41",
     "image": "/app/static/atlas_images/BL/BL40.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL40.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL40.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL40.jpg"
   },
   "BL-41": {
     "code": "BL-41",
@@ -11627,7 +11957,9 @@
     "nextPoint": "BL-42",
     "image": "/app/static/atlas_images/BL/BL41.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL41.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL41.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL41.jpg"
   },
   "BL-42": {
     "code": "BL-42",
@@ -11694,7 +12026,9 @@
     "nextPoint": "BL-43",
     "image": "/app/static/atlas_images/BL/BL42.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL42.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL42.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL42.jpg"
   },
   "BL-43": {
     "code": "BL-43",
@@ -11762,7 +12096,9 @@
     "nextPoint": "BL-44",
     "image": "/app/static/atlas_images/BL/BL43.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL43.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL43.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL43.jpg"
   },
   "BL-44": {
     "code": "BL-44",
@@ -11828,7 +12164,9 @@
     "nextPoint": "BL-45",
     "image": "/app/static/atlas_images/BL/BL44.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL44.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL44.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL44.jpg"
   },
   "BL-45": {
     "code": "BL-45",
@@ -11892,7 +12230,9 @@
     "nextPoint": "BL-46",
     "image": "/app/static/atlas_images/BL/BL45.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL45.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL45.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL45.jpg"
   },
   "BL-46": {
     "code": "BL-46",
@@ -11957,7 +12297,9 @@
     "nextPoint": "BL-47",
     "image": "/app/static/atlas_images/BL/BL46.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL46.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL46.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL46.jpg"
   },
   "BL-47": {
     "code": "BL-47",
@@ -12023,7 +12365,9 @@
     "nextPoint": "BL-48",
     "image": "/app/static/atlas_images/BL/BL47.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL47.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL47.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL47.jpg"
   },
   "BL-48": {
     "code": "BL-48",
@@ -12088,7 +12432,9 @@
     "nextPoint": "BL-49",
     "image": "/app/static/atlas_images/BL/BL48.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL48.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL48.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL48.jpg"
   },
   "BL-49": {
     "code": "BL-49",
@@ -12156,7 +12502,9 @@
     "nextPoint": "BL-50",
     "image": "/app/static/atlas_images/BL/BL49.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL49.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL49.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL49.jpg"
   },
   "BL-50": {
     "code": "BL-50",
@@ -12221,7 +12569,9 @@
     "nextPoint": "BL-51",
     "image": "/app/static/atlas_images/BL/BL50.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL50.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL50.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL50.jpg"
   },
   "BL-51": {
     "code": "BL-51",
@@ -12283,7 +12633,9 @@
     "nextPoint": "BL-52",
     "image": "/app/static/atlas_images/BL/BL51.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL51.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL51.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL51.jpg"
   },
   "BL-52": {
     "code": "BL-52",
@@ -12351,7 +12703,9 @@
     "nextPoint": "BL-53",
     "image": "/app/static/atlas_images/BL/BL52.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL52.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL52.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL52.jpg"
   },
   "BL-53": {
     "code": "BL-53",
@@ -12416,7 +12770,9 @@
     "nextPoint": "BL-54",
     "image": "/app/static/atlas_images/BL/BL53.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL53.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL53.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL53.jpg"
   },
   "BL-54": {
     "code": "BL-54",
@@ -12478,7 +12834,9 @@
     "nextPoint": "BL-55",
     "image": "/app/static/atlas_images/BL/BL54.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL54.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL54.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL54.jpg"
   },
   "BL-55": {
     "code": "BL-55",
@@ -12541,7 +12899,9 @@
     "nextPoint": "BL-56",
     "image": "/app/static/atlas_images/BL/BL55.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL55.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL55.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL55.jpg"
   },
   "BL-56": {
     "code": "BL-56",
@@ -12600,7 +12960,9 @@
     "nextPoint": "BL-57",
     "image": "/app/static/atlas_images/BL/BL56.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL56.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL56.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL56.jpg"
   },
   "BL-57": {
     "code": "BL-57",
@@ -12669,7 +13031,9 @@
     "nextPoint": "BL-58",
     "image": "/app/static/atlas_images/BL/BL57.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL57.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL57.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL57.jpg"
   },
   "BL-58": {
     "code": "BL-58",
@@ -12735,7 +13099,9 @@
     "nextPoint": "BL-59",
     "image": "/app/static/atlas_images/BL/BL58.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL58.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL58.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL58.jpg"
   },
   "BL-59": {
     "code": "BL-59",
@@ -12797,7 +13163,9 @@
     "nextPoint": "BL-60",
     "image": "/app/static/atlas_images/BL/BL59.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL59.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL59.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL59.jpg"
   },
   "BL-60": {
     "code": "BL-60",
@@ -12870,7 +13238,9 @@
     "nextPoint": "BL-61",
     "image": "/app/static/atlas_images/BL/BL60.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL60.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL60.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL60.jpg"
   },
   "BL-61": {
     "code": "BL-61",
@@ -12929,7 +13299,9 @@
     "nextPoint": "BL-62",
     "image": "/app/static/atlas_images/BL/BL61.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL61.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL61.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL61.jpg"
   },
   "BL-62": {
     "code": "BL-62",
@@ -13001,7 +13373,9 @@
     "nextPoint": "BL-63",
     "image": "/app/static/atlas_images/BL/BL62.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL62.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL62.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL62.jpg"
   },
   "BL-63": {
     "code": "BL-63",
@@ -13065,7 +13439,9 @@
     "nextPoint": "BL-64",
     "image": "/app/static/atlas_images/BL/BL63.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL63.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL63.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL63.jpg"
   },
   "BL-64": {
     "code": "BL-64",
@@ -13128,7 +13504,9 @@
     "nextPoint": "BL-65",
     "image": "/app/static/atlas_images/BL/BL64.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL64.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL64.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL64.jpg"
   },
   "BL-65": {
     "code": "BL-65",
@@ -13190,7 +13568,9 @@
     "nextPoint": "BL-66",
     "image": "/app/static/atlas_images/BL/BL65.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL65.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL65.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL65.jpg"
   },
   "BL-66": {
     "code": "BL-66",
@@ -13253,7 +13633,9 @@
     "nextPoint": "BL-67",
     "image": "/app/static/atlas_images/BL/BL66.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL66.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL66.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL66.jpg"
   },
   "BL-67": {
     "code": "BL-67",
@@ -13317,7 +13699,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/BL/BL67.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/BL/BL67.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/BL/BL67.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/BL/BL67.jpg"
   },
   "KI-1": {
     "code": "KI-1",
@@ -13393,7 +13777,9 @@
     "nextPoint": "KI-2",
     "image": "/app/static/atlas_images/KI/KI1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI1.jpg"
   },
   "KI-2": {
     "code": "KI-2",
@@ -13466,7 +13852,9 @@
     "nextPoint": "KI-3",
     "image": "/app/static/atlas_images/KI/KI2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI2.jpg"
   },
   "KI-3": {
     "code": "KI-3",
@@ -13547,7 +13935,9 @@
     "nextPoint": "KI-4",
     "image": "/app/static/atlas_images/KI/KI3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI3.jpg"
   },
   "KI-4": {
     "code": "KI-4",
@@ -13619,7 +14009,9 @@
     "nextPoint": "KI-5",
     "image": "/app/static/atlas_images/KI/KI4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI4.jpg"
   },
   "KI-5": {
     "code": "KI-5",
@@ -13685,7 +14077,9 @@
     "nextPoint": "KI-6",
     "image": "/app/static/atlas_images/KI/KI5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI5.jpg"
   },
   "KI-6": {
     "code": "KI-6",
@@ -13759,7 +14153,9 @@
     "nextPoint": "KI-7",
     "image": "/app/static/atlas_images/KI/KI6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI6.jpg"
   },
   "KI-7": {
     "code": "KI-7",
@@ -13828,7 +14224,9 @@
     "nextPoint": "KI-8",
     "image": "/app/static/atlas_images/KI/KI7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI7.jpg"
   },
   "KI-8": {
     "code": "KI-8",
@@ -13890,7 +14288,9 @@
     "nextPoint": "KI-9",
     "image": "/app/static/atlas_images/KI/KI8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI8.jpg"
   },
   "KI-9": {
     "code": "KI-9",
@@ -13954,7 +14354,9 @@
     "nextPoint": "KI-10",
     "image": "/app/static/atlas_images/KI/KI9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI9.jpg"
   },
   "KI-10": {
     "code": "KI-10",
@@ -14022,7 +14424,9 @@
     "nextPoint": "KI-11",
     "image": "/app/static/atlas_images/KI/KI10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI10.jpg"
   },
   "KI-11": {
     "code": "KI-11",
@@ -14088,7 +14492,9 @@
     "nextPoint": "KI-12",
     "image": "/app/static/atlas_images/KI/KI11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI11.jpg"
   },
   "KI-12": {
     "code": "KI-12",
@@ -14149,7 +14555,9 @@
     "nextPoint": "KI-13",
     "image": "/app/static/atlas_images/KI/KI12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI12.jpg"
   },
   "KI-13": {
     "code": "KI-13",
@@ -14211,7 +14619,9 @@
     "nextPoint": "KI-14",
     "image": "/app/static/atlas_images/KI/KI13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI13.jpg"
   },
   "KI-14": {
     "code": "KI-14",
@@ -14276,7 +14686,9 @@
     "nextPoint": "KI-15",
     "image": "/app/static/atlas_images/KI/KI14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI14.jpg"
   },
   "KI-15": {
     "code": "KI-15",
@@ -14335,7 +14747,9 @@
     "nextPoint": "KI-16",
     "image": "/app/static/atlas_images/KI/KI15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI15.jpg"
   },
   "KI-16": {
     "code": "KI-16",
@@ -14398,7 +14812,9 @@
     "nextPoint": "KI-17",
     "image": "/app/static/atlas_images/KI/KI16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI16.jpg"
   },
   "KI-17": {
     "code": "KI-17",
@@ -14463,7 +14879,9 @@
     "nextPoint": "KI-18",
     "image": "/app/static/atlas_images/KI/KI17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI17.jpg"
   },
   "KI-18": {
     "code": "KI-18",
@@ -14525,7 +14943,9 @@
     "nextPoint": "KI-19",
     "image": "/app/static/atlas_images/KI/KI18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI18.jpg"
   },
   "KI-19": {
     "code": "KI-19",
@@ -14588,7 +15008,9 @@
     "nextPoint": "KI-20",
     "image": "/app/static/atlas_images/KI/KI19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI19.jpg"
   },
   "KI-20": {
     "code": "KI-20",
@@ -14651,7 +15073,9 @@
     "nextPoint": "KI-21",
     "image": "/app/static/atlas_images/KI/KI20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI20.jpg"
   },
   "KI-21": {
     "code": "KI-21",
@@ -14717,7 +15141,9 @@
     "nextPoint": "KI-22",
     "image": "/app/static/atlas_images/KI/KI21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI21.jpg"
   },
   "KI-22": {
     "code": "KI-22",
@@ -14780,7 +15206,9 @@
     "nextPoint": "KI-23",
     "image": "/app/static/atlas_images/KI/KI22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI22.jpg"
   },
   "KI-23": {
     "code": "KI-23",
@@ -14845,7 +15273,9 @@
     "nextPoint": "KI-24",
     "image": "/app/static/atlas_images/KI/KI23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI23.jpg"
   },
   "KI-24": {
     "code": "KI-24",
@@ -14908,7 +15338,9 @@
     "nextPoint": "KI-25",
     "image": "/app/static/atlas_images/KI/KI24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI24.jpg"
   },
   "KI-25": {
     "code": "KI-25",
@@ -14971,7 +15403,9 @@
     "nextPoint": "KI-26",
     "image": "/app/static/atlas_images/KI/KI25.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI25.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI25.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI25.jpg"
   },
   "KI-26": {
     "code": "KI-26",
@@ -15034,7 +15468,9 @@
     "nextPoint": "KI-27",
     "image": "/app/static/atlas_images/KI/KI26.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI26.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI26.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI26.jpg"
   },
   "KI-27": {
     "code": "KI-27",
@@ -15099,7 +15535,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/KI/KI27.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/KI/KI27.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/KI/KI27.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/KI/KI27.jpg"
   },
   "PC-1": {
     "code": "PC-1",
@@ -15188,7 +15626,9 @@
     "nextPoint": "PC-2",
     "image": "/app/static/atlas_images/PC/PC1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC1.jpg"
   },
   "PC-2": {
     "code": "PC-2",
@@ -15265,7 +15705,9 @@
     "nextPoint": "PC-3",
     "image": "/app/static/atlas_images/PC/PC2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC2.jpg"
   },
   "PC-3": {
     "code": "PC-3",
@@ -15351,7 +15793,9 @@
     "nextPoint": "PC-4",
     "image": "/app/static/atlas_images/PC/PC3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC3.jpg"
   },
   "PC-4": {
     "code": "PC-4",
@@ -15443,7 +15887,9 @@
     "nextPoint": "PC-5",
     "image": "/app/static/atlas_images/PC/PC4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC4.jpg"
   },
   "PC-5": {
     "code": "PC-5",
@@ -15529,7 +15975,9 @@
     "nextPoint": "PC-6",
     "image": "/app/static/atlas_images/PC/PC5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC5.jpg"
   },
   "PC-6": {
     "code": "PC-6",
@@ -15636,7 +16084,9 @@
     "nextPoint": "PC-7",
     "image": "/app/static/atlas_images/PC/PC6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC6.jpg"
   },
   "PC-7": {
     "code": "PC-7",
@@ -15730,7 +16180,9 @@
     "nextPoint": "PC-8",
     "image": "/app/static/atlas_images/PC/PC7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC7.jpg"
   },
   "PC-8": {
     "code": "PC-8",
@@ -15827,7 +16279,9 @@
     "nextPoint": "PC-9",
     "image": "/app/static/atlas_images/PC/PC8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC8.jpg"
   },
   "PC-9": {
     "code": "PC-9",
@@ -15915,7 +16369,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/PC/PC9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/PC/PC9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/PC/PC9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/PC/PC9.jpg"
   },
   "TE-1": {
     "code": "TE-1",
@@ -15988,7 +16444,9 @@
     "nextPoint": "TE-2",
     "image": "/app/static/atlas_images/TE/TE1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE1.jpg"
   },
   "TE-2": {
     "code": "TE-2",
@@ -16060,7 +16518,9 @@
     "nextPoint": "TE-3",
     "image": "/app/static/atlas_images/TE/TE2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE2.jpg"
   },
   "TE-3": {
     "code": "TE-3",
@@ -16141,7 +16601,9 @@
     "nextPoint": "TE-4",
     "image": "/app/static/atlas_images/TE/TE3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE3.jpg"
   },
   "TE-4": {
     "code": "TE-4",
@@ -16207,7 +16669,9 @@
     "nextPoint": "TE-5",
     "image": "/app/static/atlas_images/TE/TE4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE4.jpg"
   },
   "TE-5": {
     "code": "TE-5",
@@ -16290,7 +16754,9 @@
     "nextPoint": "TE-6",
     "image": "/app/static/atlas_images/TE/TE5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE5.jpg"
   },
   "TE-6": {
     "code": "TE-6",
@@ -16365,7 +16831,9 @@
     "nextPoint": "TE-7",
     "image": "/app/static/atlas_images/TE/TE6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE6.jpg"
   },
   "TE-7": {
     "code": "TE-7",
@@ -16426,7 +16894,9 @@
     "nextPoint": "TE-8",
     "image": "/app/static/atlas_images/TE/TE7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE7.jpg"
   },
   "TE-8": {
     "code": "TE-8",
@@ -16488,7 +16958,9 @@
     "nextPoint": "TE-9",
     "image": "/app/static/atlas_images/TE/TE8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE8.jpg"
   },
   "TE-9": {
     "code": "TE-9",
@@ -16551,7 +17023,9 @@
     "nextPoint": "TE-10",
     "image": "/app/static/atlas_images/TE/TE9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE9.jpg"
   },
   "TE-10": {
     "code": "TE-10",
@@ -16621,7 +17095,9 @@
     "nextPoint": "TE-11",
     "image": "/app/static/atlas_images/TE/TE10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE10.jpg"
   },
   "TE-11": {
     "code": "TE-11",
@@ -16677,7 +17153,9 @@
     "nextPoint": "TE-12",
     "image": "/app/static/atlas_images/TE/TE11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE11.jpg"
   },
   "TE-12": {
     "code": "TE-12",
@@ -16732,7 +17210,9 @@
     "nextPoint": "TE-13",
     "image": "/app/static/atlas_images/TE/TE12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE12.jpg"
   },
   "TE-13": {
     "code": "TE-13",
@@ -16798,7 +17278,9 @@
     "nextPoint": "TE-14",
     "image": "/app/static/atlas_images/TE/TE13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE13.jpg"
   },
   "TE-14": {
     "code": "TE-14",
@@ -16858,7 +17340,9 @@
     "nextPoint": "TE-15",
     "image": "/app/static/atlas_images/TE/TE14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE14.jpg"
   },
   "TE-15": {
     "code": "TE-15",
@@ -16929,7 +17413,9 @@
     "nextPoint": "TE-16",
     "image": "/app/static/atlas_images/TE/TE15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE15.jpg"
   },
   "TE-16": {
     "code": "TE-16",
@@ -17003,7 +17489,9 @@
     "nextPoint": "TE-17",
     "image": "/app/static/atlas_images/TE/TE16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE16.jpg"
   },
   "TE-17": {
     "code": "TE-17",
@@ -17077,7 +17565,9 @@
     "nextPoint": "TE-18",
     "image": "/app/static/atlas_images/TE/TE17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE17.jpg"
   },
   "TE-18": {
     "code": "TE-18",
@@ -17142,7 +17632,9 @@
     "nextPoint": "TE-19",
     "image": "/app/static/atlas_images/TE/TE18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE18.jpg"
   },
   "TE-19": {
     "code": "TE-19",
@@ -17207,7 +17699,9 @@
     "nextPoint": "TE-20",
     "image": "/app/static/atlas_images/TE/TE19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE19.jpg"
   },
   "TE-20": {
     "code": "TE-20",
@@ -17274,7 +17768,9 @@
     "nextPoint": "TE-21",
     "image": "/app/static/atlas_images/TE/TE20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE20.jpg"
   },
   "TE-21": {
     "code": "TE-21",
@@ -17344,7 +17840,9 @@
     "nextPoint": "TE-22",
     "image": "/app/static/atlas_images/TE/TE21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE21.jpg"
   },
   "TE-22": {
     "code": "TE-22",
@@ -17405,7 +17903,9 @@
     "nextPoint": "TE-23",
     "image": "/app/static/atlas_images/TE/TE22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE22.jpg"
   },
   "TE-23": {
     "code": "TE-23",
@@ -17472,7 +17972,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/TE/TE23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/TE/TE23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/TE/TE23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/TE/TE23.jpg"
   },
   "GB-1": {
     "code": "GB-1",
@@ -17540,7 +18042,9 @@
     "nextPoint": "GB-2",
     "image": "/app/static/atlas_images/GB/GB1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB1.jpg"
   },
   "GB-2": {
     "code": "GB-2",
@@ -17606,7 +18110,9 @@
     "nextPoint": "GB-3",
     "image": "/app/static/atlas_images/GB/GB2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB2.jpg"
   },
   "GB-3": {
     "code": "GB-3",
@@ -17668,7 +18174,9 @@
     "nextPoint": "GB-4",
     "image": "/app/static/atlas_images/GB/GB3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB3.jpg"
   },
   "GB-4": {
     "code": "GB-4",
@@ -17731,7 +18239,9 @@
     "nextPoint": "GB-5",
     "image": "/app/static/atlas_images/GB/GB4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB4.jpg"
   },
   "GB-5": {
     "code": "GB-5",
@@ -17793,7 +18303,9 @@
     "nextPoint": "GB-6",
     "image": "/app/static/atlas_images/GB/GB5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB5.jpg"
   },
   "GB-6": {
     "code": "GB-6",
@@ -17853,7 +18365,9 @@
     "nextPoint": "GB-7",
     "image": "/app/static/atlas_images/GB/GB6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB6.jpg"
   },
   "GB-7": {
     "code": "GB-7",
@@ -17911,7 +18425,9 @@
     "nextPoint": "GB-8",
     "image": "/app/static/atlas_images/GB/GB7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB7.jpg"
   },
   "GB-8": {
     "code": "GB-8",
@@ -17977,7 +18493,9 @@
     "nextPoint": "GB-9",
     "image": "/app/static/atlas_images/GB/GB8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB8.jpg"
   },
   "GB-9": {
     "code": "GB-9",
@@ -18040,7 +18558,9 @@
     "nextPoint": "GB-10",
     "image": "/app/static/atlas_images/GB/GB9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB9.jpg"
   },
   "GB-10": {
     "code": "GB-10",
@@ -18103,7 +18623,9 @@
     "nextPoint": "GB-11",
     "image": "/app/static/atlas_images/GB/GB10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB10.jpg"
   },
   "GB-11": {
     "code": "GB-11",
@@ -18165,7 +18687,9 @@
     "nextPoint": "GB-12",
     "image": "/app/static/atlas_images/GB/GB11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB11.jpg"
   },
   "GB-12": {
     "code": "GB-12",
@@ -18232,7 +18756,9 @@
     "nextPoint": "GB-13",
     "image": "/app/static/atlas_images/GB/GB12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB12.jpg"
   },
   "GB-13": {
     "code": "GB-13",
@@ -18298,7 +18824,9 @@
     "nextPoint": "GB-14",
     "image": "/app/static/atlas_images/GB/GB13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB13.jpg"
   },
   "GB-14": {
     "code": "GB-14",
@@ -18364,7 +18892,9 @@
     "nextPoint": "GB-15",
     "image": "/app/static/atlas_images/GB/GB14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB14.jpg"
   },
   "GB-15": {
     "code": "GB-15",
@@ -18428,7 +18958,9 @@
     "nextPoint": "GB-16",
     "image": "/app/static/atlas_images/GB/GB15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB15.jpg"
   },
   "GB-16": {
     "code": "GB-16",
@@ -18492,7 +19024,9 @@
     "nextPoint": "GB-17",
     "image": "/app/static/atlas_images/GB/GB16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB16.jpg"
   },
   "GB-17": {
     "code": "GB-17",
@@ -18556,7 +19090,9 @@
     "nextPoint": "GB-18",
     "image": "/app/static/atlas_images/GB/GB17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB17.jpg"
   },
   "GB-18": {
     "code": "GB-18",
@@ -18622,7 +19158,9 @@
     "nextPoint": "GB-19",
     "image": "/app/static/atlas_images/GB/GB18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB18.jpg"
   },
   "GB-19": {
     "code": "GB-19",
@@ -18689,7 +19227,9 @@
     "nextPoint": "GB-20",
     "image": "/app/static/atlas_images/GB/GB19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB19.jpg"
   },
   "GB-20": {
     "code": "GB-20",
@@ -18766,7 +19306,9 @@
     "nextPoint": "GB-21",
     "image": "/app/static/atlas_images/GB/GB20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB20.jpg"
   },
   "GB-21": {
     "code": "GB-21",
@@ -18828,7 +19370,9 @@
     "nextPoint": "GB-22",
     "image": "/app/static/atlas_images/GB/GB21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB21.jpg"
   },
   "GB-22": {
     "code": "GB-22",
@@ -18891,7 +19435,9 @@
     "nextPoint": "GB-23",
     "image": "/app/static/atlas_images/GB/GB22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB22.jpg"
   },
   "GB-23": {
     "code": "GB-23",
@@ -18954,7 +19500,9 @@
     "nextPoint": "GB-24",
     "image": "/app/static/atlas_images/GB/GB23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB23.jpg"
   },
   "GB-24": {
     "code": "GB-24",
@@ -19028,7 +19576,9 @@
     "nextPoint": "GB-25",
     "image": "/app/static/atlas_images/GB/GB24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB24.jpg"
   },
   "GB-25": {
     "code": "GB-25",
@@ -19100,7 +19650,9 @@
     "nextPoint": "GB-26",
     "image": "/app/static/atlas_images/GB/GB25.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB25.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB25.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB25.jpg"
   },
   "GB-26": {
     "code": "GB-26",
@@ -19174,7 +19726,9 @@
     "nextPoint": "GB-27",
     "image": "/app/static/atlas_images/GB/GB26.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB26.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB26.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB26.jpg"
   },
   "GB-27": {
     "code": "GB-27",
@@ -19240,7 +19794,9 @@
     "nextPoint": "GB-28",
     "image": "/app/static/atlas_images/GB/GB27.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB27.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB27.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB27.jpg"
   },
   "GB-28": {
     "code": "GB-28",
@@ -19301,7 +19857,9 @@
     "nextPoint": "GB-29",
     "image": "/app/static/atlas_images/GB/GB28.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB28.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB28.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB28.jpg"
   },
   "GB-29": {
     "code": "GB-29",
@@ -19360,7 +19918,9 @@
     "nextPoint": "GB-30",
     "image": "/app/static/atlas_images/GB/GB29.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB29.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB29.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB29.jpg"
   },
   "GB-30": {
     "code": "GB-30",
@@ -19428,7 +19988,9 @@
     "nextPoint": "GB-31",
     "image": "/app/static/atlas_images/GB/GB30.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB30.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB30.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB30.jpg"
   },
   "GB-31": {
     "code": "GB-31",
@@ -19494,7 +20056,9 @@
     "nextPoint": "GB-32",
     "image": "/app/static/atlas_images/GB/GB31.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB31.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB31.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB31.jpg"
   },
   "GB-32": {
     "code": "GB-32",
@@ -19552,7 +20116,9 @@
     "nextPoint": "GB-33",
     "image": "/app/static/atlas_images/GB/GB32.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB32.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB32.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB32.jpg"
   },
   "GB-33": {
     "code": "GB-33",
@@ -19609,7 +20175,9 @@
     "nextPoint": "GB-34",
     "image": "/app/static/atlas_images/GB/GB33.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB33.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB33.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB33.jpg"
   },
   "GB-34": {
     "code": "GB-34",
@@ -19680,7 +20248,9 @@
     "nextPoint": "GB-35",
     "image": "/app/static/atlas_images/GB/GB34.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB34.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB34.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB34.jpg"
   },
   "GB-35": {
     "code": "GB-35",
@@ -19742,7 +20312,9 @@
     "nextPoint": "GB-36",
     "image": "/app/static/atlas_images/GB/GB35.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB35.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB35.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB35.jpg"
   },
   "GB-36": {
     "code": "GB-36",
@@ -19802,7 +20374,9 @@
     "nextPoint": "GB-37",
     "image": "/app/static/atlas_images/GB/GB36.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB36.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB36.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB36.jpg"
   },
   "GB-37": {
     "code": "GB-37",
@@ -19865,7 +20439,9 @@
     "nextPoint": "GB-38",
     "image": "/app/static/atlas_images/GB/GB37.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB37.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB37.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB37.jpg"
   },
   "GB-38": {
     "code": "GB-38",
@@ -19929,7 +20505,9 @@
     "nextPoint": "GB-39",
     "image": "/app/static/atlas_images/GB/GB38.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB38.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB38.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB38.jpg"
   },
   "GB-39": {
     "code": "GB-39",
@@ -19998,7 +20576,9 @@
     "nextPoint": "GB-40",
     "image": "/app/static/atlas_images/GB/GB39.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB39.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB39.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB39.jpg"
   },
   "GB-40": {
     "code": "GB-40",
@@ -20072,7 +20652,9 @@
     "nextPoint": "GB-41",
     "image": "/app/static/atlas_images/GB/GB40.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB40.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB40.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB40.jpg"
   },
   "GB-41": {
     "code": "GB-41",
@@ -20148,7 +20730,9 @@
     "nextPoint": "GB-42",
     "image": "/app/static/atlas_images/GB/GB41.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB41.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB41.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB41.jpg"
   },
   "GB-42": {
     "code": "GB-42",
@@ -20209,7 +20793,9 @@
     "nextPoint": "GB-43",
     "image": "/app/static/atlas_images/GB/GB42.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB42.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB42.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB42.jpg"
   },
   "GB-43": {
     "code": "GB-43",
@@ -20284,7 +20870,9 @@
     "nextPoint": "GB-44",
     "image": "/app/static/atlas_images/GB/GB43.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB43.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB43.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB43.jpg"
   },
   "GB-44": {
     "code": "GB-44",
@@ -20352,7 +20940,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/GB/GB44.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GB/GB44.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GB/GB44.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GB/GB44.jpg"
   },
   "LR-1": {
     "code": "LR-1",
@@ -20433,7 +21023,9 @@
     "nextPoint": "LR-2",
     "image": "/app/static/atlas_images/LR/LR1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR1.jpg"
   },
   "LR-2": {
     "code": "LR-2",
@@ -20519,7 +21111,9 @@
     "nextPoint": "LR-3",
     "image": "/app/static/atlas_images/LR/LR2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR2.jpg"
   },
   "LR-3": {
     "code": "LR-3",
@@ -20616,7 +21210,9 @@
     "nextPoint": "LR-4",
     "image": "/app/static/atlas_images/LR/LR3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR3.jpg"
   },
   "LR-4": {
     "code": "LR-4",
@@ -20690,7 +21286,9 @@
     "nextPoint": "LR-5",
     "image": "/app/static/atlas_images/LR/LR4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR4.jpg"
   },
   "LR-5": {
     "code": "LR-5",
@@ -20767,7 +21365,9 @@
     "nextPoint": "LR-6",
     "image": "/app/static/atlas_images/LR/LR5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR5.jpg"
   },
   "LR-6": {
     "code": "LR-6",
@@ -20835,7 +21435,9 @@
     "nextPoint": "LR-7",
     "image": "/app/static/atlas_images/LR/LR6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR6.jpg"
   },
   "LR-7": {
     "code": "LR-7",
@@ -20892,7 +21494,9 @@
     "nextPoint": "LR-8",
     "image": "/app/static/atlas_images/LR/LR7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR7.jpg"
   },
   "LR-8": {
     "code": "LR-8",
@@ -20966,7 +21570,9 @@
     "nextPoint": "LR-9",
     "image": "/app/static/atlas_images/LR/LR8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR8.jpg"
   },
   "LR-9": {
     "code": "LR-9",
@@ -21031,7 +21637,9 @@
     "nextPoint": "LR-10",
     "image": "/app/static/atlas_images/LR/LR9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR9.jpg"
   },
   "LR-10": {
     "code": "LR-10",
@@ -21102,7 +21710,9 @@
     "nextPoint": "LR-11",
     "image": "/app/static/atlas_images/LR/LR10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR10.jpg"
   },
   "LR-11": {
     "code": "LR-11",
@@ -21165,7 +21775,9 @@
     "nextPoint": "LR-12",
     "image": "/app/static/atlas_images/LR/LR11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR11.jpg"
   },
   "LR-12": {
     "code": "LR-12",
@@ -21230,7 +21842,9 @@
     "nextPoint": "LR-13",
     "image": "/app/static/atlas_images/LR/LR12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR12.jpg"
   },
   "LR-13": {
     "code": "LR-13",
@@ -21308,7 +21922,9 @@
     "nextPoint": "LR-14",
     "image": "/app/static/atlas_images/LR/LR13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR13.jpg"
   },
   "LR-14": {
     "code": "LR-14",
@@ -21399,7 +22015,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/LR/LR14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/LR/LR14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/LR/LR14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/LR/LR14.jpg"
   },
   "GV-1": {
     "code": "GV-1",
@@ -21469,7 +22087,9 @@
     "nextPoint": "GV-2",
     "image": "/app/static/atlas_images/GV/GV1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV1.jpg"
   },
   "GV-2": {
     "code": "GV-2",
@@ -21534,7 +22154,9 @@
     "nextPoint": "GV-3",
     "image": "/app/static/atlas_images/GV/GV2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV2.jpg"
   },
   "GV-3": {
     "code": "GV-3",
@@ -21599,7 +22221,9 @@
     "nextPoint": "GV-4",
     "image": "/app/static/atlas_images/GV/GV3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV3.jpg"
   },
   "GV-4": {
     "code": "GV-4",
@@ -21669,7 +22293,9 @@
     "nextPoint": "GV-5",
     "image": "/app/static/atlas_images/GV/GV4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV4.jpg"
   },
   "GV-5": {
     "code": "GV-5",
@@ -21727,7 +22353,9 @@
     "nextPoint": "GV-6",
     "image": "/app/static/atlas_images/GV/GV5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV5.jpg"
   },
   "GV-6": {
     "code": "GV-6",
@@ -21790,7 +22418,9 @@
     "nextPoint": "GV-7",
     "image": "/app/static/atlas_images/GV/GV6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV6.jpg"
   },
   "GV-7": {
     "code": "GV-7",
@@ -21850,7 +22480,9 @@
     "nextPoint": "GV-8",
     "image": "/app/static/atlas_images/GV/GV7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV7.jpg"
   },
   "GV-8": {
     "code": "GV-8",
@@ -21915,7 +22547,9 @@
     "nextPoint": "GV-9",
     "image": "/app/static/atlas_images/GV/GV8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV8.jpg"
   },
   "GV-9": {
     "code": "GV-9",
@@ -21980,7 +22614,9 @@
     "nextPoint": "GV-10",
     "image": "/app/static/atlas_images/GV/GV9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV9.jpg"
   },
   "GV-10": {
     "code": "GV-10",
@@ -22044,7 +22680,9 @@
     "nextPoint": "GV-11",
     "image": "/app/static/atlas_images/GV/GV10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV10.jpg"
   },
   "GV-11": {
     "code": "GV-11",
@@ -22110,7 +22748,9 @@
     "nextPoint": "GV-12",
     "image": "/app/static/atlas_images/GV/GV11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV11.jpg"
   },
   "GV-12": {
     "code": "GV-12",
@@ -22175,7 +22815,9 @@
     "nextPoint": "GV-13",
     "image": "/app/static/atlas_images/GV/GV12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV12.jpg"
   },
   "GV-13": {
     "code": "GV-13",
@@ -22236,7 +22878,9 @@
     "nextPoint": "GV-14",
     "image": "/app/static/atlas_images/GV/GV13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV13.jpg"
   },
   "GV-14": {
     "code": "GV-14",
@@ -22308,7 +22952,9 @@
     "nextPoint": "GV-15",
     "image": "/app/static/atlas_images/GV/GV14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV14.jpg"
   },
   "GV-15": {
     "code": "GV-15",
@@ -22377,7 +23023,9 @@
     "nextPoint": "GV-16",
     "image": "/app/static/atlas_images/GV/GV15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV15.jpg"
   },
   "GV-16": {
     "code": "GV-16",
@@ -22448,7 +23096,9 @@
     "nextPoint": "GV-17",
     "image": "/app/static/atlas_images/GV/GV16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV16.jpg"
   },
   "GV-17": {
     "code": "GV-17",
@@ -22512,7 +23162,9 @@
     "nextPoint": "GV-18",
     "image": "/app/static/atlas_images/GV/GV17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV17.jpg"
   },
   "GV-18": {
     "code": "GV-18",
@@ -22575,7 +23227,9 @@
     "nextPoint": "GV-19",
     "image": "/app/static/atlas_images/GV/GV18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV18.jpg"
   },
   "GV-19": {
     "code": "GV-19",
@@ -22638,7 +23292,9 @@
     "nextPoint": "GV-20",
     "image": "/app/static/atlas_images/GV/GV19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV19.jpg"
   },
   "GV-20": {
     "code": "GV-20",
@@ -22713,7 +23369,9 @@
     "nextPoint": "GV-21",
     "image": "/app/static/atlas_images/GV/GV20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV20.jpg"
   },
   "GV-21": {
     "code": "GV-21",
@@ -22778,7 +23436,9 @@
     "nextPoint": "GV-22",
     "image": "/app/static/atlas_images/GV/GV21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV21.jpg"
   },
   "GV-22": {
     "code": "GV-22",
@@ -22842,7 +23502,9 @@
     "nextPoint": "GV-23",
     "image": "/app/static/atlas_images/GV/GV22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV22.jpg"
   },
   "GV-23": {
     "code": "GV-23",
@@ -22910,7 +23572,9 @@
     "nextPoint": "GV-24",
     "image": "/app/static/atlas_images/GV/GV23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV23.jpg"
   },
   "GV-24": {
     "code": "GV-24",
@@ -22982,7 +23646,9 @@
     "nextPoint": "GV-25",
     "image": "/app/static/atlas_images/GV/GV24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV24.jpg"
   },
   "GV-25": {
     "code": "GV-25",
@@ -23046,7 +23712,9 @@
     "nextPoint": "GV-26",
     "image": "/app/static/atlas_images/GV/GV25.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV25.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV25.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV25.jpg"
   },
   "GV-26": {
     "code": "GV-26",
@@ -23114,7 +23782,9 @@
     "nextPoint": "GV-27",
     "image": "/app/static/atlas_images/GV/GV26.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV26.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV26.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV26.jpg"
   },
   "GV-27": {
     "code": "GV-27",
@@ -23179,7 +23849,9 @@
     "nextPoint": "GV-28",
     "image": "/app/static/atlas_images/GV/GV27.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV27.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV27.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV27.jpg"
   },
   "GV-28": {
     "code": "GV-28",
@@ -23243,7 +23915,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/GV/GV28.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/GV/GV28.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/GV/GV28.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/GV/GV28.jpg"
   },
   "CV-1": {
     "code": "CV-1",
@@ -23308,7 +23982,9 @@
     "nextPoint": "CV-2",
     "image": "/app/static/atlas_images/CV/CV1.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV1.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV1.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV1.jpg"
   },
   "CV-2": {
     "code": "CV-2",
@@ -23374,7 +24050,9 @@
     "nextPoint": "CV-3",
     "image": "/app/static/atlas_images/CV/CV2.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV2.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV2.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV2.jpg"
   },
   "CV-3": {
     "code": "CV-3",
@@ -23445,7 +24123,9 @@
     "nextPoint": "CV-4",
     "image": "/app/static/atlas_images/CV/CV3.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV3.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV3.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV3.jpg"
   },
   "CV-4": {
     "code": "CV-4",
@@ -23517,7 +24197,9 @@
     "nextPoint": "CV-5",
     "image": "/app/static/atlas_images/CV/CV4.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV4.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV4.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV4.jpg"
   },
   "CV-5": {
     "code": "CV-5",
@@ -23585,7 +24267,9 @@
     "nextPoint": "CV-6",
     "image": "/app/static/atlas_images/CV/CV5.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV5.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV5.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV5.jpg"
   },
   "CV-6": {
     "code": "CV-6",
@@ -23657,7 +24341,9 @@
     "nextPoint": "CV-7",
     "image": "/app/static/atlas_images/CV/CV6.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV6.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV6.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV6.jpg"
   },
   "CV-7": {
     "code": "CV-7",
@@ -23720,7 +24406,9 @@
     "nextPoint": "CV-8",
     "image": "/app/static/atlas_images/CV/CV7.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV7.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV7.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV7.jpg"
   },
   "CV-8": {
     "code": "CV-8",
@@ -23785,7 +24473,9 @@
     "nextPoint": "CV-9",
     "image": "/app/static/atlas_images/CV/CV8.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV8.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV8.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV8.jpg"
   },
   "CV-9": {
     "code": "CV-9",
@@ -23847,7 +24537,9 @@
     "nextPoint": "CV-10",
     "image": "/app/static/atlas_images/CV/CV9.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV9.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV9.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV9.jpg"
   },
   "CV-10": {
     "code": "CV-10",
@@ -23911,7 +24603,9 @@
     "nextPoint": "CV-11",
     "image": "/app/static/atlas_images/CV/CV10.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV10.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV10.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV10.jpg"
   },
   "CV-11": {
     "code": "CV-11",
@@ -23973,7 +24667,9 @@
     "nextPoint": "CV-12",
     "image": "/app/static/atlas_images/CV/CV11.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV11.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV11.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV11.jpg"
   },
   "CV-12": {
     "code": "CV-12",
@@ -24044,7 +24740,9 @@
     "nextPoint": "CV-13",
     "image": "/app/static/atlas_images/CV/CV12.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV12.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV12.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV12.jpg"
   },
   "CV-13": {
     "code": "CV-13",
@@ -24109,7 +24807,9 @@
     "nextPoint": "CV-14",
     "image": "/app/static/atlas_images/CV/CV13.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV13.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV13.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV13.jpg"
   },
   "CV-14": {
     "code": "CV-14",
@@ -24177,7 +24877,9 @@
     "nextPoint": "CV-15",
     "image": "/app/static/atlas_images/CV/CV14.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV14.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV14.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV14.jpg"
   },
   "CV-15": {
     "code": "CV-15",
@@ -24243,7 +24945,9 @@
     "nextPoint": "CV-16",
     "image": "/app/static/atlas_images/CV/CV15.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV15.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV15.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV15.jpg"
   },
   "CV-16": {
     "code": "CV-16",
@@ -24302,7 +25006,9 @@
     "nextPoint": "CV-17",
     "image": "/app/static/atlas_images/CV/CV16.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV16.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV16.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV16.jpg"
   },
   "CV-17": {
     "code": "CV-17",
@@ -24374,7 +25080,9 @@
     "nextPoint": "CV-18",
     "image": "/app/static/atlas_images/CV/CV17.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV17.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV17.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV17.jpg"
   },
   "CV-18": {
     "code": "CV-18",
@@ -24435,7 +25143,9 @@
     "nextPoint": "CV-19",
     "image": "/app/static/atlas_images/CV/CV18.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV18.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV18.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV18.jpg"
   },
   "CV-19": {
     "code": "CV-19",
@@ -24492,7 +25202,9 @@
     "nextPoint": "CV-20",
     "image": "/app/static/atlas_images/CV/CV19.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV19.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV19.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV19.jpg"
   },
   "CV-20": {
     "code": "CV-20",
@@ -24549,7 +25261,9 @@
     "nextPoint": "CV-21",
     "image": "/app/static/atlas_images/CV/CV20.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV20.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV20.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV20.jpg"
   },
   "CV-21": {
     "code": "CV-21",
@@ -24610,7 +25324,9 @@
     "nextPoint": "CV-22",
     "image": "/app/static/atlas_images/CV/CV21.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV21.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV21.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV21.jpg"
   },
   "CV-22": {
     "code": "CV-22",
@@ -24681,7 +25397,9 @@
     "nextPoint": "CV-23",
     "image": "/app/static/atlas_images/CV/CV22.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV22.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV22.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV22.jpg"
   },
   "CV-23": {
     "code": "CV-23",
@@ -24748,7 +25466,9 @@
     "nextPoint": "CV-24",
     "image": "/app/static/atlas_images/CV/CV23.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV23.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV23.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV23.jpg"
   },
   "CV-24": {
     "code": "CV-24",
@@ -24816,7 +25536,9 @@
     "nextPoint": null,
     "image": "/app/static/atlas_images/CV/CV24.jpg",
     "remoteImage": "https://acupuntura.com/atlas-images/CV/CV24.jpg",
-    "hasImage": true
+    "hasImage": true,
+    "cdnImage": "https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/static/atlas_images/CV/CV24.jpg",
+    "githubImage": "https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/static/atlas_images/CV/CV24.jpg"
   },
   "HP-1": {
     "code": "HP-1",

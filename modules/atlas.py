@@ -35,6 +35,13 @@ def get_atlas_dataset() -> Dict[str, Any]:
             meridians = json.load(f_m)
         with open(points_file, "r", encoding="utf-8") as f_p:
             points = json.load(f_p)
+        for p in points.values():
+            if p.get("hasImage") and p.get("image"):
+                raw_rel = p["image"].replace("/app/static/", "static/").lstrip("/")
+                if not p.get("cdnImage"):
+                    p["cdnImage"] = f"https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/{raw_rel}"
+                if not p.get("githubImage"):
+                    p["githubImage"] = f"https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/{raw_rel}"
         return {"meridians": meridians, "points": points}
     
     # Fallback to minimal dataset if static files are missing
@@ -1375,13 +1382,14 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(15, 23, 42, 0.85);
     backdrop-filter: blur(8px);
     z-index: 99999;
     display: none;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 20px;
+    padding: 24px 16px;
+    overflow-y: auto;
     animation: fadeIn 0.15s ease;
 }
 
@@ -1400,6 +1408,8 @@ html, body {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
+    margin: 20px auto;
+    transition: margin-top 0.2s ease;
 }
 
 .lightbox-header {
@@ -1448,6 +1458,38 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.lightbox-spinner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 60px 20px;
+}
+
+.lightbox-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3.5px solid rgba(0, 123, 167, 0.2);
+    border-top-color: #007ba7;
+    border-radius: 50%;
+    animation: lbSpin 0.75s linear infinite;
+}
+
+@keyframes lbSpin {
+    to { transform: rotate(360deg); }
+}
+
+.lightbox-fallback-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 24px;
 }
 
 .lightbox-img {
@@ -1517,8 +1559,17 @@ html, body {
             <span id="lightboxTitle" class="lightbox-title">Point Landmark Photo</span>
             <button class="lightbox-close-btn" onclick="closePhotoModal()" title="Close (Esc)">✕</button>
         </div>
-        <div class="lightbox-img-wrap">
-            <img id="lightboxImg" class="lightbox-img" src="" alt="Enlarged point anatomy photograph" />
+        <div class="lightbox-img-wrap" id="lightboxImgWrap">
+            <div id="lightboxLoading" class="lightbox-spinner-wrap">
+                <div class="lightbox-spinner"></div>
+                <span style="font-size:0.88rem;color:var(--text-secondary);font-weight:600;">Loading high-resolution anatomical photo...</span>
+            </div>
+            <img id="lightboxImg" class="lightbox-img" src="" alt="Enlarged point anatomy photograph" style="display:none;" />
+            <div id="lightboxFallback" class="lightbox-fallback-box" style="display:none;">
+                <span style="font-size:2rem;margin-bottom:8px;">📍</span>
+                <strong id="lightboxFallbackTitle" style="font-size:1.05rem;color:var(--text-primary);margin-bottom:6px;">Anatomical Landmark</strong>
+                <p id="lightboxFallbackDesc" style="font-size:0.85rem;color:var(--text-secondary);max-width:440px;line-height:1.5;margin:0;"></p>
+            </div>
         </div>
         <div class="lightbox-footer">
             <span>📍 Clinical Anatomical Landmark & Needling Verification</span>
@@ -1795,25 +1846,118 @@ function toggleTheme() {
 }
 
 // Photo Lightbox Handlers
-window.openPhotoModal = function(imgSrc, title, fallbackSrc) {
-    if (!imgSrc && !fallbackSrc) return;
-    let targetSrc = imgSrc;
-    if (!targetSrc || targetSrc.includes('/app/static/')) {
-        targetSrc = fallbackSrc || imgSrc;
+window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
+    let pt = null;
+    let title = 'Point Landmark Photo';
+    let candidates = [];
+
+    // Case A: arg1 is a point code (e.g. 'LU-1')
+    if (typeof arg1 === 'string' && typeof DATA !== 'undefined' && DATA.points && DATA.points[arg1]) {
+        pt = DATA.points[arg1];
+        title = `${pt.code} ${pt.pinyin} (${pt.hanzi}) — Anatomical Landmark`;
+        candidates = [
+            pt.cdnImage,
+            pt.githubImage,
+            pt.image,
+            pt.remoteImage
+        ].filter(Boolean);
+    } else {
+        // Case B: direct URL passed (backwards compatibility)
+        const imgSrc = arg1;
+        title = typeof arg2 === 'string' ? arg2 : 'Point Landmark Photo';
+        const fallbackSrc = arg3;
+        candidates = [imgSrc, fallbackSrc].filter(Boolean);
     }
-    lightboxImg.onerror = function() {
-        if (fallbackSrc && this.src !== fallbackSrc) {
-            this.src = fallbackSrc;
+
+    if (candidates.length === 0) return;
+
+    lightboxTitle.innerText = title;
+
+    // Reset UI elements
+    const lightboxLoading = document.getElementById('lightboxLoading');
+    const lightboxFallback = document.getElementById('lightboxFallback');
+    if (lightboxLoading) lightboxLoading.style.display = 'flex';
+    if (lightboxFallback) lightboxFallback.style.display = 'none';
+    lightboxImg.style.display = 'none';
+
+    // Position dialog in user's current viewport
+    const dialog = photoLightboxModal.querySelector('.lightbox-dialog');
+    const evt = (arg2 && typeof arg2 === 'object' && arg2.target) ? arg2 : (clickEvent || null);
+    let scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+    if (evt && evt.target) {
+        scrollY += evt.target.getBoundingClientRect().top;
+    } else {
+        const ptCard = document.querySelector('.point-photo-card');
+        if (ptCard) {
+            scrollY += ptCard.getBoundingClientRect().top;
         }
-    };
-    lightboxImg.src = targetSrc;
-    lightboxTitle.innerText = title || 'Point Landmark Photo';
+    }
+    if (dialog) {
+        dialog.style.marginTop = Math.max(20, scrollY - 200) + 'px';
+        setTimeout(() => {
+            dialog.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 40);
+    }
+
     photoLightboxModal.style.display = 'flex';
+
+    // Sequential cascade through CDN, GitHub raw, and fallbacks
+    let candidateIdx = 0;
+    function tryLoadNextCandidate() {
+        if (candidateIdx < candidates.length) {
+            const nextUrl = candidates[candidateIdx++];
+            lightboxImg.src = nextUrl;
+        } else {
+            // All candidates failed
+            if (lightboxLoading) lightboxLoading.style.display = 'none';
+            lightboxImg.style.display = 'none';
+            if (lightboxFallback) {
+                lightboxFallback.style.display = 'flex';
+                const fTitle = document.getElementById('lightboxFallbackTitle');
+                const fDesc = document.getElementById('lightboxFallbackDesc');
+                if (fTitle) fTitle.innerText = pt ? `${pt.code} · ${pt.pinyin} (${pt.hanzi})` : 'Point Landmark Photography';
+                if (fDesc) fDesc.innerText = pt ? `Anatomical photograph offline. Refer to ${pt.region} landmark palpation steps on the right panel.` : 'Anatomical photo could not be loaded across CDNs.';
+            }
+        }
+    }
+
+    lightboxImg.onload = function() {
+        if (lightboxLoading) lightboxLoading.style.display = 'none';
+        if (lightboxFallback) lightboxFallback.style.display = 'none';
+        lightboxImg.style.display = 'block';
+    };
+
+    lightboxImg.onerror = function() {
+        tryLoadNextCandidate();
+    };
+
+    tryLoadNextCandidate();
 };
 
 window.closePhotoModal = function(e) {
     photoLightboxModal.style.display = 'none';
     lightboxImg.src = '';
+    const lightboxLoading = document.getElementById('lightboxLoading');
+    const lightboxFallback = document.getElementById('lightboxFallback');
+    if (lightboxLoading) lightboxLoading.style.display = 'none';
+    if (lightboxFallback) lightboxFallback.style.display = 'none';
+    lightboxImg.style.display = 'none';
+    const dialog = photoLightboxModal.querySelector('.lightbox-dialog');
+    if (dialog) dialog.style.marginTop = '20px';
+};
+
+window.handleImgFallback = function(imgEl, ghSrc, localSrc, remoteSrc) {
+    if (ghSrc && imgEl.src !== ghSrc) {
+        imgEl.src = ghSrc;
+    } else if (localSrc && imgEl.src !== localSrc && !imgEl.src.includes(localSrc)) {
+        imgEl.src = localSrc;
+    } else if (remoteSrc && imgEl.src !== remoteSrc) {
+        imgEl.src = remoteSrc;
+    } else {
+        if (imgEl.parentElement && imgEl.parentElement.classList.contains('pt-thumb-box')) {
+            imgEl.parentElement.style.display = 'none';
+        }
+    }
 };
 
 // Guide Modal Handlers
@@ -2219,7 +2363,7 @@ function renderMeridianPoints(mId) {
                 <div class="point-row-left">
                     ${pt.hasImage ? `
                     <div class="pt-thumb-box">
-                        <img class="pt-thumb-img" src="${pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="this.onerror=null; this.src='${pt.remoteImage}'; this.onerror=function(){this.parentElement.style.display='none';}; syncHeight();" />
+                        <img class="pt-thumb-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
                     </div>
                     ` : `
                     <div class="point-code-block">${pt.code}</div>
@@ -2314,8 +2458,8 @@ function renderPointDetail(ptCode) {
                 <!-- Clinical Point Location Photography -->
                 ${pt.hasImage ? `
                 <div class="point-photo-card">
-                    <div class="point-photo-wrapper" onclick="openPhotoModal('${pt.remoteImage}', '${pt.code} ${pt.pinyin} (${pt.hanzi}) — Anatomical Landmark', '${pt.remoteImage}')">
-                        <img class="point-photo-img" src="${pt.image}" alt="${pt.code} ${pt.pinyin} location photo" loading="eager" onload="syncHeight()" onerror="this.onerror=null; this.src='${pt.remoteImage}'; this.onerror=function(){this.parentElement.parentElement.style.display='none';}; syncHeight();" />
+                    <div class="point-photo-wrapper" onclick="openPhotoModal('${pt.code}', event)">
+                        <img class="point-photo-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code} ${pt.pinyin} location photo" loading="eager" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
                         <div class="point-photo-overlay">
                             <span>🔍 Click to zoom</span>
                         </div>
@@ -2528,7 +2672,7 @@ function renderSearchResults() {
             <div class="search-card" onclick="openPoint('${pt.code}')">
                 ${pt.hasImage ? `
                 <div class="pt-thumb-box" style="width:52px;height:52px;">
-                    <img class="pt-thumb-img" src="${pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="this.onerror=null; this.src='${pt.remoteImage}'; this.onerror=function(){this.parentElement.style.display='none';}; syncHeight();" />
+                    <img class="pt-thumb-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
                 </div>
                 ` : ''}
                 <div class="search-card-main">
