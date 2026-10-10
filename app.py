@@ -1434,18 +1434,23 @@ elif nav_choice == "Flashcards":
             # -------------------------------------------------------------
             # Click-to-Flip 3D Flashcard Component
             # -------------------------------------------------------------
+            def _clean_fc_text(txt: str) -> str:
+                if not txt:
+                    return ""
+                return txt.replace("\r\n", "\n").replace("\n", "<br/>")
+
             bilingual_title = format_point_bilingual(current_card['title'])
-            bilingual_front = format_point_bilingual(current_card['front'])
-            bilingual_back = format_point_bilingual(current_card['back'])
-            bilingual_variations = format_point_bilingual(current_card.get('variations', ''))
-            bilingual_consensus = format_point_bilingual(current_card.get('consensus', ''))
+            bilingual_front = _clean_fc_text(format_point_bilingual(current_card['front']))
+            bilingual_back = _clean_fc_text(format_point_bilingual(current_card['back']))
+            bilingual_variations = _clean_fc_text(format_point_bilingual(current_card.get('variations', '')))
+            bilingual_consensus = _clean_fc_text(format_point_bilingual(current_card.get('consensus', '')))
 
             variations_html = ""
             if bilingual_variations:
                 variations_html = f"""
-                <div class="variation-callout" style="margin-top: 12px; margin-bottom: 6px;">
+                <div class="variation-callout" style="margin-top: 14px; margin-bottom: 6px;">
                     <strong style="display: block; margin-bottom: 4px;">⚠️ Textbook Variations & Discrepancies:</strong>
-                    <div style="white-space: pre-line; line-height: 1.5;">{bilingual_variations}</div>
+                    <div style="line-height: 1.5;">{bilingual_variations}</div>
                 </div>
                 """
 
@@ -1469,8 +1474,8 @@ elif nav_choice == "Flashcards":
                                 <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #faf6f0; color: #8c5e35; border: 1px solid #e8ded2;">{badge_text}</span>
                             </div>
                         </div>
-                        <div style="font-size: 1.1rem; line-height: 1.6; min-height: 80px;">
-                            <strong>Question:</strong><br>{bilingual_front}
+                        <div style="font-size: 1.05rem; line-height: 1.6; min-height: 70px;">
+                            <strong>Question:</strong><br/>{bilingual_front}
                         </div>
                         <div style="text-align: center; margin-top: 18px; font-size: 0.88rem; color: #007ba7; font-weight: 700; padding: 8px 12px; background: rgba(0, 123, 167, 0.08); border-radius: 8px; border: 1px dashed rgba(0, 123, 167, 0.35);">
                             👆 Click or tap card to reveal answer 🔄
@@ -1485,8 +1490,8 @@ elif nav_choice == "Flashcards":
                                 <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #eef0fb; color: #484eb2; font-weight: 700; border: 1px solid #dcdff9;">Answer Revealed</span>
                             </div>
                         </div>
-                        <div style="font-size: 1.05rem; line-height: 1.6; white-space: pre-line; margin-bottom: 8px;">
-                            <strong>Answer:</strong><br>{bilingual_back}
+                        <div style="font-size: 1.02rem; line-height: 1.6; margin-bottom: 8px;">
+                            <strong>Answer:</strong><br/>{bilingual_back}
                         </div>
                         {variations_html}
                         {consensus_html}
@@ -1497,7 +1502,8 @@ elif nav_choice == "Flashcards":
                 </summary>
             </details>
             """
-            st.markdown(card_html, unsafe_allow_html=True)
+            clean_card_html = "\n".join(line.strip() for line in card_html.splitlines() if line.strip())
+            st.markdown(clean_card_html, unsafe_allow_html=True)
 
             # Retention Rating Buttons
             st.write("")
