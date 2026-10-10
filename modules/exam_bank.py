@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""TCM Practice Exam Module (300 Question Bank).
+"""TCM Practice Exam Module (800+ Question Bank: Pan-Canadian CARB-TCMPA & NCCAOM).
 
 Delivers authentic multiple-choice board examination simulation sessions (10 questions at a time)
-spanning Easy, Medium, and Hard difficulty tiers across all major acupuncture domains:
+spanning Easy, Medium, and Hard difficulty tiers across all major acupuncture and herbal domains:
+- Pan-Canadian CARB-TCMPA Clinical Case Studies & Herbal Formulations
 - Point Locations & Anatomy
 - Point Actions & Indications
 - Needling Safety & Precautions
@@ -26,7 +27,7 @@ _CACHED_QUESTIONS: Optional[List[Dict[str, Any]]] = None
 
 
 def load_all_questions() -> List[Dict[str, Any]]:
-    """Load all 300 questions from data/exam_questions.json with in-memory caching."""
+    """Load all questions from data/exam_questions.json with in-memory caching."""
     global _CACHED_QUESTIONS
     if _CACHED_QUESTIONS is not None:
         return _CACHED_QUESTIONS
@@ -43,19 +44,23 @@ def load_all_questions() -> List[Dict[str, Any]]:
 
 
 def get_bank_stats() -> Dict[str, Any]:
-    """Return summary statistics of the 300-question exam bank."""
+    """Return summary statistics of the 800+ question exam bank."""
     questions = load_all_questions()
     categories = {}
     difficulties = {}
+    exams = {}
     for q in questions:
         cat = q.get("category", "General")
         diff = q.get("difficulty", "Medium")
+        exam = q.get("exam", "NCCAOM & National Domains")
         categories[cat] = categories.get(cat, 0) + 1
         difficulties[diff] = difficulties.get(diff, 0) + 1
+        exams[exam] = exams.get(exam, 0) + 1
     return {
         "total": len(questions),
         "categories": categories,
-        "difficulties": difficulties
+        "difficulties": difficulties,
+        "exams": exams
     }
 
 
@@ -63,14 +68,18 @@ def sample_exam_questions(
     count: int = 10,
     difficulty: Optional[str] = None,
     category: Optional[str] = None,
+    exam: Optional[str] = None,
     seed: Optional[int] = None
 ) -> List[Dict[str, Any]]:
-    """Sample a batch of N questions matching the desired difficulty and category."""
+    """Sample a batch of N questions matching the desired board exam, difficulty, and category."""
     questions = load_all_questions()
     if not questions:
         return []
 
     filtered = questions
+    if exam and exam != "All Exam Boards (Pan-Canadian & NCCAOM)":
+        filtered = [q for q in filtered if q.get("exam", "NCCAOM & National Domains") == exam]
+
     if difficulty and difficulty != "All Difficulties (Mixed)":
         filtered = [q for q in filtered if q.get("difficulty") == difficulty]
 
@@ -200,21 +209,32 @@ def render_practice_exam_tab():
     st.markdown("""
     <div style="background: #0f172a; border: 1px solid rgba(255, 255, 255, 0.12); border-left: 5px solid #007ba7; border-radius: 12px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);">
         <h2 style="color: #ffffff !important; font-size: 1.6rem; font-weight: 800; margin: 0 0 6px 0; letter-spacing: -0.01em;">
-            NCCAOM Board Practice Exam Simulator
+            Pan-Canadian & NCCAOM Board Exam Simulator
         </h2>
         <p style="color: #cbd5e1 !important; font-size: 0.95rem; margin: 0;">
-            300 authentic board-style multiple choice questions. Complete 10 questions at a time with instant scoring and textbook explanations.
+            800+ authentic board-style multiple choice questions spanning Pan-Canadian CARB-TCMPA clinical cases and NCCAOM core domains. Complete 10 questions at a time with instant grading and textbook explanations.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
     stats = get_bank_stats()
-    all_categories = ["All Topics"] + sorted(list(stats["categories"].keys()))
+    exam_boards = [
+        "All Exam Boards (Pan-Canadian & NCCAOM)",
+        "Pan-Canadian Board Exam",
+        "NCCAOM & National Domains"
+    ]
     difficulties = ["All Difficulties (Mixed)", "Easy", "Medium", "Hard"]
 
     # Filter & Session Controls Bar
     with st.container():
-        col_diff, col_cat, col_btn = st.columns([1.2, 1.8, 1.2], vertical_alignment="bottom")
+        col_exam, col_diff, col_cat, col_btn = st.columns([1.3, 1.0, 1.4, 1.1], vertical_alignment="bottom")
+        with col_exam:
+            sel_exam = st.selectbox(
+                "Exam Board",
+                options=exam_boards,
+                index=0,
+                key="exam_board_select"
+            )
         with col_diff:
             sel_diff = st.selectbox(
                 "Difficulty Tier",
@@ -223,6 +243,14 @@ def render_practice_exam_tab():
                 key="exam_diff_select"
             )
         with col_cat:
+            all_qs = load_all_questions()
+            if sel_exam == "Pan-Canadian Board Exam":
+                cat_pool = sorted(list(set(q.get("category", "") for q in all_qs if q.get("exam") == "Pan-Canadian Board Exam")))
+            elif sel_exam == "NCCAOM & National Domains":
+                cat_pool = sorted(list(set(q.get("category", "") for q in all_qs if q.get("exam") != "Pan-Canadian Board Exam")))
+            else:
+                cat_pool = sorted(list(stats["categories"].keys()))
+            all_categories = ["All Topics"] + cat_pool
             sel_cat = st.selectbox(
                 "Clinical Domain",
                 options=all_categories,
@@ -235,19 +263,38 @@ def render_practice_exam_tab():
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,
-                    category=sel_cat
+                    category=sel_cat,
+                    exam=sel_exam
                 )
                 st.session_state.exam_submitted = False
                 st.session_state.exam_user_answers = {}
                 st.session_state.exam_seed = random.randint(1, 999999)
+                st.session_state.exam_last_filters = (sel_exam, sel_diff, sel_cat)
                 st.rerun()
+
+    # If filters changed, auto-sample new batch matching active filters
+    active_filters = (sel_exam, sel_diff, sel_cat)
+    if "exam_last_filters" in st.session_state and st.session_state.exam_last_filters != active_filters:
+        st.session_state.exam_last_filters = active_filters
+        st.session_state.current_exam_questions = sample_exam_questions(
+            count=10,
+            difficulty=sel_diff,
+            category=sel_cat,
+            exam=sel_exam
+        )
+        st.session_state.exam_submitted = False
+        st.session_state.exam_user_answers = {}
+        st.session_state.exam_seed = random.randint(1, 999999)
+    elif "exam_last_filters" not in st.session_state:
+        st.session_state.exam_last_filters = active_filters
 
     # Initialize 10-question session in session_state if not present
     if "current_exam_questions" not in st.session_state or not st.session_state.current_exam_questions:
         st.session_state.current_exam_questions = sample_exam_questions(
             count=10,
             difficulty=sel_diff,
-            category=sel_cat
+            category=sel_cat,
+            exam=sel_exam
         )
         st.session_state.exam_submitted = False
         st.session_state.exam_user_answers = {}
@@ -262,13 +309,16 @@ def render_practice_exam_tab():
     else:
         session_badge = "📊 Exam Results & Clinical Review — 10 Questions Evaluated"
 
+    total_pan = stats.get('exams', {}).get('Pan-Canadian Board Exam', 0)
+    total_nccaom = stats.get('exams', {}).get('NCCAOM & National Domains', 0)
+
     st.markdown(f"""
-    <div style="display: flex; justify-content: space-between; align-items: center; background: #0f172a; border: 1.5px solid #007ba7; border-radius: 10px; padding: 12px 18px; margin: 16px 0 20px 0;">
+    <div style="display: flex; justify-content: space-between; align-items: center; background: #0f172a; border: 1.5px solid #007ba7; border-radius: 10px; padding: 12px 18px; margin: 16px 0 20px 0; flex-wrap: wrap; gap: 8px;">
         <div style="font-size: 0.92rem; font-weight: 700; color: #ffffff !important;">
             {session_badge}
         </div>
         <div style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0 !important; font-family: ui-monospace, monospace;">
-            Question Pool: {stats['total']} Total Questions ({stats['difficulties'].get('Easy', 0)} Easy · {stats['difficulties'].get('Medium', 0)} Medium · {stats['difficulties'].get('Hard', 0)} Hard)
+            Question Pool: {stats['total']} Total ({total_pan} Pan-Canadian · {total_nccaom} NCCAOM)
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -285,10 +335,13 @@ def render_practice_exam_tab():
 
                 st.markdown(f"""
                 <div style="background: #111827; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 12px 12px 0 0; padding: 16px 20px 14px 20px; margin-top: 18px;">
-                    <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
+                    <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
                         <span style="font-weight: 800; font-size: 0.95rem; color: #38bdf8;">Question {idx} of 10</span>
                         <span style="background: {diff_bg_color}; color: {diff_badge_color}; font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">
                             {q['difficulty']}
+                        </span>
+                        <span style="background: rgba(14, 165, 233, 0.2); color: #38bdf8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(14, 165, 233, 0.3);">
+                            {q.get('exam', 'Board Exam')}
                         </span>
                         <span style="background: rgba(72, 78, 178, 0.35); color: #c7d2fe; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(72, 78, 178, 0.4);">
                             {q['category']}
@@ -342,7 +395,7 @@ def render_practice_exam_tab():
         passed = percent >= 70
 
         status_color = "#10b981" if passed else "#ef4444"
-        verdict_text = "PASS — NCCAOM Standard Met (≥ 70%)" if passed else "NEEDS REVIEW — Standard is ≥ 70%"
+        verdict_text = "PASS — Board Standard Met (≥ 70%)" if passed else "NEEDS REVIEW — Standard is ≥ 70%"
 
         # Score Summary Card
         st.markdown(f"""
@@ -366,7 +419,8 @@ def render_practice_exam_tab():
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,
-                    category=sel_cat
+                    category=sel_cat,
+                    exam=sel_exam
                 )
                 st.session_state.exam_submitted = False
                 st.session_state.exam_user_answers = {}
@@ -399,10 +453,11 @@ def render_practice_exam_tab():
             banner_border = "#10b981" if is_correct else "#ef4444"
             icon = "✅ Correct" if is_correct else "❌ Incorrect"
 
-            with st.expander(f"Question {idx}: {icon} — {q['question'][:75]}...", expanded=not is_correct):
+            exam_tag = q.get('exam', 'Board Exam')
+            with st.expander(f"Question {idx}: {icon} — [{exam_tag}] {q['question'][:65]}...", expanded=not is_correct):
                 st.markdown(f"""
                 <div style="color: #ffffff !important; font-size: 1.02rem; font-weight: 600; margin-bottom: 10px;">
-                    <span style="color: #38bdf8; font-weight: 800;">Question {idx}:</span> {q['question']}
+                    <span style="color: #38bdf8; font-weight: 800;">Question {idx} ({exam_tag} · {q['category']}):</span> {q['question']}
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -429,7 +484,7 @@ def render_practice_exam_tab():
                 st.markdown(f"""
                 <div style="background: rgba(0, 0, 0, 0.4); border-left: 4px solid {banner_border}; padding: 14px 18px; border-radius: 6px; margin: 12px 0;">
                     <div style="font-weight: 800; font-size: 0.82rem; text-transform: uppercase; color: {banner_border}; margin-bottom: 6px; letter-spacing: 0.05em;">
-                        Textbook Rationale (CAM / Deadman / Maciocia)
+                        Official Board Rationale & Clinical Reference
                     </div>
                     <div style="font-size: 0.95rem; line-height: 1.6; color: #ffffff !important;">
                         {q['explanation']}
@@ -445,7 +500,8 @@ def render_practice_exam_tab():
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,
-                    category=sel_cat
+                    category=sel_cat,
+                    exam=sel_exam
                 )
                 st.session_state.exam_submitted = False
                 st.session_state.exam_user_answers = {}
