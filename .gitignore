@@ -42,6 +42,7 @@ desktop.ini
 *.log
 *.lnk
 *.db-journal
+push_to_github.bat
 
 # Heavy raw textbook PDFs (already pre-indexed in data/vector_store)
 materials/**/*.pdf
