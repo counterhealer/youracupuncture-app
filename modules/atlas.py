@@ -344,6 +344,36 @@ html, body {
     color: var(--accent-blue);
 }
 
+/* Floating Mobile Quick Back Button */
+.mobile-float-back-btn {
+    display: none;
+    position: fixed;
+    bottom: 24px;
+    left: 20px;
+    z-index: 1000;
+    background: var(--accent-blue);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 9999px;
+    padding: 10px 18px;
+    font-size: 0.88rem;
+    font-weight: 800;
+    box-shadow: 0 4px 18px rgba(0, 123, 167, 0.45);
+    cursor: pointer;
+    align-items: center;
+    gap: 6px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.15s ease, opacity 0.2s ease;
+}
+.mobile-float-back-btn:active {
+    transform: scale(0.95);
+}
+@media (max-width: 860px) {
+    .mobile-float-back-btn.visible {
+        display: inline-flex;
+    }
+}
+
 /* Content Area */
 .content-area {
     width: 100%;
@@ -1472,6 +1502,11 @@ html, body {
     <main class="content-area" id="mainContentArea">
         <!-- Rendered dynamically by JavaScript -->
     </main>
+
+    <!-- Floating Mobile Quick Back Button -->
+    <button id="atlasFloatBackBtn" class="mobile-float-back-btn" onclick="handleAtlasBack()" title="Back">
+        <span style="font-size: 1.1rem; line-height: 1;">←</span> Back
+    </button>
 </div>
 
 <!-- Photo Lightbox Modal -->
@@ -1815,16 +1850,19 @@ searchInput.addEventListener('input', (e) => {
     render();
 });
 
-function clearSearch() {
+function clearSearch(pushHistory = true) {
     searchInput.value = '';
     searchClearBtn.style.display = 'none';
     appState.searchQuery = '';
     if (appState.activePointCode) {
         appState.view = 'point';
+        if (pushHistory) pushAtlasHistory({ view: 'point', pointCode: appState.activePointCode }, 'point=' + appState.activePointCode);
     } else if (appState.activeMeridianId) {
         appState.view = 'meridian';
+        if (pushHistory) pushAtlasHistory({ view: 'meridian', meridianId: appState.activeMeridianId }, 'meridian=' + appState.activeMeridianId);
     } else {
         appState.view = 'hub';
+        if (pushHistory) pushAtlasHistory({ view: 'hub' }, 'hub');
     }
     render();
 }
@@ -1853,54 +1891,167 @@ function setSpecial(specType, btn) {
     render();
 }
 
+// ------------------------------------------------------------------
+// BROWSER & MOBILE BACK BUTTON / HISTORY STATE INTEGRATION
+// ------------------------------------------------------------------
+let isNavigatingHistory = false;
+
+function pushAtlasHistory(state, hashStr) {
+    if (isNavigatingHistory) return;
+    const hash = hashStr ? '#' + hashStr : '';
+    try {
+        window.history.pushState(state, '', hash);
+    } catch (e) {}
+    try {
+        if (window.parent && window.parent !== window && window.parent.location.origin === window.location.origin) {
+            window.parent.history.pushState(state, '', hash);
+        }
+    } catch (e) {}
+}
+
+function replaceAtlasHistory(state, hashStr) {
+    if (isNavigatingHistory) return;
+    const hash = hashStr ? '#' + hashStr : '';
+    try {
+        window.history.replaceState(state, '', hash);
+    } catch (e) {}
+    try {
+        if (window.parent && window.parent !== window && window.parent.location.origin === window.location.origin) {
+            window.parent.history.replaceState(state, '', hash);
+        }
+    } catch (e) {}
+}
+
+function handlePopState(e) {
+    isNavigatingHistory = true;
+    try {
+        let hash = '';
+        try {
+            hash = window.location.hash || (window.parent && window.parent.location.hash) || '';
+        } catch (err) {}
+
+        let state = e && e.state ? e.state : null;
+
+        if (!state && hash) {
+            if (hash.startsWith('#point=')) {
+                state = { view: 'point', pointCode: decodeURIComponent(hash.substring(7)) };
+            } else if (hash.startsWith('#meridian=')) {
+                state = { view: 'meridian', meridianId: decodeURIComponent(hash.substring(10)) };
+            } else if (hash.startsWith('#search=')) {
+                state = { view: 'search', searchQuery: decodeURIComponent(hash.substring(8)) };
+            } else if (hash === '#hub' || hash === '#') {
+                state = { view: 'hub' };
+            }
+        }
+
+        if (state) {
+            if (state.view === 'point' && state.pointCode) {
+                openPoint(state.pointCode, false);
+            } else if (state.view === 'meridian' && state.meridianId) {
+                openMeridian(state.meridianId, false);
+            } else if (state.view === 'search' && state.searchQuery) {
+                appState.searchQuery = state.searchQuery;
+                appState.view = 'search';
+                render();
+            } else {
+                closeMeridian(false);
+            }
+        } else {
+            if (appState.view === 'point') {
+                backToMeridian(false);
+            } else if (appState.view === 'meridian' || appState.view === 'search') {
+                closeMeridian(false);
+            }
+        }
+    } finally {
+        setTimeout(() => { isNavigatingHistory = false; }, 60);
+    }
+}
+
+window.addEventListener('popstate', handlePopState);
+window.addEventListener('hashchange', handlePopState);
+try {
+    if (window.parent && window.parent !== window) {
+        window.parent.addEventListener('popstate', handlePopState);
+        window.parent.addEventListener('hashchange', handlePopState);
+    }
+} catch (e) {}
+
 // Navigation Actions
-window.openMeridian = function(mId) {
+window.openMeridian = function(mId, pushHistory = true) {
     appState.view = 'meridian';
     appState.activeMeridianId = mId;
     appState.activePointCode = null;
-    clearSearch();
+    clearSearch(false);
     prepareViewTransition();
     render();
+    if (pushHistory) {
+        pushAtlasHistory({ view: 'meridian', meridianId: mId }, 'meridian=' + mId);
+    }
     setTimeout(scrollToAtlasTop, 30);
     setTimeout(scrollToAtlasTop, 120);
 };
 
-window.closeMeridian = function() {
+window.closeMeridian = function(pushHistory = true) {
     appState.view = 'hub';
     appState.activeMeridianId = null;
     appState.activePointCode = null;
-    clearSearch();
+    clearSearch(false);
     prepareViewTransition();
     render();
+    if (pushHistory) {
+        pushAtlasHistory({ view: 'hub' }, 'hub');
+    }
     setTimeout(scrollToAtlasTop, 30);
     setTimeout(scrollToAtlasTop, 120);
 };
 
-window.openPoint = function(ptCode) {
+window.openPoint = function(ptCode, pushHistory = true) {
     appState.view = 'point';
     appState.activePointCode = ptCode;
     const pt = DATA.points[ptCode];
     if (pt) {
         appState.activeMeridianId = pt.channelId;
     }
-    clearSearch();
+    clearSearch(false);
+    prepareViewTransition();
+    render();
+    if (pushHistory) {
+        pushAtlasHistory({ view: 'point', pointCode: ptCode, meridianId: pt ? pt.channelId : null }, 'point=' + ptCode);
+    }
+    setTimeout(scrollToAtlasTop, 30);
+    setTimeout(scrollToAtlasTop, 120);
+};
+
+window.backToMeridian = function(pushHistory = true) {
+    if (appState.activeMeridianId) {
+        appState.view = 'meridian';
+        appState.activePointCode = null;
+        if (pushHistory) {
+            pushAtlasHistory({ view: 'meridian', meridianId: appState.activeMeridianId }, 'meridian=' + appState.activeMeridianId);
+        }
+    } else {
+        appState.view = 'hub';
+        if (pushHistory) {
+            pushAtlasHistory({ view: 'hub' }, 'hub');
+        }
+    }
     prepareViewTransition();
     render();
     setTimeout(scrollToAtlasTop, 30);
     setTimeout(scrollToAtlasTop, 120);
 };
 
-window.backToMeridian = function() {
-    if (appState.activeMeridianId) {
-        appState.view = 'meridian';
-        appState.activePointCode = null;
+window.handleAtlasBack = function() {
+    if (appState.view === 'point') {
+        backToMeridian(true);
+    } else if (appState.view === 'meridian') {
+        closeMeridian(true);
+    } else if (appState.view === 'search') {
+        clearSearch(true);
     } else {
-        appState.view = 'hub';
+        closeMeridian(true);
     }
-    prepareViewTransition();
-    render();
-    setTimeout(scrollToAtlasTop, 30);
-    setTimeout(scrollToAtlasTop, 120);
 };
 
 window.switchTab = function(tabId) {
@@ -1929,6 +2080,17 @@ function render() {
     } else {
         renderHubMeridians();
     }
+
+    // Toggle floating mobile back button visibility
+    const floatBackBtn = document.getElementById('atlasFloatBackBtn');
+    if (floatBackBtn) {
+        if (appState.view !== 'hub') {
+            floatBackBtn.classList.add('visible');
+        } else {
+            floatBackBtn.classList.remove('visible');
+        }
+    }
+
     syncHeight();
     setTimeout(syncHeight, 100);
     setTimeout(syncHeight, 350);
@@ -2379,8 +2541,39 @@ function renderSearchResults() {
     mainContentArea.innerHTML = html;
 }
 
-// Initial Mount
-render();
+// Initial Mount & Deep Link / Browser History Initialization
+function initAtlasRouting() {
+    let initialHash = '';
+    try {
+        initialHash = window.location.hash;
+        if (!initialHash && window.parent && window.parent !== window && window.parent.location.origin === window.location.origin) {
+            initialHash = window.parent.location.hash;
+        }
+    } catch (e) {}
+
+    if (initialHash) {
+        if (initialHash.startsWith('#point=')) {
+            const code = decodeURIComponent(initialHash.substring(7));
+            if (DATA.points[code]) {
+                openPoint(code, false);
+                replaceAtlasHistory({ view: 'point', pointCode: code, meridianId: DATA.points[code].channelId }, 'point=' + code);
+                return;
+            }
+        } else if (initialHash.startsWith('#meridian=')) {
+            const mId = decodeURIComponent(initialHash.substring(10));
+            if (DATA.meridians.some(m => m.id === mId)) {
+                openMeridian(mId, false);
+                replaceAtlasHistory({ view: 'meridian', meridianId: mId }, 'meridian=' + mId);
+                return;
+            }
+        }
+    }
+
+    replaceAtlasHistory({ view: 'hub' }, 'hub');
+    render();
+}
+
+initAtlasRouting();
 </script>
 </body>
 </html>"""

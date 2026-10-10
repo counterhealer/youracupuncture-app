@@ -968,6 +968,15 @@ TOOL_TO_PILLAR = {
     "Progress": "⚙️ Progress & Settings"
 }
 
+# Handle browser URL query parameters for browser Back / Forward history & deep links
+query_tool = st.query_params.get("tool")
+if query_tool and query_tool in TOOL_TO_PILLAR:
+    expected_pillar = TOOL_TO_PILLAR[query_tool]
+    expected_sub = query_tool if query_tool != "Acupuncture Atlas" else "Atlas"
+    if st.session_state.get("main_nav_radio") != expected_sub:
+        st.session_state.main_pillar_control = expected_pillar
+        st.session_state[f"sub_nav_{expected_pillar}"] = expected_sub
+
 # Handle cross-tab redirections (from Diagnostics, Pain Map, etc.)
 if "target_nav_tab" in st.session_state and st.session_state.target_nav_tab:
     target = st.session_state.target_nav_tab
@@ -977,6 +986,7 @@ if "target_nav_tab" in st.session_state and st.session_state.target_nav_tab:
         target_sub = target if target != "Acupuncture Atlas" else "Atlas"
         st.session_state.main_pillar_control = target_pillar
         st.session_state[f"sub_nav_{target_pillar}"] = target_sub
+        st.query_params["tool"] = target_sub
 
 # Ensure valid initial pillar state
 if "main_pillar_control" not in st.session_state or st.session_state.main_pillar_control not in PILLARS:
@@ -1052,6 +1062,10 @@ else:
     nav_choice = sub_options[0] if sub_options else "Progress & Settings"
 
 st.session_state.main_nav_radio = nav_choice
+
+# Sync browser URL query parameter for browser Back / Forward history
+if st.query_params.get("tool") != nav_choice:
+    st.query_params["tool"] = nav_choice
 
 # Reset parent window scroll position when switching tabs to eliminate empty gaps
 if "prev_active_nav" not in st.session_state:
