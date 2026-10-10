@@ -1,16 +1,12 @@
 # Web Framework
 streamlit>=1.35.0
 
-# Core LlamaIndex & Connectors (Lean & Fast)
+# Core Knowledge & Vector Indexing
 llama-index-core>=0.10.30
 llama-index-readers-file>=0.1.19
-llama-index-llms-gemini>=0.1.6
-llama-index-embeddings-gemini>=0.1.6
-llama-index-llms-openai>=0.1.15
-llama-index-embeddings-openai>=0.1.7
 google-generativeai>=0.8.0
 
-# Document & PDF Processing (Pure Python)
+# PDF & File Parsing (Pure Python)
 pypdf>=4.0.0
 
 # Utilities

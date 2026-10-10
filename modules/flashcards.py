@@ -345,17 +345,30 @@ Return a JSON object with exactly these keys:
                 except Exception:
                     raw_text = ""
                 if not raw_text:
-                    from llama_index.llms.gemini import Gemini
-                    llm = Gemini(model="models/gemini-1.5-flash", api_key=api_key, temperature=0.3)
-                    raw_text = llm.complete(prompt).text.strip()
+                    try:
+                        import google.generativeai as genai_old
+                        genai_old.configure(api_key=api_key)
+                        model = genai_old.GenerativeModel("gemini-1.5-flash")
+                        raw_text = model.generate_content(prompt).text.strip()
+                    except Exception:
+                        pass
             elif provider == "openai":
-                from llama_index.llms.openai import OpenAI
-                llm = OpenAI(model="gpt-4o-mini", api_key=api_key, temperature=0.3)
-                raw_text = llm.complete(prompt).text.strip()
+                try:
+                    import urllib.request
+                    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+                    payload = json.dumps({
+                        "model": "gpt-4o-mini",
+                        "messages": [{"role": "user", "content": prompt}],
+                        "temperature": 0.3
+                    }).encode("utf-8")
+                    req = urllib.request.Request("https://api.openai.com/v1/chat/completions", data=payload, headers=headers)
+                    with urllib.request.urlopen(req, timeout=15) as resp:
+                        resp_data = json.loads(resp.read().decode("utf-8"))
+                        raw_text = resp_data["choices"][0]["message"]["content"].strip()
+                except Exception:
+                    pass
             else:
-                from llama_index.llms.ollama import Ollama
-                llm = Ollama(model="llama3", request_timeout=60.0)
-                raw_text = llm.complete(prompt).text.strip()
+                raw_text = ""
             if raw_text.startswith("```json"):
                 raw_text = raw_text[7:]
             if raw_text.endswith("```"):
