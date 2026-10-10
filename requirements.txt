@@ -1,22 +1,17 @@
 # Web Framework
 streamlit>=1.35.0
 
-# Core LlamaIndex & Specific Connectors (Pinned to eliminate pip backtracking)
-llama-index-core==0.14.25
-llama-index-readers-file==0.7.0
-llama-index-llms-gemini==0.6.2
-llama-index-embeddings-gemini==0.4.2
-llama-index-llms-openai==0.7.10
-llama-index-embeddings-openai==0.6.0
-llama-index-vector-stores-chroma==0.6.0
-llama-index-llms-ollama==0.11.0
-llama-index-embeddings-ollama==0.10.0
-google-generativeai==0.8.6
+# Core LlamaIndex & Connectors (Lean & Fast)
+llama-index-core>=0.10.30
+llama-index-readers-file>=0.1.19
+llama-index-llms-gemini>=0.1.6
+llama-index-embeddings-gemini>=0.1.6
+llama-index-llms-openai>=0.1.15
+llama-index-embeddings-openai>=0.1.7
+google-generativeai>=0.8.0
 
-# Vector Store & PDF Parsing
-chromadb==1.5.9
-pypdf==6.19.0
-pymupdf==1.28.2
+# Document & PDF Processing (Pure Python)
+pypdf>=4.0.0
 
 # Utilities
 python-dotenv>=1.0.0
