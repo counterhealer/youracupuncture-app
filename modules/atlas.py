@@ -122,7 +122,8 @@ html, body {
     color: var(--text-primary);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
     height: auto !important;
     min-height: 0 !important;
 }
@@ -1587,17 +1588,43 @@ function syncHeight() {
         // Compute exact content height from the wrapper's bounding box
         const rectHeight = Math.ceil(wrapper.getBoundingClientRect().height);
         const targetHeight = Math.max(700, rectHeight + 36);
+        const targetWidth = Math.ceil(wrapper.getBoundingClientRect().width || window.innerWidth || 1200);
 
-        // 1. Direct same-origin iframe styling (allows dynamic collapsing)
+        // 1. Direct same-origin iframe styling (when embedding frame is accessible)
         try {
             if (window.frameElement) {
                 window.frameElement.style.height = targetHeight + 'px';
-                window.frameElement.style.overflow = 'hidden';
+                window.frameElement.style.minHeight = targetHeight + 'px';
                 window.frameElement.height = targetHeight;
             }
         } catch (e) {}
 
-        // 2. Send Streamlit setFrameHeight message via postMessage
+        // 2. Direct parent DOM traversal fallback (if same-origin access is permitted)
+        try {
+            if (window.parent && window.parent !== window && window.parent.document) {
+                const pIframes = window.parent.document.querySelectorAll('iframe.stIFrame, iframe[data-testid="stIFrame"], [data-testid="stCustomComponentV1"] iframe');
+                pIframes.forEach(ifr => {
+                    if (ifr.contentWindow === window) {
+                        ifr.style.height = targetHeight + 'px';
+                        ifr.style.minHeight = targetHeight + 'px';
+                        if (ifr.parentElement) {
+                            ifr.parentElement.style.height = 'auto';
+                        }
+                    }
+                });
+            }
+        } catch (e) {}
+
+        // 3. Post Streamlit st.iframe setSize message (Streamlit 1.35+ st.iframe protocol)
+        try {
+            window.parent.postMessage({
+                type: 'streamlit:iframe:setSize',
+                height: targetHeight,
+                width: targetWidth
+            }, '*');
+        } catch (e) {}
+
+        // 4. Post Streamlit component setFrameHeight message (legacy component support)
         try {
             window.parent.postMessage({
                 isStreamlitMessage: true,
@@ -1615,6 +1642,30 @@ function prepareViewTransition() {
             window.frameElement.style.height = '850px';
         }
     } catch(e) {}
+    try {
+        if (window.parent && window.parent !== window && window.parent.document) {
+            const pIframes = window.parent.document.querySelectorAll('iframe.stIFrame, iframe[data-testid="stIFrame"], [data-testid="stCustomComponentV1"] iframe');
+            pIframes.forEach(ifr => {
+                if (ifr.contentWindow === window) {
+                    ifr.style.height = '850px';
+                }
+            });
+        }
+    } catch (e) {}
+    try {
+        window.parent.postMessage({
+            type: 'streamlit:iframe:setSize',
+            height: 850,
+            width: window.innerWidth || 1200
+        }, '*');
+    } catch (e) {}
+    try {
+        window.parent.postMessage({
+            isStreamlitMessage: true,
+            type: 'streamlit:setFrameHeight',
+            height: 850
+        }, '*');
+    } catch (e) {}
     scrollToAtlasTop();
 }
 

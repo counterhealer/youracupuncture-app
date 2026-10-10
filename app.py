@@ -237,16 +237,22 @@ st.markdown("""
         }
     }
     
-    /* Seamless iframe container for Acupuncture Atlas */
-    div[data-testid="stCustomComponentV1"] {
+    /* Seamless iframe container for Acupuncture Atlas & dynamic embeds */
+    div[data-testid="stCustomComponentV1"],
+    div[data-testid="stIFrame"],
+    div:has(> iframe.stIFrame),
+    div:has(> iframe[data-testid="stIFrame"]) {
         width: 100% !important;
         height: auto !important;
         min-height: 0px !important;
         overflow: visible !important;
     }
-    div[data-testid="stCustomComponentV1"] iframe {
+    div[data-testid="stCustomComponentV1"] iframe,
+    iframe[data-testid="stIFrame"],
+    iframe.stIFrame {
         width: 100% !important;
         border: none !important;
+        display: block !important;
     }
     iframe[height="0"] {
         display: none !important;
@@ -1470,7 +1476,7 @@ elif nav_choice == "Flashcards":
 elif nav_choice == "Atlas":
     # Interactive Acupuncture Atlas Component (Seamlessly Integrated)
     html_atlas = generate_atlas_html()
-    st.iframe(html_atlas, height=1000)
+    st.iframe(html_atlas, height="content")
 
 
 # =============================================================================
@@ -2276,7 +2282,7 @@ elif nav_choice == "Progress & Settings":
 st.write("")
 st.write("")
 st.markdown("""
-<div style="margin-top: 48px; border-top: 1.5px solid rgba(255, 255, 255, 0.1); padding-top: 24px; padding-bottom: 24px;">
+<div class="site-disclaimer-footer" style="clear: both; width: 100%; position: relative; margin-top: 56px; border-top: 1.5px solid rgba(255, 255, 255, 0.1); padding-top: 28px; padding-bottom: 28px;">
     <div style="background: #111827; border: 1px solid rgba(255, 255, 255, 0.1); border-left: 5px solid #007ba7; border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
         <div style="display: flex; align-items: flex-start; gap: 12px;">
             <span style="font-size: 1.5rem; line-height: 1;">⚖️</span>
