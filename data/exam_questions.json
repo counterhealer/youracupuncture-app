@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "What is the standard proportional bone-cun distance between the two nipples (mastoid line)?",
+    "options": [
+      "6 cun",
+      "8 cun",
+      "9 cun",
+      "12 cun"
+    ],
+    "answer": 1,
+    "explanation": "According to standard TCM proportional cun measurements (CAM Chapter 11), the distance between the two nipples across the chest is 8 cun."
+  },
+  {
+    "id": 2,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "What is the proportional cun distance between the sternocostal angle (xiphisternal junction) and the center of the umbilicus?",
+    "options": [
+      "6 cun",
+      "7 cun",
+      "8 cun",
+      "9 cun"
+    ],
+    "answer": 2,
+    "explanation": "The distance between the sternocostal angle and the center of the umbilicus is 8 cun. From the umbilicus to the upper border of the pubic symphysis is 5 cun."
+  },
+  {
+    "id": 3,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "What is the proportional cun distance from the popliteal crease to the tip of the lateral malleolus?",
+    "options": [
+      "14 cun",
+      "15 cun",
+      "16 cun",
+      "18 cun"
+    ],
+    "answer": 2,
+    "explanation": "The distance from the popliteal transverse crease to the tip of the lateral malleolus is 16 cun. (From the medial tibial condyle to the tip of the medial malleolus is 15 cun)."
+  },
+  {
+    "id": 4,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "What is the proportional cun distance from the anterior hairline to the posterior hairline along the midline?",
+    "options": [
+      "10 cun",
+      "12 cun",
+      "14 cun",
+      "8 cun"
+    ],
+    "answer": 1,
+    "explanation": "The distance between the anterior hairline and posterior hairline along the median line of the head is 12 cun."
+  },
+  {
+    "id": 5,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "What is the proportional cun distance from the end of the axillary fold to the transverse cubital crease?",
+    "options": [
+      "8 cun",
+      "9 cun",
+      "10 cun",
+      "12 cun"
+    ],
+    "answer": 1,
+    "explanation": "The distance from the anterior or posterior axillary fold to the cubital crease is 9 cun. The cubital crease to the wrist crease is 12 cun."
+  },
+  {
+    "id": 6,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is ST36 (Zusanli) located relative to the anterior crest of the tibia?",
+    "options": [
+      "1 finger-breadth lateral to the anterior crest of the tibia",
+      "Directly on the tibial crest",
+      "1 cun medial to the tibial crest",
+      "2 finger-breadths posterior to the fibula"
+    ],
+    "answer": 0,
+    "explanation": "ST36 is located 3 cun inferior to ST35 (Dubi), one finger-breadth (middle finger) lateral to the anterior crest of the tibia in the tibialis anterior muscle."
+  },
+  {
+    "id": 7,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is LI4 (Hegu) located on the dorsum of the hand?",
+    "options": [
+      "Between the 2nd and 3rd metacarpal bones",
+      "On the radial side of the index finger nail",
+      "Between the 1st and 2nd metacarpal bones, midpoint of the 2nd metacarpal radial border",
+      "At the anatomical snuffbox"
+    ],
+    "answer": 2,
+    "explanation": "LI4 is on the dorsum of the hand, between the 1st and 2nd metacarpal bones, approximately at the midpoint of the second metacarpal bone on its radial side."
+  },
+  {
+    "id": 8,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Which point is located on the transverse crease of the wrist, in the depression on the radial side of the tendon of m. flexor carpi ulnaris?",
+    "options": [
+      "HT7 (Shenmen)",
+      "PC7 (Daling)",
+      "LU9 (Taiyuan)",
+      "SI5 (Yanggu)"
+    ],
+    "answer": 0,
+    "explanation": "HT7 (Shenmen) is located at the wrist crease, on the radial side of the flexor carpi ulnaris tendon, in the depression at the proximal border of the pisiform bone."
+  },
+  {
+    "id": 9,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is SP6 (Sanyinjiao) located in relation to the medial malleolus?",
+    "options": [
+      "2 cun superior, anterior to the tibia",
+      "3 cun superior to the tip of the medial malleolus, posterior to the medial border of the tibia",
+      "4 cun superior, on the posterior tibial artery",
+      "1 cun inferior to the medial malleolus"
+    ],
+    "answer": 1,
+    "explanation": "SP6 is 3 cun directly superior to the tip of the medial malleolus, in the depression just posterior to the medial border of the tibia."
+  },
+  {
+    "id": 10,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Which point is located in the depression between the medial malleolus and the Achilles tendon?",
+    "options": [
+      "KD3 (Taixi)",
+      "BL60 (Kunlun)",
+      "SP5 (Shangqiu)",
+      "KD6 (Zhaohai)"
+    ],
+    "answer": 0,
+    "explanation": "KD3 (Taixi) is located in the depression between the prominence of the medial malleolus and the calcaneal (Achilles) tendon. BL60 is on the lateral side."
+  },
+  {
+    "id": 11,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is BL40 (Weizhong) located?",
+    "options": [
+      "At the medial end of the popliteal crease",
+      "At the lateral end of the popliteal crease",
+      "At the midpoint of the transverse crease of the popliteal fossa",
+      "2 cun below the popliteal crease"
+    ],
+    "answer": 2,
+    "explanation": "BL40 is located precisely at the midpoint of the transverse crease of the popliteal fossa, between the tendons of biceps femoris and semitendinosus."
+  },
+  {
+    "id": 12,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is PC6 (Neiguan) located relative to the anterior wrist crease?",
+    "options": [
+      "1 cun proximal, between the tendons",
+      "2 cun proximal to the wrist crease, between the tendons of palmaris longus and flexor carpi radialis",
+      "3 cun proximal, on the radial side of flexor carpi radialis",
+      "Directly in the center of the wrist crease"
+    ],
+    "answer": 1,
+    "explanation": "PC6 is 2 cun superior to the transverse crease of the wrist (PC7), between the tendons of m. palmaris longus and m. flexor carpi radialis."
+  },
+  {
+    "id": 13,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is LR3 (Taichong) located on the dorsum of the foot?",
+    "options": [
+      "Between the 2nd and 3rd metatarsal heads",
+      "In the depression distal to the junction of the 1st and 2nd metatarsal bones",
+      "At the medial corner of the big toe nail",
+      "In the web space between the 1st and 2nd toes"
+    ],
+    "answer": 1,
+    "explanation": "LR3 is located on the dorsum of the foot, in the hollow distal to the junction of the bases of the first and second metatarsal bones."
+  },
+  {
+    "id": 14,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Which anatomical landmark is used to locate DU14 (Dazhui)?",
+    "options": [
+      "In the depression below the spinous process of the 7th cervical vertebra (C7)",
+      "Below the spinous process of T1",
+      "Below the spinous process of C2",
+      "At the level of the spines of the scapulae"
+    ],
+    "answer": 0,
+    "explanation": "DU14 (Dazhui) is located below the spinous process of C7 (the vertebra prominens), on the posterior midline."
+  },
+  {
+    "id": 15,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Easy",
+    "question": "Where is GB20 (Fengchi) located?",
+    "options": [
+      "Directly on the midline below the occiput",
+      "In the depression between the upper portion of m. sternocleidomastoideus and m. trapezius",
+      "1 cun superior to the posterior hairline on the midline",
+      "Inferior to the mastoid process anteriorly"
+    ],
+    "answer": 1,
+    "explanation": "GB20 is in the depression between the upper borders of sternocleidomastoid and trapezius muscles, level with DU16 (Fengfu)."
+  },
+  {
+    "id": 16,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "LU7 (Lieque) is located 1.5 cun proximal to the transverse crease of the wrist, in a V-shaped groove between which two tendons?",
+    "options": [
+      "Flexor carpi radialis and palmaris longus",
+      "Abductor pollicis longus and brachioradialis",
+      "Extensor pollicis longus and extensor pollicis brevis",
+      "Pronator teres and supinator"
+    ],
+    "answer": 1,
+    "explanation": "LU7 lies 1.5 cun proximal to the most distal wrist crease, between the tendons of brachioradialis and abductor pollicis longus, superior to the styloid process of the radius."
+  },
+  {
+    "id": 17,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located in the anatomical snuffbox, between the tendons of extensor pollicis longus and extensor pollicis brevis?",
+    "options": [
+      "LU9 (Taiyuan)",
+      "LI5 (Yangxi)",
+      "TE4 (Yangchi)",
+      "SI5 (Yanggu)"
+    ],
+    "answer": 1,
+    "explanation": "LI5 (Yangxi) is located on the radial side of the wrist, in the anatomical snuffbox between the tendons of extensor pollicis brevis and extensor pollicis longus."
+  },
+  {
+    "id": 18,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "SI3 (Houxi) is located on the ulnar border of the hand:",
+    "options": [
+      "Distal to the 5th metacarpophalangeal joint at the junction of red and white skin",
+      "Proximal to the 5th metacarpophalangeal joint, at the end of the transverse crease when a loose fist is made",
+      "At the wrist joint on the ulnar side",
+      "Midpoint of the 5th metacarpal shaft"
+    ],
+    "answer": 1,
+    "explanation": "SI3 is located when a loose fist is made, on the ulnar border of the hand, in the depression just proximal to the head of the fifth metacarpal bone."
+  },
+  {
+    "id": 19,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located on the lateral aspect of the lower leg, in the depression anterior and inferior to the head of the fibula?",
+    "options": [
+      "GB34 (Yanglingquan)",
+      "ST36 (Zusanli)",
+      "BL39 (Weiyang)",
+      "SP9 (Yinlingquan)"
+    ],
+    "answer": 0,
+    "explanation": "GB34 (Yanglingquan) is located in the depression anterior and inferior to the head of the fibula."
+  },
+  {
+    "id": 20,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "SP9 (Yinlingquan) is located on the medial aspect of the lower leg:",
+    "options": [
+      "3 cun above the medial malleolus",
+      "In the depression inferior to the medial condyle of the tibia",
+      "In the center of the popliteal fossa",
+      "5 cun above the medial malleolus"
+    ],
+    "answer": 1,
+    "explanation": "SP9 is located on the medial side of the lower leg, in the depression between the posterior border of the tibia and the gastrocnemius muscle, inferior to the medial condyle of the tibia."
+  },
+  {
+    "id": 21,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "What anatomical structure lies directly beneath BL1 (Jingming)?",
+    "options": [
+      "The parotid gland",
+      "The eyeball and medial rectus muscle within the orbit",
+      "The temporalis muscle",
+      "The facial artery"
+    ],
+    "answer": 1,
+    "explanation": "BL1 is located 0.1 cun superior to the inner canthus. Deep structures include the eyeball, medial rectus muscle, ophthalmic artery/vein, and optic nerve."
+  },
+  {
+    "id": 22,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located 0.5 cun directly above the anterior hairline, on the pupil line?",
+    "options": [
+      "GB14 (Yangbai)",
+      "GB15 (Toulinqi)",
+      "BL2 (Zanzhu)",
+      "ST8 (Touwei)"
+    ],
+    "answer": 1,
+    "explanation": "GB15 (Toulinqi) is directly above the pupil, 0.5 cun inside the anterior hairline, midway between DU24 and ST8. (GB14 is 1 cun above the eyebrow)."
+  },
+  {
+    "id": 23,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is ST8 (Touwei) located relative to the corner of the forehead?",
+    "options": [
+      "0.5 cun within the hairline at the corner of the forehead, 4.5 cun lateral to DU24",
+      "1 cun above the eyebrow",
+      "At the temple in the hairline",
+      "Directly on the midline"
+    ],
+    "answer": 0,
+    "explanation": "ST8 is located at the corner of the forehead, 0.5 cun directly within the hairline and 4.5 cun lateral to the anterior midline (DU24)."
+  },
+  {
+    "id": 24,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located 1.5 cun lateral to the lower border of the spinous process of the 3rd thoracic vertebra (T3)?",
+    "options": [
+      "BL13 (Feishu)",
+      "BL14 (Jueyinshu)",
+      "BL15 (Xinshu)",
+      "BL12 (Fengmen)"
+    ],
+    "answer": 0,
+    "explanation": "BL13 (Feishu) is located 1.5 cun lateral to the lower border of the spinous process of T3. BL14 is at T4, BL15 is at T5, BL12 is at T2."
+  },
+  {
+    "id": 25,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "At which vertebral level is BL23 (Shenshu) located?",
+    "options": [
+      "1.5 cun lateral to the spinous process of L1",
+      "1.5 cun lateral to the spinous process of L2",
+      "1.5 cun lateral to the spinous process of L4",
+      "1.5 cun lateral to the spinous process of S2"
+    ],
+    "answer": 1,
+    "explanation": "BL23 (Shenshu, Back-Shu of the Kidney) is located 1.5 cun lateral to the lower border of the spinous process of the second lumbar vertebra (L2)."
+  },
+  {
+    "id": 26,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "At which vertebral level is BL25 (Dachangshu) located?",
+    "options": [
+      "Lower border of L2",
+      "Lower border of L3",
+      "Lower border of L4",
+      "Lower border of L5"
+    ],
+    "answer": 2,
+    "explanation": "BL25 (Back-Shu of Large Intestine) is located 1.5 cun lateral to the lower border of the spinous process of the fourth lumbar vertebra (L4), level with the iliac crests."
+  },
+  {
+    "id": 27,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "RN12 (Zhongwan) is located on the anterior midline of the abdomen:",
+    "options": [
+      "2 cun above the umbilicus",
+      "3 cun above the umbilicus",
+      "4 cun above the umbilicus",
+      "6 cun above the umbilicus"
+    ],
+    "answer": 2,
+    "explanation": "RN12 is on the anterior median line, 4 cun superior to the umbilicus, midway between the sternocostal angle (8 cun above umbilicus) and the umbilicus."
+  },
+  {
+    "id": 28,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "RN4 (Guanyuan) is located on the anterior midline of the lower abdomen:",
+    "options": [
+      "1.5 cun below the umbilicus",
+      "2 cun below the umbilicus",
+      "3 cun below the umbilicus",
+      "4 cun below the umbilicus"
+    ],
+    "answer": 2,
+    "explanation": "RN4 is 3 cun inferior to the umbilicus (and 2 cun superior to the pubic symphysis). RN6 is 1.5 cun below, RN3 is 4 cun below."
+  },
+  {
+    "id": 29,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is RN17 (Danzhong) located on the anterior midline of the chest?",
+    "options": [
+      "Level with the 2nd intercostal space",
+      "Level with the 3rd intercostal space",
+      "Level with the 4th intercostal space, midway between the nipples in males",
+      "At the sternocostal angle"
+    ],
+    "answer": 2,
+    "explanation": "RN17 is located on the anterior midline of the sternum, level with the fourth intercostal space, midway between the two nipples."
+  },
+  {
+    "id": 30,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "GB21 (Jianjing) is located midway between which two anatomical landmarks?",
+    "options": [
+      "The acromion and the clavicle",
+      "DU14 (spinous process of C7) and the acromion",
+      "The superior angle of the scapula and spine of scapula",
+      "The anterior axillary line and posterior axillary line"
+    ],
+    "answer": 1,
+    "explanation": "GB21 is located on the crest of the trapezius muscle, midway between the spinous process of C7 (DU14) and the lateral border of the acromion."
+  },
+  {
+    "id": 31,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located in the depression between the tip of the mastoid process and the mandibular angle?",
+    "options": [
+      "TE17 (Yifeng)",
+      "GB2 (Tinghui)",
+      "SI19 (Tinggong)",
+      "TE21 (Ermen)"
+    ],
+    "answer": 0,
+    "explanation": "TE17 (Yifeng) is located posterior to the lobule of the ear, in the depression between the mastoid process and the angle of the mandible."
+  },
+  {
+    "id": 32,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is DU20 (Baihui) located on the vertex of the head?",
+    "options": [
+      "5 cun behind the anterior hairline, on the midline connecting the apex of the ears",
+      "7 cun behind the anterior hairline",
+      "3 cun above the glabella",
+      "In the depression between the parietals and occiput"
+    ],
+    "answer": 0,
+    "explanation": "DU20 is on the midline of the head, 5 cun posterior to the anterior hairline (or 7 cun anterior to the posterior hairline), at the intersection with the line connecting the apexes of the ears."
+  },
+  {
+    "id": 33,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is ST25 (Tianshu) located on the abdomen?",
+    "options": [
+      "1 cun lateral to the umbilicus",
+      "2 cun lateral to the center of the umbilicus",
+      "3 cun lateral to the umbilicus",
+      "4 cun lateral to the umbilicus"
+    ],
+    "answer": 1,
+    "explanation": "ST25 (Front-Mu of Large Intestine) is located on the abdomen, 2 cun lateral to the center of the umbilicus."
+  },
+  {
+    "id": 34,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which point is located 3 cun superior to the wrist crease on the lateral border of the radius, on the Lung channel?",
+    "options": [
+      "LU5",
+      "LU6",
+      "LU7",
+      "LU8"
+    ],
+    "answer": 1,
+    "explanation": "Wait: LU6 (Kongzui) is 7 cun proximal to LU9 (wrist crease), on the line joining LU9 and LU5. LU8 is 1 cun proximal. LU7 is 1.5 cun proximal."
+  },
+  {
+    "id": 35,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "What is the exact distance from the popliteal crease to the prominence of the medial malleolus?",
+    "options": [
+      "14 cun",
+      "15 cun",
+      "16 cun",
+      "13 cun"
+    ],
+    "answer": 1,
+    "explanation": "The distance from the lower border of the medial condyle of the tibia (level with popliteal crease) to the tip of the medial malleolus is 15 cun. Note that from popliteal crease to lateral malleolus is 16 cun."
+  },
+  {
+    "id": 36,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "SP10 (Xuehai) is located 2 cun superior to the superior border of the patella, on the bulge of which muscle?",
+    "options": [
+      "Rectus femoris",
+      "Vastus lateralis",
+      "Vastus medialis",
+      "Gracilis"
+    ],
+    "answer": 2,
+    "explanation": "SP10 is located 2 cun superior to the superior medial border of the patella, on the bulge of the vastus medialis muscle when the knee is flexed."
+  },
+  {
+    "id": 37,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "ST34 (Liangqiu) is located on the anterior thigh, 2 cun superior to the latero-superior border of the patella, between which structures?",
+    "options": [
+      "Biceps femoris and semitendinosus",
+      "Vastus lateralis and the tendon of rectus femoris",
+      "Rectus femoris and vastus medialis",
+      "Iliotibial tract and sartorius"
+    ],
+    "answer": 1,
+    "explanation": "ST34 (Xi-Cleft of Stomach) is 2 cun superior to the latero-superior border of the patella, in the depression between rectus femoris and vastus lateralis."
+  },
+  {
+    "id": 38,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Which point is located in the depression between the 2nd and 3rd cuneiform bones and the cuboid bone on the dorsum of the foot?",
+    "options": [
+      "GB40 (Qiuxu)",
+      "ST41 (Jiexi)",
+      "ST42 (Chongyang)",
+      "BL64 (Jinggu)"
+    ],
+    "answer": 2,
+    "explanation": "ST42 (Yuan-Source of Stomach) is located on the dorsum of the foot, at the highest point of the dorsum, in the depression between the 2nd and 3rd metatarsal bases and cuneiform bones, where the dorsalis pedis artery pulsates."
+  },
+  {
+    "id": 39,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Which point is located in the 6th intercostal space, on the mid-clavicular line, 4 cun lateral to the anterior midline?",
+    "options": [
+      "LR14 (Qimen)",
+      "SP16 (Fuai)",
+      "GB24 (Riyue)",
+      "ST19 (Burong)"
+    ],
+    "answer": 0,
+    "explanation": "LR14 (Qimen, Front-Mu of Liver) is in the 6th intercostal space, 4 cun lateral to the anterior midline (mammary line). GB24 is in the 7th intercostal space directly below LR14."
+  },
+  {
+    "id": 40,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Where is GB39 (Xuanzhong / Juegu) located relative to the lateral malleolus?",
+    "options": [
+      "3 cun superior to the tip of the lateral malleolus, in the depression between the posterior border of the fibula and the tendons of peroneus longus and brevis",
+      "4 cun superior to the lateral malleolus, anterior to the fibula",
+      "2 cun superior to the lateral malleolus",
+      "At the lower border of the fibular head"
+    ],
+    "answer": 0,
+    "explanation": "GB39 (Hui-Meeting of Marrow) is located 3 cun superior to the prominence of the lateral malleolus, between the posterior border of the fibula and the tendons of peroneus longus and brevis."
+  },
+  {
+    "id": 41,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Which point is located in the depression anterior and inferior to the lateral malleolus, in the lateral portion of the tendon of extensor digitorum longus?",
+    "options": [
+      "BL62 (Shenmai)",
+      "GB40 (Qiuxu)",
+      "ST41 (Jiexi)",
+      "BL60 (Kunlun)"
+    ],
+    "answer": 1,
+    "explanation": "GB40 (Yuan-Source of Gallbladder) is located anterior and inferior to the lateral malleolus, in the depression on the lateral side of the extensor digitorum longus tendon."
+  },
+  {
+    "id": 42,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "SI6 (Yanglao) is located on the dorsal aspect of the wrist. To palpate this point easily, the patient should be instructed to:",
+    "options": [
+      "Make a tight fist",
+      "Turn the palm toward the chest (pronation to supination transition)",
+      "Extend the 5th digit against resistance",
+      "Abduct the thumb maximally"
+    ],
+    "answer": 1,
+    "explanation": "When the palm faces the chest (supination), a bony cleft appears on the radial side of the styloid process of the ulna where SI6 (Xi-Cleft of Small Intestine) is located."
+  },
+  {
+    "id": 43,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Where is TE3 (Zhongzhu) located?",
+    "options": [
+      "On the dorsum of the hand, between the 4th and 5th metacarpal bones, in the depression 1 cun proximal to TE2",
+      "In the web margin between the 4th and 5th digits",
+      "On the ulnar side of the 5th metacarpal bone",
+      "Between the 3rd and 4th metacarpal bones"
+    ],
+    "answer": 0,
+    "explanation": "TE3 is on the dorsum of the hand, in the depression between the 4th and 5th metacarpal bones, proximal to the metacarpophalangeal joint (about 1 cun proximal to the web margin)."
+  },
+  {
+    "id": 44,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "DU15 (Yamen) and DU16 (Fengfu) are located at which level relative to the posterior hairline?",
+    "options": [
+      "DU15 is 0.5 cun above the posterior hairline; DU16 is 1.0 cun above the posterior hairline",
+      "DU15 is 1.0 cun above; DU16 is 0.5 cun above",
+      "Both are on the hairline",
+      "DU15 is 1.5 cun above; DU16 is 2.0 cun above"
+    ],
+    "answer": 0,
+    "explanation": "DU15 (Yamen) is on the posterior midline, 0.5 cun superior to the posterior hairline, in the depression below the spinous process of C1. DU16 (Fengfu) is 1.0 cun superior to the posterior hairline, below the external occipital protuberance."
+  },
+  {
+    "id": 45,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Where is KD1 (Yongquan) located on the sole of the foot?",
+    "options": [
+      "Directly at the midpoint of the heel",
+      "In the depression formed when the foot is in plantar flexion, approximately at the junction of the anterior 1/3 and posterior 2/3 of the sole",
+      "At the base of the 5th metatarsal bone",
+      "In the center of the medial arch"
+    ],
+    "answer": 1,
+    "explanation": "KD1 is located on the sole of the foot, between the 2nd and 3rd metatarsal bones, approximately one-third of the distance from the base of the second toe to the heel in the depression formed during flexion."
+  },
+  {
+    "id": 46,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Which point is located in the center of the suprasternal fossa, 0.5 cun superior to the suprasternal notch on the midline?",
+    "options": [
+      "RN21 (Xuanji)",
+      "RN22 (Tiantu)",
+      "ST9 (Renying)",
+      "RN23 (Lianquan)"
+    ],
+    "answer": 1,
+    "explanation": "RN22 (Tiantu) is in the center of the suprasternal fossa, 0.5 cun superior to the suprasternal notch, on the anterior midline."
+  },
+  {
+    "id": 47,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Where is BL67 (Zhiyin) located on the foot?",
+    "options": [
+      "On the lateral side of the little toe, 0.1 cun posterior to the corner of the nail",
+      "On the medial side of the great toe, 0.1 cun from the nail",
+      "Between the 4th and 5th toes in the web",
+      "At the tuberosity of the 5th metatarsal"
+    ],
+    "answer": 0,
+    "explanation": "BL67 (Jing-Well of Bladder) is on the lateral aspect of the distal phalanx of the fifth toe, 0.1 cun posterior to the corner of the nail."
+  },
+  {
+    "id": 48,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "The distance from the glabella (Yintang) to the anterior hairline is traditionally measured as:",
+    "options": [
+      "2 cun",
+      "3 cun",
+      "4 cun",
+      "1.5 cun"
+    ],
+    "answer": 1,
+    "explanation": "When the anterior hairline is indistinct or receded, the distance from the glabella (between eyebrows) to the anterior hairline is standardly measured as 3 cun."
+  },
+  {
+    "id": 49,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Hard",
+    "question": "Which point is located on the lower border of the zygomatic arch, in the depression anterior to the condyloid process of the mandible?",
+    "options": [
+      "ST7 (Xiaguan)",
+      "SI18 (Quanliao)",
+      "GB2 (Tinghui)",
+      "ST6 (Jiache)"
+    ],
+    "answer": 0,
+    "explanation": "ST7 (Xiaguan) is anterior to the ear, in the hollow between the zygomatic arch and the mandibular notch. When the mouth is closed, the hollow is present; when open, it closes."
+  },
+  {
+    "id": 50,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point is known as the master point for the face and mouth in Gao Wu's Four Command Points?",
+    "options": [
+      "LI4 (Hegu)",
+      "ST36 (Zusanli)",
+      "LU7 (Lieque)",
+      "BL40 (Weizhong)"
+    ],
+    "answer": 0,
+    "explanation": "Gao Wu's Command Points: 'Face and mouth seek Hegu (LI4); Abdomen seeks Zusanli (ST36); Back and lumbar seek Weizhong (BL40); Head and neck seek Lieque (LU7).'"
+  },
+  {
+    "id": 51,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point is the primary choice for chest oppression, nausea, vomiting, and motion sickness?",
+    "options": [
+      "PC6 (Neiguan)",
+      "ST36 (Zusanli)",
+      "SP4 (Gongsun)",
+      "CV12 (Zhongwan)"
+    ],
+    "answer": 0,
+    "explanation": "PC6 (Neiguan) opens the chest, harmonizes the Stomach, descends rebellious Qi, and relieves nausea, vomiting, cardiac pain, and motion sickness."
+  },
+  {
+    "id": 52,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which distal point is indicated as the primary Command Point for acute and chronic lumbar spine pain?",
+    "options": [
+      "BL40 (Weizhong)",
+      "BL23 (Shenshu)",
+      "SI3 (Houxi)",
+      "GB34 (Yanglingquan)"
+    ],
+    "answer": 0,
+    "explanation": "BL40 (Weizhong) is the Command Point for the lumbar region and back ('Yao bei Weizhong qiu')."
+  },
+  {
+    "id": 53,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which acupoint is widely celebrated as the foremost tonification point in the body for Qi, Blood, and post-natal vitality?",
+    "options": [
+      "ST36 (Zusanli)",
+      "LI4 (Hegu)",
+      "BL20 (Pishu)",
+      "RN6 (Qihai)"
+    ],
+    "answer": 0,
+    "explanation": "ST36 tonifies Gu Qi, strengthens Spleen and Stomach, generates Qi and Blood, and boosts general vitality and immunity."
+  },
+  {
+    "id": 54,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point on the Liver channel is famous for soothing Liver Qi stagnation, calming emotional irritability, and clearing the eyes?",
+    "options": [
+      "LR3 (Taichong)",
+      "LR2 (Xingjian)",
+      "LR14 (Qimen)",
+      "GB34 (Yanglingquan)"
+    ],
+    "answer": 0,
+    "explanation": "LR3 (Taichong, Shu-Stream & Yuan-Source) spreads Liver Qi, clears Liver Fire, subdues Liver Yang rising, and nourishes Liver Blood."
+  },
+  {
+    "id": 55,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point on the Heart channel is the premier point for calming the Shen, insomnia, anxiety, and palpitation?",
+    "options": [
+      "HT7 (Shenmen)",
+      "PC6 (Neiguan)",
+      "HT5 (Tongli)",
+      "BL15 (Xinshu)"
+    ],
+    "answer": 0,
+    "explanation": "HT7 (Shenmen, Yuan-Source and Shu-Stream of Heart) calms the Shen, regulates and nourishes Heart Blood and Yin."
+  },
+  {
+    "id": 56,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point is the commanding Luo-connecting point of the Lung channel used for stiff neck, headache, and exterior wind-cold?",
+    "options": [
+      "LU7 (Lieque)",
+      "LU9 (Taiyuan)",
+      "GB20 (Fengchi)",
+      "LI4 (Hegu)"
+    ],
+    "answer": 0,
+    "explanation": "LU7 releases the exterior, expels wind, and is the Command Point for the head and nape of the neck."
+  },
+  {
+    "id": 57,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point on the Spleen channel intersects the Liver, Spleen, and Kidney meridians and treats gynecological, digestive, and urinary complaints?",
+    "options": [
+      "SP6 (Sanyinjiao)",
+      "SP9 (Yinlingquan)",
+      "SP10 (Xuehai)",
+      "RN4 (Guanyuan)"
+    ],
+    "answer": 0,
+    "explanation": "SP6 is the Three Yin Intersection (San Yin Jiao). It tonifies Spleen, Liver, and Kidney, regulates menstruation, harmonizes lower Jiao."
+  },
+  {
+    "id": 58,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point is known as the 'Sea of Blood' and is primary for blood heat, blood stasis, urticaria, and eczema?",
+    "options": [
+      "SP10 (Xuehai)",
+      "BL17 (Geshu)",
+      "SP6 (Sanyinjiao)",
+      "LI11 (Quchi)"
+    ],
+    "answer": 0,
+    "explanation": "SP10 (Xuehai, 'Sea of Blood') invigorates Blood, cools Blood heat, dispels stasis, and relieves dermatological pruritus/rash."
+  },
+  {
+    "id": 59,
+    "category": "Point Actions & Indications",
+    "difficulty": "Easy",
+    "question": "Which point is the Hui-Meeting point of Tendons and the He-Sea of Gallbladder, indicated for hemiplegia, cramping, and hypochondriac pain?",
+    "options": [
+      "GB34 (Yanglingquan)",
+      "LR3 (Taichong)",
+      "GB39 (Xuanzhong)",
+      "BL40 (Weizhong)"
+    ],
+    "answer": 0,
+    "explanation": "GB34 (Yanglingquan) is the Hui-Meeting point of Tendons and sinews, beneficial for stiffness, cramps, joint disorders, and biliary disorders."
+  },
+  {
+    "id": 60,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Large Intestine channel is the He-Sea and Earth point celebrated for clearing exterior/interior heat and skin disorders?",
+    "options": [
+      "LI11 (Quchi)",
+      "LI4 (Hegu)",
+      "LI20 (Yingxiang)",
+      "LI1 (Shangyang)"
+    ],
+    "answer": 0,
+    "explanation": "LI11 (Quchi) clears heat, cools blood, expels wind, resolves dampness, and treats fever, sore throat, and skin eruptions."
+  },
+  {
+    "id": 61,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is located at the depression at the philtrum and is the supreme emergency point for acute loss of consciousness, fainting, and shock?",
+    "options": [
+      "DU26 (Shuigou / Renzhong)",
+      "KD1 (Yongquan)",
+      "PC6 (Neiguan)",
+      "HT9 (Shaochong)"
+    ],
+    "answer": 0,
+    "explanation": "DU26 (Shuigou/Renzhong) restores consciousness, clears the senses, benefits the spine in acute lumbar sprain, and rescues collapse."
+  },
+  {
+    "id": 62,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Urinary Bladder channel is the Hui-Meeting point of Blood, used for all blood stasis and blood deficiency conditions?",
+    "options": [
+      "BL17 (Geshu)",
+      "BL15 (Xinshu)",
+      "SP10 (Xuehai)",
+      "RN17 (Danzhong)"
+    ],
+    "answer": 0,
+    "explanation": "BL17 (Geshu, Diaphragm Shu) is the Hui-Meeting point of Blood. Combined with BL19 (Four Flowers) it nourishes Blood; with SP10 it moves Blood."
+  },
+  {
+    "id": 63,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu of the Small Intestine and the foremost point on the Ren channel to nourish Yin and tonify Kidney Qi?",
+    "options": [
+      "RN4 (Guanyuan)",
+      "RN6 (Qihai)",
+      "RN12 (Zhongwan)",
+      "RN3 (Zhongji)"
+    ],
+    "answer": 0,
+    "explanation": "RN4 (Guanyuan, Gate of Origin) is the Front-Mu of Small Intestine. It is the premier point to nourish original Qi (Yuan Qi), Essence (Jing), and Yin."
+  },
+  {
+    "id": 64,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is known as the 'Sea of Qi' and strongly tonifies Yang, warms the lower jiao, and rescues collapsed Qi?",
+    "options": [
+      "RN6 (Qihai)",
+      "RN4 (Guanyuan)",
+      "DU4 (Mingmen)",
+      "RN8 (Shenque)"
+    ],
+    "answer": 0,
+    "explanation": "RN6 (Qihai, Sea of Qi) tonifies Qi, moves Qi, and rescues deficiency exhaustion. RN4 focuses more on Yin and Jing, RN6 on moving and tonifying active Qi."
+  },
+  {
+    "id": 65,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is indicated as the prime point to resolve Phlegm anywhere in the body, whether visible or invisible?",
+    "options": [
+      "ST40 (Fenglong)",
+      "SP9 (Yinlingquan)",
+      "RN12 (Zhongwan)",
+      "LU5 (Chize)"
+    ],
+    "answer": 0,
+    "explanation": "ST40 (Fenglong, Luo-connecting point of Stomach) transforms phlegm and dampness, clears phlegm from chest/lungs, and calms phlegm-misting the Shen."
+  },
+  {
+    "id": 66,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Kidney channel is the Shu-Stream and Yuan-Source point that tonifies both Kidney Yin and Kidney Yang?",
+    "options": [
+      "KD3 (Taixi)",
+      "KD6 (Zhaohai)",
+      "KD7 (Fuliu)",
+      "KD1 (Yongquan)"
+    ],
+    "answer": 0,
+    "explanation": "KD3 (Taixi) nourishes Kidney Yin, clears deficiency heat, tonifies Kidney Yang, and anchors floating Yang."
+  },
+  {
+    "id": 67,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Kidney channel is specific for nourishing throat fluids, clearing deficiency heat, and opening the Yin Qiao vessel?",
+    "options": [
+      "KD6 (Zhaohai)",
+      "KD3 (Taixi)",
+      "KD7 (Fuliu)",
+      "LU7 (Lieque)"
+    ],
+    "answer": 0,
+    "explanation": "KD6 (Zhaohai) nourishes Kidney Yin, benefits the throat, calms the Shen, and is the Confluent point of the Yin Qiao Mai (paired with LU7)."
+  },
+  {
+    "id": 68,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Jing-River and Metal point of the Kidney channel specific for treating spontaneous sweating or night sweats and regulating water metabolism?",
+    "options": [
+      "KD7 (Fuliu)",
+      "KD3 (Taixi)",
+      "KD2 (Rangu)",
+      "KD10 (Yingu)"
+    ],
+    "answer": 0,
+    "explanation": "KD7 (Fuliu, Metal/Mother point) tonifies Kidney Yang, regulates body fluids, and controls perspiration (paired with LI4 and HT6 for sweating disorders)."
+  },
+  {
+    "id": 69,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Gallbladder channel dispels exterior wind, clears wind-heat, subdues internal wind, and benefits the eyes, ears, and head?",
+    "options": [
+      "GB20 (Fengchi)",
+      "GB14 (Yangbai)",
+      "GB34 (Yanglingquan)",
+      "DU16 (Fengfu)"
+    ],
+    "answer": 0,
+    "explanation": "GB20 (Fengchi, Wind Pool) dispels exterior wind (colds/flu), extinguishes interior wind (tremors/stroke), clears sensory orificies, and stops occipital headaches."
+  },
+  {
+    "id": 70,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Hui-Meeting point of the Fu organs and the Front-Mu of the Stomach, governing digestion and transformation?",
+    "options": [
+      "RN12 (Zhongwan)",
+      "ST25 (Tianshu)",
+      "RN17 (Danzhong)",
+      "LR13 (Zhangmen)"
+    ],
+    "answer": 0,
+    "explanation": "RN12 (Zhongwan) is the Front-Mu of Stomach and Hui-Meeting point of Fu organs. It tonifies Middle Jiao, descends rebellious Stomach Qi, harmonizes spleen/stomach."
+  },
+  {
+    "id": 71,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Hui-Meeting point of the Zang organs and Front-Mu of the Spleen, regulating Liver and Spleen disharmony?",
+    "options": [
+      "LR13 (Zhangmen)",
+      "RN12 (Zhongwan)",
+      "RN17 (Danzhong)",
+      "LR14 (Qimen)"
+    ],
+    "answer": 0,
+    "explanation": "LR13 (Zhangmen) is the Front-Mu of Spleen and Hui-Meeting point of Zang organs. It promotes smooth flow of Liver Qi and relieves Liver overacting on Spleen."
+  },
+  {
+    "id": 72,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Bladder channel is the Back-Shu of the Spleen, indicated for poor digestion, abdominal distension, fatigue, and loose stools?",
+    "options": [
+      "BL20 (Pishu)",
+      "BL21 (Weishu)",
+      "BL23 (Shenshu)",
+      "BL18 (Ganshu)"
+    ],
+    "answer": 0,
+    "explanation": "BL20 (Pishu, Back-Shu of Spleen) tonifies Spleen Qi and Yang, resolves dampness, holds blood in vessels, and generates postnatal Qi."
+  },
+  {
+    "id": 73,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the Bladder channel is the Back-Shu of the Liver, indicated for dizziness, red eyes, jaundice, depression, and blurry vision?",
+    "options": [
+      "BL18 (Ganshu)",
+      "BL19 (Danshu)",
+      "BL23 (Shenshu)",
+      "BL17 (Geshu)"
+    ],
+    "answer": 0,
+    "explanation": "BL18 (Ganshu, Back-Shu of Liver) regulates Liver Qi, cools Liver Fire, clears damp-heat in hepatobiliary channels, and benefits the eyes."
+  },
+  {
+    "id": 74,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the premier distal point on the Bladder channel for vertex headache, stiff neck, and daytime epilepsy?",
+    "options": [
+      "BL62 (Shenmai)",
+      "BL60 (Kunlun)",
+      "BL65 (Shugu)",
+      "BL67 (Zhiyin)"
+    ],
+    "answer": 0,
+    "explanation": "BL62 (Shenmai) pacifies interior wind, relaxes sinews, opens the Yang Qiao Mai, and treats insomnia, daytime epilepsy, and spinal rigidity."
+  },
+  {
+    "id": 75,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "A patient presents with acute, severe pain from renal colic (Kidney stones). Which point on the Kidney channel is the Xi-Cleft point to relieve acute renal pain?",
+    "options": [
+      "KD5 (Shuiquan)",
+      "KD3 (Taixi)",
+      "KD6 (Zhaohai)",
+      "KD8 (Jiaoxin)"
+    ],
+    "answer": 0,
+    "explanation": "KD5 (Shuiquan) is the Xi-Cleft of the Kidney channel, indicated for acute kidney pain, dysuria, and acute amenorrhea/dysmenorrhea with blood clots."
+  },
+  {
+    "id": 76,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point is the Xi-Cleft point of the Yin Wei Mai (Yin Linking Vessel), indicated for acute heart and psychiatric distress and emotional trauma?",
+    "options": [
+      "KD9 (Zhubin)",
+      "PC4 (Ximen)",
+      "HT6 (Yinxi)",
+      "SP8 (Diji)"
+    ],
+    "answer": 0,
+    "explanation": "KD9 (Zhubin, Guest House) is the Xi-Cleft of Yin Wei Mai, celebrated for clearing mental madness, profound grief, and detoxifying inherited toxins."
+  },
+  {
+    "id": 77,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "A patient has acute hematemesis (vomiting blood) and severe epigastric spasm. Which point is the Xi-Cleft point of the Stomach channel?",
+    "options": [
+      "ST34 (Liangqiu)",
+      "ST36 (Zusanli)",
+      "ST21 (Liangmen)",
+      "ST40 (Fenglong)"
+    ],
+    "answer": 0,
+    "explanation": "ST34 (Liangqiu) is the Xi-Cleft point of the Stomach channel. Xi-cleft points on Yang channels are specific for acute severe pain and spastic distress."
+  },
+  {
+    "id": 78,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point on the Lung channel is the Xi-Cleft point, chosen for acute hemoptysis (coughing blood) and acute asthma attacks?",
+    "options": [
+      "LU6 (Kongzui)",
+      "LU5 (Chize)",
+      "LU7 (Lieque)",
+      "LU1 (Zhongfu)"
+    ],
+    "answer": 0,
+    "explanation": "LU6 (Kongzui) is the Xi-Cleft of the Lung channel. Xi-cleft points on Yin channels are prime points for acute bleeding and acute severe pathology."
+  },
+  {
+    "id": 79,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point is the Xi-Cleft point of the Spleen channel, highly prized for acute spasmodic dysmenorrhea with dark clotted flow?",
+    "options": [
+      "SP8 (Diji)",
+      "SP6 (Sanyinjiao)",
+      "SP10 (Xuehai)",
+      "SP4 (Gongsun)"
+    ],
+    "answer": 0,
+    "explanation": "SP8 (Diji, Earth's Crux) is the Xi-Cleft point of the Spleen channel, the gold standard point for acute menstrual cramps and uterine spasm."
+  },
+  {
+    "id": 80,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point on the Small Intestine channel is the Luo-Connecting point, famous for neck rigidity and emotional instability/dementia?",
+    "options": [
+      "SI7 (Zhizheng)",
+      "SI3 (Houxi)",
+      "SI6 (Yanglao)",
+      "SI4 (Wangu)"
+    ],
+    "answer": 0,
+    "explanation": "SI7 (Zhizheng, Branch to the Upright) is the Luo-connecting point of the Small Intestine, connecting to the Heart channel to treat emotional agitation."
+  },
+  {
+    "id": 81,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point on the San Jiao (Triple Energizer) channel is the prime distal point for temporal migraine, ear pain, and lateral rib-side pain?",
+    "options": [
+      "TE5 (Waiguan)",
+      "TE3 (Zhongzhu)",
+      "TE17 (Yifeng)",
+      "TE6 (Zhigou)"
+    ],
+    "answer": 0,
+    "explanation": "TE5 (Waiguan) expels exterior wind-heat, benefits the ears, opens the Yang Wei Mai, and clears Shaoyang headaches and hypochondriac constraint."
+  },
+  {
+    "id": 82,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point on the San Jiao channel is considered the premier point for hypochondriac pain due to Liver Qi stagnation and stubborn constipation?",
+    "options": [
+      "TE6 (Zhigou)",
+      "TE5 (Waiguan)",
+      "GB34 (Yanglingquan)",
+      "ST25 (Tianshu)"
+    ],
+    "answer": 0,
+    "explanation": "TE6 (Zhigou, Branch Ditch) moves Qi in the San Jiao and intestines to treat constipation (especially paired with KD6), and clears flank pain."
+  },
+  {
+    "id": 83,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point is the Confluent point of the Chong Mai (Thoroughfare Vessel) that connects with the Stomach channel via Luo-branching?",
+    "options": [
+      "SP4 (Gongsun)",
+      "PC6 (Neiguan)",
+      "RN4 (Guanyuan)",
+      "ST30 (Qichong)"
+    ],
+    "answer": 0,
+    "explanation": "SP4 (Gongsun) is the Luo-connecting point of the Spleen and the Confluent point of the Chong Mai. Paired with PC6, it treats all disorders of the chest, heart, and stomach."
+  },
+  {
+    "id": 84,
+    "category": "Point Actions & Indications",
+    "difficulty": "Hard",
+    "question": "Which point is the Hui-Meeting point of Marrow and the group Luo of the three leg Yang channels, indicated for hemiplegia and dementia?",
+    "options": [
+      "GB39 (Xuanzhong / Juegu)",
+      "BL62 (Shenmai)",
+      "DU20 (Baihui)",
+      "KD3 (Taixi)"
+    ],
+    "answer": 0,
+    "explanation": "GB39 is the Hui-Meeting of Marrow (benefits brain, bones, marrow, prevention of stroke, and stiff neck)."
+  },
+  {
+    "id": 85,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Deep, perpendicular needling at GB21 (Jianjing) carries a severe medical risk of causing:",
+    "options": [
+      "Pneumothorax",
+      "Renal puncture",
+      "Damage to femoral artery",
+      "Retrobulbar hematoma"
+    ],
+    "answer": 0,
+    "explanation": "GB21 lies directly over the apex of the lung. Deep perpendicular puncture carries a high risk of puncturing the apical pleura, resulting in traumatic pneumothorax."
+  },
+  {
+    "id": 86,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Which needle manipulation is strictly forbidden when needling BL1 (Jingming) to avoid severe orbital hemorrhage?",
+    "options": [
+      "Lifting, thrusting, and rotating the needle",
+      "Gentle insertion without manipulation",
+      "Applying pressure upon withdrawal",
+      "Pushing the eyeball laterally"
+    ],
+    "answer": 0,
+    "explanation": "At BL1, needles must be inserted slowly and smoothly along the orbital wall with NO lifting, thrusting, or twisting manipulations to prevent retrobulbar hematoma."
+  },
+  {
+    "id": 87,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Which classic point on the hand is strictly contraindicated in all stages of pregnancy due to its powerful descending Qi action?",
+    "options": [
+      "LI4 (Hegu)",
+      "HT7 (Shenmen)",
+      "PC6 (Neiguan)",
+      "LU7 (Lieque)"
+    ],
+    "answer": 0,
+    "explanation": "LI4 (Hegu) promotes labor and strong descending action. It is strictly contraindicated in pregnancy, particularly when combined with SP6."
+  },
+  {
+    "id": 88,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Which point on the lower leg is contraindicated during pregnancy due to its strong uterine stimulating and Qi/Blood mobilizing effects?",
+    "options": [
+      "SP6 (Sanyinjiao)",
+      "ST36 (Zusanli)",
+      "GB34 (Yanglingquan)",
+      "KD3 (Taixi)"
+    ],
+    "answer": 0,
+    "explanation": "SP6 is contraindicated throughout pregnancy due to its potential to induce uterine contractions and miscarriage."
+  },
+  {
+    "id": 89,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "What is the immediate primary first step if a patient experiences 'needle fainting' (vasovagal syncope) during treatment?",
+    "options": [
+      "Immediately remove all needles, lay the patient flat with head low, and keep warm",
+      "Continue needling to stimulate adrenaline",
+      "Force the patient to stand up and walk",
+      "Inject saline immediately"
+    ],
+    "answer": 0,
+    "explanation": "Standard protocol: Immediately withdraw all needles, place patient in supine Trendelenburg position (head low, legs elevated), ensure ventilation, offer warm water."
+  },
+  {
+    "id": 90,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Deep perpendicular insertion at LU1 (Zhongfu) or LU2 (Yunmen) carries a high clinical hazard of:",
+    "options": [
+      "Pneumothorax",
+      "Puncture of the aorta",
+      "Liver hematoma",
+      "Radial nerve transection"
+    ],
+    "answer": 0,
+    "explanation": "Needling LU1 or LU2 perpendicularly towards the thoracic cavity can puncture the pleura and lung tissue, causing pneumothorax. Angle must be oblique laterally."
+  },
+  {
+    "id": 91,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Which needling angle should be strictly used on the upper back and thoracic inner Bladder line points (BL11 to BL21)?",
+    "options": [
+      "Oblique 0.5 - 0.8 cun towards the spine (medially)",
+      "Perpendicular 1.5 - 2.0 cun",
+      "Deep vertical puncture",
+      "Perpendicular 2.5 cun"
+    ],
+    "answer": 0,
+    "explanation": "To avoid pneumothorax, inner Bladder line points on the thorax (BL11-BL21) must be punctured obliquely medially towards the transverse processes of the spine, 0.5-0.8 cun."
+  },
+  {
+    "id": 92,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "Needling RN22 (Tiantu) requires which specific needle direction after penetrating through the skin 0.2 cun?",
+    "options": [
+      "Puncture downwards along the posterior aspect of the manubrium sterni",
+      "Puncture straight posteriorly into the trachea",
+      "Puncture upwards towards the tongue",
+      "Puncture horizontally towards the shoulder"
+    ],
+    "answer": 0,
+    "explanation": "At RN22, insert perpendicularly 0.2 cun, then direct the needle tip downward behind the sternum, 0.5-1.0 cun. Puncturing posteriorly will strike the trachea or brachiocephalic vein."
+  },
+  {
+    "id": 93,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "What caution is required before needling points on the lower abdomen such as RN3 (Zhongji) and RN2 (Qugu)?",
+    "options": [
+      "Have the patient completely empty their urinary bladder prior to treatment",
+      "Ensure the patient has eaten a large meal",
+      "Keep the patient standing",
+      "Palpate the aorta"
+    ],
+    "answer": 0,
+    "explanation": "A distended urinary bladder rises out of the pelvic cavity into the hypogastrium. Needling RN2, RN3, or ST28 over a full bladder can cause bladder puncture and peritonitis."
+  },
+  {
+    "id": 94,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Easy",
+    "question": "What should be done if a needle bends during treatment while still in the patient's body?",
+    "options": [
+      "Do not rotate or manipulate; carefully withdraw following the direction of the bend",
+      "Twist it forcefully in the opposite direction",
+      "Push it in deeper to straighten it",
+      "Apply intense moxa heat to soften the metal"
+    ],
+    "answer": 0,
+    "explanation": "For a bent needle, relax the patient's posture, refrain from twisting or force, and gently withdraw the needle slowly along the course of the curvature."
+  },
+  {
+    "id": 95,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "At DU15 (Yamen) and DU16 (Fengfu), deep insertion upwards and inwards carries an extreme risk of injuring:",
+    "options": [
+      "The brainstem and medulla oblongata",
+      "The optic chiasm",
+      "The carotid artery",
+      "The thyroid gland"
+    ],
+    "answer": 0,
+    "explanation": "DU15 and DU16 lie over the foramen magnum and atlanto-occipital membrane. Deep superior insertion can penetrate the cisterna magna and medulla oblongata, risking respiratory arrest and death."
+  },
+  {
+    "id": 96,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Which point on the lateral neck lies adjacent to the carotid artery where the practitioner must palpate the pulse and push the artery medially before insertion?",
+    "options": [
+      "ST9 (Renying)",
+      "LI18 (Futu)",
+      "SI16 (Tianchuang)",
+      "GB20 (Fengchi)"
+    ],
+    "answer": 0,
+    "explanation": "At ST9 (Renying), the practitioner must palpate the common carotid artery, gently displace it laterally or medially with the finger, and insert carefully to avoid arterial puncture."
+  },
+  {
+    "id": 97,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Points in which abdominal quadrant carry high risk of liver puncture if hepatomegaly is present?",
+    "options": [
+      "Right hypochondrium (e.g., LR14, GB24, ST19-ST21)",
+      "Left lower quadrant (e.g., SP13)",
+      "Hypogastrium (e.g., RN3)",
+      "Epigastrium strictly on midline"
+    ],
+    "answer": 0,
+    "explanation": "In patients with hepatomegaly, the liver extends inferior to the costal margin into the right upper quadrant. Deep puncture of LR14, GB24, or right ST20 can cause liver laceration and internal hemorrhage."
+  },
+  {
+    "id": 98,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Which point on the posterior Bladder line overlies the kidney, necessitating extreme depth caution in emaciated patients?",
+    "options": [
+      "BL52 (Zhishi)",
+      "BL25 (Dachangshu)",
+      "BL30 (Baihuanshu)",
+      "BL40 (Weizhong)"
+    ],
+    "answer": 0,
+    "explanation": "BL52 is 3 cun lateral to L2. Deep perpendicular puncture can penetrate the posterior renal capsule and parenchyma of the kidney."
+  },
+  {
+    "id": 99,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Which distal point on the lower extremity is contraindicated during pregnancy due to its reputation for inducing labor and turning malpositioned fetuses?",
+    "options": [
+      "BL67 (Zhiyin)",
+      "KD3 (Taixi)",
+      "SP9 (Yinlingquan)",
+      "ST36 (Zusanli)"
+    ],
+    "answer": 0,
+    "explanation": "BL67 (Zhiyin, Jing-Well of Bladder) has a strong descending action, historically used with moxa to turn breech fetuses, and is contraindicated in ordinary prenatal care."
+  },
+  {
+    "id": 100,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Which point located near the medial malleolus is contraindicated in pregnancy?",
+    "options": [
+      "SP6 (Sanyinjiao)",
+      "KD3 (Taixi)",
+      "SP5 (Shangqiu)",
+      "KD6 (Zhaohai)"
+    ],
+    "answer": 0,
+    "explanation": "SP6 is the classical contraindicated point on the lower extremity (together with LI4, BL60, BL67, GB21)."
+  },
+  {
+    "id": 101,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "What is the safest direction of needle insertion for ST12 (Quepen) in the supraclavicular fossa?",
+    "options": [
+      "Perpendicular insertion is strictly contraindicated; needle should only be shallow/oblique, avoid deep posterior-inferior puncture",
+      "Deep perpendicular 1.5 cun",
+      "Directed medially into the trachea",
+      "Directed posteriorly 2.0 cun"
+    ],
+    "answer": 0,
+    "explanation": "ST12 lies directly superior to the apex of the lung and subclavian vessels. Deep puncture carries immense risk of pneumothorax or subclavian artery laceration."
+  },
+  {
+    "id": 102,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "When a needle becomes 'stuck' (cannot be turned or withdrawn), which technique is the recommended safe clinical management?",
+    "options": [
+      "Relax the patient, gently massage the surrounding tissue, or insert another needle nearby to relieve muscle spasm",
+      "Pull forcefully with pliers",
+      "Rotate clockwise 10 times with force",
+      "Leave it in permanently"
+    ],
+    "answer": 0,
+    "explanation": "A stuck needle is caused by muscle spasm or fibrous tissue winding. Reassure the patient, massage around the point, or insert an adjacent needle to release the local spasm."
+  },
+  {
+    "id": 103,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "Which acupuncture point is located over the apex of the heart where deep puncture in emaciated individuals or cardiomegaly could penetrate the pericardium?",
+    "options": [
+      "RN14 (Juque) and RN15 (Jiuwei)",
+      "RN12 (Zhongwan)",
+      "RN17 (Danzhong)",
+      "ST25 (Tianshu)"
+    ],
+    "answer": 0,
+    "explanation": "RN14 and RN15 lie in the upper epigastrium. In patients with hepatomegaly or cardiomegaly, deep puncture can strike the left lobe of the liver or the heart."
+  },
+  {
+    "id": 104,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Medium",
+    "question": "What clinical sign is the most characteristic early indicator that a traumatic pneumothorax has occurred following upper back needling?",
+    "options": [
+      "Sudden onset of dyspnea, chest tightness, pain on inspiration, and dry cough",
+      "Immediate profuse diarrhea",
+      "Severe numbness in the toes",
+      "Urinary retention"
+    ],
+    "answer": 0,
+    "explanation": "Pneumothorax symptoms may appear immediately or hours after treatment: chest pain aggravated by deep breathing, dry nonproductive cough, shortness of breath, and reduced breath sounds."
+  },
+  {
+    "id": 105,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Which point on the Ren channel must NEVER be punctured with a needle and is strictly restricted to moxibustion?",
+    "options": [
+      "RN8 (Shenque)",
+      "RN1 (Huiyin)",
+      "RN17 (Danzhong)",
+      "RN12 (Zhongwan)"
+    ],
+    "answer": 0,
+    "explanation": "RN8 (Shenque) is at the center of the umbilicus. Puncture is traditionally strictly forbidden due to risk of infection and peritonitis; it is treated only with indirect moxibustion (salt/ginger)."
+  },
+  {
+    "id": 106,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "At SP12 (Chongmen) in the groin, which major vascular structure lies immediately lateral to the point?",
+    "options": [
+      "Femoral artery",
+      "Saphenous vein",
+      "Abdominal aorta",
+      "Inferior vena cava"
+    ],
+    "answer": 0,
+    "explanation": "SP12 is located in the inguinal groove, 3.5 cun lateral to RN2, on the lateral side of the femoral artery. The practitioner must palpate the femoral pulse to avoid arterial puncture."
+  },
+  {
+    "id": 107,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Which point on the Gallbladder channel on the lateral abdomen requires caution regarding needle depth to avoid penetrating an enlarged spleen on the left side?",
+    "options": [
+      "GB26 (Daimai) or LR13 (Zhangmen)",
+      "GB30 (Huantiao)",
+      "GB34 (Yanglingquan)",
+      "ST25 (Tianshu)"
+    ],
+    "answer": 0,
+    "explanation": "LR13 (free end of 11th rib) and GB26 on the left side overlie the spleen. In splenomegaly, deep puncture can cause splenic rupture and life-threatening internal hemorrhage."
+  },
+  {
+    "id": 108,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "What is the maximum safe needle depth at DU15 (Yamen) according to modern anatomical acupuncture safety standards?",
+    "options": [
+      "0.5 to 0.8 cun (no more than 1.0 cun in large individuals), strictly perpendicular or slightly inferior",
+      "2.0 cun directed superiorly",
+      "2.5 cun",
+      "1.5 cun angled towards the nose"
+    ],
+    "answer": 0,
+    "explanation": "Standard safe depth at DU15 is 0.5-0.8 cun. Insertion must never be angled superiorly towards the brainstem."
+  },
+  {
+    "id": 109,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Which point on the anterior thorax lies in the 1st intercostal space, 6 cun lateral to the midline, requiring an oblique lateral needle angle to avoid pneumothorax?",
+    "options": [
+      "LU2 (Yunmen)",
+      "LU1 (Zhongfu)",
+      "ST13 (Qihu)",
+      "SP20 (Zhourong)"
+    ],
+    "answer": 0,
+    "explanation": "LU2 (Yunmen) is in the infraclavicular fossa, 6 cun lateral to the anterior midline. Needling must be directed obliquely laterally 0.5-0.8 cun."
+  },
+  {
+    "id": 110,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "What is the elemental phase of the Jing-Well point on a YIN meridian?",
+    "options": [
+      "Wood",
+      "Fire",
+      "Earth",
+      "Metal"
+    ],
+    "answer": 0,
+    "explanation": "On Yin channels, the Five Shu points follow the sequence: Jing-Well = Wood, Ying-Spring = Fire, Shu-Stream = Earth, Jing-River = Metal, He-Sea = Water."
+  },
+  {
+    "id": 111,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "What is the elemental phase of the Jing-Well point on a YANG meridian?",
+    "options": [
+      "Metal",
+      "Water",
+      "Wood",
+      "Earth"
+    ],
+    "answer": 0,
+    "explanation": "On Yang channels, the Five Shu points follow the sequence: Jing-Well = Metal, Ying-Spring = Water, Shu-Stream = Wood, Jing-River = Fire, He-Sea = Earth."
+  },
+  {
+    "id": 112,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which category of Five Shu points is historically indicated in the Nan Jing for 'fullness below the heart' and reviving consciousness?",
+    "options": [
+      "Jing-Well",
+      "Ying-Spring",
+      "Shu-Stream",
+      "He-Sea"
+    ],
+    "answer": 0,
+    "explanation": "Nan Jing Chapter 68: 'Jing-Well points treat fullness below the heart and mental resuscitation; Ying-Spring points treat heat in the body.'"
+  },
+  {
+    "id": 113,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which category of Five Shu points is indicated for 'heat in the body'?",
+    "options": [
+      "Ying-Spring",
+      "Jing-Well",
+      "Shu-Stream",
+      "Jing-River"
+    ],
+    "answer": 0,
+    "explanation": "Ying-Spring points (Fire on Yin, Water on Yang) clear channel heat, fever, and inflammation."
+  },
+  {
+    "id": 114,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which category of Five Shu points is indicated for 'heaviness in the body and pain in the joints'?",
+    "options": [
+      "Shu-Stream",
+      "Jing-River",
+      "He-Sea",
+      "Jing-Well"
+    ],
+    "answer": 0,
+    "explanation": "Nan Jing: 'Shu-Stream points treat heaviness of the body and joint pain' (Bi syndrome and dampness)."
+  },
+  {
+    "id": 115,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which category of Five Shu points is indicated for 'counterflow Qi and diarrhea'?",
+    "options": [
+      "He-Sea",
+      "Jing-River",
+      "Shu-Stream",
+      "Ying-Spring"
+    ],
+    "answer": 0,
+    "explanation": "Nan Jing: 'He-Sea points treat rebellious Qi and diarrhea' (rebellious stomach qi, vomiting, bowel disease)."
+  },
+  {
+    "id": 116,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "On Yin meridians, the Shu-Stream point is identical in location to which other special category point?",
+    "options": [
+      "Yuan-Source point",
+      "Luo-Connecting point",
+      "Xi-Cleft point",
+      "Front-Mu point"
+    ],
+    "answer": 0,
+    "explanation": "On the 6 Yin meridians, the Shu-Stream point and the Yuan-Source point are the exact same point (e.g. LU9, SP3, HT7, KD3, PC7, LR3)."
+  },
+  {
+    "id": 117,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which point is the Yuan-Source point of the Large Intestine channel?",
+    "options": [
+      "LI4 (Hegu)",
+      "LI11 (Quchi)",
+      "LI5 (Yangxi)",
+      "LI1 (Shangyang)"
+    ],
+    "answer": 0,
+    "explanation": "LI4 (Hegu) is the Yuan-Source point of the Large Intestine channel."
+  },
+  {
+    "id": 118,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which point is the Yuan-Source point of the Stomach channel?",
+    "options": [
+      "ST42 (Chongyang)",
+      "ST36 (Zusanli)",
+      "ST41 (Jiexi)",
+      "ST40 (Fenglong)"
+    ],
+    "answer": 0,
+    "explanation": "ST42 (Chongyang) is the Yuan-Source point of the Stomach channel (ST40 is the Luo, ST36 is He-Sea, ST34 is Xi-Cleft)."
+  },
+  {
+    "id": 119,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which point is the Luo-Connecting point of the Lung channel?",
+    "options": [
+      "LU7 (Lieque)",
+      "LU9 (Taiyuan)",
+      "LU5 (Chize)",
+      "LU1 (Zhongfu)"
+    ],
+    "answer": 0,
+    "explanation": "LU7 (Lieque) is the Luo-Connecting point of the Lung meridian."
+  },
+  {
+    "id": 120,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "In the classic 'Host and Guest' (Yuan-Luo) combination rule, if the Lung channel is primarily diseased (Host), which point is chosen as the Guest?",
+    "options": [
+      "LI6 (Pianli)",
+      "LI4 (Hegu)",
+      "LI11 (Quchi)",
+      "LU7 (Lieque)"
+    ],
+    "answer": 0,
+    "explanation": "In the Yuan-Luo Host/Guest protocol: Primary affected channel uses its Yuan-Source point (Host = LU9), and the internally-externally paired channel uses its Luo-Connecting point (Guest = LI6)."
+  },
+  {
+    "id": 121,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Urinary Bladder?",
+    "options": [
+      "RN3 (Zhongji)",
+      "RN4 (Guanyuan)",
+      "BL28 (Pangguangshu)",
+      "ST28 (Shuidao)"
+    ],
+    "answer": 0,
+    "explanation": "RN3 (Zhongji) is the Front-Mu point of the Urinary Bladder."
+  },
+  {
+    "id": 122,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Gallbladder?",
+    "options": [
+      "GB24 (Riyue)",
+      "LR14 (Qimen)",
+      "GB34 (Yanglingquan)",
+      "BL19 (Danshu)"
+    ],
+    "answer": 0,
+    "explanation": "GB24 (Riyue) is the Front-Mu point of the Gallbladder (located directly below LR14 in the 7th intercostal space)."
+  },
+  {
+    "id": 123,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Large Intestine?",
+    "options": [
+      "ST25 (Tianshu)",
+      "RN12 (Zhongwan)",
+      "BL25 (Dachangshu)",
+      "ST37 (Shangjuxu)"
+    ],
+    "answer": 0,
+    "explanation": "ST25 (Tianshu) is the Front-Mu point of the Large Intestine."
+  },
+  {
+    "id": 124,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Small Intestine?",
+    "options": [
+      "RN4 (Guanyuan)",
+      "RN3 (Zhongji)",
+      "BL27 (Xiaochangshu)",
+      "ST39 (Xiajuxu)"
+    ],
+    "answer": 0,
+    "explanation": "RN4 (Guanyuan) is the Front-Mu point of the Small Intestine."
+  },
+  {
+    "id": 125,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the San Jiao (Triple Energizer)?",
+    "options": [
+      "RN5 (Shimen)",
+      "RN7 (Yinjiao)",
+      "RN17 (Danzhong)",
+      "BL22 (Sanjiaoshu)"
+    ],
+    "answer": 0,
+    "explanation": "RN5 (Shimen, 2 cun below umbilicus) is the Front-Mu point of the San Jiao."
+  },
+  {
+    "id": 126,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Heart?",
+    "options": [
+      "RN14 (Juque)",
+      "RN17 (Danzhong)",
+      "HT7 (Shenmen)",
+      "BL15 (Xinshu)"
+    ],
+    "answer": 0,
+    "explanation": "RN14 (Juque) is the Front-Mu point of the Heart. (RN17 is the Front-Mu of the Pericardium)."
+  },
+  {
+    "id": 127,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Front-Mu point of the Pericardium?",
+    "options": [
+      "RN17 (Danzhong)",
+      "RN14 (Juque)",
+      "PC6 (Neiguan)",
+      "PC7 (Daling)"
+    ],
+    "answer": 0,
+    "explanation": "RN17 (Danzhong) is the Front-Mu point of the Pericardium and Hui-Meeting point of Qi."
+  },
+  {
+    "id": 128,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Hui-Meeting point of Bones?",
+    "options": [
+      "BL11 (Dazhu)",
+      "GB39 (Xuanzhong)",
+      "BL23 (Shenshu)",
+      "DU14 (Dazhui)"
+    ],
+    "answer": 0,
+    "explanation": "BL11 (Dazhu, 1.5 cun lateral to T1) is the Hui-Meeting point of Bones."
+  },
+  {
+    "id": 129,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Hui-Meeting point of Blood Vessels?",
+    "options": [
+      "LU9 (Taiyuan)",
+      "BL17 (Geshu)",
+      "HT7 (Shenmen)",
+      "PC6 (Neiguan)"
+    ],
+    "answer": 0,
+    "explanation": "LU9 (Taiyuan, radial artery pulse at wrist) is the Hui-Meeting point of Blood Vessels (Mai)."
+  },
+  {
+    "id": 130,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is the Hui-Meeting point of Qi?",
+    "options": [
+      "RN17 (Danzhong)",
+      "RN6 (Qihai)",
+      "RN4 (Guanyuan)",
+      "LU9 (Taiyuan)"
+    ],
+    "answer": 0,
+    "explanation": "RN17 (Danzhong) is the Hui-Meeting point of Qi."
+  },
+  {
+    "id": 131,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Lower He-Sea point is used to treat disorders of the Large Intestine?",
+    "options": [
+      "ST37 (Shangjuxu)",
+      "ST36 (Zusanli)",
+      "ST39 (Xiajuxu)",
+      "BL40 (Weizhong)"
+    ],
+    "answer": 0,
+    "explanation": "Lower He-Sea points of the six Fu organs: Stomach = ST36, Large Intestine = ST37, Small Intestine = ST39, Gallbladder = GB34, Bladder = BL40, San Jiao = BL39."
+  },
+  {
+    "id": 132,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Lower He-Sea point treats disorders of the Small Intestine?",
+    "options": [
+      "ST39 (Xiajuxu)",
+      "ST37 (Shangjuxu)",
+      "SI8 (Xiaohai)",
+      "ST36 (Zusanli)"
+    ],
+    "answer": 0,
+    "explanation": "ST39 (Xiajuxu) is the Lower He-Sea point of the Small Intestine."
+  },
+  {
+    "id": 133,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Lower He-Sea point treats disorders of the San Jiao (Triple Energizer)?",
+    "options": [
+      "BL39 (Weiyang)",
+      "BL40 (Weizhong)",
+      "TE10 (Tianjing)",
+      "RN5 (Shimen)"
+    ],
+    "answer": 0,
+    "explanation": "BL39 (Weiyang, on the lateral side of the popliteal crease) is the Lower He-Sea point of the San Jiao."
+  },
+  {
+    "id": 134,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Confluent pair of the Eight Extraordinary Vessels is combined to treat disorders of the Heart, Chest, and Stomach?",
+    "options": [
+      "PC6 (Yin Wei) and SP4 (Chong Mai)",
+      "LU7 (Ren Mai) and KD6 (Yin Qiao)",
+      "SI3 (Du Mai) and BL62 (Yang Qiao)",
+      "GB41 (Dai Mai) and TE5 (Yang Wei)"
+    ],
+    "answer": 0,
+    "explanation": "PC6 (Confluent of Yin Wei Mai) and SP4 (Confluent of Chong Mai) couple together to treat all clinical problems of the heart, chest, and stomach."
+  },
+  {
+    "id": 135,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Confluent pair treats disorders of the Throat, Chest, and Lungs?",
+    "options": [
+      "LU7 (Ren Mai) and KD6 (Yin Qiao)",
+      "PC6 and SP4",
+      "SI3 and BL62",
+      "GB41 and TE5"
+    ],
+    "answer": 0,
+    "explanation": "LU7 (Confluent of Ren Mai) and KD6 (Confluent of Yin Qiao Mai) couple together to treat the lungs, chest, and throat."
+  },
+  {
+    "id": 136,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Confluent pair treats disorders of the Spine, Back, and Neck?",
+    "options": [
+      "SI3 (Du Mai) and BL62 (Yang Qiao)",
+      "LU7 and KD6",
+      "GB41 and TE5",
+      "PC6 and SP4"
+    ],
+    "answer": 0,
+    "explanation": "SI3 (Confluent of Du Mai) and BL62 (Confluent of Yang Qiao Mai) couple together to treat the back, spine, nape of the neck, and brain."
+  },
+  {
+    "id": 137,
+    "category": "Special Point Categories",
+    "difficulty": "Hard",
+    "question": "Which Confluent pair treats the Outer Canthus of the eye, Retroauricular region, and Hypochondrium?",
+    "options": [
+      "GB41 (Dai Mai) and TE5 (Yang Wei)",
+      "SI3 and BL62",
+      "PC6 and SP4",
+      "LU7 and KD6"
+    ],
+    "answer": 0,
+    "explanation": "GB41 (Confluent of Dai Mai) and TE5 (Confluent of Yang Wei Mai) couple together to treat the outer canthus, cheeks, neck, and hypochondriac region."
+  },
+  {
+    "id": 138,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "A tongue with a Pale body and a Thin White coat primarily indicates:",
+    "options": [
+      "Qi deficiency or Blood deficiency",
+      "Interior Full Heat",
+      "Phlegm-Heat",
+      "Extreme Yin deficiency with Fire"
+    ],
+    "answer": 0,
+    "explanation": "A pale tongue body signifies a lack of Blood or Yang Qi to nourish and warm the tongue tissue."
+  },
+  {
+    "id": 139,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "A Red tongue with little or no coating (peeled) indicates:",
+    "options": [
+      "Yin deficiency with deficiency heat",
+      "Excess Full Heat",
+      "Damp-Heat",
+      "Exterior Cold"
+    ],
+    "answer": 0,
+    "explanation": "A red tongue body reflects heat. Absence of coating (peeled/mirror tongue) signifies exhaustion of Stomach and Kidney Yin."
+  },
+  {
+    "id": 140,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Which pulse quality feels forceful, broad, and superficial, arriving like surging waves and departing gently?",
+    "options": [
+      "Surging (Hong Mai / Flooding)",
+      "Slippery (Hua Mai)",
+      "Wiry (Xuan Mai)",
+      "Floating (Fu Mai)"
+    ],
+    "answer": 0,
+    "explanation": "A Surging/Flooding pulse (Hong Mai) feels like a great wave, broad and forceful, characteristic of Yangming channel Full Heat."
+  },
+  {
+    "id": 141,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Which pulse quality feels taut, straight, and long, like pressing on the string of a musical instrument?",
+    "options": [
+      "Wiry pulse (Xuan Mai)",
+      "Slippery pulse (Hua Mai)",
+      "Tight pulse (Jin Mai)",
+      "Choppy pulse (Se Mai)"
+    ],
+    "answer": 0,
+    "explanation": "A Wiry pulse (Xuan Mai) indicates Liver and Gallbladder disorders, Liver Qi stagnation, pain, or Phlegm."
+  },
+  {
+    "id": 142,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Which pulse quality feels smooth and rounded, like pearls rolling on a porcelain basin?",
+    "options": [
+      "Slippery pulse (Hua Mai)",
+      "Wiry pulse (Xuan Mai)",
+      "Floating pulse (Fu Mai)",
+      "Weak pulse (Ruo Mai)"
+    ],
+    "answer": 0,
+    "explanation": "A Slippery pulse (Hua Mai) indicates accumulation of Phlegm, Dampness, Food Stagnation, or normal Pregnancy."
+  },
+  {
+    "id": 143,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Fatigue, poor appetite, abdominal fullness after eating, loose stools, and a pale tongue with teethmarks indicate:",
+    "options": [
+      "Spleen Qi Deficiency",
+      "Kidney Yang Deficiency",
+      "Liver Blood Deficiency",
+      "Stomach Fire"
+    ],
+    "answer": 0,
+    "explanation": "Classic Spleen Qi Deficiency: impaired transformation and transportation (poor appetite, loose stools, distension), teethmarks indicate water retention."
+  },
+  {
+    "id": 144,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Frequent sighing, hypochondriac distension, emotional irritability, mood swings, and a wiry pulse indicate:",
+    "options": [
+      "Liver Qi Stagnation",
+      "Heart Fire Blazing",
+      "Lung Yin Deficiency",
+      "Gallbladder Damp-Heat"
+    ],
+    "answer": 0,
+    "explanation": "Liver Qi Stagnation (Gan Qi Yu Jie) causes constraint of Qi, sighing to release pressure, flank distension, and emotional volatility."
+  },
+  {
+    "id": 145,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Palpitations, insomnia, dream-disturbed sleep, dizziness, pale complexion, and pale tongue indicate:",
+    "options": [
+      "Heart Blood Deficiency",
+      "Heart Yang Deficiency",
+      "Phlegm Misting Heart",
+      "Kidney Yin Deficiency"
+    ],
+    "answer": 0,
+    "explanation": "Heart Blood fails to nourish the Shen (insomnia, palpitations) and fails to nourish the face/tongue (pale complexion, pale tongue)."
+  },
+  {
+    "id": 146,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Low back soreness, weak knees, cold sensation in the lower body, clear frequent urination, edema, and deep weak pulse indicate:",
+    "options": [
+      "Kidney Yang Deficiency",
+      "Kidney Yin Deficiency",
+      "Bladder Damp-Heat",
+      "Spleen Qi Deficiency"
+    ],
+    "answer": 0,
+    "explanation": "Kidney Yang Deficiency (Shen Yang Xu) fails to warm the lower back/knees and fails to transform fluids (cold limbs, pale urine, edema)."
+  },
+  {
+    "id": 147,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "Tinnitus like cicadas, night sweats, 5-palm heat, dry throat at night, red peeled tongue, and rapid thready pulse indicate:",
+    "options": [
+      "Kidney Yin Deficiency",
+      "Kidney Yang Deficiency",
+      "Liver Fire",
+      "Heart Fire"
+    ],
+    "answer": 0,
+    "explanation": "Kidney Yin Deficiency fails to anchor Fire and moisten tissue, resulting in 5-palm heat, night sweats, red tongue without coat, and thready rapid pulse."
+  },
+  {
+    "id": 148,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Bearing down sensation in the lower abdomen, prolapse of the uterus or rectum, fatigue, and loose stools indicate which specific Spleen pattern?",
+    "options": [
+      "Spleen Qi Sinking",
+      "Spleen Not Controlling Blood",
+      "Spleen Yang Deficiency",
+      "Cold-Damp Encumbering Spleen"
+    ],
+    "answer": 0,
+    "explanation": "Spleen Qi Sinking (Pi Qi Xia Xian) occurs when Spleen Qi cannot hold organs in place, resulting in prolapse (rectum, uterus, stomach)."
+  },
+  {
+    "id": 149,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Chronic bleeding (subcutaneous purpura, blood in stool, heavy pale menses) accompanied by fatigue, sallow complexion, and pale tongue indicates:",
+    "options": [
+      "Spleen Not Controlling Blood (Pi Bu Tong Xue)",
+      "Blood Heat causing Bleeding",
+      "Liver Fire Injuring Vessels",
+      "Blood Stasis"
+    ],
+    "answer": 0,
+    "explanation": "The Spleen governs the holding of Blood in the vessels. Deficiency of Spleen Qi leads to failure to control blood, presenting with pale/chronic extravasation."
+  },
+  {
+    "id": 150,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Sudden tinnitus with high-pitched sound like a roaring sea, severe red eyes, bitter taste in mouth, irritability, constipation, red tongue with yellow coat, and wiry rapid pulse indicate:",
+    "options": [
+      "Liver Fire Blazing (Gan Huo Shang Yan)",
+      "Liver Yang Rising",
+      "Liver Qi Stagnation",
+      "Gallbladder Damp-Heat"
+    ],
+    "answer": 0,
+    "explanation": "Liver Fire Blazing is an interior Full Heat pattern presenting with sudden loud tinnitus, fiery temper, red eyes, bitter taste, and yellow coat."
+  },
+  {
+    "id": 151,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Chronic headache on temples/vertex, irritability, dizziness, accompanied by sore knees and low back, red tongue with scanty coat, and wiry thready pulse indicates:",
+    "options": [
+      "Liver Yang Rising due to Liver/Kidney Yin Deficiency",
+      "Liver Fire Blazing",
+      "Exterior Wind-Heat",
+      "Phlegm Turbidity"
+    ],
+    "answer": 0,
+    "explanation": "Liver Yang Rising is a root-deficiency, branch-excess pattern: Kidney/Liver Yin fails to anchor Yang, which ascends to cause headache, alongside knee/back weakness."
+  },
+  {
+    "id": 152,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Severe stabbing pain in the epigastrium fixed in one location, worse at night, vomiting dark clotted blood, purple tongue with petechiae indicates:",
+    "options": [
+      "Stomach Blood Stasis",
+      "Stomach Fire",
+      "Food Stagnation",
+      "Cold in Stomach"
+    ],
+    "answer": 0,
+    "explanation": "Fixed, sharp, stabbing pain aggravated at night and purple tongue with macules/petechiae are pathognomonic hallmarks of Blood Stasis."
+  },
+  {
+    "id": 153,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Dry cough with scanty sticky sputum, blood-tinged sputum, afternoon fever, night sweats, red peeled tongue indicates:",
+    "options": [
+      "Lung Yin Deficiency",
+      "Lung Dryness",
+      "Phlegm-Heat in Lungs",
+      "Wind-Dryness"
+    ],
+    "answer": 0,
+    "explanation": "Lung Yin Deficiency features deficiency heat signs (afternoon fever, night sweats, red peeled tongue) and injury to Lung fluids (blood-streaked sputum)."
+  },
+  {
+    "id": 154,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Alternating chills and fever, hypochondriac fullness, bitterness in the mouth, dry throat, blurred vision, silent and lack of appetite indicate which Six Stages pattern?",
+    "options": [
+      "Shaoyang Syndrome (Lesser Yang)",
+      "Taiyang Syndrome",
+      "Yangming Syndrome",
+      "Taiyin Syndrome"
+    ],
+    "answer": 0,
+    "explanation": "Classic Shaoyang syndrome (Shang Han Lun): Half-exterior, half-interior pattern featuring alternating chills and fever, bitter mouth, dry throat, and flank distress."
+  },
+  {
+    "id": 155,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "High fever without chills, profuse sweating, extreme thirst with desire for cold drinks, and a flooding large pulse ('The Four Bigs') indicates which pattern?",
+    "options": [
+      "Yangming Channel Syndrome (Qi Level Heat)",
+      "Yangming Bowel Syndrome",
+      "Taiyang Wind Strike",
+      "Ying Level Heat"
+    ],
+    "answer": 0,
+    "explanation": "The Four Bigs (Big Fever, Big Sweat, Big Thirst, Big Pulse) define Yangming Channel syndrome (White Tiger Tang pattern / Qi level heat)."
+  },
+  {
+    "id": 156,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "Fever higher at night, mental confusion, delirium, faint skin rashes (macules), deep red tongue without coat, and rapid thready pulse indicate which Wen Bing level?",
+    "options": [
+      "Ying Level (Nutritive Level)",
+      "Wei Level",
+      "Qi Level",
+      "Xue Level"
+    ],
+    "answer": 0,
+    "explanation": "Ying Level heat has penetrated into the interior nutritive layer, disturbing the Shen (delirium) and presenting with fever worse at night and deep red tongue."
+  },
+  {
+    "id": 157,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Medium",
+    "question": "High fever, manic delirium, widespread purpura, hematemesis, epistaxis, and a deep crimson or purple tongue indicate which Wen Bing level?",
+    "options": [
+      "Xue Level (Blood Level)",
+      "Ying Level",
+      "Qi Level",
+      "Wei Level"
+    ],
+    "answer": 0,
+    "explanation": "Xue Level (Blood level) heat is the deepest and most dangerous stage of Warm Disease, causing extreme heat, convulsions, massive hemorrhage, and delirium."
+  },
+  {
+    "id": 158,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A 45-year-old female presents with palpitation, shortness of breath on exertion, cold hands, pale tongue, and a Knotted pulse (Jie Mai). A knotted pulse is defined as:",
+    "options": [
+      "Slow pulse with irregular missed beats",
+      "Rapid pulse with irregular missed beats",
+      "Regularly intermittent missed beats",
+      "Extremely deep and thin pulse"
+    ],
+    "answer": 0,
+    "explanation": "A Knotted pulse (Jie Mai) is slow and misses beats at irregular intervals, indicating Heart Yang/Qi deficiency or cold-phlegm/stasis obstructing Heart Qi."
+  },
+  {
+    "id": 159,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Hasty / Hurried pulse (Cu Mai) is defined as:",
+    "options": [
+      "Rapid pulse with irregular missed beats",
+      "Slow pulse with irregular missed beats",
+      "Regularly intermittent beats with pause",
+      "Superficial floating pulse"
+    ],
+    "answer": 0,
+    "explanation": "A Hasty/Hurried pulse (Cu Mai) is rapid and misses beats irregularly, indicating excessive Heat agitating Qi and Blood or Heart Fire."
+  },
+  {
+    "id": 160,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "An Intermittent pulse (Dai Mai) which misses beats at regular intervals typically signifies:",
+    "options": [
+      "Severe Zang organ exhaustion or serious organic heart disease",
+      "Transient emotional upset",
+      "Mild exterior wind-cold",
+      "Summer-heat with dampness"
+    ],
+    "answer": 0,
+    "explanation": "An Intermittent pulse (Dai Mai) misses beats regularly with predictable pauses, indicating profound exhaustion of Zang Qi or severe cardiac impairment."
+  },
+  {
+    "id": 161,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "In tongue diagnosis, a tongue body that is pale and swollen with a thick greasy white coating specifically indicates:",
+    "options": [
+      "Spleen Yang Deficiency with accumulation of Dampness / Phlegm",
+      "Excessive Heat in the Blood",
+      "Kidney Yin Deficiency",
+      "Liver Fire Blazing"
+    ],
+    "answer": 0,
+    "explanation": "Pale body reflects Yang/Blood deficiency; swollen body with thick greasy white coating reflects water retention and cold-dampness due to Spleen Yang deficiency."
+  },
+  {
+    "id": 162,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "Which pulse quality feels superficial, soft, and fine, disappearing under moderate finger pressure?",
+    "options": [
+      "Soggy / Soft pulse (Ru Mai)",
+      "Scattered pulse (San Mai)",
+      "Weak pulse (Ruo Mai)",
+      "Thready pulse (Xi Mai)"
+    ],
+    "answer": 0,
+    "explanation": "A Soggy/Soft pulse (Ru Mai) is superficial, fine, and soft (felt only with light pressure), pointing to Dampness encumbering Qi deficiency."
+  },
+  {
+    "id": 163,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Easy",
+    "question": "The famous classical combination known as the 'Four Gates' (Si Guan) consists of which bilateral point pair?",
+    "options": [
+      "LI4 (Hegu) and LR3 (Taichong)",
+      "PC6 (Neiguan) and SP4 (Gongsun)",
+      "ST36 (Zusanli) and SP6 (Sanyinjiao)",
+      "LU7 (Lieque) and KD6 (Zhaohai)"
+    ],
+    "answer": 0,
+    "explanation": "The Four Gates (Si Guan) consists of bilateral LI4 (Yang, Qi of Large Intestine) and LR3 (Yin, Blood of Liver). Together they open all channels and soothe Qi/Blood."
+  },
+  {
+    "id": 164,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Easy",
+    "question": "Which point combination is standard to clear exterior wind-cold and headache at the occiput and nape?",
+    "options": [
+      "GB20 (Fengchi) and LU7 (Lieque)",
+      "ST36 and SP6",
+      "PC6 and RN12",
+      "HT7 and SP6"
+    ],
+    "answer": 0,
+    "explanation": "GB20 expels wind from the head/eyes, and LU7 is the command point for the nape and head while releasing the exterior."
+  },
+  {
+    "id": 165,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Easy",
+    "question": "Which point pair is the classic treatment for acute morning sickness, nausea, and vomiting during early pregnancy?",
+    "options": [
+      "PC6 (Neiguan) and ST36 (Zusanli)",
+      "LI4 and SP6",
+      "RN4 and RN6",
+      "BL60 and BL67"
+    ],
+    "answer": 0,
+    "explanation": "PC6 harmonizes the stomach and stops nausea, while ST36 descends rebellious Qi and strengthens digestion (both safe in pregnancy, unlike LI4/SP6)."
+  },
+  {
+    "id": 166,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Easy",
+    "question": "Which points are paired in the classic combination to relieve acute toothache in the lower jaw?",
+    "options": [
+      "ST44 (Neiting) and LI4 (Hegu)",
+      "GB20 and BL60",
+      "LR3 and KD3",
+      "LU7 and LU9"
+    ],
+    "answer": 0,
+    "explanation": "The Large Intestine and Stomach channels circulate through the lower and upper gums. LI4 and ST44 (Ying-Spring water point) clear dental fire."
+  },
+  {
+    "id": 167,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Easy",
+    "question": "Which point pair is traditionally combined for dysuria, painful urinary dribbling, and retention of urine?",
+    "options": [
+      "RN3 (Zhongji) and SP9 (Yinlingquan)",
+      "ST36 and LI4",
+      "HT7 and PC6",
+      "LU7 and BL40"
+    ],
+    "answer": 0,
+    "explanation": "RN3 is the Front-Mu of the Bladder, and SP9 is the premier point to drain dampness and promote urination from the lower jiao."
+  },
+  {
+    "id": 168,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "According to the Five Elements mother-child rule ('Tonify the mother for deficiency, sedate the child for excess'), which point on the Lung channel is sedated for Lung Excess?",
+    "options": [
+      "LU5 (Chize)",
+      "LU9 (Taiyuan)",
+      "LU10 (Yuji)",
+      "LU1 (Zhongfu)"
+    ],
+    "answer": 0,
+    "explanation": "Lung is Metal. The child of Metal is Water. LU5 (Chize) is the Water (He-Sea) point of the Lung channel, sedated in Lung excess."
+  },
+  {
+    "id": 169,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "According to the Five Elements mother-child rule, which point on the Lung channel is tonified for Lung Deficiency?",
+    "options": [
+      "LU9 (Taiyuan)",
+      "LU5 (Chize)",
+      "LU8 (Jingqu)",
+      "LU7 (Lieque)"
+    ],
+    "answer": 0,
+    "explanation": "Lung is Metal. The mother of Metal is Earth. LU9 (Taiyuan) is the Earth (Shu-Stream) point of the Lung, tonified in deficiency."
+  },
+  {
+    "id": 170,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "According to the Five Elements mother-child rule, which point on the Liver channel is sedated for Liver Fire / Excess?",
+    "options": [
+      "LR2 (Xingjian)",
+      "LR8 (Ququan)",
+      "LR3 (Taichong)",
+      "LR1 (Dadun)"
+    ],
+    "answer": 0,
+    "explanation": "Liver is Wood. The child of Wood is Fire. LR2 (Xingjian) is the Fire (Ying-Spring) point of the Liver, sedated in excess Liver Fire."
+  },
+  {
+    "id": 171,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "According to the Five Elements mother-child rule, which point on the Liver channel is tonified for Liver Blood / Yin deficiency?",
+    "options": [
+      "LR8 (Ququan)",
+      "LR2 (Xingjian)",
+      "LR3 (Taichong)",
+      "LR14 (Qimen)"
+    ],
+    "answer": 0,
+    "explanation": "Liver is Wood. The mother of Wood is Water. LR8 (Ququan) is the Water (He-Sea) point of the Liver, tonified in Liver deficiency."
+  },
+  {
+    "id": 172,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "In treating chronic insomnia due to Heart and Kidney disharmony (Yin deficiency with Fire), which point combination anchors the water and harmonizes fire?",
+    "options": [
+      "HT7 (Shenmen) and KD3 (Taixi)",
+      "LI4 and LR3",
+      "ST36 and SP9",
+      "GB34 and BL40"
+    ],
+    "answer": 0,
+    "explanation": "HT7 nourishes Heart Blood and calms Shen, while KD3 tonifies Kidney Yin to control Heart Fire and anchor floating Yang."
+  },
+  {
+    "id": 173,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "Which point prescription is classic for acute facial paralysis (Bell's Palsy)?",
+    "options": [
+      "ST4 (Dicang), ST6 (Jiache), LI4 (Hegu), GB14 (Yangbai)",
+      "RN12, ST36, SP6, BL20",
+      "HT7, PC6, BL15, DU20",
+      "KD3, BL23, RN4, SP10"
+    ],
+    "answer": 0,
+    "explanation": "Standard Bell's Palsy protocol: Local points (ST4, ST6, GB14, SJ17) to expel pathogenic wind from facial channels + distal LI4 to clear face/mouth."
+  },
+  {
+    "id": 174,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "Which point combination is classic for constipation due to dryness of body fluids, utilizing San Jiao and Kidney points?",
+    "options": [
+      "TE6 (Zhigou) and KD6 (Zhaohai)",
+      "ST36 and LI4",
+      "PC6 and SP4",
+      "BL40 and SI3"
+    ],
+    "answer": 0,
+    "explanation": "TE6 promotes bowel Qi movement and TE fluid transformation, while KD6 nourishes Yin and lubricates intestinal dryness (classic dry constipation pair)."
+  },
+  {
+    "id": 175,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "A patient has Spleen and Stomach deficiency cold. Direct moxibustion on a slice of fresh ginger is standardly applied over which point?",
+    "options": [
+      "RN12 (Zhongwan) or RN8 (Shenque)",
+      "ST36 only",
+      "LI4 only",
+      "BL40 only"
+    ],
+    "answer": 0,
+    "explanation": "Ginger moxibustion is warm and dispersing, historically applied over RN12, RN8, or ST36 to dispel stomach cold, nausea, vomiting, and cold diarrhea."
+  },
+  {
+    "id": 176,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "Garlic moxibustion (moxa cone on a garlic slice) is specifically celebrated in TCM dermatology for:",
+    "options": [
+      "Scrofula, pulmonary tuberculosis, skin ulcers, and early-stage toxic boils",
+      "Asthma and cold phlegm",
+      "Impotence and spermatorrhea",
+      "Facial paralysis"
+    ],
+    "answer": 0,
+    "explanation": "Garlic moxibustion has strong antimicrobial, anti-toxin properties, traditionally indicated for scrofula, non-ulcerated carbuncles, and tuberculous swellings."
+  },
+  {
+    "id": 177,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Medium",
+    "question": "Salt moxibustion (filling the umbilicus with clean salt and burning moxa cones) is the emergency method of choice for:",
+    "options": [
+      "Collapse of Yang (acute exhaustion, cold limbs, faint pulse, profuse cold sweat)",
+      "Excessive lung fire",
+      "High fever with delirium",
+      "Acute appendicitis"
+    ],
+    "answer": 0,
+    "explanation": "Salt moxibustion on RN8 (Shenque) warms the center, rescues collapsed Yang, restores pulse, and treats acute cholera-like vomiting/diarrhea."
+  },
+  {
+    "id": 178,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "When applying tonification needle technique by respiration according to the Huangdi Neijing:",
+    "options": [
+      "Insert the needle on exhalation, withdraw the needle on inhalation",
+      "Insert on inhalation, withdraw on exhalation",
+      "Insert and withdraw only on breath-holding",
+      "Respiration does not alter tonification/sedation"
+    ],
+    "answer": 0,
+    "explanation": "Classic respiration technique: Tonification = insert on exhalation (when Qi is moving out) and withdraw on inhalation. Sedation = insert on inhalation and withdraw on exhalation."
+  },
+  {
+    "id": 179,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "When applying tonification needle technique by needle insertion speed and withdrawal closure:",
+    "options": [
+      "Insert slowly, manipulate gently, withdraw quickly and press the puncture hole immediately to prevent Qi leakage",
+      "Insert rapidly, shake vigorously, withdraw slowly and leave hole open",
+      "Pierce rapidly and twist counter-clockwise 360 degrees",
+      "Withdraw with forceful lifting and thrusting"
+    ],
+    "answer": 0,
+    "explanation": "Tonification: Slow insertion, gentle manipulation, rapid withdrawal, and immediate pressure on the needle hole to retain healthy Qi. Sedation: Rapid insertion, large manipulation, slow withdrawal, leaving the hole open to expel evil Qi."
+  },
+  {
+    "id": 180,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point prescription is classic for Spleen Qi Sinking causing uterine prolapse?",
+    "options": [
+      "DU20 (Baihui), RN6 (Qihai), ST36 (Zusanli), Zigong (EX-CA1)",
+      "LR3, LI4, PC6, GB34",
+      "BL15, HT7, PC6, RN14",
+      "BL28, RN3, SP9, ST28"
+    ],
+    "answer": 0,
+    "explanation": "DU20 lifts sinking Yang Qi; RN6 and ST36 tonify original Qi and Spleen; Zigong (Palace of the Child) is the empirical extra point for uterine prolapse."
+  },
+  {
+    "id": 181,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point prescription is the classic NCCAOM standard for acute Wind-Cold headache accompanied by occipital neck stiffness?",
+    "options": [
+      "GB20 (Fengchi), LU7 (Lieque), BL60 (Kunlun), Taiyang (EX-HN5)",
+      "ST36, SP6, RN12, BL20",
+      "LR3, LR2, GB34, GB20",
+      "HT7, PC6, KD3, SP6"
+    ],
+    "answer": 0,
+    "explanation": "GB20 dispels exterior wind from the occiput; LU7 is the command point for head/neck and releases wind-cold; BL60 reaches Taiyang channel; Taiyang clears temporal tension."
+  },
+  {
+    "id": 182,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point prescription is classic for Liver Fire Blazing causing acute hypertension, severe headache, and red eyes?",
+    "options": [
+      "LR2 (Xingjian), LR3 (Taichong), GB20 (Fengchi), Taiyang (EX-HN5)",
+      "RN4, RN6, DU4, ST36",
+      "SP6, SP9, RN9, BL20",
+      "LU9, LU7, BL13, RN17"
+    ],
+    "answer": 0,
+    "explanation": "LR2 is the Fire/Child point of the Liver (clears fire); LR3 soothes liver qi; GB20 clears head wind and subdues rising fire; Taiyang clears temples."
+  },
+  {
+    "id": 183,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is SP1 (Yinbai) located?",
+    "options": [
+      "Medial side of great toe, 0.1 cun from nail",
+      "Lateral side of great toe",
+      "Under the ball of the foot",
+      "In the web between 1st and 2nd toe"
+    ],
+    "answer": 0,
+    "explanation": "SP1 (Yinbai, Jing-Well of Spleen) is on the medial aspect of the big toe, 0.1 cun posterior to the nail corner, used for uterine bleeding."
+  },
+  {
+    "id": 184,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is LU11 (Shaoshang) located?",
+    "options": [
+      "Radial side of thumb, 0.1 cun from nail",
+      "Ulnar side of thumb",
+      "Between thumb and index finger",
+      "At the anatomical snuffbox"
+    ],
+    "answer": 0,
+    "explanation": "LU11 is the Jing-Well Wood point of Lung, pricked for acute sore throat, tonsillitis, and resuscitation."
+  },
+  {
+    "id": 185,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is HT9 (Shaochong) located?",
+    "options": [
+      "Radial side of the little finger, 0.1 cun from nail",
+      "Ulnar side of little finger",
+      "Dorsum of 5th digit",
+      "Palmar surface of 5th digit"
+    ],
+    "answer": 0,
+    "explanation": "HT9 (Jing-Well of Heart) is on the radial aspect of the distal phalanx of the little finger."
+  },
+  {
+    "id": 186,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is SI1 (Shaoze) located?",
+    "options": [
+      "Ulnar side of the little finger, 0.1 cun from nail",
+      "Radial side of little finger",
+      "At the 5th MCP joint",
+      "On the dorsal wrist crease"
+    ],
+    "answer": 0,
+    "explanation": "SI1 (Jing-Well of Small Intestine) is on the ulnar aspect of the 5th digit, celebrated for insufficient lactation."
+  },
+  {
+    "id": 187,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is PC9 (Zhongchong) located?",
+    "options": [
+      "In the center of the tip of the middle finger",
+      "On the radial nail of middle finger",
+      "Between 3rd and 4th digits",
+      "At the wrist"
+    ],
+    "answer": 0,
+    "explanation": "PC9 is on the center of the tip of the middle finger (or 0.1 cun from radial nail), pricked for heat stroke and syncope."
+  },
+  {
+    "id": 188,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is TE1 (Guanchong) located?",
+    "options": [
+      "Ulnar side of the ring finger, 0.1 cun from nail",
+      "Radial side of ring finger",
+      "Center of ring fingertip",
+      "Between 3rd and 4th metacarpals"
+    ],
+    "answer": 0,
+    "explanation": "TE1 is the Jing-Well Metal point of the San Jiao channel."
+  },
+  {
+    "id": 189,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is LR1 (Dadun) located?",
+    "options": [
+      "Lateral side of the great toe, 0.1 cun from nail",
+      "Medial side of great toe",
+      "Ball of the foot",
+      "Web space between toes"
+    ],
+    "answer": 0,
+    "explanation": "LR1 is on the lateral aspect of the big toe, opposite SP1 (medial side)."
+  },
+  {
+    "id": 190,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is GB44 (Zuqiaoyin) located?",
+    "options": [
+      "Lateral side of the 4th toe, 0.1 cun from nail",
+      "Medial side of 4th toe",
+      "Between 4th and 5th toes",
+      "Sole of foot"
+    ],
+    "answer": 0,
+    "explanation": "GB44 is the Jing-Well point of the Gallbladder channel."
+  },
+  {
+    "id": 191,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is ST45 (Lidui) located?",
+    "options": [
+      "Lateral side of the 2nd toe, 0.1 cun from nail",
+      "Medial side of 2nd toe",
+      "Between 1st and 2nd toes",
+      "At the heel"
+    ],
+    "answer": 0,
+    "explanation": "ST45 is the Jing-Well point of the Stomach channel, clearing stomach heat."
+  },
+  {
+    "id": 192,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is BL65 (Shugu) located?",
+    "options": [
+      "Posterior to the 5th metatarsophalangeal joint",
+      "Anterior to the 5th MCP",
+      "At the heel",
+      "Beneath the lateral malleolus"
+    ],
+    "answer": 0,
+    "explanation": "BL65 is the Shu-Stream Wood point of the Bladder channel."
+  },
+  {
+    "id": 193,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is GB41 (Zulinqi) located?",
+    "options": [
+      "Depression distal to junction of 4th and 5th metatarsals",
+      "Between 1st and 2nd metatarsals",
+      "Posterior to 5th toe nail",
+      "Anterior to lateral malleolus"
+    ],
+    "answer": 0,
+    "explanation": "GB41 is the Shu-Stream of Gallbladder and Confluent point of Dai Mai."
+  },
+  {
+    "id": 194,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is SI4 (Wangu) located?",
+    "options": [
+      "Between 5th metacarpal base and triquetral bone",
+      "Distal to 5th MCP joint",
+      "In anatomical snuffbox",
+      "Midpoint of 5th metacarpal"
+    ],
+    "answer": 0,
+    "explanation": "SI4 is the Yuan-Source point of the Small Intestine channel."
+  },
+  {
+    "id": 195,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is BL64 (Jinggu) located?",
+    "options": [
+      "Below tuberosity of 5th metatarsal bone",
+      "Above lateral malleolus",
+      "Between 4th and 5th toes",
+      "Under the heel"
+    ],
+    "answer": 0,
+    "explanation": "BL64 is the Yuan-Source point of the Bladder channel."
+  },
+  {
+    "id": 196,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is KD2 (Rangu) located?",
+    "options": [
+      "Lower border of the tuberosity of the navicular bone",
+      "Behind the medial malleolus",
+      "Between 1st and 2nd metatarsal bases",
+      "At the tip of heel"
+    ],
+    "answer": 0,
+    "explanation": "KD2 is the Ying-Spring Fire point of Kidney, clearing deficiency heat."
+  },
+  {
+    "id": 197,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Where is SP4 (Gongsun) located?",
+    "options": [
+      "Distal and inferior to base of 1st metatarsal bone",
+      "Proximal to medial malleolus",
+      "Under the big toe joint",
+      "Between 1st and 2nd toes"
+    ],
+    "answer": 0,
+    "explanation": "SP4 is the Luo-connecting point of the Spleen and Confluent point of Chong Mai."
+  },
+  {
+    "id": 198,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the cubital crease clears Lung heat, descends rebellious Qi, and relieves phlegm-heat cough?",
+    "options": [
+      "LU5 (Chize)",
+      "LU9 (Taiyuan)",
+      "LU7 (Lieque)",
+      "LU11 (Shaoshang)"
+    ],
+    "answer": 0,
+    "explanation": "LU5 is the He-Sea Water point of Lung, excellent for clearing heat, acute cough, asthma, and bleeding in lungs."
+  },
+  {
+    "id": 199,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which facial point in the nasolabial groove is premier for rhinitis, nasal congestion, and loss of smell?",
+    "options": [
+      "LI20 (Yingxiang)",
+      "ST2 (Sibai)",
+      "BL2 (Zanzhu)",
+      "DU20 (Baihui)"
+    ],
+    "answer": 0,
+    "explanation": "LI20 is situated beside the ala nasi in the nasolabial sulcus, empirical point for all nasal disorders."
+  },
+  {
+    "id": 200,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Ying-Spring Water point of the Stomach channel that clears stomach fire and treats toothache, facial pain, and febrile diseases?",
+    "options": [
+      "ST44 (Neiting)",
+      "ST36 (Zusanli)",
+      "ST40 (Fenglong)",
+      "ST45 (Lidui)"
+    ],
+    "answer": 0,
+    "explanation": "ST44 is in the web margin between 2nd and 3rd toes, prime point to clear stomach heat and fire."
+  },
+  {
+    "id": 201,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the He-Sea Water point of the Spleen, premier for resolving dampness, edema, dysuria, and jaundice?",
+    "options": [
+      "SP9 (Yinlingquan)",
+      "SP6 (Sanyinjiao)",
+      "SP10 (Xuehai)",
+      "SP3 (Taibai)"
+    ],
+    "answer": 0,
+    "explanation": "SP9 is the foremost point on the body to transform dampness and water retention in the lower jiao."
+  },
+  {
+    "id": 202,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which Luo-connecting point of the Heart channel connects to the tongue and is primary for aphasia after stroke or sudden loss of voice?",
+    "options": [
+      "HT5 (Tongli)",
+      "HT7 (Shenmen)",
+      "HT3 (Shaohai)",
+      "PC6 (Neiguan)"
+    ],
+    "answer": 0,
+    "explanation": "The Heart channel Luo branch reaches the root of the tongue; HT5 is the classic point for sudden aphasia and stuttering."
+  },
+  {
+    "id": 203,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the elbow is the He-Sea Earth point of the Small Intestine, clearing swelling, neck stiffness, and elbow pain?",
+    "options": [
+      "SI8 (Xiaohai)",
+      "SI3 (Houxi)",
+      "LI11 (Quchi)",
+      "TE10 (Tianjing)"
+    ],
+    "answer": 0,
+    "explanation": "SI8 lies in the groove between the olecranon and medial epicondyle (funny bone area), resolving local channel obstruction."
+  },
+  {
+    "id": 204,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which Back-Shu point located at T5 regulates Heart Qi, nourishes Heart Blood, and calms the Shen?",
+    "options": [
+      "BL15 (Xinshu)",
+      "BL14 (Jueyinshu)",
+      "BL13 (Feishu)",
+      "BL18 (Ganshu)"
+    ],
+    "answer": 0,
+    "explanation": "BL15 is the Back-Shu point of the Heart."
+  },
+  {
+    "id": 205,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which Back-Shu point at S2 treats urinary retention, dysuria, enuresis, and lower back stiffness?",
+    "options": [
+      "BL28 (Pangguangshu)",
+      "BL23 (Shenshu)",
+      "BL25 (Dachangshu)",
+      "BL32 (Ciliao)"
+    ],
+    "answer": 0,
+    "explanation": "BL28 is the Back-Shu point of the Urinary Bladder."
+  },
+  {
+    "id": 206,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point in the 2nd posterior sacral foramen is celebrated for dysmenorrhea, sciatica, and promoting labor?",
+    "options": [
+      "BL32 (Ciliao)",
+      "BL28 (Pangguangshu)",
+      "BL31 (Shangliao)",
+      "BL33 (Zhongliao)"
+    ],
+    "answer": 0,
+    "explanation": "BL32 (Ciliao) is the most clinically potent of the Eight Liao points for pelvic floor pain, dysmenorrhea, and labor induction."
+  },
+  {
+    "id": 207,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the medial popliteal crease is the He-Sea Water point of the Kidney channel, clearing damp-heat from the genitourinary tract?",
+    "options": [
+      "KD10 (Yingu)",
+      "KD3 (Taixi)",
+      "SP9 (Yinlingquan)",
+      "BL40 (Weizhong)"
+    ],
+    "answer": 0,
+    "explanation": "KD10 (Water point on Water channel) clears genital itching, leukorrhea, and impotence due to damp-heat."
+  },
+  {
+    "id": 208,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point at the transverse cubital crease is the He-Sea Water point of Pericardium, pricked to bleed for sunstroke, gastro-enteritis, and high fever?",
+    "options": [
+      "PC3 (Quze)",
+      "LU5 (Chize)",
+      "HT3 (Shaohai)",
+      "LI11 (Quchi)"
+    ],
+    "answer": 0,
+    "explanation": "PC3 clears summer-heat and cools blood; pricking with a three-edged needle relieves vomiting, diarrhea, and fever."
+  },
+  {
+    "id": 209,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which shoulder point located in the depression posterior and inferior to the acromion is primary for frozen shoulder?",
+    "options": [
+      "TE14 (Jianliao)",
+      "LI15 (Jianyu)",
+      "SI9 (Jianzhen)",
+      "GB21 (Jianjing)"
+    ],
+    "answer": 0,
+    "explanation": "TE14 and LI15 form the two 'dimples' of the shoulder when abducted 90 degrees, essential for frozen shoulder."
+  },
+  {
+    "id": 210,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the buttock at the junction of the lateral 1/3 and medial 2/3 between the greater trochanter and sacral hiatus is the gold standard for sciatica?",
+    "options": [
+      "GB30 (Huantiao)",
+      "BL54 (Zhibian)",
+      "BL40 (Weizhong)",
+      "GB34 (Yanglingquan)"
+    ],
+    "answer": 0,
+    "explanation": "GB30 is the foremost point for sciatica, paralysis of lower limbs, and hip joint pain."
+  },
+  {
+    "id": 211,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point is the Ying-Spring Fire point of the Liver channel, primary for clearing raging Liver Fire, headache, red eyes, and epistaxis?",
+    "options": [
+      "LR2 (Xingjian)",
+      "LR3 (Taichong)",
+      "LR8 (Ququan)",
+      "GB20 (Fengchi)"
+    ],
+    "answer": 0,
+    "explanation": "LR2 is the child/fire point of the Liver, effectively purging liver fire and counterflow blood."
+  },
+  {
+    "id": 212,
+    "category": "Point Actions & Indications",
+    "difficulty": "Medium",
+    "question": "Which point on the posterior midline below L2 is celebrated for tonifying the Gate of Life (Mingmen) and warming Kidney Yang?",
+    "options": [
+      "DU4 (Mingmen)",
+      "BL23 (Shenshu)",
+      "RN4 (Guanyuan)",
+      "DU14 (Dazhui)"
+    ],
+    "answer": 0,
+    "explanation": "DU4 (Gate of Life) is between the two Shenshu points, the prime governor of true fire and kidney yang in the body."
+  },
+  {
+    "id": 213,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "What anatomical structure is at risk of puncture during needling of ST1 below the pupil?",
+    "options": [
+      "The eyeball and inferior rectus muscle",
+      "The parotid duct",
+      "The frontal sinus",
+      "The carotid artery"
+    ],
+    "answer": 0,
+    "explanation": "ST1 lies between the eyeball and infraorbital margin; needle slowly with eyeball pushed gently superiorly."
+  },
+  {
+    "id": 214,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "What major organ structure lies deep to RN15 in patients with hepatomegaly?",
+    "options": [
+      "Left lobe of the liver",
+      "Right kidney",
+      "Descending colon",
+      "Appendix"
+    ],
+    "answer": 0,
+    "explanation": "RN15 lies below the xiphoid process; deep puncture can penetrate the left lobe of the liver."
+  },
+  {
+    "id": 215,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Deep puncture at right ST21 carries risk of striking which organ?",
+    "options": [
+      "Enlarged liver or gallbladder",
+      "Left kidney",
+      "Sigmoid colon",
+      "Urinary bladder"
+    ],
+    "answer": 0,
+    "explanation": "Right ST21 lies over the pyloric region and right lobe of liver; deep puncture risks liver laceration."
+  },
+  {
+    "id": 216,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Deep lateral puncture at BL51 (level with L1) carries risk of injuring:",
+    "options": [
+      "The kidney",
+      "The urinary bladder",
+      "The sciatic nerve",
+      "The femoral artery"
+    ],
+    "answer": 0,
+    "explanation": "BL51 is 3 cun lateral to L1; deep needle penetration risks puncturing the kidney."
+  },
+  {
+    "id": 217,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "What is the correct needle angle and depth for DU14 at C7?",
+    "options": [
+      "Perpendicular to slightly oblique upward 0.5 - 1.0 cun",
+      "Deep vertical 2.5 cun",
+      "Directed down into pleural cavity",
+      "Horizontal downward 3 cun"
+    ],
+    "answer": 0,
+    "explanation": "DU14 is safely punctured 0.5-1.0 cun perpendicularly or slightly obliquely upward between spinous processes."
+  },
+  {
+    "id": 218,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "In an emaciated patient, deep perpendicular insertion at SP15 (4 cun lateral to umbilicus) risks penetrating:",
+    "options": [
+      "The peritoneal cavity and intestines",
+      "The femoral artery",
+      "The thoracic cavity",
+      "The kidney"
+    ],
+    "answer": 0,
+    "explanation": "Deep puncture at SP15 penetrates through the rectus sheath into the peritoneal cavity, risking intestinal perforation."
+  },
+  {
+    "id": 219,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Why is BL60 behind the lateral malleolus contraindicated during pregnancy?",
+    "options": [
+      "It strongly descends Qi and induces labor",
+      "It causes facial spasm",
+      "It stops breast milk",
+      "It cools kidney yang"
+    ],
+    "answer": 0,
+    "explanation": "BL60 is a potent descending point, contraindicated in pregnancy (historically used for difficult labor/retained placenta)."
+  },
+  {
+    "id": 220,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "If a patient cannot urinate before treatment of RN3, what needle modification must be made?",
+    "options": [
+      "Use very shallow puncture (0.5 cun) or postpone until voiding",
+      "Insert 2.0 cun perpendicularly",
+      "Apply forceful electroacupuncture",
+      "Puncture horizontally down"
+    ],
+    "answer": 0,
+    "explanation": "Never deeply needle the hypogastrium over a distended bladder due to perforation risk."
+  },
+  {
+    "id": 221,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Which nerve/vessel is in the immediate vicinity of LI18 on the lateral neck?",
+    "options": [
+      "Carotid artery and jugular vein",
+      "Radial nerve",
+      "Femoral nerve",
+      "Sciatic nerve"
+    ],
+    "answer": 0,
+    "explanation": "LI18 lies in the anterior triangle of the neck close to the internal jugular vein and common carotid artery."
+  },
+  {
+    "id": 222,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "GB22 on the mid-axillary line in the 5th intercostal space carries a strict risk of:",
+    "options": [
+      "Pneumothorax",
+      "Liver rupture",
+      "Bladder injury",
+      "Brain injury"
+    ],
+    "answer": 0,
+    "explanation": "GB22 lies directly on the chest wall; deep perpendicular puncture causes pneumothorax. Angle must be oblique/tangential."
+  },
+  {
+    "id": 223,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Needling RN1 (Huiyin) at the perineum is contraindicated during:",
+    "options": [
+      "Pregnancy",
+      "Menopause",
+      "Headache",
+      "Cough"
+    ],
+    "answer": 0,
+    "explanation": "RN1 is contraindicated in pregnancy and carries infection risk if hygienic precautions are breached."
+  },
+  {
+    "id": 224,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "If a needle breaks flush with the skin level, what is the correct immediate action?",
+    "options": [
+      "Press the tissue around the shaft until the broken end emerges, and extract with forceps",
+      "Push it in deeper",
+      "Instruct patient to jump",
+      "Leave for surgical excision tomorrow"
+    ],
+    "answer": 0,
+    "explanation": "Gently press skin around site until broken tip protrudes, then grasp with sterile forceps and extract. If completely submerged, send for surgical localization."
+  },
+  {
+    "id": 225,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "What is the clean needle technique (CNT) standard for skin preparation prior to acupuncture?",
+    "options": [
+      "Swab the acupoint site with 70% isopropyl alcohol and let air dry completely",
+      "Wash with warm water only",
+      "Blow on skin to dry alcohol quickly",
+      "Reuse needle across different patients"
+    ],
+    "answer": 0,
+    "explanation": "Standard CNT: swab with 70% alcohol in a firm circular or downward motion and allow to air dry without touching or blowing."
+  },
+  {
+    "id": 226,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Electroacupuncture should NEVER be crossed across the chest (e.g. left arm to right arm) in patients with:",
+    "options": [
+      "Cardiac pacemakers or implanted electrical devices",
+      "Mild hypertension",
+      "Low back pain",
+      "Digestive deficiency"
+    ],
+    "answer": 0,
+    "explanation": "Passing electrical current across the heart can disrupt cardiac conductive rhythm and interfere with pacemakers."
+  },
+  {
+    "id": 227,
+    "category": "Needling Safety & Precautions",
+    "difficulty": "Hard",
+    "question": "Direct scarring moxibustion is strictly contraindicated on which body regions?",
+    "options": [
+      "The face, near mucous membranes, or directly over large superficial blood vessels",
+      "The abdomen",
+      "The soles of the feet",
+      "The upper back"
+    ],
+    "answer": 0,
+    "explanation": "Direct scarring moxa is contraindicated on the face, breasts, large blood vessels, and prominent joints to avoid scar contracture and disfigurement."
+  },
+  {
+    "id": 228,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Sinews/Tendons?",
+    "options": [
+      "GB34",
+      "LR3",
+      "BL11",
+      "GB39"
+    ],
+    "answer": 0,
+    "explanation": "GB34 is the Hui-Meeting point of sinews and tendons."
+  },
+  {
+    "id": 229,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Vessels?",
+    "options": [
+      "LU9",
+      "HT7",
+      "BL17",
+      "PC6"
+    ],
+    "answer": 0,
+    "explanation": "LU9 is the Hui-Meeting point of vessels (pulse)."
+  },
+  {
+    "id": 230,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Zang?",
+    "options": [
+      "LR13",
+      "RN12",
+      "RN17",
+      "BL20"
+    ],
+    "answer": 0,
+    "explanation": "LR13 is the Hui-Meeting point of Zang organs."
+  },
+  {
+    "id": 231,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Fu?",
+    "options": [
+      "RN12",
+      "LR13",
+      "ST25",
+      "RN4"
+    ],
+    "answer": 0,
+    "explanation": "RN12 is the Hui-Meeting point of Fu organs."
+  },
+  {
+    "id": 232,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Marrow?",
+    "options": [
+      "GB39",
+      "BL11",
+      "DU20",
+      "KD3"
+    ],
+    "answer": 0,
+    "explanation": "GB39 is the Hui-Meeting point of Marrow."
+  },
+  {
+    "id": 233,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Bone?",
+    "options": [
+      "BL11",
+      "GB39",
+      "BL23",
+      "DU14"
+    ],
+    "answer": 0,
+    "explanation": "BL11 is the Hui-Meeting point of Bones."
+  },
+  {
+    "id": 234,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Blood?",
+    "options": [
+      "BL17",
+      "SP10",
+      "BL15",
+      "LR14"
+    ],
+    "answer": 0,
+    "explanation": "BL17 is the Hui-Meeting point of Blood."
+  },
+  {
+    "id": 235,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Hui-Meeting of Qi?",
+    "options": [
+      "RN17",
+      "RN6",
+      "LU9",
+      "DU14"
+    ],
+    "answer": 0,
+    "explanation": "RN17 is the Hui-Meeting point of Qi."
+  },
+  {
+    "id": 236,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Front-Mu of Lung?",
+    "options": [
+      "LU1",
+      "RN17",
+      "BL13",
+      "LU5"
+    ],
+    "answer": 0,
+    "explanation": "LU1 is the Front-Mu point of the Lung."
+  },
+  {
+    "id": 237,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Front-Mu of Kidney?",
+    "options": [
+      "GB25",
+      "BL23",
+      "RN4",
+      "KD3"
+    ],
+    "answer": 0,
+    "explanation": "GB25 (at the lower border of the 12th rib) is the Front-Mu point of the Kidney."
+  },
+  {
+    "id": 238,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Xi-Cleft of Yang Qiao Mai?",
+    "options": [
+      "BL59",
+      "BL62",
+      "GB35",
+      "SI6"
+    ],
+    "answer": 0,
+    "explanation": "BL59 is the Xi-Cleft point of the Yang Qiao Mai."
+  },
+  {
+    "id": 239,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Xi-Cleft of Yin Qiao Mai?",
+    "options": [
+      "KD8",
+      "KD6",
+      "SP8",
+      "KD5"
+    ],
+    "answer": 0,
+    "explanation": "KD8 is the Xi-Cleft point of the Yin Qiao Mai."
+  },
+  {
+    "id": 240,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Xi-Cleft of Yang Wei Mai?",
+    "options": [
+      "GB35",
+      "TE5",
+      "BL59",
+      "GB34"
+    ],
+    "answer": 0,
+    "explanation": "GB35 is the Xi-Cleft point of the Yang Wei Mai."
+  },
+  {
+    "id": 241,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Xi-Cleft of Yin Wei Mai?",
+    "options": [
+      "KD9",
+      "PC4",
+      "HT6",
+      "SP8"
+    ],
+    "answer": 0,
+    "explanation": "KD9 is the Xi-Cleft point of the Yin Wei Mai."
+  },
+  {
+    "id": 242,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Luo-Connecting of Spleen?",
+    "options": [
+      "SP4",
+      "SP6",
+      "SP21",
+      "SP3"
+    ],
+    "answer": 0,
+    "explanation": "SP4 is the Luo-connecting point of the Spleen (SP21 is the Great Luo of Spleen)."
+  },
+  {
+    "id": 243,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Great Luo of the Spleen?",
+    "options": [
+      "SP21",
+      "SP4",
+      "RN15",
+      "DU1"
+    ],
+    "answer": 0,
+    "explanation": "SP21 (Dabao) is the Great Luo-connecting point of the Spleen, treating whole-body pain and weakness."
+  },
+  {
+    "id": 244,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Luo-Connecting of Ren Mai?",
+    "options": [
+      "RN15",
+      "DU1",
+      "SP21",
+      "RN12"
+    ],
+    "answer": 0,
+    "explanation": "RN15 is the Luo-connecting point of the Ren Mai."
+  },
+  {
+    "id": 245,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Luo-Connecting of Du Mai?",
+    "options": [
+      "DU1",
+      "RN15",
+      "DU14",
+      "BL40"
+    ],
+    "answer": 0,
+    "explanation": "DU1 is the Luo-connecting point of the Du Mai."
+  },
+  {
+    "id": 246,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Great Luo of Stomach?",
+    "options": [
+      "Xuli",
+      "ST40",
+      "ST36",
+      "SP21"
+    ],
+    "answer": 0,
+    "explanation": "Xuli (apical pulse below left breast) is the Great Luo of the Stomach, reflecting Zong Qi."
+  },
+  {
+    "id": 247,
+    "category": "Special Point Categories",
+    "difficulty": "Medium",
+    "question": "Which point is designated as the Jing-Well of San Jiao?",
+    "options": [
+      "TE1",
+      "TE3",
+      "TE10",
+      "TE5"
+    ],
+    "answer": 0,
+    "explanation": "TE1 is the Jing-Well Metal point of the San Jiao channel."
+  },
+  {
+    "id": 248,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "Bitter taste in the mouth is the cardinal symptom of which pathogen/organ?",
+    "options": [
+      "Heat in the Liver and Gallbladder",
+      "Stomach Cold",
+      "Lung Deficiency",
+      "Kidney Yin Deficit"
+    ],
+    "answer": 0,
+    "explanation": "A bitter taste in the mouth signifies Liver Fire or Gallbladder Damp-Heat ascending to the tongue."
+  },
+  {
+    "id": 249,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A sweet taste in the mouth or sticky sensation signifies:",
+    "options": [
+      "Spleen Dampness or Damp-Heat",
+      "Heart Fire",
+      "Liver Qi",
+      "Lung Cold"
+    ],
+    "answer": 0,
+    "explanation": "Spleen governs the sweet flavor; dampness or damp-heat encumbering the Spleen generates a sweet, sticky taste."
+  },
+  {
+    "id": 250,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A pungent or metallic taste in the mouth relates to disharmony of:",
+    "options": [
+      "Lung",
+      "Kidney",
+      "Spleen",
+      "Heart"
+    ],
+    "answer": 0,
+    "explanation": "Lung relates to the pungent flavor in the Five Elements."
+  },
+  {
+    "id": 251,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A sour taste in the mouth with regurgitation signifies:",
+    "options": [
+      "Food Retention or Liver invading Stomach",
+      "Lung Phlegm",
+      "Kidney Yang Deficit",
+      "Heart Fire"
+    ],
+    "answer": 0,
+    "explanation": "Sour regurgitation indicates Liver Qi constraint attacking the Stomach, or food fermenting in the stomach."
+  },
+  {
+    "id": 252,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A salty taste in the mouth relates to which organ in Five Elements theory?",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Spleen",
+      "Heart"
+    ],
+    "answer": 0,
+    "explanation": "Kidney relates to the salty flavor in Five Elements correspondences."
+  },
+  {
+    "id": 253,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Choppy/Hesitant pulse (Se Mai) indicates:",
+    "options": [
+      "Blood Stasis or severe Blood/Essence deficiency",
+      "Excessive Full Heat",
+      "Phlegm and Dampness",
+      "Exterior Wind"
+    ],
+    "answer": 0,
+    "explanation": "A Choppy pulse feels rough, like a knife scraping bamboo, indicating impaired blood circulation or blood depletion."
+  },
+  {
+    "id": 254,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Short pulse that does not fill the pulse positions indicates:",
+    "options": [
+      "Severe Qi Deficiency or Qi Stagnation",
+      "Excess Heat",
+      "Dampness",
+      "Full Blood"
+    ],
+    "answer": 0,
+    "explanation": "A Short pulse fails to reach both the cun and chi positions, signifying deficiency of Qi."
+  },
+  {
+    "id": 255,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Long pulse that extends beyond the normal cun/chi positions indicates:",
+    "options": [
+      "Excess Heat, Liver Yang, or constitutional vitality",
+      "Yin Collapse",
+      "Severe Cold",
+      "Essence Deficit"
+    ],
+    "answer": 0,
+    "explanation": "A Long pulse extends past the boundaries, indicating abundant Qi or exuberant internal Heat/Liver Yang."
+  },
+  {
+    "id": 256,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Slow pulse (< 60 beats/min or under 4 beats per practitioner breath) indicates:",
+    "options": [
+      "Cold Pattern (Interior Full Cold or Yang Deficiency)",
+      "Heat Pattern",
+      "Wind-Heat",
+      "Phlegm-Heat"
+    ],
+    "answer": 0,
+    "explanation": "Cold congeals and slows blood flow; a slow pulse is the hallmark of Cold patterns."
+  },
+  {
+    "id": 257,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Rapid pulse (> 90 beats/min or > 5 beats per breath) indicates:",
+    "options": [
+      "Heat Pattern (Full Heat or Deficiency Heat)",
+      "Cold Pattern",
+      "Food Stagnation only",
+      "Blood Stasis only"
+    ],
+    "answer": 0,
+    "explanation": "Heat accelerates the circulation of Blood, resulting in a rapid pulse."
+  },
+  {
+    "id": 258,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A Tight pulse that feels like a twisted rope or stretched cord indicates:",
+    "options": [
+      "Cold, Pain, or Food Stagnation",
+      "Dampness",
+      "Yin Deficiency",
+      "Summer Heat"
+    ],
+    "answer": 0,
+    "explanation": "Cold constricts and causes pain, resulting in the vibrating, taut tension of a Tight pulse."
+  },
+  {
+    "id": 259,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A totally smooth, shiny tongue with no coating (Mirror Tongue) signifies:",
+    "options": [
+      "Exhaustion of Stomach Yin and Kidney Yin",
+      "Severe Dampness",
+      "Excess Spleen Heat",
+      "Interior Wind"
+    ],
+    "answer": 0,
+    "explanation": "The tongue coating is produced by Stomach Qi steaming digestion; a completely peeled mirror tongue marks severe Yin collapse."
+  },
+  {
+    "id": 260,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A black, dry, cracked tongue coating indicates:",
+    "options": [
+      "Extreme Fire/Heat consuming Body Fluids",
+      "Mild exterior cold",
+      "Food stagnation",
+      "Lung Qi deficiency"
+    ],
+    "answer": 0,
+    "explanation": "A dry, charred black coating indicates extreme deep Heat burning Body Fluids."
+  },
+  {
+    "id": 261,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "A black, wet, and slippery tongue coating indicates:",
+    "options": [
+      "Severe Interior Cold due to Yang collapse",
+      "Extreme Full Heat",
+      "Wind-Heat",
+      "Heart Fire"
+    ],
+    "answer": 0,
+    "explanation": "A moist, slippery black coat indicates extreme Cold and Yang deficiency failing to transform water."
+  },
+  {
+    "id": 262,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Hard",
+    "question": "Sudden severe chest pain radiating down the left arm to the little finger with purple lips indicates:",
+    "options": [
+      "Heart Blood Stasis (True Heart Pain / Angina)",
+      "Lung Phlegm",
+      "Liver Qi",
+      "Stomach Cold"
+    ],
+    "answer": 0,
+    "explanation": "Heart channel runs along the medial arm to the little finger; chest pain with cyanosis is classic Heart Blood Stasis."
+  },
+  {
+    "id": 263,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point formula tonifies both Heart and Spleen for insomnia, palpitation, and poor memory?",
+    "options": [
+      "HT7 (Shenmen), SP6 (Sanyinjiao), BL15 (Xinshu), BL20 (Pishu)",
+      "LR3, GB20, Taiyang, LI4",
+      "RN3, SP9, BL28, KD3",
+      "LU5, LU7, BL13, LI11"
+    ],
+    "answer": 0,
+    "explanation": "HT7 and BL15 nourish Heart; BL20 and SP6 nourish Spleen and generate blood (Guipi Tang equivalent)."
+  },
+  {
+    "id": 264,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point combination is premier for fever, sore throat, yellow nasal discharge, and cough?",
+    "options": [
+      "LI11 (Quchi), LI4 (Hegu), LU10 (Yuji), DU14 (Dazhui)",
+      "RN4, RN6, DU4, BL23",
+      "SP9, RN9, ST28, BL20",
+      "KD3, BL23, HT7, SP6"
+    ],
+    "answer": 0,
+    "explanation": "LI11, LI4, and DU14 clear exterior wind-heat; LU10 is the Ying-Spring Fire point of Lung to clear sore throat."
+  },
+  {
+    "id": 265,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which empirical distal point combination relieves acute severe lumbar muscle sprain immediately during active movement?",
+    "options": [
+      "DU26 (Shuigou) and BL40 (Weizhong) (or Yaotongxue)",
+      "RN12 and ST36",
+      "HT7 and SP6",
+      "LU9 and KD3"
+    ],
+    "answer": 0,
+    "explanation": "Needling DU26 while having the patient gently move their lower back disperses stagnant spinal Qi; BL40 releases the lumbar channel."
+  },
+  {
+    "id": 266,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point combination specifically arrests intractable hiccups?",
+    "options": [
+      "BL17 (Geshu), PC6 (Neiguan), RN12 (Zhongwan), ST36 (Zusanli)",
+      "HT7, SP6, BL15, BL20",
+      "GB20, LU7, LI4, BL60",
+      "RN4, RN6, DU4, BL23"
+    ],
+    "answer": 0,
+    "explanation": "BL17 influences the diaphragm; PC6 harmonizes stomach; RN12 and ST36 descend rebellious stomach Qi."
+  },
+  {
+    "id": 267,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which treatment principle and point combination is standard for cold-coagulated dysmenorrhea?",
+    "options": [
+      "Moxibustion on RN4 (Guanyuan), RN6 (Qihai), SP8 (Diji), SP6 (Sanyinjiao)",
+      "Sedating LI11 and ST44",
+      "Bleeding LU11 and HT9",
+      "Deep puncture of BL1"
+    ],
+    "answer": 0,
+    "explanation": "Warming moxa on RN4/RN6 dispels uterine cold; SP8 is the Xi-cleft point for acute cramps, and SP6 regulates menses."
+  },
+  {
+    "id": 268,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point prescription treats chronic daybreak diarrhea due to Spleen and Kidney Yang deficiency?",
+    "options": [
+      "Moxibustion on BL20 (Pishu), BL23 (Shenshu), RN4 (Guanyuan), ST36 (Zusanli)",
+      "Bleeding LI11 and LU5",
+      "Sedating LR2 and LR3",
+      "Deep puncture on RN3"
+    ],
+    "answer": 0,
+    "explanation": "Cock-crow diarrhea (5 AM diarrhea) is caused by Spleen and Kidney Yang failure; warming moxa on Back-Shu and Ren points is the gold standard."
+  },
+  {
+    "id": 269,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which points regulate Qi in the abdomen and intestines for stress-induced constipation with bloating?",
+    "options": [
+      "LR3 (Taichong), TE6 (Zhigou), ST25 (Tianshu), CV12 (Zhongwan)",
+      "BL23, DU4, RN4, KD3",
+      "LU11, LI1, PC9, HT9",
+      "SP10, BL17, BL15, HT7"
+    ],
+    "answer": 0,
+    "explanation": "LR3 spreads Liver Qi; TE6 moves intestinal Qi; ST25 is the Front-Mu of Large Intestine."
+  },
+  {
+    "id": 270,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point formula tonifies Kidney Qi and strengthens the bladder sphincter?",
+    "options": [
+      "BL23 (Shenshu), BL28 (Pangguangshu), RN3 (Zhongji), SP6 (Sanyinjiao)",
+      "LI11, LI4, DU14, ST44",
+      "LR2, LR3, GB34, GB20",
+      "LU5, LU6, LU7, BL13"
+    ],
+    "answer": 0,
+    "explanation": "BL23 tonifies Kidney; BL28 and RN3 regulate the Bladder Front/Back; SP6 reinforces lower jiao holding."
+  },
+  {
+    "id": 271,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which empirical points are celebrated for acute mastitis and breast tenderness?",
+    "options": [
+      "RN17 (Danzhong), ST18 (Rugen), GB21 (Jianjing), SI1 (Shaoze)",
+      "KD3, BL23, SP6, RN4",
+      "BL40, SI3, DU26, BL60",
+      "RN12, ST36, SP9, BL20"
+    ],
+    "answer": 0,
+    "explanation": "RN17 opens the chest; ST18 and GB21 drain the breast ducts; SI1 (pricked to bleed) is the empirical master point for breasts/lactation."
+  },
+  {
+    "id": 272,
+    "category": "Prescriptions & Clinical",
+    "difficulty": "Hard",
+    "question": "Which point combination is classic for stopping night sweats?",
+    "options": [
+      "HT6 (Yinxi) and KD7 (Fuliu)",
+      "LI4 and KD7",
+      "ST36 and SP6",
+      "LR3 and GB34"
+    ],
+    "answer": 0,
+    "explanation": "HT6 (Xi-cleft of Heart, master for night sweats) combined with KD7 (Metal point of Kidney, regulates fluid secretion)."
+  },
+  {
+    "id": 273,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 3:00 AM and 5:00 AM?",
+    "options": [
+      "Lung",
+      "Large Intestine",
+      "Liver",
+      "Heart"
+    ],
+    "answer": 0,
+    "explanation": "The horary cycle begins with the Lung channel from 3:00 AM to 5:00 AM, followed by Large Intestine from 5:00 AM to 7:00 AM."
+  },
+  {
+    "id": 274,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 7:00 AM and 9:00 AM?",
+    "options": [
+      "Stomach",
+      "Spleen",
+      "Heart",
+      "Large Intestine"
+    ],
+    "answer": 0,
+    "explanation": "Stomach peak time is 7:00 AM - 9:00 AM (optimal time for breakfast); Spleen follows from 9:00 AM - 11:00 AM."
+  },
+  {
+    "id": 275,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 11:00 AM and 1:00 PM?",
+    "options": [
+      "Heart",
+      "Small Intestine",
+      "Pericardium",
+      "Liver"
+    ],
+    "answer": 0,
+    "explanation": "Heart peak time is 11:00 AM to 1:00 PM; Small Intestine follows from 1:00 PM to 3:00 PM."
+  },
+  {
+    "id": 276,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 1:00 AM and 3:00 AM?",
+    "options": [
+      "Liver",
+      "Gallbladder",
+      "Lung",
+      "Kidney"
+    ],
+    "answer": 0,
+    "explanation": "Liver peak time is 1:00 AM to 3:00 AM (waking up during this time frequently indicates Liver Fire or Liver Blood deficiency)."
+  },
+  {
+    "id": 277,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 5:00 PM and 7:00 PM?",
+    "options": [
+      "Kidney",
+      "Bladder",
+      "Pericardium",
+      "San Jiao"
+    ],
+    "answer": 0,
+    "explanation": "Kidney peak time is 5:00 PM to 7:00 PM (Bladder precedes it from 3:00 PM to 5:00 PM)."
+  },
+  {
+    "id": 278,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 7:00 PM and 9:00 PM?",
+    "options": [
+      "Pericardium",
+      "Heart",
+      "San Jiao",
+      "Gallbladder"
+    ],
+    "answer": 0,
+    "explanation": "Pericardium peak time is 7:00 PM to 9:00 PM; San Jiao follows from 9:00 PM to 11:00 PM."
+  },
+  {
+    "id": 279,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 11:00 PM and 1:00 AM?",
+    "options": [
+      "Gallbladder",
+      "Liver",
+      "Kidney",
+      "San Jiao"
+    ],
+    "answer": 0,
+    "explanation": "Gallbladder peak time is 11:00 PM to 1:00 AM."
+  },
+  {
+    "id": 280,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 5:00 AM and 7:00 AM?",
+    "options": [
+      "Large Intestine",
+      "Stomach",
+      "Lung",
+      "Spleen"
+    ],
+    "answer": 0,
+    "explanation": "Large Intestine peak time is 5:00 AM to 7:00 AM (prime time for healthy bowel evacuation)."
+  },
+  {
+    "id": 281,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 9:00 AM and 11:00 AM?",
+    "options": [
+      "Spleen",
+      "Stomach",
+      "Heart",
+      "Lung"
+    ],
+    "answer": 0,
+    "explanation": "Spleen peak time is 9:00 AM to 11:00 AM."
+  },
+  {
+    "id": 282,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 1:00 PM and 3:00 PM?",
+    "options": [
+      "Small Intestine",
+      "Heart",
+      "Bladder",
+      "Kidney"
+    ],
+    "answer": 0,
+    "explanation": "Small Intestine peak time is 1:00 PM to 3:00 PM."
+  },
+  {
+    "id": 283,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 3:00 PM and 5:00 PM?",
+    "options": [
+      "Urinary Bladder",
+      "Kidney",
+      "Small Intestine",
+      "San Jiao"
+    ],
+    "answer": 0,
+    "explanation": "Urinary Bladder peak time is 3:00 PM to 5:00 PM."
+  },
+  {
+    "id": 284,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "According to the Chinese Organ Clock, which organ's peak Qi flow occurs between 9:00 PM and 11:00 PM?",
+    "options": [
+      "San Jiao (Triple Energizer)",
+      "Pericardium",
+      "Gallbladder",
+      "Liver"
+    ],
+    "answer": 0,
+    "explanation": "San Jiao peak time is 9:00 PM to 11:00 PM."
+  },
+  {
+    "id": 285,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "In Five Elements theory, which taste/flavor corresponds to the Liver and Wood element?",
+    "options": [
+      "Sour",
+      "Bitter",
+      "Sweet",
+      "Pungent"
+    ],
+    "answer": 0,
+    "explanation": "Wood = Sour; Fire = Bitter; Earth = Sweet; Metal = Pungent; Water = Salty."
+  },
+  {
+    "id": 286,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "In Five Elements theory, which emotion corresponds to the Lungs and Metal element?",
+    "options": [
+      "Grief and Sadness",
+      "Anger",
+      "Joy",
+      "Fear"
+    ],
+    "answer": 0,
+    "explanation": "Metal = Grief/Sadness; Wood = Anger; Fire = Joy; Earth = Pensiveness/Worry; Water = Fear."
+  },
+  {
+    "id": 287,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "In Five Elements theory, which tissue corresponds to the Spleen and Earth element?",
+    "options": [
+      "Muscles and Flesh",
+      "Tendons",
+      "Blood vessels",
+      "Bones"
+    ],
+    "answer": 0,
+    "explanation": "Earth = Muscles/Flesh; Wood = Tendons; Fire = Blood vessels; Metal = Skin/Body hair; Water = Bones."
+  },
+  {
+    "id": 288,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "In Five Elements theory, which sense organ corresponds to the Heart and Fire element?",
+    "options": [
+      "Tongue",
+      "Eyes",
+      "Mouth/Lips",
+      "Nose"
+    ],
+    "answer": 0,
+    "explanation": "Heart opens to the Tongue; Liver opens to the Eyes; Spleen opens to the Mouth; Lung opens to the Nose; Kidney opens to the Ears."
+  },
+  {
+    "id": 289,
+    "category": "Zang-Fu & Diagnostics",
+    "difficulty": "Easy",
+    "question": "In Five Elements theory, which season corresponds to the Kidney and Water element?",
+    "options": [
+      "Winter",
+      "Summer",
+      "Spring",
+      "Autumn"
+    ],
+    "answer": 0,
+    "explanation": "Water = Winter; Wood = Spring; Fire = Summer; Earth = Late Summer; Metal = Autumn."
+  },
+  {
+    "id": 290,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "The Lung channel originates internally in which anatomical region?",
+    "options": [
+      "Middle Jiao (Stomach region)",
+      "Upper Jiao (Lungs)",
+      "Heart",
+      "Lower Jiao"
+    ],
+    "answer": 0,
+    "explanation": "The Lung channel originates in the Middle Jiao in the region of the Stomach, descends to the Large Intestine, and loops back up through the diaphragm into the Lungs."
+  },
+  {
+    "id": 291,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "The Large Intestine meridian connects directly with which sensory organ?",
+    "options": [
+      "Nose (terminating at contralateral LI20)",
+      "Ears",
+      "Eyes",
+      "Tongue"
+    ],
+    "answer": 0,
+    "explanation": "The Large Intestine meridian crosses to the opposite side of the philtrum and ends beside the opposite ala nasi at LI20 (Yingxiang)."
+  },
+  {
+    "id": 292,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "The Stomach meridian begins internally where?",
+    "options": [
+      "Beside the nose at LI20, ascends to the inner canthus at BL1, and descends to ST1",
+      "Directly on the stomach organ",
+      "At the corner of the mouth",
+      "At the big toe"
+    ],
+    "answer": 0,
+    "explanation": "The Stomach channel originates beside the nose at LI20, ascends to the medial canthus (BL1), emerges at the infraorbital ridge at ST1."
+  },
+  {
+    "id": 293,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which meridian has the greatest number of acupuncture points (67 points)?",
+    "options": [
+      "Urinary Bladder meridian",
+      "Gallbladder meridian",
+      "Stomach meridian",
+      "Ren meridian"
+    ],
+    "answer": 0,
+    "explanation": "The Urinary Bladder meridian has 67 bilateral points, the longest channel in the body (Gallbladder has 44, Stomach has 45)."
+  },
+  {
+    "id": 294,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which meridian has 44 points and zig-zags extensively across the lateral aspect of the head?",
+    "options": [
+      "Gallbladder meridian",
+      "San Jiao meridian",
+      "Small Intestine meridian",
+      "Urinary Bladder meridian"
+    ],
+    "answer": 0,
+    "explanation": "The Gallbladder meridian has 44 points, famed for its complex coronal course around the ear and temples."
+  },
+  {
+    "id": 295,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which channel traverses the medial aspect of the leg, crossing SP6, and circles the external genitalia?",
+    "options": [
+      "Liver meridian",
+      "Kidney meridian",
+      "Spleen meridian",
+      "Stomach meridian"
+    ],
+    "answer": 0,
+    "explanation": "The Liver channel surrounds the external genitalia, ascends the abdomen, connects to the liver and gallbladder, and reaches the vertex at DU20."
+  },
+  {
+    "id": 296,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "Which primary channel reaches the vertex of the head (DU20) internally from the abdomen?",
+    "options": [
+      "Liver channel",
+      "Heart channel",
+      "Kidney channel",
+      "Spleen channel"
+    ],
+    "answer": 0,
+    "explanation": "The Liver primary channel ascends through the throat, enters the eye system, emerges on the forehead, and meets DU20 at the vertex."
+  },
+  {
+    "id": 297,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "The Heart primary channel sends a branch that wraps around which sensory organ?",
+    "options": [
+      "Eye system (connects with the tissues surrounding the eye)",
+      "Inner ear",
+      "Nasal cavity",
+      "Vocal cords"
+    ],
+    "answer": 0,
+    "explanation": "An internal branch of the Heart primary channel ascends through the esophageal tissues to connect with the eye system."
+  },
+  {
+    "id": 298,
+    "category": "Point Locations & Anatomy",
+    "difficulty": "Medium",
+    "question": "The Kidney primary channel terminates internally in which region?",
+    "options": [
+      "Root of the tongue",
+      "Vertex of head",
+      "Eyes",
+      "Ears"
+    ],
+    "answer": 0,
+    "explanation": "The Kidney primary channel terminates internally at the root of the tongue after ascending through the lungs and throat."
+  },
+  {
+    "id": 299,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which point is the Jing-Well point of the Pericardium channel?",
+    "options": [
+      "PC9 (Zhongchong)",
+      "PC8 (Laogong)",
+      "PC7 (Daling)",
+      "PC3 (Quze)"
+    ],
+    "answer": 0,
+    "explanation": "PC9 is the Jing-Well point (at tip of middle finger); PC8 is Ying-Spring; PC7 is Shu-Stream; PC3 is He-Sea."
+  },
+  {
+    "id": 300,
+    "category": "Special Point Categories",
+    "difficulty": "Easy",
+    "question": "Which point is the Ying-Spring point of the Heart channel?",
+    "options": [
+      "HT8 (Shaofu)",
+      "HT9 (Shaochong)",
+      "HT7 (Shenmen)",
+      "HT3 (Shaohai)"
+    ],
+    "answer": 0,
+    "explanation": "HT8 (in the palm between 4th and 5th metacarpal heads) is the Ying-Spring Fire point of the Heart."
+  }
+]

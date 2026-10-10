@@ -1,0 +1,1780 @@
+{
+  "LU1": {
+    "code": "LU1",
+    "name": "Zhongfu",
+    "hanzi": "中府",
+    "pos": [
+      1.45,
+      2.3,
+      0.7
+    ],
+    "cat": "Front-Mu of Lung",
+    "loc": "Lateral superior chest, 6 cun lateral to midline, 1st intercostal space.",
+    "act": "Clears Lung heat, descends Lung Qi, halts wheezing and cough.",
+    "saf": "Oblique insertion 0.5–0.8 cun. CAUTION: Deep perpendicular insertion risks pneumothorax!"
+  },
+  "LU5": {
+    "code": "LU5",
+    "name": "Chize",
+    "hanzi": "尺泽",
+    "pos": [
+      2.15,
+      1.25,
+      0.25
+    ],
+    "cat": "He-Sea (Water point)",
+    "loc": "Cubital crease of elbow, radial side of biceps brachii tendon.",
+    "act": "Clears Lung heat, expels phlegm, treats coughing blood, hemoptysis.",
+    "saf": "Perpendicular 0.5–1.0 cun. Avoid cephalic vein."
+  },
+  "LU7": {
+    "code": "LU7",
+    "name": "Lieque",
+    "hanzi": "列缺",
+    "pos": [
+      2.32,
+      0.35,
+      0.22
+    ],
+    "cat": "Luo-Connecting • Confluent of Ren Mai • Command Point of Head & Neck",
+    "loc": "Radial side of forearm, 1.5 cun proximal to transverse wrist crease.",
+    "act": "Releases exterior wind, opens Ren Mai, relieves headache, stiff neck, asthma.",
+    "saf": "Oblique proximal 0.5–0.8 cun along bone."
+  },
+  "LU9": {
+    "code": "LU9",
+    "name": "Taiyuan",
+    "hanzi": "太渊",
+    "pos": [
+      2.38,
+      0.05,
+      0.2
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth/Mother) • Hui-Meeting of Vessels",
+    "loc": "Radial end of wrist crease, between radial artery and abductor pollicis longus.",
+    "act": "Tonifies Lung Qi and Yin, harmonizes all vessels, pulseless disease.",
+    "saf": "Perpendicular 0.3–0.5 cun. Palpate and avoid radial artery!"
+  },
+  "LU11": {
+    "code": "LU11",
+    "name": "Shaoshang",
+    "hanzi": "少商",
+    "pos": [
+      2.58,
+      -0.55,
+      0.32
+    ],
+    "cat": "Jing-Well (Wood point) • Ghost point",
+    "loc": "Radial side of thumb, 0.1 cun proximal to corner of nail bed.",
+    "act": "Emergency point: Revives consciousness, clears extreme throat heat, sore throat.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed with lancet."
+  },
+  "LI1": {
+    "code": "LI1",
+    "name": "Shangyang",
+    "hanzi": "商阳",
+    "pos": [
+      2.48,
+      -0.68,
+      0.22
+    ],
+    "cat": "Jing-Well (Metal/Horary)",
+    "loc": "Radial side of index finger, 0.1 cun proximal to corner of nail bed.",
+    "act": "Clears Yangming heat, revives consciousness, toothache, swollen pharynx.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "LI4": {
+    "code": "LI4",
+    "name": "Hegu",
+    "hanzi": "合谷",
+    "pos": [
+      2.45,
+      -0.28,
+      0.18
+    ],
+    "cat": "Yuan-Source (Metal) • Command of Face & Mouth • Four Gates",
+    "loc": "Dorsum of hand, between 1st & 2nd metacarpals, midpoint of 2nd metacarpal bone.",
+    "act": "Releases exterior wind, relieves any pain in head/face, expels heat, opens Four Gates.",
+    "saf": "Perpendicular 0.5–1.0 cun. CONTRAINDICATED in pregnancy!"
+  },
+  "LI10": {
+    "code": "LI10",
+    "name": "Shousanli",
+    "hanzi": "手三里",
+    "pos": [
+      2.26,
+      0.65,
+      0.08
+    ],
+    "cat": "Arm Three Miles (Yangming Point)",
+    "loc": "Radial side of dorsal forearm, 2 cun distal to LI11 (Quchi).",
+    "act": "Harmonizes Stomach/Intestines, dispels wind-damp, clears meridian obstruction.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "LI11": {
+    "code": "LI11",
+    "name": "Quchi",
+    "hanzi": "曲池",
+    "pos": [
+      2.18,
+      1.25,
+      0.08
+    ],
+    "cat": "He-Sea (Earth/Mother) • Premier Heat-Clearing Point",
+    "loc": "Lateral end of transverse cubital crease, midway between LU5 and lateral epicondyle.",
+    "act": "Major point to clear heat and fire, cools blood, relieves hypertension, skin rashes.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "LI15": {
+    "code": "LI15",
+    "name": "Jianyu",
+    "hanzi": "肩髃",
+    "pos": [
+      1.8,
+      2.55,
+      0.12
+    ],
+    "cat": "Crossing of LI & Yang Qiao Mai",
+    "loc": "Anterior and inferior to acromion, in depression formed when arm is abducted 90°.",
+    "act": "Dispels wind-damp, benefits shoulder joint, frozen shoulder, hemiplegia.",
+    "saf": "Perpendicular or oblique distal 0.8–1.5 cun."
+  },
+  "LI20": {
+    "code": "LI20",
+    "name": "Yingxiang",
+    "hanzi": "迎香",
+    "pos": [
+      0.42,
+      3.82,
+      0.82
+    ],
+    "cat": "Crossing of LI & ST • Exit Point",
+    "loc": "In nasolabial groove, at level of midpoint of lateral border of ala nasi.",
+    "act": "Opens nasal passages, clears rhinitis, sinusitis, loss of smell, facial paralysis.",
+    "saf": "Oblique or transverse medially 0.3–0.5 cun. No moxa."
+  },
+  "ST1": {
+    "code": "ST1",
+    "name": "Chengqi",
+    "hanzi": "承泣",
+    "pos": [
+      0.36,
+      4.15,
+      0.82
+    ],
+    "cat": "Crossing of ST, Yang Qiao, Ren Mai",
+    "loc": "With eyes looking straight ahead, in depression between eyeball and infraorbital margin.",
+    "act": "Benefits eyes, dispels wind, conjunctivitis, night blindness, optic atrophy.",
+    "saf": "Push eyeball upward gently; insert perpendicular 0.5–1.0 cun slowly. NO manipulation!"
+  },
+  "ST2": {
+    "code": "ST2",
+    "name": "Sibai",
+    "hanzi": "四白",
+    "pos": [
+      0.36,
+      3.98,
+      0.8
+    ],
+    "cat": "Four Whites Point",
+    "loc": "Directly below ST1, in depression of infraorbital foramen.",
+    "act": "Clears vision, relieves facial pain, trigeminal neuralgia, facial tic.",
+    "saf": "Perpendicular 0.2–0.4 cun. Avoid deep penetration into infraorbital canal."
+  },
+  "ST6": {
+    "code": "ST6",
+    "name": "Jiache",
+    "hanzi": "颊车",
+    "pos": [
+      0.78,
+      3.45,
+      0.52
+    ],
+    "cat": "Jaw Bone Point",
+    "loc": "One finger-breadth anterior and superior to angle of jaw, on masseter prominence.",
+    "act": "Relieves toothache, TMJ lockjaw, facial paralysis, mumps, swollen cheek.",
+    "saf": "Perpendicular 0.3–0.5 cun or oblique toward ST4."
+  },
+  "ST7": {
+    "code": "ST7",
+    "name": "Xiaguan",
+    "hanzi": "下关",
+    "pos": [
+      0.8,
+      3.88,
+      0.48
+    ],
+    "cat": "Crossing of ST & GB",
+    "loc": "Anterior to ear, in depression between zygomatic arch and mandibular notch.",
+    "act": "Benefits ear and jaw, tinnitus, deafness, TMJ dysfunction, toothache.",
+    "saf": "Perpendicular 0.5–1.0 cun with mouth closed."
+  },
+  "ST8": {
+    "code": "ST8",
+    "name": "Touwei",
+    "hanzi": "头维",
+    "pos": [
+      0.85,
+      4.75,
+      0.5
+    ],
+    "cat": "Crossing of ST, GB, Yang Wei Mai",
+    "loc": "Corner of forehead, 0.5 cun directly above anterior hairline, 4.5 cun lateral to DU24.",
+    "act": "Dispels wind, clears head, frontal and Yangming headache, dizziness with phlegm.",
+    "saf": "Transverse posterior 0.5–1.0 cun. No moxa."
+  },
+  "ST25": {
+    "code": "ST25",
+    "name": "Tianshu",
+    "hanzi": "天枢",
+    "pos": [
+      0.55,
+      0.05,
+      0.86
+    ],
+    "cat": "Front-Mu of Large Intestine",
+    "loc": "Abdomen, 2 cun lateral to center of umbilicus (REN8).",
+    "act": "Regulates Intestines, treats both constipation and diarrhea, abdominal pain, food retention.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "ST28": {
+    "code": "ST28",
+    "name": "Shuidao",
+    "hanzi": "水道",
+    "pos": [
+      0.55,
+      -0.8,
+      0.82
+    ],
+    "cat": "Water Passage Point",
+    "loc": "Lower abdomen, 3 cun below umbilicus (level with REN4), 2 cun lateral to midline.",
+    "act": "Opens water passages, treats urinary retention, edema, ascites, dysmenorrhea.",
+    "saf": "Perpendicular 1.0–1.5 cun. Empty bladder prior to needling!"
+  },
+  "ST35": {
+    "code": "ST35",
+    "name": "Dubi",
+    "hanzi": "犊鼻",
+    "pos": [
+      1.12,
+      -2.95,
+      0.58
+    ],
+    "cat": "Calf's Nose • Lateral Eye of Knee",
+    "loc": "In depression lateral to patellar ligament when knee is flexed 90°.",
+    "act": "Dispels wind-damp, benefits knee joint, knee swelling and osteoarthritis.",
+    "saf": "Oblique medially toward center of knee 0.8–1.2 cun."
+  },
+  "ST36": {
+    "code": "ST36",
+    "name": "Zusanli",
+    "hanzi": "足三里",
+    "pos": [
+      1.1,
+      -3.65,
+      0.54
+    ],
+    "cat": "He-Sea (Earth/Horary) • Command of Abdomen • Sea of Nourishment",
+    "loc": "3 cun inferior to ST35, one finger-breadth lateral to anterior tibial crest.",
+    "act": "Premier tonification point for Qi and Blood, harmonizes Stomach, boosts immunity.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "ST38": {
+    "code": "ST38",
+    "name": "Tiaokou",
+    "hanzi": "条口",
+    "pos": [
+      1.05,
+      -4.45,
+      0.48
+    ],
+    "cat": "Empirical Shoulder Point",
+    "loc": "Midway between patella and lateral malleolus (8 cun below ST35), 1 finger-breadth lateral.",
+    "act": "Empirical distal point for frozen shoulder; mobilize shoulder during needle retention.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "ST40": {
+    "code": "ST40",
+    "name": "Fenglong",
+    "hanzi": "丰隆",
+    "pos": [
+      1.15,
+      -4.55,
+      0.42
+    ],
+    "cat": "Luo-Connecting Point • Premier Phlegm Point",
+    "loc": "8 cun superior to lateral malleolus, 2 finger-breadths lateral to anterior crest of tibia.",
+    "act": "Transforms phlegm and dampness anywhere in body (substantial & insubstantial).",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "ST44": {
+    "code": "ST44",
+    "name": "Neiting",
+    "hanzi": "内庭",
+    "pos": [
+      0.92,
+      -6.15,
+      0.68
+    ],
+    "cat": "Ying-Spring (Water point) • Stomach Fire Point",
+    "loc": "Dorsum of foot, in depression proximal to web margin between 2nd and 3rd toes.",
+    "act": "Clears Stomach heat and fire, toothache in upper jaw, acid regurgitation, hunger.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "ST45": {
+    "code": "ST45",
+    "name": "Lidui",
+    "hanzi": "历兑",
+    "pos": [
+      0.92,
+      -6.22,
+      0.72
+    ],
+    "cat": "Jing-Well (Metal/Child/Sedation)",
+    "loc": "Lateral side of 2nd toe, 0.1 cun proximal to corner of nail bed.",
+    "act": "Sedates Stomach fire, clears heat from face, dreaming of ghosts, insomnia.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "SP1": {
+    "code": "SP1",
+    "name": "Yinbai",
+    "hanzi": "隐白",
+    "pos": [
+      0.65,
+      -6.22,
+      0.72
+    ],
+    "cat": "Jing-Well (Wood) • Ghost point",
+    "loc": "Medial side of big toe, 0.1 cun proximal to corner of nail bed.",
+    "act": "Stops uterine bleeding, controls blood in vessels, calms mind, dream-disturbed sleep.",
+    "saf": "Perpendicular 0.1 cun or moxa with direct cone for hemorrhage."
+  },
+  "SP3": {
+    "code": "SP3",
+    "name": "Taibai",
+    "hanzi": "太白",
+    "pos": [
+      0.58,
+      -6.05,
+      0.52
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth/Horary)",
+    "loc": "Medial foot, in depression posterior and inferior to 1st metatarsophalangeal joint.",
+    "act": "Tonifies Spleen Qi and Yang, resolves dampness, abdominal distension, lethargy.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "SP4": {
+    "code": "SP4",
+    "name": "Gongsun",
+    "hanzi": "公孙",
+    "pos": [
+      0.58,
+      -5.92,
+      0.38
+    ],
+    "cat": "Luo-Connecting • Confluent of Chong Mai",
+    "loc": "Medial foot, in depression distal and inferior to base of 1st metatarsal bone.",
+    "act": "Fortifies Spleen, regulates Chong Mai, treats gastric pain, vomiting, gynecological masses.",
+    "saf": "Perpendicular 0.6–1.0 cun."
+  },
+  "SP6": {
+    "code": "SP6",
+    "name": "Sanyinjiao",
+    "hanzi": "三阴交",
+    "pos": [
+      0.65,
+      -5.15,
+      0.15
+    ],
+    "cat": "Crossing of 3 Leg Yin (Spleen, Liver, Kidney)",
+    "loc": "Medial lower leg, 3 cun superior to tip of medial malleolus, posterior to tibial border.",
+    "act": "Nourishes Blood & Yin, harmonizes Liver/Kidney/Spleen, regulates menses, resolves damp.",
+    "saf": "Perpendicular 1.0–1.5 cun. STRICTLY CONTRAINDICATED in pregnancy!"
+  },
+  "SP9": {
+    "code": "SP9",
+    "name": "Yinlingquan",
+    "hanzi": "阴陵泉",
+    "pos": [
+      0.62,
+      -3.35,
+      0.25
+    ],
+    "cat": "He-Sea (Water point) • Premier Damp-Resolving Point",
+    "loc": "Medial leg, in depression of angle formed by medial condyle of tibia and posterior border.",
+    "act": "Resolves dampness and water retention, treats edema, diarrhea, urinary dribbling.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "SP10": {
+    "code": "SP10",
+    "name": "Xuehai",
+    "hanzi": "血海",
+    "pos": [
+      0.68,
+      -2.25,
+      0.52
+    ],
+    "cat": "Sea of Blood",
+    "loc": "Medial thigh, 2 cun superior to medial superior border of patella, on vastus medialis.",
+    "act": "Clears blood heat, invigorates blood stasis, stops itching, urticaria, eczema.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "SP15": {
+    "code": "SP15",
+    "name": "Daheng",
+    "hanzi": "大横",
+    "pos": [
+      1.1,
+      0.05,
+      0.78
+    ],
+    "cat": "Crossing of Spleen & Yin Wei Mai",
+    "loc": "Abdomen, 4 cun lateral to center of umbilicus (lateral to ST25).",
+    "act": "Regulates intestines, treats cold constipation, intestinal parasitical cramping.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "SP21": {
+    "code": "SP21",
+    "name": "Dabao",
+    "hanzi": "大包",
+    "pos": [
+      1.55,
+      1.4,
+      0.1
+    ],
+    "cat": "Great Luo-Connecting Point of Spleen",
+    "loc": "Lateral mid-axillary line, in 6th intercostal space.",
+    "act": "Regulates all Luo vessels, treats general body aching, weakness of four limbs.",
+    "saf": "Oblique or transverse 0.5–0.8 cun. CAUTION: Risk of pneumothorax!"
+  },
+  "HT1": {
+    "code": "HT1",
+    "name": "Jiquan",
+    "hanzi": "极泉",
+    "pos": [
+      1.55,
+      2.1,
+      0.05
+    ],
+    "cat": "Entry Point of Heart",
+    "loc": "Center of axilla, over axillary artery.",
+    "act": "Unbinds chest, invigorates Qi/Blood of Heart, treats angina, frozen shoulder.",
+    "saf": "Perpendicular 0.5–1.0 cun. Avoid axillary artery; no moxa."
+  },
+  "HT3": {
+    "code": "HT3",
+    "name": "Shaohai",
+    "hanzi": "少海",
+    "pos": [
+      1.92,
+      1.18,
+      0.18
+    ],
+    "cat": "He-Sea (Water point)",
+    "loc": "Medial end of transverse cubital crease when elbow is fully flexed.",
+    "act": "Calms Shen, clears Heart phlegm-fire, relieves elbow tremors and cardiac pain.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "HT5": {
+    "code": "HT5",
+    "name": "Tongli",
+    "hanzi": "通里",
+    "pos": [
+      2.16,
+      0.25,
+      0.14
+    ],
+    "cat": "Luo-Connecting Point",
+    "loc": "Radial side of tendon of flexor carpi ulnaris, 1 cun proximal to HT7.",
+    "act": "Penetrates tongue, sudden loss of voice (aphasia), palpitations, stuttering.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "HT6": {
+    "code": "HT6",
+    "name": "Yinxi",
+    "hanzi": "阴郄",
+    "pos": [
+      2.18,
+      0.15,
+      0.14
+    ],
+    "cat": "Xi-Cleft Point of Heart",
+    "loc": "Radial side of tendon of flexor carpi ulnaris, 0.5 cun proximal to HT7.",
+    "act": "Premier point for night sweats from Heart Yin deficiency, acute cardiac pain.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "HT7": {
+    "code": "HT7",
+    "name": "Shenmen",
+    "hanzi": "神门",
+    "pos": [
+      2.2,
+      0.05,
+      0.12
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth/Child) • Premier Shen Point",
+    "loc": "Transverse wrist crease, in depression on radial side of flexor carpi ulnaris tendon.",
+    "act": "Primary point to calm Shen, insomnia, anxiety, panic attacks, heart palpitations.",
+    "saf": "Perpendicular 0.3–0.5 cun."
+  },
+  "HT9": {
+    "code": "HT9",
+    "name": "Shaochong",
+    "hanzi": "少冲",
+    "pos": [
+      2.28,
+      -0.68,
+      0.12
+    ],
+    "cat": "Jing-Well (Wood/Mother)",
+    "loc": "Radial side of little finger, 0.1 cun proximal to corner of nail bed.",
+    "act": "Revives consciousness, clears Heart heat, febrile coma, delirium.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "SI1": {
+    "code": "SI1",
+    "name": "Shaoze",
+    "hanzi": "少泽",
+    "pos": [
+      2.26,
+      -0.68,
+      0.0
+    ],
+    "cat": "Jing-Well (Metal)",
+    "loc": "Ulnar side of little finger, 0.1 cun proximal to corner of nail bed.",
+    "act": "Promotes lactation (insufficient breast milk), clears heat, treats breast abscess.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "SI3": {
+    "code": "SI3",
+    "name": "Houxi",
+    "hanzi": "后溪",
+    "pos": [
+      2.22,
+      -0.28,
+      -0.08
+    ],
+    "cat": "Shu-Stream (Wood/Mother) • Confluent of Du Mai",
+    "loc": "Ulnar border of hand, in depression proximal to 5th metacarpophalangeal head.",
+    "act": "Opens Du Mai, clears heat, relaxes sinews, treats stiff neck, occipital headache, spine pain.",
+    "saf": "Perpendicular 0.5–1.0 cun toward LI4."
+  },
+  "SI8": {
+    "code": "SI8",
+    "name": "Xiaohai",
+    "hanzi": "小海",
+    "pos": [
+      1.9,
+      1.18,
+      -0.18
+    ],
+    "cat": "He-Sea (Earth/Child/Sedation)",
+    "loc": "In depression between olecranon of ulna and medial epicondyle of humerus.",
+    "act": "Clears heat and swelling, resolves damp-heat, treats ulnar nerve neuropathy.",
+    "saf": "Perpendicular 0.3–0.5 cun. Avoid hitting ulnar nerve directly."
+  },
+  "SI9": {
+    "code": "SI9",
+    "name": "Jianzhen",
+    "hanzi": "肩贞",
+    "pos": [
+      1.65,
+      2.05,
+      -0.52
+    ],
+    "cat": "True Shoulder Point",
+    "loc": "Posterior and inferior to shoulder joint, 1 cun superior to posterior axillary crease.",
+    "act": "Benefits shoulder joint, dispels wind-damp, scapular pain, inability to raise arm.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "SI11": {
+    "code": "SI11",
+    "name": "Tianzong",
+    "hanzi": "天宗",
+    "pos": [
+      1.25,
+      1.85,
+      -0.68
+    ],
+    "cat": "Heavenly Gathering • Scapular Point",
+    "loc": "In infraspinatus fossa of scapula, at junction of upper and middle third.",
+    "act": "Unbinds chest, promotes lactation, relieves scapular pain and frozen shoulder.",
+    "saf": "Perpendicular or oblique 0.5–1.0 cun."
+  },
+  "SI19": {
+    "code": "SI19",
+    "name": "Tinggong",
+    "hanzi": "听宫",
+    "pos": [
+      0.84,
+      4.02,
+      0.35
+    ],
+    "cat": "Crossing of SI, SJ, GB",
+    "loc": "Anterior to tragus of ear, in depression formed when mouth is slightly opened.",
+    "act": "Benefits hearing, calms Shen, tinnitus, deafness, otitis media, TMJ pain.",
+    "saf": "Perpendicular 0.8–1.2 cun with mouth open."
+  },
+  "BL1": {
+    "code": "BL1",
+    "name": "Jingming",
+    "hanzi": "睛明",
+    "pos": [
+      0.22,
+      4.3,
+      0.84
+    ],
+    "cat": "Crossing of BL, SI, ST, Yin/Yang Qiao Mai",
+    "loc": "0.1 cun superior to inner canthus of eye, against orbital border.",
+    "act": "Clears vision, expels wind, eye redness, night blindness, glaucoma, optic atrophy.",
+    "saf": "Push eye laterally; perpendicular 0.5–1.0 cun along orbital margin. NO manipulation! Strict hematoma alert!"
+  },
+  "BL2": {
+    "code": "BL2",
+    "name": "Zanzhu",
+    "hanzi": "攒竹",
+    "pos": [
+      0.26,
+      4.45,
+      0.82
+    ],
+    "cat": "Gathered Bamboo",
+    "loc": "Supraorbital margin, in depression at medial end of eyebrow.",
+    "act": "Dispels wind, clears head and eyes, frontal headache, sinus pain, twitching eyelids.",
+    "saf": "Subcutaneous transverse medially or laterally 0.5–0.8 cun. No moxa."
+  },
+  "BL10": {
+    "code": "BL10",
+    "name": "Tianzhu",
+    "hanzi": "天柱",
+    "pos": [
+      0.35,
+      3.85,
+      -0.68
+    ],
+    "cat": "Celestial Pillar • Sea of Qi Point",
+    "loc": "Lateral border of trapezius muscle, 1.3 cun lateral to DU15.",
+    "act": "Regulates Qi, benefits head and eyes, relieves stiff neck, occipital headache.",
+    "saf": "Perpendicular 0.5–0.8 cun. CAUTION: Deep superior insertion enters spinal canal!"
+  },
+  "BL11": {
+    "code": "BL11",
+    "name": "Dazhu",
+    "hanzi": "大杼",
+    "pos": [
+      0.45,
+      2.45,
+      -0.76
+    ],
+    "cat": "Hui-Meeting of Bones • Sea of Blood Point",
+    "loc": "1.5 cun lateral to lower border of spinous process of T1 vertebra.",
+    "act": "Benefits bones, expels pathogenic wind, treats bone Bi, rigidity of neck, cough.",
+    "saf": "Oblique medially toward spine 0.5–0.8 cun. Deep perpendicular insertion risks pneumothorax!"
+  },
+  "BL13": {
+    "code": "BL13",
+    "name": "Feishu",
+    "hanzi": "肺俞",
+    "pos": [
+      0.45,
+      2.05,
+      -0.78
+    ],
+    "cat": "Back-Shu of Lung",
+    "loc": "1.5 cun lateral to lower border of spinous process of T3 vertebra.",
+    "act": "Tonifies Lung Qi and Yin, clears heat, stops coughing, treats asthma and night sweats.",
+    "saf": "Oblique medially toward spine 0.5–0.8 cun. CAUTION: Deep insertion risks pneumothorax!"
+  },
+  "BL15": {
+    "code": "BL15",
+    "name": "Xinshu",
+    "hanzi": "心俞",
+    "pos": [
+      0.45,
+      1.65,
+      -0.78
+    ],
+    "cat": "Back-Shu of Heart",
+    "loc": "1.5 cun lateral to lower border of spinous process of T5 vertebra.",
+    "act": "Tonifies Heart Qi/Blood, calms Shen, clears Heart fire, insomnia, palpitations.",
+    "saf": "Oblique medially toward spine 0.5–0.8 cun. CAUTION: Risk of pneumothorax!"
+  },
+  "BL18": {
+    "code": "BL18",
+    "name": "Ganshu",
+    "hanzi": "肝俞",
+    "pos": [
+      0.45,
+      1.05,
+      -0.74
+    ],
+    "cat": "Back-Shu of Liver",
+    "loc": "1.5 cun lateral to lower border of spinous process of T9 vertebra.",
+    "act": "Spreads Liver Qi, nourishes Liver Blood and Yin, benefits eyes, clears damp-heat.",
+    "saf": "Oblique medially 0.5–0.8 cun. CAUTION: Risk of pneumothorax!"
+  },
+  "BL20": {
+    "code": "BL20",
+    "name": "Pishu",
+    "hanzi": "脾俞",
+    "pos": [
+      0.45,
+      0.6,
+      -0.72
+    ],
+    "cat": "Back-Shu of Spleen",
+    "loc": "1.5 cun lateral to lower border of spinous process of T11 vertebra.",
+    "act": "Tonifies Spleen Qi and Yang, resolves dampness, chronic diarrhea, prolapse, fatigue.",
+    "saf": "Oblique medially 0.5–0.8 cun. CAUTION: Risk of pneumothorax!"
+  },
+  "BL23": {
+    "code": "BL23",
+    "name": "Shenshu",
+    "hanzi": "肾俞",
+    "pos": [
+      0.45,
+      -0.2,
+      -0.7
+    ],
+    "cat": "Back-Shu of Kidney",
+    "loc": "1.5 cun lateral to lower border of spinous process of L2 vertebra.",
+    "act": "Premier Kidney tonification point: nourishes Yin, warms Yang, strengthens lumbar spine.",
+    "saf": "Perpendicular or slightly oblique 0.8–1.2 cun. CAUTION: Deep lateral insertion risks kidney puncture!"
+  },
+  "BL40": {
+    "code": "BL40",
+    "name": "Weizhong",
+    "hanzi": "委中",
+    "pos": [
+      0.82,
+      -3.1,
+      -0.45
+    ],
+    "cat": "He-Sea (Earth) • Command of Back & Lumbar Region",
+    "loc": "Midpoint of transverse popliteal crease, between tendons of biceps femoris and semitendinosus.",
+    "act": "Clears blood heat, benefits lumbar spine and knees, treats acute back spasm, heat stroke.",
+    "saf": "Perpendicular 1.0–1.5 cun, or prick popliteal venule to bleed for acute toxin."
+  },
+  "BL52": {
+    "code": "BL52",
+    "name": "Zhishi",
+    "hanzi": "志室",
+    "pos": [
+      0.9,
+      -0.2,
+      -0.68
+    ],
+    "cat": "Residence of Will (Zhi) Point",
+    "loc": "3 cun lateral to lower border of spinous process of L2 vertebra (level with BL23).",
+    "act": "Tonifies Kidney essence and willpower, treats nocturnal emission, impotence, deep exhaustion.",
+    "saf": "Perpendicular 0.8–1.0 cun. CAUTION: Deep insertion risks kidney trauma!"
+  },
+  "BL57": {
+    "code": "BL57",
+    "name": "Chengshan",
+    "hanzi": "承山",
+    "pos": [
+      0.82,
+      -4.35,
+      -0.52
+    ],
+    "cat": "Support the Mountain • Hemorrhoid Point",
+    "loc": "Posterior midline of calf, in depression at inferior border of gastrocnemius muscle belly.",
+    "act": "Empirical point for hemorrhoids, relaxes sinews, relieves calf cramps and sciatica.",
+    "saf": "Perpendicular 1.0–2.0 cun."
+  },
+  "BL60": {
+    "code": "BL60",
+    "name": "Kunlun",
+    "hanzi": "昆仑",
+    "pos": [
+      1.08,
+      -5.72,
+      -0.1
+    ],
+    "cat": "Jing-River (Fire) • Aspirin Point of Acupuncture",
+    "loc": "In depression between external malleolus and Achilles tendon.",
+    "act": "Clears heat, relaxes sinews, relieves occipital headache, lumbar pain, induces labor.",
+    "saf": "Perpendicular 0.5–1.0 cun. CONTRAINDICATED in pregnancy!"
+  },
+  "BL62": {
+    "code": "BL62",
+    "name": "Shenmai",
+    "hanzi": "申脉",
+    "pos": [
+      1.06,
+      -5.88,
+      0.05
+    ],
+    "cat": "Confluent of Yang Qiao Mai • Sun Si-miao Ghost Point",
+    "loc": "In depression directly inferior to external malleolus.",
+    "act": "Opens Yang Qiao Mai, pacifies interior wind, treats daytime epilepsy, insomnia, ankle pain.",
+    "saf": "Perpendicular 0.3–0.5 cun."
+  },
+  "BL67": {
+    "code": "BL67",
+    "name": "Zhiyin",
+    "hanzi": "至阴",
+    "pos": [
+      1.18,
+      -6.2,
+      0.58
+    ],
+    "cat": "Jing-Well (Metal/Mother) • Malposition of Fetus Point",
+    "loc": "Lateral side of little toe, 0.1 cun proximal to corner of nail bed.",
+    "act": "Turns breach baby (moxa applied from week 32 to 36), clears heat, headache.",
+    "saf": "Perpendicular 0.1 cun or indirect moxa with stick 15–20 minutes daily for breach fetus."
+  },
+  "KI1": {
+    "code": "KI1",
+    "name": "Yongquan",
+    "hanzi": "涌泉",
+    "pos": [
+      0.75,
+      -6.32,
+      0.15
+    ],
+    "cat": "Jing-Well (Wood/Child) • Premier Grounding Point",
+    "loc": "Sole of foot, between 2nd & 3rd metatarsals, in depression formed when foot is plantar flexed.",
+    "act": "Descends excess heat from head, anchors Yang, revives consciousness, hypertension.",
+    "saf": "Perpendicular 0.5–1.0 cun."
+  },
+  "KI3": {
+    "code": "KI3",
+    "name": "Taixi",
+    "hanzi": "太溪",
+    "pos": [
+      0.56,
+      -5.72,
+      -0.05
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth) • Premier Kidney Tonic",
+    "loc": "In depression between medial malleolus and Achilles tendon.",
+    "act": "Nourishes Kidney Yin and warms Kidney Yang, benefits lumbar spine, sore throat.",
+    "saf": "Perpendicular 0.5–1.0 cun."
+  },
+  "KI6": {
+    "code": "KI6",
+    "name": "Zhaohai",
+    "hanzi": "照海",
+    "pos": [
+      0.56,
+      -5.88,
+      0.05
+    ],
+    "cat": "Confluent of Yin Qiao Mai",
+    "loc": "1 cun directly inferior to prominence of medial malleolus.",
+    "act": "Nourishes Kidney Yin, clears deficiency heat, treats dry sore throat, night sweats, insomnia.",
+    "saf": "Perpendicular 0.3–0.5 cun."
+  },
+  "KI7": {
+    "code": "KI7",
+    "name": "Fuliu",
+    "hanzi": "复溜",
+    "pos": [
+      0.58,
+      -5.25,
+      -0.15
+    ],
+    "cat": "Jing-River (Metal/Mother) • Sweat Regulating Point",
+    "loc": "2 cun directly superior to KI3, on anterior border of Achilles tendon.",
+    "act": "Regulates sweating (spontaneous sweating or night sweats), drains damp edema.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "KI10": {
+    "code": "KI10",
+    "name": "Yingu",
+    "hanzi": "阴谷",
+    "pos": [
+      0.6,
+      -3.1,
+      -0.32
+    ],
+    "cat": "He-Sea (Water/Horary)",
+    "loc": "Medial popliteal crease, between semitendinosus and semimembranosus tendons.",
+    "act": "Clears damp-heat from Lower Burner, treats impotence, hernia, dysuria, knee pain.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "PC3": {
+    "code": "PC3",
+    "name": "Quze",
+    "hanzi": "曲泽",
+    "pos": [
+      2.05,
+      1.2,
+      0.24
+    ],
+    "cat": "He-Sea (Water point)",
+    "loc": "Transverse cubital crease, on ulnar side of biceps brachii tendon.",
+    "act": "Clears heat from Nutritive and Blood levels, treats cardiac pain, gastroenteritis, vomiting.",
+    "saf": "Perpendicular 0.8–1.2 cun or prick venule to bleed."
+  },
+  "PC6": {
+    "code": "PC6",
+    "name": "Neiguan",
+    "hanzi": "内关",
+    "pos": [
+      2.25,
+      0.35,
+      0.2
+    ],
+    "cat": "Luo-Connecting • Confluent of Yin Wei Mai • Command of Chest",
+    "loc": "2 cun proximal to transverse wrist crease, between palmaris longus and flexor carpi radialis.",
+    "act": "Unbinds chest, calms Shen, premier point for nausea, morning sickness, motion sickness, anxiety.",
+    "saf": "Perpendicular 0.5–1.0 cun. Avoid median nerve; electric sensation indicates nerve contact."
+  },
+  "PC7": {
+    "code": "PC7",
+    "name": "Daling",
+    "hanzi": "大陵",
+    "pos": [
+      2.3,
+      0.05,
+      0.18
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth/Child) • Sun Si-miao Ghost Point",
+    "loc": "Midpoint of transverse wrist crease, between tendons of palmaris longus and flexor carpi radialis.",
+    "act": "Clears Heart fire, calms Shen, treats bad breath, laughing maniacally, carpal tunnel.",
+    "saf": "Perpendicular 0.3–0.5 cun."
+  },
+  "PC8": {
+    "code": "PC8",
+    "name": "Laogong",
+    "hanzi": "劳宫",
+    "pos": [
+      2.35,
+      -0.28,
+      0.18
+    ],
+    "cat": "Ying-Spring (Fire/Horary) • Ghost point",
+    "loc": "Center of palm, between 2nd & 3rd metacarpals where middle fingertip touches in closed fist.",
+    "act": "Clears extreme Heart fire, mouth ulcers, halitosis, epilepsy, delirium.",
+    "saf": "Perpendicular 0.3–0.5 cun."
+  },
+  "PC9": {
+    "code": "PC9",
+    "name": "Zhongchong",
+    "hanzi": "中冲",
+    "pos": [
+      2.42,
+      -0.72,
+      0.16
+    ],
+    "cat": "Jing-Well (Wood/Mother)",
+    "loc": "Tip of middle finger, 0.1 cun proximal to corner of nail bed.",
+    "act": "Emergency point: Revives consciousness, clears Heart heat, heat stroke, pediatric fright.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "SJ1": {
+    "code": "SJ1",
+    "name": "Guanchong",
+    "hanzi": "关冲",
+    "pos": [
+      2.36,
+      -0.68,
+      0.02
+    ],
+    "cat": "Jing-Well (Metal)",
+    "loc": "Ulnar side of ring finger, 0.1 cun proximal to corner of nail bed.",
+    "act": "Clears Upper Burner heat, sore throat, febrile diseases, headache.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "SJ3": {
+    "code": "SJ3",
+    "name": "Zhongzhu",
+    "hanzi": "中渚",
+    "pos": [
+      2.32,
+      -0.28,
+      -0.05
+    ],
+    "cat": "Shu-Stream (Wood/Mother)",
+    "loc": "Dorsum of hand, in depression between 4th & 5th metacarpal heads.",
+    "act": "Opens ear, clears head and eyes, premier point for tinnitus and temporal headache.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "SJ5": {
+    "code": "SJ5",
+    "name": "Waiguan",
+    "hanzi": "外关",
+    "pos": [
+      2.25,
+      0.35,
+      -0.1
+    ],
+    "cat": "Luo-Connecting • Confluent of Yang Wei Mai",
+    "loc": "2 cun proximal to dorsal wrist crease, between radius and ulna.",
+    "act": "Releases exterior wind-heat, clears Shaoyang heat, treats migraine, ear infections, stiff neck.",
+    "saf": "Perpendicular 0.5–1.0 cun."
+  },
+  "SJ6": {
+    "code": "SJ6",
+    "name": "Zhigou",
+    "hanzi": "支沟",
+    "pos": [
+      2.23,
+      0.5,
+      -0.1
+    ],
+    "cat": "Jing-River (Fire/Horary) • Empirical Constipation Point",
+    "loc": "3 cun proximal to dorsal wrist crease, between radius and ulna.",
+    "act": "Clears heat in Three Burners, moves stagnant Qi in hypochondrium, relieves constipation.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "SJ14": {
+    "code": "SJ14",
+    "name": "Jianliao",
+    "hanzi": "肩髎",
+    "pos": [
+      1.82,
+      2.45,
+      -0.15
+    ],
+    "cat": "Shoulder Crevice Point",
+    "loc": "Posterior and inferior to acromion, in depression formed when arm is abducted.",
+    "act": "Dispels wind-damp, benefits shoulder joint, treats frozen shoulder and arm motor impairment.",
+    "saf": "Perpendicular or oblique distal 0.8–1.5 cun."
+  },
+  "SJ17": {
+    "code": "SJ17",
+    "name": "Yifeng",
+    "hanzi": "翳风",
+    "pos": [
+      0.82,
+      3.82,
+      -0.15
+    ],
+    "cat": "Crossing of SJ & GB",
+    "loc": "Behind earlobe, in depression between mastoid process and angle of mandible.",
+    "act": "Benefits ear, dispels wind, treats tinnitus, Bell's palsy, facial paralysis, ear discharge.",
+    "saf": "Perpendicular 0.8–1.2 cun directed slightly anterior. Avoid hitting carotid artery!"
+  },
+  "SJ21": {
+    "code": "SJ21",
+    "name": "Ermen",
+    "hanzi": "耳门",
+    "pos": [
+      0.84,
+      4.22,
+      0.28
+    ],
+    "cat": "Ear Gate Point",
+    "loc": "In depression anterior to supratragic notch, slightly superior to condyloid process.",
+    "act": "Clears heat from ear, treats ear pain, tinnitus, hearing impairment, toothache.",
+    "saf": "Perpendicular 0.5–1.0 cun with mouth slightly open."
+  },
+  "GB1": {
+    "code": "GB1",
+    "name": "Tongziliao",
+    "hanzi": "瞳子髎",
+    "pos": [
+      0.8,
+      4.25,
+      0.68
+    ],
+    "cat": "Crossing of GB, SI, SJ",
+    "loc": "0.5 cun lateral to outer canthus of eye, in depression on lateral orbital margin.",
+    "act": "Benefits eyes, clears heat, treats headache, eye redness, night blindness, optic neuritis.",
+    "saf": "Subcutaneous transverse 0.3–0.5 cun laterally."
+  },
+  "GB2": {
+    "code": "GB2",
+    "name": "Tinghui",
+    "hanzi": "听会",
+    "pos": [
+      0.84,
+      3.82,
+      0.35
+    ],
+    "cat": "Meeting of Hearing Point",
+    "loc": "Anterior to intertragic notch, at posterior border of condyloid process of mandible.",
+    "act": "Clears heat from Shaoyang, benefits ear, treats severe tinnitus, sudden deafness, jaw pain.",
+    "saf": "Perpendicular 0.8–1.2 cun with mouth open."
+  },
+  "GB8": {
+    "code": "GB8",
+    "name": "Shuaigu",
+    "hanzi": "率谷",
+    "pos": [
+      0.9,
+      4.45,
+      0.05
+    ],
+    "cat": "Crossing of GB & Bladder",
+    "loc": "Directly superior to apex of ear, 1.5 cun within hairline.",
+    "act": "Relieves one-sided migraine headache, pacifies wind, treats hangover, infantile convulsion.",
+    "saf": "Subcutaneous transverse 0.5–1.0 cun."
+  },
+  "GB14": {
+    "code": "GB14",
+    "name": "Yangbai",
+    "hanzi": "阳白",
+    "pos": [
+      0.55,
+      4.58,
+      0.74
+    ],
+    "cat": "Crossing of GB, Yang Wei Mai",
+    "loc": "Forehead, 1 cun superior to midpoint of eyebrow, directly above pupil.",
+    "act": "Dispels exterior wind, brightens eyes, treats frontal headache, facial paralysis, drooping eyelid.",
+    "saf": "Subcutaneous transverse inferiorly or laterally 0.5–0.8 cun."
+  },
+  "GB20": {
+    "code": "GB20",
+    "name": "Fengchi",
+    "hanzi": "风池",
+    "pos": [
+      0.65,
+      3.85,
+      -0.58
+    ],
+    "cat": "Crossing of GB, Yang Wei Mai • Wind Pool",
+    "loc": "Below occiput, in depression between upper portions of sternocleidomastoid and trapezius.",
+    "act": "Premier point for all interior and exterior wind diseases, stiff neck, headache, hypertension.",
+    "saf": "Needle toward tip of nose 0.8–1.2 cun. CAUTION: Deep superior insertion enters foramen magnum!"
+  },
+  "GB21": {
+    "code": "GB21",
+    "name": "Jianjing",
+    "hanzi": "肩井",
+    "pos": [
+      1.1,
+      2.7,
+      -0.1
+    ],
+    "cat": "Crossing of GB, SJ, ST, Yang Wei Mai",
+    "loc": "Midway between spinous process of C7 (DU14) and lateral acromion, on trapezius crest.",
+    "act": "Descends Qi, benefits shoulder, treats neck stiffness, promotes lactation.",
+    "saf": "Posterior oblique 0.5–0.8 cun. CAUTION: Perpendicular insertion risks pneumothorax! CONTRAINDICATED in pregnancy!"
+  },
+  "GB30": {
+    "code": "GB30",
+    "name": "Huantiao",
+    "hanzi": "环跳",
+    "pos": [
+      1.45,
+      -1.2,
+      -0.35
+    ],
+    "cat": "Crossing of GB & Bladder • Jumping Round",
+    "loc": "At junction of lateral 1/3 and medial 2/3 of line between greater trochanter and sacral hiatus.",
+    "act": "Dispels wind-damp, clears channels, premier point for sciatica, lumbar pain, hemiplegia.",
+    "saf": "Perpendicular 2.0–3.5 cun with long needle toward external genitalia."
+  },
+  "GB34": {
+    "code": "GB34",
+    "name": "Yanglingquan",
+    "hanzi": "阳陵泉",
+    "pos": [
+      1.25,
+      -3.35,
+      0.35
+    ],
+    "cat": "He-Sea (Earth) • Hui-Meeting of Sinews",
+    "loc": "In depression anterior and inferior to head of fibula.",
+    "act": "Influential point for all sinews, ligaments, tendons, promotes smooth Liver Qi flow, clears gallbladder damp.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "GB39": {
+    "code": "GB39",
+    "name": "Xuanzhong",
+    "hanzi": "悬钟",
+    "pos": [
+      1.12,
+      -5.15,
+      0.18
+    ],
+    "cat": "Hui-Meeting of Marrow • Suspended Bell",
+    "loc": "3 cun superior to tip of lateral malleolus, in depression between posterior border of fibula.",
+    "act": "Nourishes Marrow, strengthens bones and brain, treats hemiplegia, neck stiffness, stroke prevention.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "GB41": {
+    "code": "GB41",
+    "name": "Zulinqi",
+    "hanzi": "足临泣",
+    "pos": [
+      1.12,
+      -6.05,
+      0.52
+    ],
+    "cat": "Shu-Stream (Wood/Horary) • Confluent of Dai Mai",
+    "loc": "Dorsum of foot, in depression distal to junction of 4th and 5th metatarsal bones.",
+    "act": "Opens Dai Mai, clears Liver/Gallbladder heat, treats mastitis, breast distension, migraine, hip pain.",
+    "saf": "Perpendicular 0.5–0.8 cun."
+  },
+  "GB44": {
+    "code": "GB44",
+    "name": "Zuqiaoyin",
+    "hanzi": "足窍阴",
+    "pos": [
+      1.1,
+      -6.22,
+      0.65
+    ],
+    "cat": "Jing-Well (Metal/Child/Sedation)",
+    "loc": "Lateral side of 4th toe, 0.1 cun proximal to corner of nail bed.",
+    "act": "Clears Gallbladder fire, treats migraine, eye redness, tinnitus, insomnia with dreams.",
+    "saf": "Perpendicular 0.1 cun or prick to bleed."
+  },
+  "LV1": {
+    "code": "LV1",
+    "name": "Dadun",
+    "hanzi": "大敦",
+    "pos": [
+      0.72,
+      -6.22,
+      0.72
+    ],
+    "cat": "Jing-Well (Wood/Horary)",
+    "loc": "Lateral side of big toe, 0.1 cun proximal to corner of nail bed.",
+    "act": "Regulates Lower Burner Qi, treats hernia, genital pain, uterine bleeding, prolapse.",
+    "saf": "Perpendicular 0.1 cun or moxa."
+  },
+  "LV2": {
+    "code": "LV2",
+    "name": "Xingjian",
+    "hanzi": "行间",
+    "pos": [
+      0.75,
+      -6.15,
+      0.7
+    ],
+    "cat": "Ying-Spring (Fire/Child/Sedation)",
+    "loc": "Dorsum of foot, proximal to margin of web between 1st and 2nd toes.",
+    "act": "Premier point to sedate Liver fire, red painful eyes, headache, outburst of anger.",
+    "saf": "Oblique proximal 0.5–0.8 cun."
+  },
+  "LV3": {
+    "code": "LV3",
+    "name": "Taichong",
+    "hanzi": "太冲",
+    "pos": [
+      0.75,
+      -6.02,
+      0.62
+    ],
+    "cat": "Shu-Stream • Yuan-Source (Earth) • Four Gates",
+    "loc": "Dorsum of foot, in depression distal to junction of 1st and 2nd metatarsal bones.",
+    "act": "Smooths Liver Qi stagnation, calms Liver Yang rising, headache, dysmenorrhea, opens Four Gates.",
+    "saf": "Perpendicular 0.5–1.0 cun."
+  },
+  "LV5": {
+    "code": "LV5",
+    "name": "Ligou",
+    "hanzi": "蠡沟",
+    "pos": [
+      0.66,
+      -4.75,
+      0.2
+    ],
+    "cat": "Luo-Connecting Point",
+    "loc": "5 cun superior to tip of medial malleolus, on medial surface of tibia.",
+    "act": "Clears damp-heat from genital region, treats priapism, testicular swelling, vaginal itching.",
+    "saf": "Subcutaneous transverse 0.5–0.8 cun along bone."
+  },
+  "LV8": {
+    "code": "LV8",
+    "name": "Ququan",
+    "hanzi": "曲泉",
+    "pos": [
+      0.62,
+      -3.15,
+      0.1
+    ],
+    "cat": "He-Sea (Water/Mother/Tonic)",
+    "loc": "Medial end of transverse popliteal crease, superior to semimembranosus tendon.",
+    "act": "Nourishes Liver Blood and Yin, relaxes sinews, treats knee pain, uterine prolapse.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "LV13": {
+    "code": "LV13",
+    "name": "Zhangmen",
+    "hanzi": "章门",
+    "pos": [
+      1.35,
+      0.55,
+      0.68
+    ],
+    "cat": "Front-Mu of Spleen • Hui-Meeting of Zang Organs",
+    "loc": "Directly anterior and inferior to free end of 11th rib.",
+    "act": "Harmonizes Liver and Spleen, resolves food stagnation, abdominal distension, diarrhea.",
+    "saf": "Perpendicular 0.5–1.0 cun. CAUTION: Deep insertion risks injuring liver on right, spleen on left!"
+  },
+  "LV14": {
+    "code": "LV14",
+    "name": "Qimen",
+    "hanzi": "期门",
+    "pos": [
+      1.05,
+      1.35,
+      0.8
+    ],
+    "cat": "Front-Mu of Liver",
+    "loc": "Directly below nipple, in 6th intercostal space, 4 cun lateral to midline.",
+    "act": "Spreads Liver Qi, unbinds chest and hypochondrium, treats breast distension, hepatitis.",
+    "saf": "Oblique or transverse 0.5–0.8 cun along rib. CAUTION: Deep perpendicular insertion risks pneumothorax!"
+  },
+  "DU1": {
+    "code": "DU1",
+    "name": "Changqiang",
+    "hanzi": "长强",
+    "pos": [
+      0.0,
+      -1.8,
+      -0.15
+    ],
+    "cat": "Luo-Connecting of Du Mai",
+    "loc": "Midway between tip of coccyx and anus.",
+    "act": "Treats hemorrhoids, rectal prolapse, bloody stool, diarrhea, coccygeal pain.",
+    "saf": "Perpendicular 0.5–1.0 cun along anterior border of coccyx."
+  },
+  "DU4": {
+    "code": "DU4",
+    "name": "Mingmen",
+    "hanzi": "命门",
+    "pos": [
+      0.0,
+      -0.2,
+      -0.72
+    ],
+    "cat": "Gate of Life",
+    "loc": "Posterior midline, below spinous process of L2 vertebra (level with BL23).",
+    "act": "Warms Mingmen fire, fortifies Kidney Yang, treats lumbar cold, impotence, dawn diarrhea.",
+    "saf": "Perpendicular 0.5–1.0 cun. CAUTION: Avoid inserting into spinal canal!"
+  },
+  "DU9": {
+    "code": "DU9",
+    "name": "Zhiyang",
+    "hanzi": "至阳",
+    "pos": [
+      0.0,
+      1.25,
+      -0.78
+    ],
+    "cat": "Reaching Yang",
+    "loc": "Posterior midline, below spinous process of T7 vertebra (level with inferior angle of scapulae).",
+    "act": "Transforms damp-heat in Liver/Gallbladder, unbinds chest, treats jaundice, cholecystitis.",
+    "saf": "Oblique superiorly 0.5–0.8 cun. CAUTION: Risk of pneumothorax or spinal entry!"
+  },
+  "DU14": {
+    "code": "DU14",
+    "name": "Dazhui",
+    "hanzi": "大椎",
+    "pos": [
+      0.0,
+      2.7,
+      -0.75
+    ],
+    "cat": "Meeting of 6 Yang Channels & Du Mai",
+    "loc": "Posterior midline, in depression below spinous process of C7 vertebra.",
+    "act": "Clears exterior heat, releases all Yang syndromes, treats high fever, malaria, neck stiffness.",
+    "saf": "Perpendicular or slightly oblique superior 0.5–1.0 cun."
+  },
+  "DU15": {
+    "code": "DU15",
+    "name": "Yamen",
+    "hanzi": "哑门",
+    "pos": [
+      0.0,
+      3.45,
+      -0.72
+    ],
+    "cat": "Gate of Muteness • Sea of Qi",
+    "loc": "Posterior midline, 0.5 cun superior to posterior hairline, in depression below C1.",
+    "act": "Benefits tongue, treats loss of speech, muteness, epilepsy, stiff tongue.",
+    "saf": "Perpendicular 0.5–0.8 cun. STRICT CAUTION: Deep superior insertion enters medulla oblongata!"
+  },
+  "DU16": {
+    "code": "DU16",
+    "name": "Fengfu",
+    "hanzi": "风府",
+    "pos": [
+      0.0,
+      3.8,
+      -0.7
+    ],
+    "cat": "Palace of Wind • Sea of Marrow",
+    "loc": "Posterior midline, 1 cun superior to posterior hairline, in depression below external occipital protuberance.",
+    "act": "Dispels wind, clears head, treats stroke, stiff neck, dizziness, suicidal depression.",
+    "saf": "Perpendicular 0.5–0.8 cun. STRICT CAUTION: Never angle needle upward toward brain!"
+  },
+  "DU20": {
+    "code": "DU20",
+    "name": "Baihui",
+    "hanzi": "百会",
+    "pos": [
+      0.0,
+      5.25,
+      0.0
+    ],
+    "cat": "Hundred Meetings • Sea of Marrow",
+    "loc": "Vertex of head, 5 cun posterior to anterior hairline, midway on line connecting ear apexes.",
+    "act": "Raises sunken Yang Qi (prolapse of rectum/uterus), calms Shen, clears mind, treats headache.",
+    "saf": "Subcutaneous transverse 0.5–0.8 cun anteriorly or posteriorly."
+  },
+  "DU24": {
+    "code": "DU24",
+    "name": "Shenting",
+    "hanzi": "神庭",
+    "pos": [
+      0.0,
+      4.8,
+      0.65
+    ],
+    "cat": "Courtyard of the Spirit",
+    "loc": "0.5 cun directly above anterior hairline on midline.",
+    "act": "Calms Shen, treats insomnia, emotional agitation, mania, frontal headache, rhinitis.",
+    "saf": "Subcutaneous transverse 0.3–0.5 cun posteriorly."
+  },
+  "DU26": {
+    "code": "DU26",
+    "name": "Shuigou",
+    "hanzi": "水沟",
+    "pos": [
+      0.0,
+      3.9,
+      0.88
+    ],
+    "cat": "Philtrum • Sun Si-miao Ghost Point",
+    "loc": "At junction of upper 1/3 and lower 2/3 of philtrum groove.",
+    "act": "Premier emergency resuscitation point: restores consciousness from coma, fainting, shock.",
+    "saf": "Oblique superiorly 0.3–0.5 cun. Pinch firmly with thumbnail in crisis."
+  },
+  "REN3": {
+    "code": "REN3",
+    "name": "Zhongji",
+    "hanzi": "中极",
+    "pos": [
+      0.0,
+      -1.2,
+      0.82
+    ],
+    "cat": "Front-Mu of Urinary Bladder",
+    "loc": "Anterior midline of lower abdomen, 4 cun below umbilicus (1 cun above pubic symphysis).",
+    "act": "Drains damp-heat from Bladder, treats dysuria, urinary retention, enuresis, genital itch.",
+    "saf": "Perpendicular 0.8–1.2 cun. CAUTION: Must empty bladder prior to needling!"
+  },
+  "REN4": {
+    "code": "REN4",
+    "name": "Guanyuan",
+    "hanzi": "关元",
+    "pos": [
+      0.0,
+      -0.8,
+      0.86
+    ],
+    "cat": "Front-Mu of Small Intestine • Gate of Origin",
+    "loc": "Anterior midline of lower abdomen, 3 cun below umbilicus.",
+    "act": "Nourishes Original Qi (Yuan Qi), warms Kidney Yang, treats chronic exhaustion, impotence.",
+    "saf": "Perpendicular 0.8–1.5 cun. CAUTION: Empty bladder first! CONTRAINDICATED in pregnancy!"
+  },
+  "REN6": {
+    "code": "REN6",
+    "name": "Qihai",
+    "hanzi": "气海",
+    "pos": [
+      0.0,
+      -0.4,
+      0.88
+    ],
+    "cat": "Sea of Qi",
+    "loc": "Anterior midline of lower abdomen, 1.5 cun below umbilicus.",
+    "act": "Tonifies Qi, raises sunken Yang, treats general fatigue, shortness of breath, diarrhea.",
+    "saf": "Perpendicular 0.8–1.2 cun. Caution in pregnancy."
+  },
+  "REN8": {
+    "code": "REN8",
+    "name": "Shenque",
+    "hanzi": "神阙",
+    "pos": [
+      0.0,
+      0.05,
+      0.88
+    ],
+    "cat": "Spirit Gate • Center of Umbilicus",
+    "loc": "In center of umbilicus.",
+    "act": "Warms Yang, rescues from Yang collapse, chronic diarrhea, prolapse, shock.",
+    "saf": "NEEDLING IS STRICTLY FORBIDDEN! Apply moxa with salt or ginger slice only!"
+  },
+  "REN12": {
+    "code": "REN12",
+    "name": "Zhongwan",
+    "hanzi": "中脘",
+    "pos": [
+      0.0,
+      1.0,
+      0.88
+    ],
+    "cat": "Front-Mu of Stomach • Hui-Meeting of Fu Organs",
+    "loc": "Anterior midline, 4 cun superior to umbilicus.",
+    "act": "Harmonizes Middle Burner, treats all Stomach and digestive diseases, epigastric pain.",
+    "saf": "Perpendicular 1.0–1.5 cun. CAUTION: Avoid puncture in peritoneal inflammation."
+  },
+  "REN17": {
+    "code": "REN17",
+    "name": "Shanzhong",
+    "hanzi": "膻中",
+    "pos": [
+      0.0,
+      1.85,
+      0.88
+    ],
+    "cat": "Front-Mu of Pericardium • Hui-Meeting of Qi",
+    "loc": "Anterior midline, in depression on sternum level with 4th intercostal space.",
+    "act": "Regulates Qi, unbinds chest, treats chest oppression, wheezing, insufficient lactation.",
+    "saf": "Subcutaneous transverse 0.3–0.5 cun along sternum. Never needle perpendicular!"
+  },
+  "REN22": {
+    "code": "REN22",
+    "name": "Tiantu",
+    "hanzi": "天突",
+    "pos": [
+      0.0,
+      2.9,
+      0.68
+    ],
+    "cat": "Heavenly Chimney • Window of Sky",
+    "loc": "In center of suprasternal fossa, 0.5 cun superior to suprasternal notch.",
+    "act": "Descends rebellious Lung Qi, clears throat, relieves severe asthma, sudden hoarseness.",
+    "saf": "Perpendicular 0.2 cun, then angle needle downward behind manubrium 0.5–1.0 cun. CAUTION: Trachea & aorta proximity!"
+  },
+  "REN24": {
+    "code": "REN24",
+    "name": "Chengjiang",
+    "hanzi": "承浆",
+    "pos": [
+      0.0,
+      3.65,
+      0.82
+    ],
+    "cat": "Container of Fluids • Ghost point",
+    "loc": "Anterior midline of chin, in depression of mentolabial groove.",
+    "act": "Dispels wind, treats facial paralysis, sudden swelling of gums, excessive salivation.",
+    "saf": "Oblique superiorly 0.3–0.5 cun."
+  },
+  "YINTANG": {
+    "code": "EX-HN3",
+    "name": "Yintang",
+    "hanzi": "印堂",
+    "pos": [
+      0.0,
+      4.38,
+      0.86
+    ],
+    "cat": "Hall of Impression (Third Eye)",
+    "loc": "At midpoint between medial ends of eyebrows (glabella).",
+    "act": "Calms Shen, treats insomnia, frontal headache, rhinitis, infantile convulsions.",
+    "saf": "Subcutaneous transverse inferiorly 0.3–0.5 cun. Pinch skin while inserting."
+  },
+  "TAIYANG": {
+    "code": "EX-HN5",
+    "name": "Taiyang",
+    "hanzi": "太阳",
+    "pos": [
+      0.95,
+      4.25,
+      0.52
+    ],
+    "cat": "Supreme Yang Point",
+    "loc": "In depression approximately 1 cun posterior to midpoint between lateral eyebrow and outer canthus.",
+    "act": "Clears heat, halts migraine, temporal headache, eye inflammation, toothache.",
+    "saf": "Perpendicular 0.5–0.8 cun, or prick to bleed for red swollen eyes."
+  },
+  "SISHENCONG": {
+    "code": "EX-HN1",
+    "name": "Sishencong",
+    "hanzi": "四神聪",
+    "pos": [
+      0.0,
+      5.25,
+      0.25
+    ],
+    "cat": "Four Alert Spirit Points",
+    "loc": "Group of 4 points on vertex, each 1 cun anterior, posterior, and bilateral to DU20.",
+    "act": "Calms Shen, sharpens memory, treats insomnia, cognitive decline, dizziness, epilepsy.",
+    "saf": "Subcutaneous transverse 0.5–0.8 cun toward DU20."
+  },
+  "DINGCHUAN": {
+    "code": "EX-B1",
+    "name": "Dingchuan",
+    "hanzi": "定喘",
+    "pos": [
+      0.22,
+      2.7,
+      -0.74
+    ],
+    "cat": "Calm Wheezing Point",
+    "loc": "0.5 cun lateral to lower border of spinous process of C7 vertebra (DU14).",
+    "act": "Calms wheezing, halts acute asthma attack, relieves coughing and bronchial spasm.",
+    "saf": "Perpendicular or slightly oblique toward spine 0.5–0.8 cun."
+  },
+  "HUATUOJIAJI": {
+    "code": "EX-B2",
+    "name": "Huatuojiaji",
+    "hanzi": "华佗夹脊",
+    "pos": [
+      0.22,
+      1.4,
+      -0.76
+    ],
+    "cat": "Huatuo's Paravertebral Points",
+    "loc": "0.5 cun lateral to lower border of each spinous process from T1 through L5 (34 points total).",
+    "act": "Regulates autonomic and spinal nerve root functions corresponding to segmental dermatomes.",
+    "saf": "Perpendicular 0.8–1.2 cun toward vertebral lamina."
+  },
+  "YAOTONGXUE": {
+    "code": "EX-UE7",
+    "name": "Yaotongxue",
+    "hanzi": "腰痛穴",
+    "pos": [
+      2.38,
+      -0.28,
+      -0.02
+    ],
+    "cat": "Lumbar Pain Point (2 points on dorsum of hand)",
+    "loc": "Dorsum of hand, between 2nd/3rd and 4th/5th metacarpal bases.",
+    "act": "Acute lumbar sprain, sudden muscle spasm, low back trauma.",
+    "saf": "Oblique 0.5–1.0 cun toward center of palm with active lumbar mobilization!"
+  },
+  "SIFENG": {
+    "code": "EX-UE10",
+    "name": "Sifeng",
+    "hanzi": "四缝",
+    "pos": [
+      2.4,
+      -0.58,
+      0.18
+    ],
+    "cat": "Four Seams (Extra Point Group)",
+    "loc": "Palmar surface of 2nd to 5th fingers, in center of proximal interphalangeal creases.",
+    "act": "Childhood malnutrition (Gan syndrome), pediatric food retention, whooping cough.",
+    "saf": "Prick with lancet to squeeze out small droplet of yellowish fluid or blood."
+  },
+  "HEDING": {
+    "code": "EX-LE2",
+    "name": "Heding",
+    "hanzi": "鹤顶",
+    "pos": [
+      0.85,
+      -2.65,
+      0.65
+    ],
+    "cat": "Crane's Summit (Extra Point)",
+    "loc": "In depression above midpoint of superior border of patella.",
+    "act": "Crane's knee Bi syndrome, knee osteoarthritis, patellar tendonitis, weakness of legs.",
+    "saf": "Perpendicular 0.5–1.0 cun."
+  },
+  "DANNANGXUE": {
+    "code": "EX-LE6",
+    "name": "Dannangxue",
+    "hanzi": "胆囊穴",
+    "pos": [
+      1.25,
+      -3.85,
+      0.32
+    ],
+    "cat": "Gallbladder Point (Diagnostic & Treatment)",
+    "loc": "1 to 2 cun directly inferior to GB34 (Yanglingquan), tender on palpation.",
+    "act": "Acute and chronic cholecystitis, gallstones, biliary colic, leg Bi pain.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "LANWEIXUE": {
+    "code": "EX-LE7",
+    "name": "Lanweixue",
+    "hanzi": "阑尾穴",
+    "pos": [
+      1.1,
+      -4.15,
+      0.5
+    ],
+    "cat": "Appendix Point (Diagnostic & Treatment)",
+    "loc": "Approximately 2 cun directly inferior to ST36 (Zusanli) on right leg, tender to pressure.",
+    "act": "Acute and chronic appendicitis, intestinal carbuncle, drop foot, indigestion.",
+    "saf": "Perpendicular 1.0–1.5 cun."
+  },
+  "ZIGONG": {
+    "code": "EX-CA1",
+    "name": "Zigong",
+    "hanzi": "子宫",
+    "pos": [
+      0.85,
+      -0.8,
+      0.82
+    ],
+    "cat": "Palace of the Child (Uterus)",
+    "loc": "Lower abdomen, 4 cun below umbilicus (level with REN3), 3 cun lateral to midline.",
+    "act": "Female infertility, uterine prolapse, dysmenorrhea, irregular menses, pelvic pain.",
+    "saf": "Perpendicular 0.8–1.2 cun. Empty bladder first!"
+  },
+  "ST12": {
+    "code": "ST12",
+    "name": "Quepen",
+    "hanzi": "缺盆",
+    "pos": [
+      0.95,
+      2.65,
+      0.62
+    ],
+    "cat": "Supraclavicular Point",
+    "loc": "Midpoint of supraclavicular fossa, 4 cun lateral to midline.",
+    "act": "Descends rebellious Qi, cough, asthma, throat pain, scrofula.",
+    "saf": "Oblique posterior 0.3–0.5 cun. STRICT CAUTION: Deep puncture risks pneumothorax!"
+  },
+  "ST18": {
+    "code": "ST18",
+    "name": "Rugen",
+    "hanzi": "乳根",
+    "pos": [
+      1.05,
+      1.5,
+      0.82
+    ],
+    "cat": "Root of Breast Point",
+    "loc": "In 5th intercostal space, directly below nipple, 4 cun lateral to midline.",
+    "act": "Unbinds chest, promotes lactation, mastitis, chest fullness.",
+    "saf": "Transverse or oblique 0.5–0.8 cun along rib. CAUTION: Pneumothorax risk!"
+  },
+  "ST30": {
+    "code": "ST30",
+    "name": "Qichong",
+    "hanzi": "气冲",
+    "pos": [
+      0.55,
+      -1.35,
+      0.72
+    ],
+    "cat": "Sea of Water and Grain • Chong Mai Meeting",
+    "loc": "Groin, 5 cun below umbilicus, 2 cun lateral to midline (level with superior border of pubic symphysis).",
+    "act": "Regulates Lower Burner Qi, treats hernia, genital swelling, irregular menses.",
+    "saf": "Perpendicular 0.5–1.0 cun. Palpate and avoid femoral artery!"
+  },
+  "GB26": {
+    "code": "GB26",
+    "name": "Daimai",
+    "hanzi": "带脉",
+    "pos": [
+      1.38,
+      -0.05,
+      0.4
+    ],
+    "cat": "Meeting of Gallbladder & Dai Mai",
+    "loc": "Directly below free end of 11th rib (LV13), level with umbilicus (REN8).",
+    "act": "Regulates Dai Mai and uterus, treats leukorrhea, amenorrhea, abdominal cramping.",
+    "saf": "Perpendicular 0.8–1.2 cun."
+  },
+  "SI16": {
+    "code": "SI16",
+    "name": "Tianchuang",
+    "hanzi": "天窗",
+    "pos": [
+      0.75,
+      3.25,
+      0.15
+    ],
+    "cat": "Heavenly Window Point",
+    "loc": "Lateral neck, posterior border of sternocleidomastoid, level with Adam's apple.",
+    "act": "Benefits hearing and throat, treats sudden deafness, tinnitus, goiter.",
+    "saf": "Perpendicular 0.5–0.8 cun. Avoid internal jugular vein."
+  }
+}
