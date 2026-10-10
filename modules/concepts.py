@@ -354,6 +354,147 @@ CONCEPTS_DATA: List[Dict[str, Any]] = [
             "**Resuscitate Fainting**: DU26 (Shuigou), PC6 (Neiguan), ST36 (Zusanli).",
             "**Stuck Needle Relief**: Massage around point, or tap/insert adjacent needle 0.5 cun away to release spasm."
         ]
+    },
+    {
+        "id": "korean-four-needle",
+        "title": "Korean Four-Needle Technique (Saam)",
+        "chinese": "舍岩四针疗法 (Shè Yán Sì Zhēn Liáo Fǎ)",
+        "category": "Acupoint Categories",
+        "icon": "🇰🇷",
+        "tagline": "Classical Five-Element dynamic balancing using paired Mother-Child and Controlling cycle Shu points.",
+        "summary": "Formulated by the 16th-century Korean Buddhist monk Saam (舍岩), Korean Four-Needle Technique regulates meridian deficiencies and excesses by manipulating four specific Five Shu points per channel: two points on the affected meridian, and two points on related mother, child, or controlling meridians. It harmonizes the Generating (Sheng) and Controlling (Ke) cycles simultaneously.",
+        "mnemonic": "The Saam Golden Rules:\n• Deficiency (Tonify): 'Tonify Mother on Home + Tonify Mother on Mother; Sedate Controller on Home + Sedate Controller on Controller.'\n• Excess (Sedate): 'Sedate Child on Home + Sedate Child on Child; Tonify Controller on Home + Tonify Controller on Controller.'",
+        "principles": [
+            "**Tonification Formula (虚则补其母，抑其克)**: When a channel is deficient, tonify its Mother element (generating force) on the self channel and on the Mother channel, while sedating its Grandmother element (controlling force) on the self channel and on the Grandmother channel.",
+            "**Sedation Formula (实则泻其子，扶其克)**: When a channel is hyperactive/excess, drain its Child element (dispersing excess) on the self channel and on the Child channel, while tonifying its Grandmother element (controlling force) on the self channel and on the Grandmother channel.",
+            "**Distal Five Shu Precision**: All four needles are placed strictly below the elbows and knees. Treatments are typically administered unilaterally (left side in men, right side in women, or on the affected symptom side)."
+        ],
+        "table_headers": ["Meridian & Element", "Tonification Points (补母抑克)", "Sedation Points (泻子扶克)"],
+        "table_rows": [
+            ["Lung (Metal / 肺金)", "Tonify: LU9 (Earth) + SP3 (Earth) | Sedate: LU10 (Fire) + HT8 (Fire)", "Sedate: LU5 (Water) + KD10 (Water) | Tonify: LU10 (Fire) + HT8 (Fire)"],
+            ["Large Intestine (Metal / 大肠)", "Tonify: LI11 (Earth) + ST36 (Earth) | Sedate: LI5 (Fire) + SI5 (Fire)", "Sedate: LI2 (Water) + ST44 (Water) | Tonify: LI5 (Fire) + SI5 (Fire)"],
+            ["Spleen (Earth / 脾土)", "Tonify: SP2 (Fire) + HT8 (Fire) | Sedate: SP1 (Wood) + LR1 (Wood)", "Sedate: SP5 (Metal) + LU8 (Metal) | Tonify: SP1 (Wood) + LR1 (Wood)"],
+            ["Stomach (Earth / 胃土)", "Tonify: ST41 (Fire) + SI5 (Fire) | Sedate: ST43 (Wood) + GB41 (Wood)", "Sedate: ST45 (Metal) + LI1 (Metal) | Tonify: ST43 (Wood) + GB41 (Wood)"],
+            ["Heart (Fire / 心火)", "Tonify: HT9 (Wood) + LR1 (Wood) | Sedate: HT3 (Water) + KD10 (Water)", "Sedate: HT7 (Earth) + SP3 (Earth) | Tonify: HT3 (Water) + KD10 (Water)"],
+            ["Small Intestine (Fire / 小肠)", "Tonify: SI3 (Wood) + GB41 (Wood) | Sedate: SI2 (Water) + BL66 (Water)", "Sedate: SI8 (Earth) + ST36 (Earth) | Tonify: SI2 (Water) + BL66 (Water)"],
+            ["Kidney (Water / 肾水)", "Tonify: KD7 (Metal) + LU8 (Metal) | Sedate: KD3 (Earth) + SP3 (Earth)", "Sedate: KD1 (Wood) + LR1 (Wood) | Tonify: KD3 (Earth) + SP3 (Earth)"],
+            ["Urinary Bladder (Water / 膀胱)", "Tonify: BL67 (Metal) + LI1 (Metal) | Sedate: BL54 (Earth) + ST36 (Earth)", "Sedate: BL65 (Wood) + GB41 (Wood) | Tonify: BL54 (Earth) + ST36 (Earth)"],
+            ["Liver (Wood / 肝木)", "Tonify: LR8 (Water) + KD10 (Water) | Sedate: LR4 (Metal) + LU8 (Metal)", "Sedate: LR2 (Fire) + HT8 (Fire) | Tonify: LR4 (Metal) + LU8 (Metal)"],
+            ["Gallbladder (Wood / 胆木)", "Tonify: GB43 (Water) + BL66 (Water) | Sedate: GB44 (Metal) + LI1 (Metal)", "Sedate: GB38 (Fire) + SI5 (Fire) | Tonify: GB44 (Metal) + LI1 (Metal)"],
+            ["Pericardium (Fire / 心包)", "Tonify: PC9 (Wood) + LR1 (Wood) | Sedate: PC3 (Water) + KD10 (Water)", "Sedate: PC7 (Earth) + SP3 (Earth) | Tonify: PC3 (Water) + KD10 (Water)"],
+            ["San Jiao (Fire / 三焦)", "Tonify: SJ3 (Wood) + GB41 (Wood) | Sedate: SJ2 (Water) + BL66 (Water)", "Sedate: SJ10 (Earth) + ST36 (Earth) | Tonify: SJ2 (Water) + BL66 (Water)"]
+        ],
+        "board_traps": [
+            "**Channel Pairing Verification**: In Saam acupuncture, exactly two points belong to the primary channel and two points belong to the coupled auxiliary Five Element channel. Never select all four points on the same meridian.",
+            "**No Local Needles**: Saam therapy strictly relies on distal energetic balance. Do not add local Ashi needles to the formal four-needle prescription."
+        ],
+        "clinical_points": [
+            "**Spleen Tonification for Fatigue & Chronic Diarrhea**: SP2 + HT8 (Tonify Fire Mother), SP1 + LR1 (Sedate Wood Controller).",
+            "**Liver Sedation for Migraines & Anger**: LR2 + HT8 (Sedate Fire Child), LR4 + LU8 (Tonify Metal Controller)."
+        ]
+    },
+    {
+        "id": "medical-red-flags",
+        "title": "Biomedicine Medical Red Flags & Urgent Referrals",
+        "chinese": "西医急症危险征象与紧急转诊 (Xī Yī Jí Zhèng Wēi Xiǎn Zhēng Xiàng)",
+        "category": "Safety & Technique",
+        "icon": "🚨",
+        "tagline": "Critical life-threatening signs requiring immediate 911 dispatch, hospital transfer, or urgent specialist workup.",
+        "summary": "Derived from David Anzaldua, MD's clinical medical review for acupuncturists, this framework defines high-liability conditions where acupuncture must be deferred or halted in favor of emergency medical management. Failure to identify red flags risks patient mortality and professional license revocation.",
+        "mnemonic": "The 'S-H-O-C-K-S' Red Flag Triage:\n• S - Sudden onset severe deficit (Thunderclap headache, FAST stroke, acute abdomen)\n• H - Hemodynamic instability (Severe hypotension, tachycardia, shock, pallor)\n• O - Orthopedic / Neurologic compression (Cauda equina, saddle anesthesia, VBI drop attack)\n• C - Chest pain / Cardiopulmonary distress (Crushing chest pain, PND, stridor, PE)\n• K - Kidney / Infection sepsis (High fever, CVA tenderness, nuchal rigidity)\n• S - Silent or night pain (Spinal night pain unrelieved by rest -> Malignancy)",
+        "principles": [
+            "**Emergency EMS (Call 911 Immediately)**: Suspected Acute Myocardial Infarction, Stroke within 4.5 hours (FAST), Subarachnoid Hemorrhage, Ruptured Aortic Aneurysm, Acute Epiglottitis, Anaphylaxis, Pulmonary Embolism, Tension Pneumothorax.",
+            "**Urgent Hospital ED Referral (< 24 Hours)**: Cauda Equina Syndrome (within 24-48h for surgical decompression), Temporal Arteritis (risk of permanent blindness within hours), Acute Appendicitis (especially after sudden cessation of pain), Deep Vein Thrombosis, Ectopic Pregnancy.",
+            "**Prompt Specialist Referral (< 1-2 Weeks)**: Unexplained night back pain in patients aged > 50, progressive painless lymphadenopathy, postmenopausal uterine bleeding, non-healing pigmented skin lesions (ABCDE melanoma).",
+            "**Never Mask Emergency Symptoms**: Do not administer strong acupuncture analgesia (e.g. LI4, ST36, auricular ear seeds) that masks abdominal rigidity or alters neurological signs prior to emergency evaluation."
+        ],
+        "table_headers": ["Red Flag Presentation", "Primary Rule Out", "Urgency / Action", "Critical Hazard"],
+        "table_rows": [
+            ["Thunderclap 'worst headache of life', meningismus", "Non-Traumatic Subarachnoid Hemorrhage (SAH)", "Call 911 / Immediate Brain CT", "Fatal rebleeding or herniation"],
+            ["Saddle anesthesia, bowel/bladder incontinence, leg weakness", "Cauda Equina Syndrome", "Emergency ED for urgent MRI & surgery", "Permanent incontinence & paralysis"],
+            ["Unilateral headache, jaw claudication, scalp tenderness, age > 50", "Temporal Arteritis (Giant Cell Arteritis)", "Same-day ED / High-dose systemic steroids", "Irreversible bilateral blindness"],
+            ["Acute RLQ pain abruptly stops, then board-like abdomen & fever", "Appendiceal Rupture with Generalized Peritonitis", "Call 911 / Emergency Appendectomy", "Septic shock & death"],
+            ["Unilateral calf swelling > 3cm, warmth, post-flight/immobilization", "Deep Vein Thrombosis (DVT)", "Urgent ED / Venous Doppler; NO MASSAGE", "Fatal Pulmonary Embolism"],
+            ["Sudden drop attack on neck extension/rotation, 5 D's", "Vertebrobasilar Insufficiency (VBI)", "Neurology CTA/MRA; NO neck manipulation", "Posterior circulation stroke"],
+            ["Child sitting in tripod position, drooling, inspiratory stridor", "Acute Epiglottitis", "Call 911; DO NOT use tongue depressor", "Complete airway asphyxiation"],
+            ["Constant night back pain unrelieved by lying down, weight loss", "Spinal Malignancy / Metastasis", "Urgent Spine MRI & oncology workup", "Pathologic fracture & cord compression"]
+        ],
+        "board_traps": [
+            "**The 'Better' Appendicitis Trap**: When an acute appendicitis patient suddenly smiles and says the pain is completely gone, they have just perforated. Guarding and rebound will follow rapidly.",
+            "**The DVT Massage Malpractice**: Placing needles in BL57/BL40 or massaging a swollen, tender calf can physically dislodge a thrombus into the inferior vena cava and pulmonary artery."
+        ],
+        "clinical_points": [
+            "**Emergency Charting**: Always record exact onset timestamp, vital signs, physical examination findings, and the specific EMS dispatch details in clinical records.",
+            "**Patient Positioning**: In acute shock, place patient supine with feet elevated (unless cardiopulmonary distress, where high Fowler sitting position is required)."
+        ]
+    },
+    {
+        "id": "adjunct-modalities",
+        "title": "Acupuncture Adjunct Modalities & Microsystems",
+        "chinese": "针灸辅助疗法与微刺系统 (Zhēn Jiǔ Fǔ Zhù Liáo Fǎ)",
+        "category": "Safety & Technique",
+        "icon": "⚡",
+        "tagline": "Electroacupuncture parameters, Jiao Shunfa scalp lines, Auricular master points, and cupping protocols.",
+        "summary": "Clinical practice frequently incorporates specialized modalities beyond manual filiform needling. Mastery of Electro-Acupuncture frequency selection, Jiao Shunfa scalp somatotopic lines for neurological rehabilitation, Auricular acupuncture microsystems, and cupping/moxibustion contraindications is essential for board certification and modern integrative practice.",
+        "mnemonic": "Modality Quick Mnemonics:\n• EA Frequencies: 'Low (2Hz) = Endorphins for Chronic/Weak; High (100Hz) = Dynorphin for Sharp/Spasm; Dense-Disperse (2/100Hz) = Both for Sciatica.'\n• Scalp MS6 Motor Line: 'Inverted homunculus - Upper 1/5 is Lower limb/trunk; Middle 2/5 is Upper limb; Lower 2/5 is Face/Speech.'\n• NADA Ear Protocol: 'S-S-K-L-L' = Sympathetic, Shenmen, Kidney, Liver, Lung.",
+        "principles": [
+            "**Electro-Acupuncture Waveforms**: Continuous (uniform frequency), Dense-Disperse (alternating low and high frequency; prevents habituation and releases endorphins + dynorphin), Intermittent (cyclic pulse-rest for flaccid paralysis).",
+            "**Jiao Shunfa Scalp Line Technique**: Needles are inserted subaponeurotically at 15–30 degrees, threaded 1.5 cun along the line, and rapidly twirled at 200 rpm for 1–2 minutes without lifting or thrusting. Contralateral side is treated for unilateral motor/sensory lesions.",
+            "**Auricular Inverted Fetus Homunculus**: Head and facial organs located on the ear lobule; spine along the antihelix; internal viscera in the concha (cavum = Heart/Lung, cymba = Spleen/Liver/Kidney); lower limbs along superior antihelix crus.",
+            "**Cupping & Moxa Contraindications**: Never cup over acute trauma fractures, deep vein thrombosis, ulcers, high fever convulsions, or the abdomen/lumbar spine of pregnant women. Direct scarring moxa is forbidden on the face, breasts, and near major arteries."
+        ],
+        "table_headers": ["Modality / System", "Key Specifications & Zones", "Primary Indications", "Safety Precautions & Limits"],
+        "table_rows": [
+            ["Electro-Acupuncture (Low 2-5Hz)", "Continuous low frequency; motor twitch visible", "Chronic pain, flaccid motor weakness, Bells palsy", "Avoid muscle exhaustion; limit to 20-30 mins"],
+            ["Electro-Acupuncture (Dense-Disperse)", "Alternating 2Hz / 100Hz cycling automatically", "Severe sciatica, intractable arthralgia, back pain", "NO pacemakers; NEVER cross transthoracic midline"],
+            ["Scalp MS6 Motor Line", "Upper 1/5 (leg/trunk), Middle 2/5 (arm), Lower 2/5 (face)", "Wind stroke hemiplegia, cerebral palsy, paralysis", "Twirl 200 rpm; treat contralateral side"],
+            ["Scalp MS7 Sensory Line", "Parallel and 1.5 cun posterior to MS6 (vertex-temporal)", "Contralateral sensory numbness, paresthesia, pain", "Same 1/5, 2/5, 2/5 somatotopic divisions as MS6"],
+            ["Auricular NADA 5-Point", "Sympathetic, Shenmen, Kidney, Liver, Lung", "Addiction detox, PTSD, emotional shock, insomnia", "Strict alcohol swab; avoid perichondritis"],
+            ["Fire / Suction Cupping", "Retained (5-10 min), Moving/Sliding, Wet/Flash", "Wind-Cold invasion, muscle knots, blood stasis", "Never cup over open skin, DVT, or pregnant abdomen"]
+        ],
+        "board_traps": [
+            "**Scalp Needle Direction**: Threading too deeply penetrates the skull suture lines or fontanelles in infants. In adults, stay strictly in the loose subaponeurotic layer (galea aponeurotica).",
+            "**Ear Perichondritis**: Ear cartilage is avascular; bacterial infection leads to severe necrotic cauliflower ear. Always use single-use sterile ear tacks/press needles and change every 3-5 days."
+        ],
+        "clinical_points": [
+            "**Stroke Motor Recovery**: Scalp MS6 (Motor Line contralateral) + LI11 (Quchi) + LI4 (Hegu) + ST36 (Zusanli) + GB34 (Yanglingquan).",
+            "**Acute Traumatic Spasm**: High frequency EA (100 Hz) across Ashi points."
+        ]
+    },
+    {
+        "id": "pharmacology-herb-drug",
+        "title": "Western Pharmacology & Herb-Drug Interactions",
+        "chinese": "西药药理与中西药配伍禁忌 (Xī Yào Yào Lǐ yǔ Zhōng Xī Yào Pèi Wǔ)",
+        "category": "Pathology",
+        "icon": "💊",
+        "tagline": "Essential pharmaceutical classes, mechanisms, side effects, and life-threatening herbal contraindications.",
+        "summary": "Modern acupuncture patients frequently take multiple prescription medications. Acupuncturists must comprehend Western mechanisms of action, recognize drug-induced side effects (which frequently mimic TCM pathology), and avoid life-threatening herb-drug interactions, particularly regarding anticoagulants, corticosteroids, diuretics, and psychiatric medications.",
+        "mnemonic": "Top 4 Herb-Drug Fatal Traps:\n1. Blood Thinners (Warfarin/Aspirin) + Invigorate Blood Herbs (Dang Gui, Dan Shen, Tao Ren) = Fatal Hemorrhage.\n2. Diuretics (Lasix) + Licorice (Gan Cao) = Severe Hypokalemia & Arrhythmia.\n3. Digoxin + Calcium/Herbs = Fatal Digitalis Toxicity.\n4. SSRIs + St. Johns Wort / Ephedra = Serotonin Syndrome / Hypertensive Crisis.",
+        "principles": [
+            "**Anticoagulants & Antiplatelets (Warfarin, Clopidogrel, Aspirin)**: Inhibit clotting cascade or platelet aggregation. Co-administration with herbs that strongly invigorate Blood or break Blood stasis dramatically increases bleeding time, bruising, and hemorrhagic stroke risk.",
+            "**Corticosteroids (Prednisone, Dexamethasone)**: Suppress inflammation and immune response. Induce fluid retention, hypertension, osteoporosis, and severe Kidney Yin consumption with adrenal atrophy. Must never be stopped abruptly.",
+            "**Loop & Thiazide Diuretics (Furosemide, HCTZ)**: Promote renal water and sodium excretion, causing potassium wasting. High doses of Gan Cao (Licorice) compound potassium loss via pseudo-hyperaldosteronism.",
+            "**Beta-Adrenergic Blockers (Metoprolol, Atenolol)**: Lower heart rate and contractility. Critically mask autonomic warning signs of hypoglycemia in diabetic patients (except sweating).",
+            "**Selective Serotonin Reuptake Inhibitors (SSRIs, e.g. Fluoxetine, Sertraline)**: Increase synaptic serotonin for depression and anxiety. Co-administration with serotonergic herbs risks Serotonin Syndrome (hyperthermia, agitation, hyperreflexia)."
+        ],
+        "table_headers": ["Drug Class & Examples", "Western Mechanism", "TCM Pattern Manifestation", "High-Risk Herb Interactions"],
+        "table_rows": [
+            ["Anticoagulants (Warfarin, Heparin)", "Inhibits Vitamin K-dependent clotting factors", "Bleeding tendency, petechiae, easy bruising", "Dang Gui, Dan Shen, Tao Ren, Hong Hua, San Qi, Shui Zhi"],
+            ["Antiplatelets (Aspirin, Clopidogrel)", "Irreversibly inhibits platelet aggregation", "Upper GI irritation, bleeding diathesis", "Ginkgo Biloba (Bai Guo), Garlic (Da Suan), Hong Hua"],
+            ["Corticosteroids (Prednisone)", "Suppresses inflammation & adrenal axis", "Kidney Yin Def Empty Heat, Spleen Dampness", "Caution with warm drying herbs; watch immune status"],
+            ["Loop Diuretics (Furosemide / Lasix)", "Inhibits Na+/K+/2Cl- symporter in loop of Henle", "Yin and fluid consumption, pale copious urine", "Gan Cao (Licorice) causes severe hypokalemia & arrhythmia"],
+            ["Beta Blockers (Metoprolol, Atenolol)", "Blocks beta-1 adrenergic receptors, drops BP/HR", "Slow pulse (Chi Mai), cold extremities, lethargy", "Masks hypoglycemia; caution with strong cold sedating herbs"],
+            ["NSAIDs (Ibuprofen, Naproxen)", "Inhibits COX-1 & COX-2 prostaglandin synthesis", "Stomach Yin injury, Stomach Heat, epigastric stasis", "Co-admin with anticoagulants spikes GI hemorrhage risk"],
+            ["Cardiac Glycosides (Digoxin)", "Inhibits Na+/K+-ATPase, increases cardiac contractility", "Toxicity: visual halos, nausea, slow irregular pulse", "Gan Cao (via hypokalemia) and calcium-rich shell herbs trigger toxicity"]
+        ],
+        "board_traps": [
+            "**The Licorice Toxicity Trap**: Gan Cao is the 'harmonizer' present in 80% of formulas. If a patient is taking Furosemide or Digoxin, long-term or high-dose Gan Cao can provoke fatal hypokalemic arrhythmias.",
+            "**Pre-Surgical Herb Washout**: All blood-invigorating herbs (Dan Shen, Dang Gui, Chuan Xiong) and Ginkgo Biloba must be discontinued at least 1–2 weeks prior to scheduled surgery."
+        ],
+        "clinical_points": [
+            "**Chart Medication Reconciliation**: Always document complete list of pharmaceuticals, dosages, and OTC supplements at every clinical visit.",
+            "**Post-Stroke Recovery Synergy**: Acupuncturists can safely treat stroke patients with scalp and body acupuncture while they take antiplatelet therapy, but must avoid deep or high-risk bleeding sites."
+        ]
     }
 ]
 

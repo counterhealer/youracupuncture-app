@@ -26,6 +26,9 @@ from cards_gyn import CARDS as GYN_CARDS
 from cards_paed import CARDS as PAED_CARDS
 from cards_safety import CARDS as SAFETY_CARDS
 from cards_supplemental import CARDS as SUPPLEMENTAL_CARDS
+from cards_expansion_100 import CARDS_100
+from insert_remaining_14 import CARDS_14
+from cards_bina_expansion import CARDS_BINA
 
 DB_PATH = BASE_DIR / "data" / "acupuncture.db"
 
@@ -66,7 +69,10 @@ def populate():
         GYN_CARDS +
         PAED_CARDS +
         SAFETY_CARDS +
-        SUPPLEMENTAL_CARDS
+        SUPPLEMENTAL_CARDS +
+        CARDS_100 +
+        CARDS_14 +
+        CARDS_BINA
     )
 
     print(f"Total cards prepared to insert: {len(all_cards)}")
