@@ -733,6 +733,87 @@ st.markdown("""
             color: #f8fafc;
         }
     }
+
+    /* 3D Click-to-Flip Flashcard Component */
+    .flashcard-scene {
+        perspective: 1200px;
+        -webkit-perspective: 1200px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 0.8rem;
+        user-select: text;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .flashcard-inner {
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        border-radius: 16px;
+    }
+    .flashcard-scene.is-flipped .flashcard-inner {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+    }
+    .flashcard-face {
+        grid-area: 1 / 1 / 2 / 2;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        border-radius: 16px;
+        padding: 24px 22px;
+        box-sizing: border-box;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .flashcard-front {
+        background-color: #ffffff;
+        border: 1.5px solid #cbd5e1;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+        min-height: 220px;
+        z-index: 2;
+    }
+    .flashcard-scene:hover .flashcard-front {
+        border-color: #007ba7;
+        box-shadow: 0 8px 24px rgba(0, 123, 167, 0.12);
+    }
+    .flashcard-back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        background-color: #ffffff;
+        border: 1.5px solid #007ba7;
+        border-top: 5px solid #007ba7;
+        box-shadow: 0 6px 20px rgba(0, 123, 167, 0.15);
+        min-height: 220px;
+        z-index: 1;
+    }
+    .flashcard-scene:hover .flashcard-back {
+        box-shadow: 0 8px 26px rgba(0, 123, 167, 0.22);
+    }
+    .flashcard-scene.is-flipped .flashcard-front {
+        pointer-events: none;
+    }
+    .flashcard-scene:not(.is-flipped) .flashcard-back {
+        pointer-events: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .flashcard-front {
+            background-color: #1e293b !important;
+            border-color: #475569 !important;
+            color: #f8fafc !important;
+        }
+        .flashcard-back {
+            background-color: #1e293b !important;
+            border-color: #007ba7 !important;
+            color: #f8fafc !important;
+        }
+    }
     
     /* Variation & Discrepancy Callout - Fawn Warm Accent */
     .variation-callout {
@@ -1349,97 +1430,96 @@ elif nav_choice == "Flashcards":
             badge_text = mastery_badges[min(3, current_card.get("mastery_level", 0))]
             
             # -------------------------------------------------------------
-            # NotebookLM-Style Click-to-Flip Card
+            # Click-to-Flip 3D Flashcard Component
             # -------------------------------------------------------------
             bilingual_title = format_point_bilingual(current_card['title'])
-            
-            if not st.session_state.card_flipped:
-                # FRONT OF CARD
-                bilingual_front = format_point_bilingual(current_card['front'])
-                st.markdown(f"""
-                <div class="nlm-card">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
-                        <span style="font-weight: 700; font-size: 1.15rem; color: #007ba7;">{bilingual_title}</span>
-                        <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
-                            {tier_badge}
-                            <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #faf6f0; color: #8c5e35; border: 1px solid #e8ded2;">{badge_text}</span>
+            bilingual_front = format_point_bilingual(current_card['front'])
+            bilingual_back = format_point_bilingual(current_card['back'])
+            bilingual_variations = format_point_bilingual(current_card.get('variations', ''))
+            bilingual_consensus = format_point_bilingual(current_card.get('consensus', ''))
+
+            variations_html = ""
+            if bilingual_variations:
+                variations_html = f"""
+                <div class="variation-callout" style="margin-top: 12px; margin-bottom: 6px;">
+                    <strong style="display: block; margin-bottom: 4px;">⚠️ Textbook Variations & Discrepancies:</strong>
+                    <div style="white-space: pre-line; line-height: 1.5;">{bilingual_variations}</div>
+                </div>
+                """
+
+            consensus_html = ""
+            if bilingual_consensus:
+                consensus_html = f"""
+                <div style="font-size: 0.88rem; color: #64748b; margin-top: 8px; font-style: italic;">
+                    <strong>Consensus:</strong> {bilingual_consensus}
+                </div>
+                """
+
+            card_html = f"""
+            <div class="flashcard-scene" id="fc_scene_{current_card['id']}_{st.session_state.card_index}" onclick="this.classList.toggle('is-flipped')">
+                <div class="flashcard-inner">
+                    <!-- FRONT FACE -->
+                    <div class="flashcard-face flashcard-front">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                                <span style="font-weight: 800; font-size: 1.2rem; color: #007ba7;">{bilingual_title}</span>
+                                <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+                                    {tier_badge}
+                                    <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #faf6f0; color: #8c5e35; border: 1px solid #e8ded2;">{badge_text}</span>
+                                </div>
+                            </div>
+                            <div style="font-size: 1.1rem; line-height: 1.6; min-height: 100px;">
+                                <strong>Question:</strong><br>{bilingual_front}
+                            </div>
+                        </div>
+                        <div style="text-align: center; margin-top: 18px; font-size: 0.88rem; color: #007ba7; font-weight: 700; padding: 8px 12px; background: rgba(0, 123, 167, 0.08); border-radius: 8px; border: 1px dashed rgba(0, 123, 167, 0.35);">
+                            👆 Click or tap anywhere on card to flip to answer 🔄
                         </div>
                     </div>
-                    <div style="font-size: 1.1rem; line-height: 1.6; min-height: 90px;">
-                        <strong>Question:</strong><br>{bilingual_front}
-                    </div>
-                    <div style="text-align: center; margin-top: 14px; font-size: 0.85rem; color: #007ba7; font-weight: 600;">
-                        👆 Click card below to flip to answer
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                # Big NotebookLM Click Target
-                if st.button("🔄 Click Card to Reveal Answer", type="primary", use_container_width=True, key=f"nlm_flip_{current_card['id']}"):
-                    st.session_state.card_flipped = True
-                    st.rerun()
-                    
-            else:
-                # BACK OF CARD
-                bilingual_back = format_point_bilingual(current_card['back'])
-                bilingual_variations = format_point_bilingual(current_card.get('variations', ''))
-                
-                st.markdown(f"""
-                <div class="nlm-card" style="border-top: 5px solid #007ba7;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
-                        <span style="font-weight: 700; font-size: 1.15rem; color: #007ba7;">{bilingual_title}</span>
-                        <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
-                            {tier_badge}
-                            <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #eef0fb; color: #484eb2; font-weight: 600; border: 1px solid #dcdff9;">Answer Exposed</span>
+                    <!-- BACK FACE -->
+                    <div class="flashcard-face flashcard-back">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                                <span style="font-weight: 800; font-size: 1.2rem; color: #007ba7;">{bilingual_title}</span>
+                                <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+                                    {tier_badge}
+                                    <span style="font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; background-color: #eef0fb; color: #484eb2; font-weight: 700; border: 1px solid #dcdff9;">Answer Revealed</span>
+                                </div>
+                            </div>
+                            <div style="font-size: 1.05rem; line-height: 1.6; white-space: pre-line; margin-bottom: 8px;">
+                                <strong>Answer:</strong><br>{bilingual_back}
+                            </div>
+                            {variations_html}
+                            {consensus_html}
+                        </div>
+                        <div style="text-align: center; margin-top: 18px; font-size: 0.88rem; color: #64748b; font-weight: 700; padding: 8px 12px; background: rgba(100, 116, 139, 0.08); border-radius: 8px; border: 1px dashed rgba(100, 116, 139, 0.35);">
+                            👆 Click or tap anywhere on card to flip back to question 🔄
                         </div>
                     </div>
-                    <div style="font-size: 1.05rem; line-height: 1.6; white-space: pre-line; margin-bottom: 12px;">
-                        {bilingual_back}
-                    </div>
-                """, unsafe_allow_html=True)
-                
-                if bilingual_variations:
-                    st.markdown(f"""
-                    <div class="variation-callout" style="margin-top: 10px;">
-                        <strong>⚠️ Textbook Variations & Discrepancies:</strong>
-                        <p style="white-space: pre-line; margin: 4px 0 0 0;">{bilingual_variations}</p>
-                    </div>
-                    """, unsafe_allow_html=True)
-                    
-                st.markdown("""
-                    <div style="text-align: center; margin-top: 10px; font-size: 0.85rem; color: #64748b;">
-                        👆 Click button below to flip back to question
-                    </div>
                 </div>
-                """, unsafe_allow_html=True)
-                
-                # Flip back button
-                if st.button("🔄 Flip Back to Question", use_container_width=True, key=f"nlm_back_{current_card['id']}"):
-                    st.session_state.card_flipped = False
-                    st.rerun()
-                
-                # Retention Rating Buttons
-                st.write("")
-                st.markdown("**Rate Your Retention:**")
-                rate_col1, rate_col2, rate_col3 = st.columns(3)
-                if rate_col1.button("🔴 Again", use_container_width=True):
-                    update_card_mastery(current_card["id"], "again")
-                    current_card["mastery_level"] = 0
-                    st.session_state.card_flipped = False
-                    st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
-                    st.rerun()
-                if rate_col2.button("🟡 Good", use_container_width=True):
-                    update_card_mastery(current_card["id"], "good")
-                    current_card["mastery_level"] = min(3, current_card.get("mastery_level", 0) + 1)
-                    st.session_state.card_flipped = False
-                    st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
-                    st.rerun()
-                if rate_col3.button("🟢 Mastered", use_container_width=True):
-                    update_card_mastery(current_card["id"], "mastered")
-                    current_card["mastery_level"] = 3
-                    st.session_state.card_flipped = False
-                    st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
-                    st.rerun()
+            </div>
+            """
+            st.markdown(card_html, unsafe_allow_html=True)
+
+            # Retention Rating Buttons
+            st.write("")
+            st.markdown("**Rate Your Retention:**")
+            rate_col1, rate_col2, rate_col3 = st.columns(3)
+            if rate_col1.button("🔴 Again", use_container_width=True):
+                update_card_mastery(current_card["id"], "again")
+                current_card["mastery_level"] = 0
+                st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
+                st.rerun()
+            if rate_col2.button("🟡 Good", use_container_width=True):
+                update_card_mastery(current_card["id"], "good")
+                current_card["mastery_level"] = min(3, current_card.get("mastery_level", 0) + 1)
+                st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
+                st.rerun()
+            if rate_col3.button("🟢 Mastered", use_container_width=True):
+                update_card_mastery(current_card["id"], "mastered")
+                current_card["mastery_level"] = 3
+                st.session_state.card_index = (st.session_state.card_index + 1) % len(cards)
+                st.rerun()
                     
             # Navigation Controls
             st.write("")
