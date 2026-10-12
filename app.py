@@ -1572,7 +1572,7 @@ elif nav_choice == "Flashcards":
 # TAB 3: Atlas
 # =============================================================================
 elif nav_choice == "Atlas":
-    # Interactive Acupuncture Atlas Component (Seamlessly Integrated)
+    # Interactive Acupuncture Atlas Component (v2.2.0 - High-Res In-Place Zoom & Multi-CDN Mirrors)
     html_atlas = generate_atlas_html()
     st.iframe(html_atlas, height="content")
 

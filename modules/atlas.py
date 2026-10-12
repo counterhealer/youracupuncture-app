@@ -1946,15 +1946,27 @@ window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
     const lightboxLoading = document.getElementById('lightboxLoading');
     const lightboxFallback = document.getElementById('lightboxFallback');
 
-    // Position dialog in document space directly over the active point card
+    // Position dialog accurately in document space using getBoundingClientRect
     const dialog = photoLightboxModal.querySelector('.lightbox-dialog');
     const card = document.getElementById('pointPhotoCard') || document.querySelector('.point-photo-card');
-    const targetTop = card ? Math.max(10, card.offsetTop - 30) : 40;
+    let targetTop = 40;
+    if (card) {
+        const rect = card.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+        targetTop = Math.max(20, Math.round(rect.top + scrollTop - 20));
+    }
     if (dialog) {
         dialog.style.top = targetTop + 'px';
     }
 
+    photoLightboxModal.style.height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, 1200) + 'px';
     photoLightboxModal.style.display = 'block';
+
+    setTimeout(() => {
+        if (dialog) {
+            dialog.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }, 30);
 
     let candidateIdx = 0;
     function tryLoadNextCandidate() {
