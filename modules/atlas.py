@@ -38,10 +38,10 @@ def get_atlas_dataset() -> Dict[str, Any]:
         for p in points.values():
             if p.get("hasImage") and p.get("image"):
                 raw_rel = p["image"].replace("/app/static/", "static/").lstrip("/")
-                if not p.get("cdnImage"):
-                    p["cdnImage"] = f"https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/{raw_rel}"
-                if not p.get("githubImage"):
-                    p["githubImage"] = f"https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/{raw_rel}"
+                p["cdnImage"] = f"https://cdn.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/{raw_rel}"
+                p["fastlyImage"] = f"https://fastly.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/{raw_rel}"
+                p["gcoreImage"] = f"https://gcore.jsdelivr.net/gh/counterhealer/youracupuncture-app@main/{raw_rel}"
+                p["githubImage"] = f"https://raw.githubusercontent.com/counterhealer/youracupuncture-app/main/{raw_rel}"
         return {"meridians": meridians, "points": points}
     
     # Fallback to minimal dataset if static files are missing
@@ -930,22 +930,39 @@ html, body {
     top: 10px;
 }
 
-/* Clinical Point Location Photo Card */
+/* Clinical Point Location Photo Card & Interactive In-Place Zoom */
 .point-photo-card {
     background: var(--bg-surface-low);
     border: 2px solid var(--border-strong);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--card-shadow);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.point-photo-card.is-expanded {
+    border-color: var(--accent-blue);
+    box-shadow: 0 12px 28px -6px rgba(0, 123, 167, 0.35);
 }
 
 .point-photo-wrapper {
     position: relative;
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #000;
+    background: var(--bg-surface-high);
     cursor: zoom-in;
     overflow: hidden;
+    transition: height 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.point-photo-wrapper.is-expanded {
+    aspect-ratio: auto;
+    height: 480px;
+    background: #0f172a;
+}
+
+.point-photo-wrapper.is-magnifying {
+    cursor: crosshair;
 }
 
 .point-photo-img {
@@ -953,19 +970,23 @@ html, body {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.25s ease, filter 0.25s ease;
+    transform-origin: center center;
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), filter 0.2s ease;
+}
+
+.point-photo-wrapper.is-expanded .point-photo-img {
+    object-fit: contain;
 }
 
 .point-photo-wrapper:hover .point-photo-img {
-    transform: scale(1.04);
-    filter: brightness(1.06);
+    filter: brightness(1.04);
 }
 
 .point-photo-overlay {
     position: absolute;
     bottom: 8px;
     right: 8px;
-    background: rgba(15, 23, 42, 0.78);
+    background: rgba(15, 23, 42, 0.82);
     backdrop-filter: blur(4px);
     color: white;
     padding: 3px 8px;
@@ -977,6 +998,44 @@ html, body {
     gap: 4px;
     pointer-events: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+.point-photo-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    background: var(--bg-surface);
+    border-top: 1px solid var(--border-subtle);
+    gap: 4px;
+}
+
+.photo-tool-btn {
+    background: var(--bg-surface-low);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.photo-tool-btn:hover {
+    background: var(--bg-surface-high);
+    color: var(--accent-blue);
+    border-color: var(--accent-blue);
+}
+
+.photo-tool-btn.active {
+    background: var(--accent-blue);
+    color: #ffffff;
+    border-color: var(--accent-blue);
 }
 
 .point-photo-caption {
@@ -1374,22 +1433,20 @@ html, body {
 }
 
 /* -------------------------------------------------------------
-   PHOTO LIGHTBOX MODAL
+   PHOTO LIGHTBOX MODAL (ABSOLUTE OVERLAY FOR IFRAME COMPATIBILITY)
    ------------------------------------------------------------- */
 .photo-lightbox-modal {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background: rgba(15, 23, 42, 0.85);
+    width: 100%;
+    min-height: 100%;
+    background: rgba(15, 23, 42, 0.78);
     backdrop-filter: blur(8px);
-    z-index: 99999;
+    z-index: 999999;
     display: none;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 24px 16px;
-    overflow-y: auto;
+    box-sizing: border-box;
     animation: fadeIn 0.15s ease;
 }
 
@@ -1402,14 +1459,17 @@ html, body {
     background: var(--bg-surface);
     border: 2px solid var(--border-strong);
     border-radius: 14px;
-    max-width: 640px;
-    width: 100%;
+    max-width: 660px;
+    width: 94%;
     overflow: hidden;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.85);
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
-    transition: margin-top 0.2s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .lightbox-header {
@@ -1573,7 +1633,7 @@ html, body {
         </div>
         <div class="lightbox-footer">
             <span>📍 Clinical Anatomical Landmark & Needling Verification</span>
-            <span style="font-family:var(--font-mono);">Press ESC to close</span>
+            <button onclick="closePhotoModal()" style="background:var(--accent-blue);color:#ffffff;border:none;border-radius:6px;padding:4px 14px;font-size:0.75rem;font-weight:700;cursor:pointer;">✕ Close</button>
         </div>
     </div>
 </div>
@@ -1845,7 +1905,7 @@ function toggleTheme() {
     }
 }
 
-// Photo Lightbox Handlers
+// Photo Lightbox & Interactive Zoom Handlers
 window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
     let pt = null;
     let title = 'Point Landmark Photo';
@@ -1855,53 +1915,47 @@ window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
     if (typeof arg1 === 'string' && typeof DATA !== 'undefined' && DATA.points && DATA.points[arg1]) {
         pt = DATA.points[arg1];
         title = `${pt.code} ${pt.pinyin} (${pt.hanzi}) — Anatomical Landmark`;
-        candidates = [
-            pt.cdnImage,
-            pt.githubImage,
-            pt.image,
-            pt.remoteImage
-        ].filter(Boolean);
-    } else {
-        // Case B: direct URL passed (backwards compatibility)
-        const imgSrc = arg1;
-        title = typeof arg2 === 'string' ? arg2 : 'Point Landmark Photo';
-        const fallbackSrc = arg3;
-        candidates = [imgSrc, fallbackSrc].filter(Boolean);
     }
 
+    // Always check if current point photo in the card is already active and loaded in browser memory
+    const activeCardImg = document.getElementById('pointPhotoImg') || document.querySelector('.point-photo-img');
+    const workingSrc = (activeCardImg && activeCardImg.src && activeCardImg.naturalWidth > 0) ? activeCardImg.src : null;
+
+    if (pt) {
+        candidates = [
+            workingSrc,
+            pt.cdnImage,
+            pt.fastlyImage,
+            pt.gcoreImage,
+            pt.githubImage,
+            pt.remoteImage,
+            pt.image
+        ].filter(Boolean);
+    } else {
+        const directSrc = (typeof arg1 === 'string' && arg1.includes('/')) ? arg1 : null;
+        title = (typeof arg2 === 'string') ? arg2 : 'Point Landmark Photo';
+        candidates = [workingSrc, directSrc, arg3].filter(Boolean);
+    }
+
+    // Deduplicate
+    candidates = Array.from(new Set(candidates));
     if (candidates.length === 0) return;
 
     lightboxTitle.innerText = title;
 
-    // Reset UI elements
     const lightboxLoading = document.getElementById('lightboxLoading');
     const lightboxFallback = document.getElementById('lightboxFallback');
-    if (lightboxLoading) lightboxLoading.style.display = 'flex';
-    if (lightboxFallback) lightboxFallback.style.display = 'none';
-    lightboxImg.style.display = 'none';
 
-    // Position dialog in user's current viewport
+    // Position dialog in document space directly over the active point card
     const dialog = photoLightboxModal.querySelector('.lightbox-dialog');
-    const evt = (arg2 && typeof arg2 === 'object' && arg2.target) ? arg2 : (clickEvent || null);
-    let scrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
-    if (evt && evt.target) {
-        scrollY += evt.target.getBoundingClientRect().top;
-    } else {
-        const ptCard = document.querySelector('.point-photo-card');
-        if (ptCard) {
-            scrollY += ptCard.getBoundingClientRect().top;
-        }
-    }
+    const card = document.getElementById('pointPhotoCard') || document.querySelector('.point-photo-card');
+    const targetTop = card ? Math.max(10, card.offsetTop - 30) : 40;
     if (dialog) {
-        dialog.style.marginTop = Math.max(20, scrollY - 200) + 'px';
-        setTimeout(() => {
-            dialog.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 40);
+        dialog.style.top = targetTop + 'px';
     }
 
-    photoLightboxModal.style.display = 'flex';
+    photoLightboxModal.style.display = 'block';
 
-    // Sequential cascade through CDN, GitHub raw, and fallbacks
     let candidateIdx = 0;
     function tryLoadNextCandidate() {
         if (candidateIdx < candidates.length) {
@@ -1916,9 +1970,22 @@ window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
                 const fTitle = document.getElementById('lightboxFallbackTitle');
                 const fDesc = document.getElementById('lightboxFallbackDesc');
                 if (fTitle) fTitle.innerText = pt ? `${pt.code} · ${pt.pinyin} (${pt.hanzi})` : 'Point Landmark Photography';
-                if (fDesc) fDesc.innerText = pt ? `Anatomical photograph offline. Refer to ${pt.region} landmark palpation steps on the right panel.` : 'Anatomical photo could not be loaded across CDNs.';
+                if (fDesc) fDesc.innerText = pt ? `Anatomical photograph offline. Refer to ${pt.region} landmark palpation steps on the right panel.` : 'Anatomical photo could not be loaded across mirrors.';
             }
         }
+    }
+
+    // If workingSrc is present and already loaded in browser memory, show immediately with 0ms delay!
+    if (workingSrc && activeCardImg && activeCardImg.complete) {
+        if (lightboxLoading) lightboxLoading.style.display = 'none';
+        if (lightboxFallback) lightboxFallback.style.display = 'none';
+        lightboxImg.src = workingSrc;
+        lightboxImg.style.display = 'block';
+    } else {
+        if (lightboxLoading) lightboxLoading.style.display = 'flex';
+        if (lightboxFallback) lightboxFallback.style.display = 'none';
+        lightboxImg.style.display = 'none';
+        tryLoadNextCandidate();
     }
 
     lightboxImg.onload = function() {
@@ -1930,8 +1997,6 @@ window.openPhotoModal = function(arg1, arg2, arg3, clickEvent) {
     lightboxImg.onerror = function() {
         tryLoadNextCandidate();
     };
-
-    tryLoadNextCandidate();
 };
 
 window.closePhotoModal = function(e) {
@@ -1942,28 +2007,134 @@ window.closePhotoModal = function(e) {
     if (lightboxLoading) lightboxLoading.style.display = 'none';
     if (lightboxFallback) lightboxFallback.style.display = 'none';
     lightboxImg.style.display = 'none';
-    const dialog = photoLightboxModal.querySelector('.lightbox-dialog');
-    if (dialog) dialog.style.marginTop = '20px';
 };
 
-window.handleImgFallback = function(imgEl, ghSrc, localSrc, remoteSrc) {
-    if (ghSrc && imgEl.src !== ghSrc) {
-        imgEl.src = ghSrc;
-    } else if (localSrc && imgEl.src !== localSrc && !imgEl.src.includes(localSrc)) {
-        imgEl.src = localSrc;
-    } else if (remoteSrc && imgEl.src !== remoteSrc) {
-        imgEl.src = remoteSrc;
-    } else {
-        if (imgEl.parentElement && imgEl.parentElement.classList.contains('pt-thumb-box')) {
-            imgEl.parentElement.style.display = 'none';
+// Robust multi-mirror fallback handler
+window.handleImgFallback = function(imgEl, fastlySrc, gcoreSrc, ghSrc, remoteSrc, localSrc) {
+    if (!imgEl) return;
+    const attempted = imgEl.dataset.attemptedMirrors ? JSON.parse(imgEl.dataset.attemptedMirrors) : [];
+    const mirrors = [fastlySrc, gcoreSrc, ghSrc, remoteSrc, localSrc].filter(Boolean);
+
+    for (const m of mirrors) {
+        if (!attempted.includes(m) && imgEl.src !== m) {
+            attempted.push(m);
+            imgEl.dataset.attemptedMirrors = JSON.stringify(attempted);
+            imgEl.src = m;
+            return;
         }
     }
+    // Exhausted
+    if (imgEl.parentElement && imgEl.parentElement.classList.contains('pt-thumb-box')) {
+        imgEl.parentElement.style.display = 'none';
+    }
+};
+
+// Interactive In-Place Zoom & Magnifier Handlers
+window.handlePhotoClick = function(code, e) {
+    const wrap = document.getElementById('pointPhotoWrapper');
+    if (!wrap) return;
+    if (wrap.classList.contains('is-expanded')) {
+        window.toggleMagnifyMode(e);
+    } else {
+        window.toggleInPlaceZoom(e);
+    }
+};
+
+window.toggleInPlaceZoom = function(e) {
+    if (e) e.stopPropagation();
+    const card = document.getElementById('pointPhotoCard');
+    const wrap = document.getElementById('pointPhotoWrapper');
+    const btn = document.getElementById('btnToggleZoom');
+    const overlay = document.getElementById('pointPhotoOverlay');
+    if (!wrap) return;
+
+    const willExpand = !wrap.classList.contains('is-expanded');
+    if (willExpand) {
+        wrap.classList.add('is-expanded');
+        if (card) card.classList.add('is-expanded');
+        if (btn) {
+            btn.classList.add('active');
+            btn.innerText = '🔍 Compact';
+        }
+        if (overlay) overlay.innerHTML = '<span>🔎 Click to Magnify 2.2x</span>';
+    } else {
+        wrap.classList.remove('is-expanded');
+        wrap.classList.remove('is-magnifying');
+        const img = document.getElementById('pointPhotoImg');
+        if (img) img.style.transform = 'scale(1)';
+        if (card) card.classList.remove('is-expanded');
+        if (btn) {
+            btn.classList.remove('active');
+            btn.innerText = '🔍 Expand';
+        }
+        const btnMag = document.getElementById('btnMagnify');
+        if (btnMag) btnMag.classList.remove('active');
+        if (overlay) overlay.innerHTML = '<span>🔍 Click to Zoom</span>';
+    }
+    syncHeight();
+};
+
+window.toggleMagnifyMode = function(e) {
+    if (e) e.stopPropagation();
+    const wrap = document.getElementById('pointPhotoWrapper');
+    const btnMag = document.getElementById('btnMagnify');
+    const overlay = document.getElementById('pointPhotoOverlay');
+    const img = document.getElementById('pointPhotoImg');
+    if (!wrap || !img) return;
+
+    if (!wrap.classList.contains('is-expanded')) {
+        window.toggleInPlaceZoom();
+    }
+
+    const isMag = wrap.classList.toggle('is-magnifying');
+    if (isMag) {
+        if (btnMag) btnMag.classList.add('active');
+        img.style.transform = 'scale(2.2)';
+        if (overlay) overlay.innerHTML = '<span>👆 Hover to Palpate</span>';
+    } else {
+        if (btnMag) btnMag.classList.remove('active');
+        img.style.transform = 'scale(1)';
+        if (overlay) overlay.innerHTML = '<span>🔎 Click to Magnify 2.2x</span>';
+    }
+};
+
+window.handlePhotoMouseMove = function(e) {
+    const wrap = document.getElementById('pointPhotoWrapper');
+    const img = document.getElementById('pointPhotoImg');
+    if (!wrap || !img || !wrap.classList.contains('is-magnifying')) return;
+
+    const rect = wrap.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    img.style.transformOrigin = `${x}% ${y}%`;
+};
+
+window.handlePhotoMouseLeave = function(e) {
+    const wrap = document.getElementById('pointPhotoWrapper');
+    const img = document.getElementById('pointPhotoImg');
+    if (!wrap || !img || !wrap.classList.contains('is-magnifying')) return;
+    img.style.transformOrigin = 'center center';
+};
+
+window.onPhotoLoaded = function(img) {
+    syncHeight();
 };
 
 // Guide Modal Handlers
 window.openGuideModal = function() {
     const modal = document.getElementById('atlasGuideModal');
-    if (modal) modal.style.display = 'flex';
+    if (modal) {
+        const dialog = modal.querySelector('.lightbox-dialog');
+        const searchWrap = document.querySelector('.search-bar-wrap') || document.querySelector('.main-content-layout');
+        if (dialog) {
+            dialog.style.position = 'absolute';
+            dialog.style.top = Math.max(20, (searchWrap ? searchWrap.offsetTop : 30)) + 'px';
+            dialog.style.left = '50%';
+            dialog.style.transform = 'translateX(-50%)';
+            dialog.style.margin = '0';
+        }
+        modal.style.display = 'block';
+    }
 };
 
 window.closeGuideModal = function(e) {
@@ -1974,13 +2145,8 @@ window.closeGuideModal = function(e) {
 // Keyboard escape to close modals
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-        if (photoLightboxModal.style.display === 'flex') {
-            closePhotoModal();
-        }
-        const guideModal = document.getElementById('atlasGuideModal');
-        if (guideModal && guideModal.style.display === 'flex') {
-            closeGuideModal();
-        }
+        closePhotoModal();
+        closeGuideModal();
     }
 });
 
@@ -2363,7 +2529,7 @@ function renderMeridianPoints(mId) {
                 <div class="point-row-left">
                     ${pt.hasImage ? `
                     <div class="pt-thumb-box">
-                        <img class="pt-thumb-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
+                        <img class="pt-thumb-img" src="${pt.cdnImage || pt.fastlyImage || pt.gcoreImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.fastlyImage}', '${pt.gcoreImage}', '${pt.githubImage}', '${pt.remoteImage}', '${pt.image}')" />
                     </div>
                     ` : `
                     <div class="point-code-block">${pt.code}</div>
@@ -2457,12 +2623,17 @@ function renderPointDetail(ptCode) {
             <div class="pdp-left-col">
                 <!-- Clinical Point Location Photography -->
                 ${pt.hasImage ? `
-                <div class="point-photo-card">
-                    <div class="point-photo-wrapper" onclick="openPhotoModal('${pt.code}', event)">
-                        <img class="point-photo-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code} ${pt.pinyin} location photo" loading="eager" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
-                        <div class="point-photo-overlay">
-                            <span>🔍 Click to zoom</span>
+                <div class="point-photo-card" id="pointPhotoCard">
+                    <div class="point-photo-wrapper" id="pointPhotoWrapper" onclick="handlePhotoClick('${pt.code}', event)" onmousemove="handlePhotoMouseMove(event)" onmouseleave="handlePhotoMouseLeave(event)" title="Click to zoom in-place (or toggle 2.2x magnification)">
+                        <img class="point-photo-img" id="pointPhotoImg" src="${pt.cdnImage || pt.fastlyImage || pt.gcoreImage || pt.remoteImage || pt.image}" alt="${pt.code} ${pt.pinyin} location photo" loading="eager" onload="onPhotoLoaded(this)" onerror="handleImgFallback(this, '${pt.fastlyImage}', '${pt.gcoreImage}', '${pt.githubImage}', '${pt.remoteImage}', '${pt.image}')" />
+                        <div class="point-photo-overlay" id="pointPhotoOverlay">
+                            <span>🔍 Click to Zoom</span>
                         </div>
+                    </div>
+                    <div class="point-photo-toolbar">
+                        <button class="photo-tool-btn" id="btnToggleZoom" onclick="toggleInPlaceZoom(event)" title="Toggle Large In-Place View">🔍 Expand</button>
+                        <button class="photo-tool-btn" id="btnMagnify" onclick="toggleMagnifyMode(event)" title="Magnify 2.2x and Pan Landmarks">🔎 2.2x Pan</button>
+                        <button class="photo-tool-btn" onclick="openPhotoModal('${pt.code}', event)" title="Open Fullscreen Lightbox">⛶ Lightbox</button>
                     </div>
                     <div class="point-photo-caption">
                         <span class="photo-caption-title">📍 Anatomical Landmark</span>
@@ -2672,7 +2843,7 @@ function renderSearchResults() {
             <div class="search-card" onclick="openPoint('${pt.code}')">
                 ${pt.hasImage ? `
                 <div class="pt-thumb-box" style="width:52px;height:52px;">
-                    <img class="pt-thumb-img" src="${pt.cdnImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.githubImage}', '${pt.image}', '${pt.remoteImage}')" />
+                    <img class="pt-thumb-img" src="${pt.cdnImage || pt.fastlyImage || pt.gcoreImage || pt.remoteImage || pt.image}" alt="${pt.code}" loading="lazy" onload="syncHeight()" onerror="handleImgFallback(this, '${pt.fastlyImage}', '${pt.gcoreImage}', '${pt.githubImage}', '${pt.remoteImage}', '${pt.image}')" />
                 </div>
                 ` : ''}
                 <div class="search-card-main">
