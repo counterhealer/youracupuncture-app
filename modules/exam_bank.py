@@ -10,6 +10,7 @@ spanning Easy, Medium, and Hard difficulty tiers across all major acupuncture an
 - Special Point Categories
 - Zang-Fu & Diagnostics
 - Prescriptions & Clinical Vignettes
+Includes persistent "Mistake Notebook" (错题本) for focused re-testing of missed questions.
 """
 
 import json
@@ -18,6 +19,14 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 import streamlit as st
+from modules.mistake_notebook import (
+    add_missed_question,
+    get_all_missed_questions,
+    mark_question_mastered,
+    delete_missed_question,
+    clear_all_missed_questions,
+    get_mistake_stats
+)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -97,7 +106,7 @@ def sample_exam_questions(
 
 
 def render_practice_exam_tab():
-    """Render the 10-Question Board Exam Simulator tab."""
+    """Render the Board Exam Simulator and Mistake Notebook tab."""
     # Custom CSS for Practice Exam white text and high contrast styling
     st.markdown("""
     <style>
@@ -212,11 +221,184 @@ def render_practice_exam_tab():
             Pan-Canadian & NCCAOM Board Exam Simulator
         </h2>
         <p style="color: #cbd5e1 !important; font-size: 0.95rem; margin: 0;">
-            800+ authentic board-style multiple choice questions spanning Pan-Canadian CARB-TCMPA clinical cases and NCCAOM core domains. Complete 10 questions at a time with instant grading and textbook explanations.
+            800+ authentic board-style multiple choice questions spanning Pan-Canadian CARB-TCMPA clinical cases and NCCAOM core domains. Complete 10 questions at a time with instant grading, textbook explanations, and automated Mistake Notebook tracking.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
+    # Mode Selector: Standard Practice Exam vs Mistake Notebook
+    mistake_stats = get_mistake_stats()
+    unmastered_count = mistake_stats.get("unmastered", 0)
+    badge_label = f" ({unmastered_count} to review)" if unmastered_count > 0 else " (Empty)"
+
+    if "exam_view_mode" not in st.session_state:
+        st.session_state.exam_view_mode = "📝 10-Question Exam Simulator"
+
+    col_mode_sel, _ = st.columns([2.5, 1])
+    with col_mode_sel:
+        exam_view = st.radio(
+            "Select Mode:",
+            options=[
+                "📝 10-Question Exam Simulator",
+                f"🎯 Mistake Notebook / 错题本{badge_label}"
+            ],
+            index=0 if st.session_state.exam_view_mode.startswith("📝") else 1,
+            horizontal=True,
+            key="exam_mode_radio"
+        )
+        st.session_state.exam_view_mode = exam_view
+
+    st.write("")
+
+    # =========================================================================
+    # VIEW A: MISTAKE NOTEBOOK (错题本)
+    # =========================================================================
+    if exam_view.startswith("🎯 Mistake Notebook"):
+        st.markdown(f"""
+        <div style="background: #111827; border: 1.5px solid rgba(248, 113, 113, 0.4); border-radius: 12px; padding: 18px 22px; margin-bottom: 18px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <div>
+                    <span style="font-size: 1.25rem; font-weight: 800; color: #f87171;">🎯 个人错题本与弱项强化 (Mistake Notebook)</span>
+                    <div style="font-size: 0.88rem; color: #cbd5e1; margin-top: 4px;">
+                        Automatically archives all questions you missed during Practice Exams and Clinical Case Simulations for targeted re-testing until 100% mastery.
+                    </div>
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <div style="background: rgba(239, 68, 68, 0.2); border: 1px solid rgba(239, 68, 68, 0.4); border-radius: 8px; padding: 6px 14px; text-align: center;">
+                        <div style="font-size: 1.25rem; font-weight: 900; color: #fca5a5;">{unmastered_count}</div>
+                        <div style="font-size: 0.7rem; font-weight: 700; color: #f87171; text-transform: uppercase;">Unmastered</div>
+                    </div>
+                    <div style="background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4); border-radius: 8px; padding: 6px 14px; text-align: center;">
+                        <div style="font-size: 1.25rem; font-weight: 900; color: #a7f3d0;">{mistake_stats.get('mastered', 0)}</div>
+                        <div style="font-size: 0.7rem; font-weight: 700; color: #34d399; text-transform: uppercase;">Mastered</div>
+                    </div>
+                    <div style="background: rgba(56, 189, 248, 0.2); border: 1px solid rgba(56, 189, 248, 0.4); border-radius: 8px; padding: 6px 14px; text-align: center;">
+                        <div style="font-size: 1.25rem; font-weight: 900; color: #bae6fd;">{mistake_stats.get('total', 0)}</div>
+                        <div style="font-size: 0.7rem; font-weight: 700; color: #38bdf8; text-transform: uppercase;">Total Saved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        if mistake_stats.get("total", 0) == 0:
+            st.info("🎉 **Your Mistake Notebook is currently empty!** Any questions you miss in the Practice Exam Simulator or Case Simulator will automatically appear here for review.")
+            return
+
+        col_act1, col_act2, col_act3 = st.columns([1.5, 1.2, 1.0], vertical_alignment="bottom")
+        with col_act1:
+            if unmastered_count > 0:
+                if st.button("🚀 Start Mistake Drill (Test 10 Missed Qs)", type="primary", use_container_width=True, key="start_mistake_drill_btn"):
+                    unmastered_qs = get_all_missed_questions(only_unmastered=True)
+                    drill_sample = random.sample(unmastered_qs, min(10, len(unmastered_qs)))
+                    # Format as exam questions
+                    st.session_state.current_exam_questions = drill_sample
+                    st.session_state.exam_submitted = False
+                    st.session_state.exam_user_answers = {}
+                    st.session_state.exam_seed = random.randint(1, 999999)
+                    st.session_state.exam_view_mode = "📝 10-Question Exam Simulator"
+                    st.rerun()
+            else:
+                st.success("🏆 You have mastered all saved missed questions!")
+
+        with col_act2:
+            show_only_unmastered = st.checkbox("Show Unmastered Only", value=True, key="filter_unmastered_cb")
+
+        with col_act3:
+            if st.button("🗑️ Clear All Records", type="secondary", use_container_width=True, key="clear_all_mistakes_btn"):
+                clear_all_missed_questions()
+                st.rerun()
+
+        # Load missed questions
+        missed_list = get_all_missed_questions(only_unmastered=show_only_unmastered)
+        st.caption(f"Displaying **{len(missed_list)}** saved questions in Mistake Notebook:")
+
+        for idx, item in enumerate(missed_list, start=1):
+            q_id = item["question_id"]
+            is_mastered = item.get("mastered", False)
+            times_missed = item.get("missed_count", 1)
+            source_tag = "Clinical Case" if item.get("source") == "case_simulator" else "Practice Exam"
+            status_badge = "✅ Mastered" if is_mastered else f"❌ Missed {times_missed}x"
+            status_bg = "rgba(16, 185, 129, 0.2)" if is_mastered else "rgba(239, 68, 68, 0.2)"
+            status_color = "#34d399" if is_mastered else "#f87171"
+
+            with st.expander(f"Q{idx} [{status_badge}] — {item['question'][:75]}...", expanded=False):
+                st.markdown(f"""
+                <div style="display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;">
+                    <span style="background: {status_bg}; color: {status_color}; font-size: 0.74rem; font-weight: 800; padding: 2px 8px; border-radius: 4px;">
+                        {status_badge}
+                    </span>
+                    <span style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 0.74rem; font-weight: 700; padding: 2px 8px; border-radius: 4px;">
+                        {source_tag}
+                    </span>
+                    <span style="background: rgba(167, 139, 250, 0.2); color: #c4b5fd; font-size: 0.74rem; font-weight: 700; padding: 2px 8px; border-radius: 4px;">
+                        {item.get('category', 'Domain')}
+                    </span>
+                    <span style="background: rgba(251, 191, 36, 0.2); color: #fde68a; font-size: 0.74rem; font-weight: 700; padding: 2px 8px; border-radius: 4px;">
+                        {item.get('difficulty', 'Medium')}
+                    </span>
+                </div>
+                <div style="font-size: 1.05rem; font-weight: 600; color: #ffffff !important; line-height: 1.55; margin-bottom: 12px;">
+                    {item['question']}
+                </div>
+                """, unsafe_allow_html=True)
+
+                opts = item["options"]
+                correct_idx = item["answer"]
+                user_idx = item.get("user_answer")
+
+                for opt_i, opt_text in enumerate(opts):
+                    opt_letter = chr(65 + opt_i)
+                    if opt_i == correct_idx:
+                        st.markdown(f"""
+                        <div style="background: rgba(16, 185, 129, 0.15); border-left: 4px solid #10b981; padding: 8px 12px; border-radius: 4px; margin-bottom: 6px; color: #a7f3d0; font-weight: 700;">
+                            ✓ {opt_letter}. {opt_text} (Correct Answer)
+                        </div>
+                        """, unsafe_allow_html=True)
+                    elif user_idx is not None and opt_i == user_idx:
+                        st.markdown(f"""
+                        <div style="background: rgba(239, 68, 68, 0.15); border-left: 4px solid #ef4444; padding: 8px 12px; border-radius: 4px; margin-bottom: 6px; color: #fca5a5; font-weight: 600;">
+                            ✗ {opt_letter}. {opt_text} (Your Previous Choice)
+                        </div>
+                        """, unsafe_allow_html=True)
+                    else:
+                        st.markdown(f"""
+                        <div style="padding: 6px 12px; color: #cbd5e1; margin-bottom: 4px;">
+                            &nbsp;&nbsp;&nbsp;{opt_letter}. {opt_text}
+                        </div>
+                        """, unsafe_allow_html=True)
+
+                st.markdown(f"""
+                <div style="background: rgba(0, 0, 0, 0.4); border-left: 4px solid #38bdf8; padding: 12px 16px; border-radius: 6px; margin: 12px 0;">
+                    <div style="font-weight: 800; font-size: 0.8rem; text-transform: uppercase; color: #38bdf8; margin-bottom: 4px;">
+                        Official Textbook Rationale
+                    </div>
+                    <div style="font-size: 0.92rem; line-height: 1.55; color: #ffffff !important;">
+                        {item.get('explanation', 'No explanation provided.')}
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+
+                c_m1, c_m2, _ = st.columns([1.2, 1.0, 2.0])
+                with c_m1:
+                    if not is_mastered:
+                        if st.button("✅ Mark as Mastered", key=f"btn_master_{q_id}"):
+                            mark_question_mastered(q_id, mastered=True)
+                            st.rerun()
+                    else:
+                        if st.button("🔄 Move to Review", key=f"btn_unmaster_{q_id}"):
+                            mark_question_mastered(q_id, mastered=False)
+                            st.rerun()
+                with c_m2:
+                    if st.button("🗑️ Remove", key=f"btn_del_{q_id}"):
+                        delete_missed_question(q_id)
+                        st.rerun()
+
+        return
+
+    # =========================================================================
+    # VIEW B: STANDARD 10-QUESTION EXAM SIMULATOR
+    # =========================================================================
     stats = get_bank_stats()
     exam_boards = [
         "All Exam Boards (Pan-Canadian & NCCAOM)",
@@ -259,7 +441,6 @@ def render_practice_exam_tab():
             )
         with col_btn:
             if st.button("🔄 Draw 10 New Questions", type="secondary", use_container_width=True, key="exam_draw_new_btn"):
-                # Reset exam session
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,
@@ -323,28 +504,29 @@ def render_practice_exam_tab():
     </div>
     """, unsafe_allow_html=True)
 
-    # MODE A: EXAM IN PROGRESS (Active 10 Questions)
+    # MODE 1: EXAM IN PROGRESS (Active 10 Questions)
     if not is_submitted:
         with st.form("practice_exam_form", clear_on_submit=False):
             user_selections = {}
 
             for idx, q in enumerate(current_q_list, start=1):
-                q_id = q["id"]
-                diff_badge_color = "#34d399" if q["difficulty"] == "Easy" else ("#fbbf24" if q["difficulty"] == "Medium" else "#f87171")
-                diff_bg_color = "rgba(16, 185, 129, 0.2)" if q["difficulty"] == "Easy" else ("rgba(200, 150, 102, 0.25)" if q["difficulty"] == "Medium" else "rgba(239, 68, 68, 0.2)")
+                q_id = q.get("id") or q.get("question_id")
+                diff = q.get("difficulty", "Medium")
+                diff_badge_color = "#34d399" if diff == "Easy" else ("#fbbf24" if diff == "Medium" else "#f87171")
+                diff_bg_color = "rgba(16, 185, 129, 0.2)" if diff == "Easy" else ("rgba(200, 150, 102, 0.25)" if diff == "Medium" else "rgba(239, 68, 68, 0.2)")
 
                 st.markdown(f"""
                 <div style="background: #111827; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 12px 12px 0 0; padding: 16px 20px 14px 20px; margin-top: 18px;">
                     <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap;">
-                        <span style="font-weight: 800; font-size: 0.95rem; color: #38bdf8;">Question {idx} of 10</span>
+                        <span style="font-weight: 800; font-size: 0.95rem; color: #38bdf8;">Question {idx} of {len(current_q_list)}</span>
                         <span style="background: {diff_bg_color}; color: {diff_badge_color}; font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">
-                            {q['difficulty']}
+                            {diff}
                         </span>
                         <span style="background: rgba(14, 165, 233, 0.2); color: #38bdf8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(14, 165, 233, 0.3);">
                             {q.get('exam', 'Board Exam')}
                         </span>
                         <span style="background: rgba(72, 78, 178, 0.35); color: #c7d2fe; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(72, 78, 178, 0.4);">
-                            {q['category']}
+                            {q.get('category', 'General')}
                         </span>
                     </div>
                     <div style="font-size: 1.05rem; font-weight: 600; color: #ffffff !important; line-height: 1.55;">
@@ -371,7 +553,7 @@ def render_practice_exam_tab():
                 user_selections[q_id] = formatted_opts.index(selected_str) if selected_str in formatted_opts else None
 
             submit_btn = st.form_submit_button(
-                "📝 Submit 10-Question Exam & Grade Answers",
+                "📝 Submit Exam & Grade Answers",
                 type="primary",
                 use_container_width=True
             )
@@ -379,16 +561,29 @@ def render_practice_exam_tab():
             if submit_btn:
                 st.session_state.exam_submitted = True
                 st.session_state.exam_user_answers = user_selections
+
+                # Automatically record missed questions to Mistake Notebook
+                for q in current_q_list:
+                    q_id = q.get("id") or q.get("question_id")
+                    chosen = user_selections.get(q_id)
+                    correct = q.get("answer") if "answer" in q else q.get("correct_index", 0)
+                    if chosen != correct:
+                        add_missed_question(q, source="practice_exam", user_answer=chosen)
+                    else:
+                        mark_question_mastered(str(q_id), mastered=True)
+
                 st.rerun()
 
-    # MODE B: EVALUATION & REVIEW MODE (Active when Submitted)
+    # MODE 2: EVALUATION & REVIEW MODE (Active when Submitted)
     else:
         user_answers = st.session_state.get("exam_user_answers", {})
         score = 0
         total = len(current_q_list)
 
         for q in current_q_list:
-            if user_answers.get(q["id"]) == q["answer"]:
+            q_id = q.get("id") or q.get("question_id")
+            correct = q.get("answer") if "answer" in q else q.get("correct_index", 0)
+            if user_answers.get(q_id) == correct:
                 score += 1
 
         percent = round((score / total) * 100) if total > 0 else 0
@@ -396,6 +591,7 @@ def render_practice_exam_tab():
 
         status_color = "#10b981" if passed else "#ef4444"
         verdict_text = "PASS — Board Standard Met (≥ 70%)" if passed else "NEEDS REVIEW — Standard is ≥ 70%"
+        missed_count = total - score
 
         # Score Summary Card
         st.markdown(f"""
@@ -407,15 +603,16 @@ def render_practice_exam_tab():
                 {score} / {total} <span style="font-size: 1.3rem; color: #94a3b8;">({percent}%)</span>
             </div>
             <div style="font-size: 0.95rem; color: #cbd5e1 !important;">
-                Review each question below with detailed textbook citations and rationale. Click <strong>Next Questions</strong> below when ready for a new set.
+                Review each question below with detailed textbook citations and rationale.
             </div>
+            {f'<div style="font-size: 0.88rem; color: #f87171; margin-top: 8px; font-weight: 700;">💡 {missed_count} missed questions have been automatically saved to your Mistake Notebook (错题本) for focused re-testing!</div>' if missed_count > 0 else '<div style="font-size: 0.88rem; color: #34d399; margin-top: 8px; font-weight: 700;">🌟 Flawless score! All questions marked as Mastered.</div>'}
         </div>
         """, unsafe_allow_html=True)
 
         # Prominent Action Bar above detailed explanations
-        col_top_act1, col_top_act2, _ = st.columns([1.6, 1.2, 1.2])
+        col_top_act1, col_top_act2, col_top_act3 = st.columns([1.5, 1.2, 1.3])
         with col_top_act1:
-            if st.button("⏩ Next Questions (New 10 Set)", type="primary", use_container_width=True, key="exam_next_set_top_btn"):
+            if st.button("⏩ Next Questions (New Set)", type="primary", use_container_width=True, key="exam_next_set_top_btn"):
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,
@@ -432,6 +629,11 @@ def render_practice_exam_tab():
                 st.session_state.exam_user_answers = {}
                 st.session_state.exam_seed = random.randint(1, 999999)
                 st.rerun()
+        with col_top_act3:
+            if missed_count > 0:
+                if st.button("🎯 Open Mistake Notebook", type="secondary", use_container_width=True, key="open_mistake_nb_btn"):
+                    st.session_state.exam_view_mode = "🎯 Mistake Notebook / 错题本"
+                    st.rerun()
 
         if passed and percent >= 90:
             st.balloons()
@@ -444,9 +646,9 @@ def render_practice_exam_tab():
         """, unsafe_allow_html=True)
 
         for idx, q in enumerate(current_q_list, start=1):
-            q_id = q["id"]
+            q_id = q.get("id") or q.get("question_id")
             chosen = user_answers.get(q_id)
-            correct = q["answer"]
+            correct = q.get("answer") if "answer" in q else q.get("correct_index", 0)
             is_correct = (chosen == correct)
             opts = q["options"]
 
@@ -457,7 +659,7 @@ def render_practice_exam_tab():
             with st.expander(f"Question {idx}: {icon} — [{exam_tag}] {q['question'][:65]}...", expanded=not is_correct):
                 st.markdown(f"""
                 <div style="color: #ffffff !important; font-size: 1.02rem; font-weight: 600; margin-bottom: 10px;">
-                    <span style="color: #38bdf8; font-weight: 800;">Question {idx} ({exam_tag} · {q['category']}):</span> {q['question']}
+                    <span style="color: #38bdf8; font-weight: 800;">Question {idx} ({exam_tag} · {q.get('category', 'Domain')}):</span> {q['question']}
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -487,16 +689,16 @@ def render_practice_exam_tab():
                         Official Board Rationale & Clinical Reference
                     </div>
                     <div style="font-size: 0.95rem; line-height: 1.6; color: #ffffff !important;">
-                        {q['explanation']}
+                        {q.get('explanation', '')}
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
 
-        # Bottom Next 10 Questions Button
+        # Bottom Next Questions Button
         st.write("")
         col_bot_act1, col_bot_act2, _ = st.columns([1.6, 1.2, 1.2])
         with col_bot_act1:
-            if st.button("⏩ Next Questions (New 10 Set)", type="primary", use_container_width=True, key="exam_next_set_bottom_btn"):
+            if st.button("⏩ Next Questions (New Set)", type="primary", use_container_width=True, key="exam_next_set_bottom_btn"):
                 st.session_state.current_exam_questions = sample_exam_questions(
                     count=10,
                     difficulty=sel_diff,

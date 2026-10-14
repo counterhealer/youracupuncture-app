@@ -1823,8 +1823,31 @@ elif nav_choice == "Case Simulator":
                     
                     if chosen_letter == correct_letter:
                         st.success(f"🎉 **Correct!** You chose **{chosen_letter}**.")
+                        try:
+                            from modules.mistake_notebook import mark_question_mastered
+                            mark_question_mastered(f"CASE_{selected_id}_{q['question_id']}", mastered=True)
+                        except Exception:
+                            pass
                     else:
                         st.error(f"❌ **Incorrect.** You selected **{chosen_letter}**. The textbook standard is **{correct_letter}**.")
+                        try:
+                            from modules.mistake_notebook import add_missed_question
+                            exps_map = q.get("explanations", {})
+                            correct_exp = exps_map.get(correct_letter, "") if isinstance(exps_map, dict) else (exps_map[q["correct_index"]] if isinstance(exps_map, list) and q["correct_index"] < len(exps_map) else "")
+                            chosen_idx = ["A", "B", "C", "D"].index(chosen_letter) if chosen_letter in ["A", "B", "C", "D"] else None
+                            add_missed_question({
+                                "question_id": f"CASE_{selected_id}_{q['question_id']}",
+                                "title": f"Case {selected_id}: {active_case.get('title', '')} - {q.get('title', '')}",
+                                "question": q["prompt"],
+                                "options": formatted_options,
+                                "correct_index": q["correct_index"],
+                                "explanation": correct_exp,
+                                "category": f"Case: {active_case.get('pattern', 'Clinical Zang-Fu')}",
+                                "difficulty": "Hard",
+                                "exam": "Pan-Canadian CARB-TCMPA Case"
+                            }, source="case_simulator", user_answer=chosen_idx)
+                        except Exception:
+                            pass
                         
                     # EXPLANATION OF EVERY SINGLE CHOICE
                     with st.expander(f"📖 In-Depth Explanation of Each Choice ({q['question_id']})", expanded=True):
